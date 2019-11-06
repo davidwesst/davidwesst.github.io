@@ -5,8 +5,8 @@ subtitle = "The OFFICIAL source for all things DW"
 theme = "minimal"
 
 # Theme Config
-disqusShortname = "" # delete this to disable disqus comments
-googleAnalytics = ""
+# disqusShortname = "" # delete this to disable disqus comments
+googleAnalytics = "<<google-analytics>>"
 
 [params]
     author = "David Wesst"

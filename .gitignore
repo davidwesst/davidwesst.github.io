@@ -10,3 +10,6 @@ $RECYCLE.BIN/
 
 # OSX
 .DS_Store
+
+# Config (gets created at build time)
+config.toml
