@@ -9,40 +9,39 @@ trigger:
 pool:
   vmImage: 'windows-2019'
 
-steps:
-- task: HugoTask@1
-  inputs:
-    source: '$(Build.SourcesDirectory)'
-    destination: '$(Build.ArtifactStagingDirectory)'
-    baseURL: 'https://davidwesst.com'
-
-- task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: '$(Build.Repository.Name)-$(Build.BuildNumber)'
-    publishLocation: 'Container'
-
-- task: AzureFileCopy@3
-  inputs:
-    SourcePath: '$(Build.ArtifactStagingDirectory)'
-    azureSubscription: 'Projects(2da1848b-c548-4ba4-aaae-d402bdea3279)'
-    Destination: 'AzureBlob'
-    storage: 'davidwesstweb'
-    ContainerName: '$web'
-    cleanTargetBeforeCopy: true
-
-- task: AzureCLI@1
-  inputs:
-    azureSubscription: 'Projects(2da1848b-c548-4ba4-aaae-d402bdea3279)'
-    scriptLocation: 'inlineScript'
-    inlineScript: 'az cdn endpoint purge --name davidwesstweb -g davidwesst --profile-name davidwesstweb --content-paths /*'
-
-
-
-
-
-
-
-
-
-
+stages:
+- stage: build_and_publish
+  displayName: Build and Publish Website
+  jobs:
+  - job: build_and_publish
+    displayName: Build and Publish
+    steps:
+    - checkout: self
+      submodules: true
+    - task: HugoTask@1
+      displayName: Run Hugo
+      inputs:
+        source: '$(Build.SourcesDirectory)'
+        destination: '$(Build.ArtifactStagingDirectory)'
+        baseURL: 'https://davidwesst.com'
+    - task: PublishBuildArtifacts@1
+      displayName: Publish artifact
+      inputs:
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+        ArtifactName: '$(Build.Repository.Name)-$(Build.BuildNumber)'
+        publishLocation: 'Container'
+    - task: AzureFileCopy@3
+      displayName: File Copy
+      inputs:
+        SourcePath: '$(Build.ArtifactStagingDirectory)'
+        azureSubscription: 'Projects(2da1848b-c548-4ba4-aaae-d402bdea3279)'
+        Destination: 'AzureBlob'
+        storage: 'davidwesstweb'
+        ContainerName: '$web'
+        cleanTargetBeforeCopy: true
+    - task: AzureCLI@1
+      displayName: Purge CDN
+      inputs:
+        azureSubscription: 'Projects(2da1848b-c548-4ba4-aaae-d402bdea3279)'
+        scriptLocation: 'inlineScript'
+        inlineScript: 'az cdn endpoint purge --name davidwesstweb -g davidwesst --profile-name davidwesstweb --content-paths /*'
