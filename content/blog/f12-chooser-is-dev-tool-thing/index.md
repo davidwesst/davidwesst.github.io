@@ -2,10 +2,10 @@
 layout: post
 title: "F12 Chooser is a Dev Tool Thing"
 tags:
-  - JavaScript
-  - TypeScript
-  - Web Extensions
-  - Office Add-In
+  - javascript
+  - typescript
+  - web extensions
+  - office add-in
 categories:
   - Development
 authorId: david_wesst

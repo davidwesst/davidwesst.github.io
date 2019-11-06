@@ -2,8 +2,8 @@
 layout: post
 title: Crowdsourcing Documentation is Cool
 tags:
-  - JavaScript
-  - Documentation
+  - javascript
+  - documentation
 categories:
   - Development
 authorId: david_wesst

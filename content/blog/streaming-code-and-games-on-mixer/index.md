@@ -4,6 +4,10 @@ title: "Streaming Code and Play on Mixer every Thursday and Sunday"
 authorId: david_wesst
 date: 2018-09-27T08:55:42-05:00
 excerpt: "This month I started livestreaming game code and gameplay every Thursday and Sunday night at 9:30pm CT"
+
+tags:
+- mixer
+- livestream
 ---
 
 <iframe allowfullscreen="true" src="https://mixer.com/embed/player/davidwesst" width="620" height="349"> </iframe>

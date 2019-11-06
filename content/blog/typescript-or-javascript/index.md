@@ -2,8 +2,8 @@
 layout: post
 title: "Picking between TypeScript and JavaScript"
 tags:
-  - JavaScript
-  - TypeScript
+  - javascript
+  - typescript
 categories:
   - Development
 authorId: david_wesst
