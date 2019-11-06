@@ -18,7 +18,7 @@ googleAnalytics = ""
     font = "Raleway" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "default"
-    highlightLanguages = ["go", "powershell", "javascript", "typescript", "c#"]
+    highlightLanguages = ["go", "powershell", "javascript", "typescript"]
 
 [[menu.main]]
     url = "/"
