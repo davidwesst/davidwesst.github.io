@@ -1,0 +1,48 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-2019'
+
+steps:
+- task: HugoTask@1
+  inputs:
+    source: '$(Build.SourcesDirectory)'
+    destination: '$(Build.ArtifactStagingDirectory)'
+    baseURL: 'https://davidwesst.com'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: '$(Build.Repository.Name)-$(Build.BuildNumber)'
+    publishLocation: 'Container'
+
+- task: AzureFileCopy@3
+  inputs:
+    SourcePath: '$(Build.ArtifactStagingDirectory)'
+    azureSubscription: 'Projects(2da1848b-c548-4ba4-aaae-d402bdea3279)'
+    Destination: 'AzureBlob'
+    storage: 'davidwesstweb'
+    ContainerName: '$web'
+    cleanTargetBeforeCopy: true
+
+- task: AzureCLI@1
+  inputs:
+    azureSubscription: 'Projects(2da1848b-c548-4ba4-aaae-d402bdea3279)'
+    scriptLocation: 'inlineScript'
+    inlineScript: 'az cdn endpoint purge --name davidwesstweb -g davidwesst --profile-name davidwesstweb --content-paths /*'
+
+
+
+
+
+
+
+
+
+
