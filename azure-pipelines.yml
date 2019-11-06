@@ -24,7 +24,7 @@ stages:
         pwsh: true
         workingDirectory: $(Build.SourcesDirectory)
         targetType: filePath
-        filePath: ./tools/update-config.ps1
+        filePath: ./tools/generate-config.ps1
     - task: HugoTask@1
       displayName: Run Hugo
       inputs:
