@@ -23,7 +23,7 @@ stages:
       inputs:
         source: '$(Build.SourcesDirectory)'
         destination: '$(Build.ArtifactStagingDirectory)'
-        baseURL: 'https://davidwesst.com'
+        baseURL: 'https://davidwesst.com/'
     - task: PublishBuildArtifacts@1
       displayName: Publish artifact
       inputs:
