@@ -1,5 +1,5 @@
 # Setup Variables
-$ga = $env.GOOGLEANALYTICS
+$ga = $env:GOOGLEANALYTICS
 if ($null -eq $ga)
 {
     Write-Warning -Message 'No $env.GOOGLEANALYTICS found. Using default value.'
