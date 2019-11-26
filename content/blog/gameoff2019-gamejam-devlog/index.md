@@ -25,7 +25,7 @@ For the past year or so, I've been working on learning and getting into video ga
 
 In order to focus my effort, I decided that I would participate in the GitHub hosted [GameOff 2019 Game Jam on Itch.io][1]. It's been a ride to say the least, but as I've been doing it, I've been doing a devlog series on YouTube about my progress and my thoughts throughout the competition.
 
-## Where Do I Find the Vlog
+## Where Do I Find the Vlog?
 You're in the right spot, as I'm going to cross post my [Itch.io][2] project devlog posts here, but you can also follow along on my [YouTube channel][3] if you're into that sort of thing, or you can just [checkout the playlist here][4].
 
 The game jam ends on December 1, and there is more work to be done, so stay tuned for more posts.
