@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>documentation on David Wesst</title>
+    <link>https://davidwesst.com/tags/documentation/</link>
+    <description>Recent content in documentation on David Wesst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Mar 2018 09:40:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://davidwesst.com/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Crowdsourcing Documentation is Cool</title>
+      <link>https://davidwesst.com/blog/crowdsourcing-docs-is-cool/</link>
+      <pubDate>Tue, 13 Mar 2018 09:40:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/crowdsourcing-docs-is-cool/</guid>
+      <description>The idea of these large enterprises crowdsourcing their technical documentation is pretty cool. More cool than I had originally realized, and I want to take a moment to explain why I like it and why you should get involved yourself.
+I updated the Microsoft Edge documentation on web extensions. As of this writing, you can see it here, but just in case you can&amp;rsquo;t I&amp;rsquo;ve included an image.
+The idea of these large enterprises crowdsourcing their technical documentation is pretty cool.</description>
+    </item>
+    
+  </channel>
+</rss>

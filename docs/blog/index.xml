@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on David Wesst</title>
+    <link>https://davidwesst.com/blog/</link>
+    <description>Recent content in Blogs on David Wesst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Feb 2020 09:48:36 -0600</lastBuildDate>
+    
+	<atom:link href="https://davidwesst.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How Github Makes Game Making Easier for Noncoders</title>
+      <link>https://davidwesst.com/blog/how-github-makes-game-making-easier-for-noncoders/</link>
+      <pubDate>Wed, 19 Feb 2020 09:48:36 -0600</pubDate>
+      
+      <guid>https://davidwesst.com/blog/how-github-makes-game-making-easier-for-noncoders/</guid>
+      <description>In this video, DW goes through five things he&amp;rsquo;s been using in Github while designing his latest prototype that require zero coding skills.
+GitHub is a social development platform that will make your game development journey easier even if you&amp;rsquo;re not a coder! We&amp;rsquo;ll cover how GitHub can help keep your file history, through to how it can help organize your work, and even where to find cool projects to learn (and possibly contribute to).</description>
+    </item>
+    
+    <item>
+      <title>Jan 2020 Devlog</title>
+      <link>https://davidwesst.com/blog/jan-2020-devlog/</link>
+      <pubDate>Tue, 04 Feb 2020 10:03:24 -0600</pubDate>
+      
+      <guid>https://davidwesst.com/blog/jan-2020-devlog/</guid>
+      <description>Did you know that I really try and make video games and not just talk about them? Me neither, but this video will fix all that!
+I tend to fall into the crutch of talking about technology rather than actually doing it. There is nothing wrong with the evangelism/marketing side of the tech community, but the whole point of me doing this is to share my journey and the tips along the way.</description>
+    </item>
+    
+    <item>
+      <title>Where to Find Your Gamedev Community</title>
+      <link>https://davidwesst.com/blog/where-to-find-your-gamedev-community/</link>
+      <pubDate>Sat, 18 Jan 2020 00:09:00 -0600</pubDate>
+      
+      <guid>https://davidwesst.com/blog/where-to-find-your-gamedev-community/</guid>
+      <description>Four places to find your new game development and/or design and/or technology community and figure out if it&amp;rsquo;s even good!
+  Did you know there are people out there who will help you with your game because they WANT TO DO IT? I know, right? This magical place is called a “community” and they exist literally all over the world. You just need to find one. In this video, I talk about four different places to find technology and game development/design communities right from where your sitting.</description>
+    </item>
+    
+    <item>
+      <title>No Cost Game Design Toolbox</title>
+      <link>https://davidwesst.com/blog/no-cost-game-design-toolbox/</link>
+      <pubDate>Mon, 13 Jan 2020 10:51:04 -0600</pubDate>
+      
+      <guid>https://davidwesst.com/blog/no-cost-game-design-toolbox/</guid>
+      <description>In 2020, I have been focusing my energy into game design. In this video, I share my game design toolbox and process and how it literally costs nothing to use the tools themselves.
+  </description>
+    </item>
+    
+    <item>
+      <title>Gamejam Pro Tips and Lessons Learned</title>
+      <link>https://davidwesst.com/blog/gamejam-protips-and-lessons-learned/</link>
+      <pubDate>Fri, 03 Jan 2020 09:00:00 -0600</pubDate>
+      
+      <guid>https://davidwesst.com/blog/gamejam-protips-and-lessons-learned/</guid>
+      <description>Sharing my lessons learned from my GameOff game jam experience and how they will be applied to my game development practice moving forward!
+I kick off the decade by sharing the lessons learned from participating in the GameOff Gamejam in 2019. Now that I&amp;rsquo;m is moving forward with the Car Scientist game project, it&amp;rsquo;s clear that these four key points will have an impact on how his game development and design process moving forward.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Game Off 2019 Game Jam featuring DW</title>
+      <link>https://davidwesst.com/blog/gameoff2019-gamejam-devlog/</link>
+      <pubDate>Tue, 26 Nov 2019 09:57:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/gameoff2019-gamejam-devlog/</guid>
+      <description>&lt;p&gt;For the past month I have been participating in the GameOff 2019 Gamejam hosted by GitHub over on Itch.io and I&amp;rsquo;ve been devlogging about it over on my YouTube channel.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Streaming Code and Play on Mixer every Thursday and Sunday</title>
+      <link>https://davidwesst.com/blog/streaming-code-and-games-on-mixer/</link>
+      <pubDate>Thu, 27 Sep 2018 08:55:42 -0500</pubDate>
+      
+      <guid>https://davidwesst.com/blog/streaming-code-and-games-on-mixer/</guid>
+      <description>I recently started streaming twice a week on Mixer. The streams happen at 9:30pm CT (7:30pm PT or 10:30pm ET) on Thursdays and Sundays. Thursdays are Code Nights where I fumble through the creation of a video game. Sundays are Play Nights I play and analyze a game that has something interesting in it. No specific topic, just play and talk about game with the intent of finding interesting design in games.</description>
+    </item>
+    
+    <item>
+      <title>F12 Chooser is a Dev Tool Thing</title>
+      <link>https://davidwesst.com/blog/f12-chooser-is-dev-tool-thing/</link>
+      <pubDate>Wed, 28 Mar 2018 13:10:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/f12-chooser-is-dev-tool-thing/</guid>
+      <description>The F12 Chooser is a development tool thing that I like and you should know about if you want your web application or web extension to support Microsoft Edge.
+The F12 Developer Tools are pretty great. They are the original in-browser developer tools (included in Internet Explorer 7), and have evolved into something more modern for all us &amp;ldquo;modern&amp;rdquo; developers.
+With all in-browser developer tools, I&amp;rsquo;ve found that every once and I come across an application I&amp;rsquo;m trying to debug that is so unstable that F12 can&amp;rsquo;t seem to attache properly.</description>
+    </item>
+    
+    <item>
+      <title>Picking between TypeScript and JavaScript</title>
+      <link>https://davidwesst.com/blog/typescript-or-javascript/</link>
+      <pubDate>Thu, 15 Mar 2018 11:40:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/typescript-or-javascript/</guid>
+      <description>Which one should you pick: TypeScript or JavaScript? They are both great languages, people always ask me when you should use one or the other. This post puts that to rest.
+Whether it&amp;rsquo;s a work project or a personal one, the question &amp;ldquo;TypeScript or JavaScript&amp;rdquo; always seems to come up in my mind. Utlimately, they provide a very similiar function considering that TypeScript is a superset of JavaScript, and compiles down to JavaScript itself.</description>
+    </item>
+    
+    <item>
+      <title>Crowdsourcing Documentation is Cool</title>
+      <link>https://davidwesst.com/blog/crowdsourcing-docs-is-cool/</link>
+      <pubDate>Tue, 13 Mar 2018 09:40:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/crowdsourcing-docs-is-cool/</guid>
+      <description>The idea of these large enterprises crowdsourcing their technical documentation is pretty cool. More cool than I had originally realized, and I want to take a moment to explain why I like it and why you should get involved yourself.
+I updated the Microsoft Edge documentation on web extensions. As of this writing, you can see it here, but just in case you can&amp;rsquo;t I&amp;rsquo;ve included an image.
+The idea of these large enterprises crowdsourcing their technical documentation is pretty cool.</description>
+    </item>
+    
+    <item>
+      <title>Posh-GVM, the Groovy Version Manager for Powershell</title>
+      <link>https://davidwesst.com/blog/posh-gvm/</link>
+      <pubDate>Thu, 17 Aug 2017 10:00:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/posh-gvm/</guid>
+      <description>Here&amp;rsquo;s another dev thing I use: Posh-GVM, a Groovy version manager that works for Windows.
+You remember Groovy right? The language that was all the rage at some point with Groovy on Grails?
+All kidding aside, in my adventures as an enterprise JDK developer, I&amp;rsquo;ve come across a number of Groovy on Grails applications. These projects tend to span multiple versions of Grails, ranging from 2.3.x which works on older versions of Tomcat, upto 3.</description>
+    </item>
+    
+    <item>
+      <title>Jabba, the Java Version Manager for Everyone</title>
+      <link>https://davidwesst.com/blog/jabba/</link>
+      <pubDate>Wed, 16 Aug 2017 09:35:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/jabba/</guid>
+      <description>Here&amp;rsquo;s another dev thing I use: Jabba, a cross-platform Java version manager that works for Windows.
+Over the the past few years, I&amp;rsquo;ve been doing JDK-based development in an enterprise Windows environment. In that time, I&amp;rsquo;ve continually struggled with being able to easily switch between versions of Java on my machine, depending on the project. We have legacy application that run old Java, and modern applications that run newer versions of Java.</description>
+    </item>
+    
+    <item>
+      <title>NVS, the Node Version Manger for Everyone</title>
+      <link>https://davidwesst.com/blog/nvs/</link>
+      <pubDate>Tue, 15 Aug 2017 12:35:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/nvs/</guid>
+      <description>Here&amp;rsquo;s another dev thing I use: NVS, a cross-platform Node version manager that works for Windows.
+It&amp;rsquo;s no secret that I like JavaScript, which includes Node. The history of Node releases has been fast, furious, and somewhat turbulent which led to a lot of different versions of Node being released. Manually managing the version of Node in you development enviornment is painful, just like it is for Java. For the Linux and Unix people, there was nvm and n, but nothing really comparable for Windows.</description>
+    </item>
+    
+    <item>
+      <title>IstanbulJS Code Coverage Reports in VSTS</title>
+      <link>https://davidwesst.com/blog/istanbuljs-in-vsts/</link>
+      <pubDate>Thu, 03 Aug 2017 12:10:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/istanbuljs-in-vsts/</guid>
+      <description>Here&amp;rsquo;s another dev thing I use: IstanbulJS in Visual Studio Team Services (VSTS) builds and display the test reports as part of the build reports. When a build completes, I get a report like this one.
+I can browse the report right in the build report, and drill into the results for each file.
+This is how I did it.
+Step 0: Assumptions I&amp;rsquo;m not going to go into the details on how to setup IstanbulJS or a test suite, but you&amp;rsquo;ll need a project with tests and uses the IstanbulJS command line tool, NYC, to run them.</description>
+    </item>
+    
+    <item>
+      <title>Mocha Test Reports in VSTS</title>
+      <link>https://davidwesst.com/blog/mocha-in-vsts/</link>
+      <pubDate>Tue, 01 Aug 2017 11:19:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/mocha-in-vsts/</guid>
+      <description>Here&amp;rsquo;s another dev thing I use: MochaJS in Visual Studio Team Services (VSTS) builds and display the test reports as part of the build reports. See? Like this.
+This wasn&amp;rsquo;t me trying to fit a square peg into a round hole. VSTS is exceptionally flexible and it comes bundled with all the pieces you need to do this out of the box. The key is making sure that we setup our test runner to produce the output VSTS needs.</description>
+    </item>
+    
+    <item>
+      <title>Conquest April 2017 Devblog</title>
+      <link>https://davidwesst.com/blog/conquest-april-2017-devblog/</link>
+      <pubDate>Tue, 02 May 2017 08:31:41 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/conquest-april-2017-devblog/</guid>
+      <description>This is the April 2017 update for my video game project I call &amp;ldquo;Conquest&amp;rdquo;.
+This month, I have continued to make progress on my game project. The unexpected thing that happened was the fact that I decided to take a step back and do some research and development before continuing forward with the game idea I have in mind.
+Status Update Here&amp;rsquo;s the thing: my game project is too big. At least for now, it&amp;rsquo;s too big, and I don&amp;rsquo;t have enough experience and knowledge to be co fortable taking this idea and turning it into a game.</description>
+    </item>
+    
+    <item>
+      <title>Introducing My Game Project - March 2017 Devblog</title>
+      <link>https://davidwesst.com/blog/conquest-march-2017-devblog/</link>
+      <pubDate>Mon, 03 Apr 2017 06:00:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/conquest-march-2017-devblog/</guid>
+      <description>I&amp;rsquo;ve wanted to make a video game since I was very young. It got me into programming during my university career, and is something of a passion of mine now that I&amp;rsquo;m older and more of a seasoned developer.
+I&amp;rsquo;ve toyed and tinkered with different game ideas and technologies through the years, but never really got anything done. At the beginning of this year, I started working on something I decided would be my first &amp;ldquo;real&amp;rdquo; game.</description>
+    </item>
+    
+    <item>
+      <title>How to Compile TypeScript into a Single File with SystemJS Modules with Gulp</title>
+      <link>https://davidwesst.com/blog/how-to-compile-typescript-into-a-single-file-with-systemjs-modules-with-gulp/</link>
+      <pubDate>Tue, 14 Mar 2017 09:47:22 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/how-to-compile-typescript-into-a-single-file-with-systemjs-modules-with-gulp/</guid>
+      <description>I&amp;rsquo;ve been messing around with TypeScript again for my game project and wanted a module loader to consume the single file produced by the TypeScript compiler. This time around I decided to use SystemJS and figured I&amp;rsquo;d share the lessons I learned along the way.
+Sample Project If you&amp;rsquo;re interested in playing with the code, you can checkout this GitHub project I setup just for that reason.
+Previous Post I also posted about doing the same sort of thing with AMD and RequireJS complete with a GitHub sample project</description>
+    </item>
+    
+    <item>
+      <title>Initial Thoughts on Using Phaser</title>
+      <link>https://davidwesst.com/blog/new-post-initial-thoughts-on-phaser/</link>
+      <pubDate>Tue, 07 Mar 2017 06:00:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/new-post-initial-thoughts-on-phaser/</guid>
+      <description>I&amp;rsquo;m not a game dev, but have always wanted to make a video game. I&amp;rsquo;ve started and stopped so many project over the years, that I have seriously lost count.
+With the new year and a fresh mind, I decided to take a stab at it again, this time focusing on just getting something done rather than getting something done right as a sort of side project.
+It&amp;rsquo;s been about two months since I&amp;rsquo;ve started, and I have something basic working (although I&amp;rsquo;m not willing to share it yet) and I thought I would share my thoughts on Phaser, the framework I decided to use to help me build my game.</description>
+    </item>
+    
+    <item>
+      <title>How to Blog with VSTS (Part 4)</title>
+      <link>https://davidwesst.com/blog/how-to-blog-with-vsts-part-4/</link>
+      <pubDate>Mon, 21 Nov 2016 07:30:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/how-to-blog-with-vsts-part-4/</guid>
+      <description>This is part 4 of 5 of my How to Blog with VSTS series. Links to the other parts will be added as they are made available.
+ Part 1: Setup Part 2: Code Part 3: Work Part 4: Build Part 5: Release   I&amp;rsquo;ve been tinkering with Visual Studio Team Services off and on since its public release, but never did anything really productive with it. Over the past couple of weeks, I finally bit the bullet and decided to move my most prevelant personal project into VSTS: this blog.</description>
+    </item>
+    
+    <item>
+      <title>How to Blog with VSTS (Part 3)</title>
+      <link>https://davidwesst.com/blog/how-to-blog-with-vsts-part-3/</link>
+      <pubDate>Mon, 14 Nov 2016 07:30:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/how-to-blog-with-vsts-part-3/</guid>
+      <description>This is part 3 of 5 of my How to Blog with VSTS series. Links to the other parts will be added as they are made available.
+ Part 1: Setup Part 2: Code Part 3: Work Part 4: Build Part 5: Release   I&amp;rsquo;ve been tinkering with Visual Studio Team Services off and on since its public release, but never did anything really productive with it. Over the past couple of weeks, I finally bit the bullet and decided to move my most prevelant personal project into VSTS: this blog.</description>
+    </item>
+    
+    <item>
+      <title>How to Blog with VSTS (Part 2)</title>
+      <link>https://davidwesst.com/blog/how-to-blog-with-vsts-part-2/</link>
+      <pubDate>Mon, 07 Nov 2016 09:00:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/how-to-blog-with-vsts-part-2/</guid>
+      <description>This is part 2 of 5 of my How to Blog with VSTS series. Links to the other parts will be added as they are made available.
+ Part 1: Setup Part 2: Code Part 3: Work Part 4: Build Part 5: Release   I&amp;rsquo;ve been tinkering with Visual Studio Team Services off and on since its public release, but never did anything really productive with it. Over the past couple of weeks, I finally bit the bullet and decided to move my most prevelant personal project into VSTS: this blog.</description>
+    </item>
+    
+    <item>
+      <title>How to Blog with VSTS (Part 1)</title>
+      <link>https://davidwesst.com/blog/how-to-blog-with-vsts-part-1/</link>
+      <pubDate>Mon, 31 Oct 2016 08:43:31 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/how-to-blog-with-vsts-part-1/</guid>
+      <description>This is part 1 of 5 of my How to Blog with VSTS series. Links to the other parts will be added as they are made available.
+ Part 1: Setup Part 2: Code Part 3: Work Part 4: Build Part 5: Release   I&amp;rsquo;ve been tinkering with Visual Studio Team Services off and on since its public release, but never did anything really productive with it. Over the past couple of weeks, I finally bit the bullet and decided to move my most prevelant personal project into VSTS: this blog.</description>
+    </item>
+    
+    <item>
+      <title>How to Use Global NPM Packages on a VSTS Self-Hosted Build Agent</title>
+      <link>https://davidwesst.com/blog/how-to-use-global-npm-packages-on-a-vsts-self-hosted-build-agent/</link>
+      <pubDate>Mon, 24 Oct 2016 08:33:01 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/how-to-use-global-npm-packages-on-a-vsts-self-hosted-build-agent/</guid>
+      <description>I took a couple of weeks off of blogging to focus on a building my presentation for Deliver. In my spare time, I started tinkering with Visual Studio Team Services, where decided to start by automating the build and release of this blog.
+My build script is pretty straight forward. Setup the global dependencies with NPM, setup the local dependencies with NPM, generate the content, and publish the generated assets. This worked in my hosted agent, but not my self-hosted agent.</description>
+    </item>
+    
+    <item>
+      <title>Windows Not Required - The New Microsoft Development Story (Video)</title>
+      <link>https://davidwesst.com/blog/windows-not-required-video/</link>
+      <pubDate>Mon, 03 Oct 2016 10:47:31 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/windows-not-required-video/</guid>
+      <description>This is a recording of my recent Winnipeg .NET User Group talk about using Microsoft tools without requiring Windows.
+It&amp;rsquo;s not the most technical as I go over a ton of topics, at high level, ranging from development tools, to applications. Still, I find this stuff really interesting and hopefully you enjoy it too.
+You can view the slides here and find their source code here on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>How to Fix node-gyp Error on Windows</title>
+      <link>https://davidwesst.com/blog/how-to-fix-node-gyp-error-on-windows/</link>
+      <pubDate>Mon, 26 Sep 2016 14:51:56 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/how-to-fix-node-gyp-error-on-windows/</guid>
+      <description>I hit this problem once or twice a year and always seem to forget how easy it is to fix the problem. This blog post will ensure that not only I remember, but the entire Internet will remember the solution I use.
+Here goes.
+The Problem The problem is simple: You pull down a repository that uses NPM for package management onto your Windows machine, you type npm install and you get something like this:</description>
+    </item>
+    
+    <item>
+      <title>How to Build ReactJS with Gulp</title>
+      <link>https://davidwesst.com/blog/how-to-build-reactjs-with-gulp/</link>
+      <pubDate>Mon, 19 Sep 2016 19:55:48 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/how-to-build-reactjs-with-gulp/</guid>
+      <description>I wanted to play with ReactJS last week and figured I would just add another gulp talk to my build process, being that it&amp;rsquo;s all the rage right now.
+It turns out that it wasn&amp;rsquo;t that simple, as it turns out that the gulp-react has been &amp;ldquo;deprecated in favor of gulp-babel&amp;rdquo;. I hadn&amp;rsquo;t planned on learning Babel, but it turns out it wasn&amp;rsquo;t very difficult once I was able to put all the pieces together.</description>
+    </item>
+    
+    <item>
+      <title>How to Compile Typescript into a Single File with AMD Modules with Gulp</title>
+      <link>https://davidwesst.com/blog/typescript-with-amd-and-gulp/</link>
+      <pubDate>Mon, 12 Sep 2016 08:25:01 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/typescript-with-amd-and-gulp/</guid>
+      <description>I&amp;rsquo;ve been tinkering with TypeScript lately and was trying to setup my project to compile all of my modules into a single file, which would then be used in an HTML page. Maybe this is obvious to the more experienced TypeScript developer, but I had made a number of false assumptions while trying to get this to work.
+This post will walk you through what I did to setup my build and get it working in an HTML page.</description>
+    </item>
+    
+    <item>
+      <title>How to Use Highlight.Js with Bower and Gulp</title>
+      <link>https://davidwesst.com/blog/how-to-use-highlight-js-with-bower-and-gulp/</link>
+      <pubDate>Mon, 29 Aug 2016 10:07:11 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/how-to-use-highlight-js-with-bower-and-gulp/</guid>
+      <description>One of the challenges I faced when getting my new blog theme up and running was getting highlight.js working as I wanted it to. The library has support for a riduculous number of languages, and provides theming capabilities, so it was the clear choice when it came to syntax highlighting for the web. The challenge is that tt&amp;rsquo;s not just adding simple script tag and you&amp;rsquo;re done with it. They seem to expect you to know what you&amp;rsquo;re doing when consuming the library.</description>
+    </item>
+    
+    <item>
+      <title>Mobile First Design Tips</title>
+      <link>https://davidwesst.com/blog/mobile-first-design-tips/</link>
+      <pubDate>Tue, 16 Aug 2016 08:55:17 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/mobile-first-design-tips/</guid>
+      <description>Last weekend I released an updated version of my blog and website that share a similar design. I decided to go with a mobile-first approach when it came to the design, which is a tried and tested way to create responsive web applications. Along the way, I tripped up and made a few mistakes that cost me some time and rework, but could have been easily corrected had I had these tips beforehand.</description>
+    </item>
+    
+    <item>
+      <title>Keeping Your Edge on an Extended Break</title>
+      <link>https://davidwesst.com/blog/keeping-your-edge/</link>
+      <pubDate>Mon, 18 Jul 2016 10:30:33 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/keeping-your-edge/</guid>
+      <description>I recently came off of four months of parental leave where I had a fantastic time bonding with my new daughter. Although four months doesn&amp;rsquo;t seem like much of a hiatus, I learned very quickly that being a full time parent doesn&amp;rsquo;t leave much time to keeping my professional edge.
+They might seem obvious, but it took me a while to find a balance to make sure spending time with my daughter didn&amp;rsquo;t play second fiddle to my profession passion and/or obsession.</description>
+    </item>
+    
+    <item>
+      <title>Using text-overflow:ellipsis with Inline Flex</title>
+      <link>https://davidwesst.com/blog/using-overflow-ellipsis-in-inline-flex/</link>
+      <pubDate>Mon, 29 Feb 2016 15:58:40 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/using-overflow-ellipsis-in-inline-flex/</guid>
+      <description>Dave Paquette, a fellow Western Dev, hit a strange CSS snag the other day. He wanted to use the text-overflow: ellipsis on a flexbox item that displayed text, where the ellipsis would show up if the text was too long.
+It didn&amp;rsquo;t work as expected, but after some digging, a solution was discovered. This post exists to document both the problem and solution with the hope that it prevents future headaches for other CSS developers.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Framework or JavaScript Core (Part 2)</title>
+      <link>https://davidwesst.com/blog/javascript-framework-or-javascript-core-part-2/</link>
+      <pubDate>Mon, 22 Feb 2016 15:34:46 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/javascript-framework-or-javascript-core-part-2/</guid>
+      <description>A friend and I decided to make a video game using JavaScript.
+When deciding on whether or not to use a JavaScript game framework I went with Phaser, and Chris opted to go with pure JavaScript.
+We were both right.
+In this series of posts, I want to explain how each of us answer the question: Should I use a JavaScript Framework or pure JavaScript?
+This is part 2 of 2 in the series.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Framework or JavaScript Core (Part 1)</title>
+      <link>https://davidwesst.com/blog/javascript-framework-or-javascript-core-part-1/</link>
+      <pubDate>Tue, 16 Feb 2016 15:34:46 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/javascript-framework-or-javascript-core-part-1/</guid>
+      <description>A friend and I decided to make a video game using JavaScript.
+When deciding on whether or not to use a JavaScript game framework I went with Phaser, and Chris opted to go with pure JavaScript.
+We were both right.
+In this series of posts, I want to explain how each of us answer the question: Should I use a JavaScript Framework or pure JavaScript?
+This is part 1 of 2 in the series.</description>
+    </item>
+    
+    <item>
+      <title>Exploring JavaScript Game Frameworks</title>
+      <link>https://davidwesst.com/blog/exploring-javascript-game-frameworks/</link>
+      <pubDate>Mon, 08 Feb 2016 16:11:44 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/exploring-javascript-game-frameworks/</guid>
+      <description>Last month I explored a number of JavaScript-based game frameworks in an attempt to pick the perfect one for my first game.
+I thought I&amp;rsquo;d take a moment to share four of them that really stood out to me, along with a few honerable mentions.
+Note that I&amp;rsquo;ve left a bunch off the list, as that is the nature of a &amp;ldquo;top X&amp;rdquo; list. If I missed your favourite one, then feel free to let me know in the comments!</description>
+    </item>
+    
+    <item>
+      <title>Why ChakraCore OSS is Important</title>
+      <link>https://davidwesst.com/blog/why-chakracore-oss-is-important/</link>
+      <pubDate>Thu, 14 Jan 2016 14:43:33 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/why-chakracore-oss-is-important/</guid>
+      <description>Chakra is the new JavaScript engine developed by Microsoft, which was first released as part of the, no longer supported Internet Explorer 9. This isn&amp;rsquo;t a post about why Microsoft having more open source software (OSS) processes and projects is important, or how it is &amp;ldquo;amazing&amp;rdquo; that they are turning a new leaf.
+This post answers the question that I don&amp;rsquo;t see people asking: why is having a OSS JavaScript engine important to anyone?</description>
+    </item>
+    
+    <item>
+      <title>Looking Forward into 2016</title>
+      <link>https://davidwesst.com/blog/looking-forward-into-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 13:39:12 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/looking-forward-into-2016/</guid>
+      <description>{% img http://blog.davidwesst.com/2016/01/Looking-Forward-into-2016/sunrise.png %}
+This is the spiritual sequel to my previous {% post_link 2016-01-01-Highlight-Reel-for-2015 &amp;ldquo;Highlight Reel for 2015&amp;rdquo; %} post. You don&amp;rsquo;t need to read it previously, but it might provide some context on some of these ideas.
+I decided that with everything still in flux and forever changing, it&amp;rsquo;s easier for me to list out the interests and ideas, rather than concrete requirements for individual projects. Not sure how they&amp;rsquo;ll pan out exactly, but here&amp;rsquo;s the &amp;ldquo;what, why, and how&amp;rdquo; for the plan for 2016.</description>
+    </item>
+    
+    <item>
+      <title>Highlight Reel for 2015</title>
+      <link>https://davidwesst.com/blog/highlight-reel-for-2015/</link>
+      <pubDate>Fri, 01 Jan 2016 13:31:57 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/highlight-reel-for-2015/</guid>
+      <description>{% img http://blog.davidwesst.com/2016/01/Highlight-Reel-for-2015/thinker.png %}
+I just finished reading my post about 2014. If I were to compare my plans for 2015 to the result of the year-long sprint, I&amp;rsquo;d have to say that it appears that we are either way off track, or that the requirements have changed quite a bit.
+2015 has been great, with all sorts of chaos thrown throughout. In this post I&amp;rsquo;ll share with you the highlights and the lessons learned from those events.</description>
+    </item>
+    
+    <item>
+      <title>Code - The Visual Studio for Everybody</title>
+      <link>https://davidwesst.com/blog/vscode-the-visual-studio-for-everybody/</link>
+      <pubDate>Mon, 07 Dec 2015 12:13:06 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/vscode-the-visual-studio-for-everybody/</guid>
+      <description>&lt;p&gt;Last week I delivered three presentations: one at the &lt;a href=&#34;http://winnipegdotnet.org/&#34;&gt;Winnipeg .NET User Group&lt;/a&gt; and the other two at &lt;a href=&#34;http://winnipegcodecamp.com/&#34;&gt;Winnipeg Code Camp&lt;/a&gt;. Being as awesome as we are, the user group presentation was recorded and has been published on the YouTube page.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Inspiration From MVP Summit 2015</title>
+      <link>https://davidwesst.com/blog/inspiration-from-mvp-summit-2015/</link>
+      <pubDate>Fri, 20 Nov 2015 09:09:44 -0500</pubDate>
+      
+      <guid>https://davidwesst.com/blog/inspiration-from-mvp-summit-2015/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://blog.davidwesst.com/2015/11/Inspiration-from-MVP-Summit-2015/me-mvp2015.jpg&#34; alt=&#34;me-mvp2015.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m back from the summit and have had a week to digest everything I saw. And now I will share with the top three topics that really stuck with me.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My Favourite Online Dev Tools</title>
+      <link>https://davidwesst.com/blog/my-favourite-online-dev-tools/</link>
+      <pubDate>Wed, 28 Oct 2015 08:44:09 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/my-favourite-online-dev-tools/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m talking about online or web-based tools, not toolboxes. So entire development suites like Cloud9 or Visual Studio Online are off the table because they are full tool suites. These tools are simple, but continually help me out in a pinch.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Using Java Build Script Tasks in Visual Studio Code</title>
+      <link>https://davidwesst.com/blog/using-java-build-script-tasks-in-visual-studio-code/</link>
+      <pubDate>Wed, 21 Oct 2015 08:18:19 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/using-java-build-script-tasks-in-visual-studio-code/</guid>
+      <description>&lt;p&gt;I &lt;a href=&#34;http://www.westerndevs.com/custom-tasks-for-java-in-visual-studio-code/&#34;&gt;previously shared&lt;/a&gt; how I setup a custom problem matching in Visual Studio Code for compiling Java  and displaying the errors inline with a custom problem matcher.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Custom Tasks for Java in Visual Studio Code</title>
+      <link>https://davidwesst.com/blog/custom-tasks-for-java-in-visual-studio-code/</link>
+      <pubDate>Wed, 14 Oct 2015 08:25:50 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/custom-tasks-for-java-in-visual-studio-code/</guid>
+      <description>&lt;p&gt;Now that I&amp;rsquo;m a Java Developer, I no longer worry about the bloating feeling I get when I need to open up the original Visual Studio. Now I worry about opening another instance of Eclipse. Don&amp;rsquo;t get me wrong, Visual Studio and Eclipse are both great tools, but there are plenty of times where I don&amp;rsquo;t need to bring a forklift just to move a single box.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Capturing HTTPS Traffic in Java with Eclipse and Fiddler</title>
+      <link>https://davidwesst.com/blog/capture-https-traffic-in-java-with-eclipse-and-fiddler/</link>
+      <pubDate>Wed, 07 Oct 2015 09:41:35 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/capture-https-traffic-in-java-with-eclipse-and-fiddler/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been struggling with a JSON parsing error where my application is using the &lt;a href=&#34;https://spring.io/guides/gs/consuming-rest/&#34;&gt;Spring&lt;/a&gt; to send and receive messages from a RESTful Web Service. It&amp;rsquo;s pretty straight forward: I&amp;rsquo;ve annotated my object properties to match up with the appropriate JSON keys, Spring takes my POJO and turns it into a JSON string sends the request along with the JSON as the body to the HTTPS endpoint, et voilà!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Downgrading Windows Phone 10 Technical Preview - The Lowlights</title>
+      <link>https://davidwesst.com/blog/downgrading-windows-phone-10-technical-preview-the-lowlights/</link>
+      <pubDate>Tue, 22 Sep 2015 10:56:02 -0400</pubDate>
+      
+      <guid>https://davidwesst.com/blog/downgrading-windows-phone-10-technical-preview-the-lowlights/</guid>
+      <description>&lt;p&gt;{% img pull-left &amp;ldquo;&lt;a href=&#34;http://blog.davidwesst.com/2015/09/Downgrading-Windows-Phone-10-Technical-Preview-The-Lowlights/windows-10-device-screen.jpg%22&#34;&gt;http://blog.davidwesst.com/2015/09/Downgrading-Windows-Phone-10-Technical-Preview-The-Lowlights/windows-10-device-screen.jpg&amp;quot;&lt;/a&gt; %}&lt;/p&gt;
+&lt;p&gt;I have to say that I really did like the Windows Phone 10 technical preview. I think that the new phone OS is heading the right direction, and that if you have a secondary device or want to be &lt;em&gt;&amp;ldquo;hardcore&amp;rdquo;&lt;/em&gt; , you should install it and check it out.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Western Devs (and MVP) Found My Spirit Animal</title>
+      <link>https://davidwesst.com/blog/western-devs-found-my-spirit-animal/</link>
+      <pubDate>Wed, 12 Aug 2015 11:27:05 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/western-devs-found-my-spirit-animal/</guid>
+      <description>&lt;p&gt;What you&amp;rsquo;re looking at is a lobster, in a ditch, drinking scotch, whose mouth is on fire. That is my spirit animal that was created on the &lt;a href=&#34;https://twitter.com/CyrenaFriesen/status/627209542816829440&#34;&gt;Twitter-verse&lt;/a&gt; through the power of the &lt;a href=&#34;http://www.westerndevs.com&#34;&gt;Western Devs&lt;/a&gt;, which I would not be a part of had I not become an &lt;a href=&#34;https://mvp.microsoft.com/en-us/PublicProfile/4032619?fullName=David%20%20Wesst&#34;&gt;Microsoft Edge MVP&lt;/a&gt; with Microsoft.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Docker on Windows 10 Problems</title>
+      <link>https://davidwesst.com/blog/docker-on-windows-10-problems/</link>
+      <pubDate>Mon, 10 Aug 2015 09:20:40 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/docker-on-windows-10-problems/</guid>
+      <description>&lt;h2 id=&#34;update----solution-found&#34;&gt;UPDATE &amp;ndash; Solution Found&lt;/h2&gt;
+&lt;p&gt;Another Western Dev that goes by the name of Dave White found a solution and I confirmed that it works. The solution entails using a test build of the new Docker tool suite, so use at your own risk, but it does work!&lt;/p&gt;
+&lt;p&gt;You can find the solution from Dave White &lt;a href=&#34;http://www.westerndevs.com/getting-docker-running-on-windows-10/&#34;&gt;here&lt;/a&gt;, and learn more about the man himself &lt;a href=&#34;http://www.westerndevs.com/bios/dave_white/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Running Tomcat Apps on Docker through Eclipse</title>
+      <link>https://davidwesst.com/blog/running-tomcat-apps-on-docker-through-eclipse/</link>
+      <pubDate>Fri, 07 Aug 2015 12:55:40 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/running-tomcat-apps-on-docker-through-eclipse/</guid>
+      <description>&lt;p&gt;If you didn&amp;rsquo;t already know, &lt;a href=&#34;https://www.docker.com&#34;&gt;Docker&lt;/a&gt; is pretty cool. Not sure what it is? My fellow Western Dev &lt;a href=&#34;http://www.westerndevs.com/docker-is-coming-whether-you-like-it-or-not/&#34;&gt;Kyle Baley&lt;/a&gt; explains it really well and provides some great cases about why Docker is fantastic.&lt;/p&gt;
+&lt;p&gt;This post is an example of Docker being fantastic and should be considered a warm-up to Docker.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Considerations When Migrating Your Blog</title>
+      <link>https://davidwesst.com/blog/considerations-when-migrating-your-blog/</link>
+      <pubDate>Sat, 01 Aug 2015 16:15:22 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/considerations-when-migrating-your-blog/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m talking about small-scale, personal blogs or projects.&lt;/p&gt;
+&lt;p&gt;The word &amp;ldquo;enterprise&amp;rdquo; isn&amp;rsquo;t used once to describe any part of the project, yet there are plenty of things I had to consider (or decide along the way) before I completed the migration. Eventually, I ended moving my &lt;a href=&#34;http://ghost.org&#34;&gt;Ghost&lt;/a&gt; blog to a &lt;a href=&#34;http://hexo.io&#34;&gt;Hexo&lt;/a&gt;-based static blog, that is hosted on &lt;a href=&#34;https://pages.github.com&#34;&gt;Github Pages&lt;/a&gt; under a new subdomain.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Conference recap extravaganza!</title>
+      <link>https://davidwesst.com/blog/conference-recap-extravaganza/</link>
+      <pubDate>Thu, 11 Jun 2015 20:09:05 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/conference-recap-extravaganza/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been head down preparing and delivering presentations all over the place for the past few weeks, and wanted to share the latest happenings, along with where you can get your hands on the material if you weren&amp;rsquo;t able to attend.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Service Workers and PWAs are Super Cool</title>
+      <link>https://davidwesst.com/blog/websummit-pwa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/websummit-pwa/</guid>
+      <description>This is part of a series of posts capturing the highlights from my experience at the Microsoft Edge Web Summit 2017
+One of the core items highlighted by the Microsoft Edge team, along with many others who were just web professionals, was the importance of Progressive Web Apps (PWAs). I started out thinking they were something that could be interesting one day, but left the conference convinced that this will change the way we think of the web.</description>
+    </item>
+    
+    <item>
+      <title>Sonar, the Linter I Never Knew I Wanted</title>
+      <link>https://davidwesst.com/blog/websummit-sonar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/websummit-sonar/</guid>
+      <description>This is part of a series of posts capturing the highlights from my experience at the Microsoft Edge Web Summit 2017
+Meet Nellie the Narwhal. Nellie is the official mascot for Sonar, the linting tool for the web. Nellie represents a tool that is long-overdue. It provides any web application the ability to verify they are meeting a high level of quality when it comes to their web applications, and catch any improvements to implement or common pitfalls to fix.</description>
+    </item>
+    
+    <item>
+      <title>Windows Subsystem for Linux is Cool. No really, it is.</title>
+      <link>https://davidwesst.com/blog/websummit-wsl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/websummit-wsl/</guid>
+      <description>This is part of a series of posts capturing the highlights from my experience at the Microsoft Edge Web Summit 2017
+With the Fall Creators Update for Windows 10, you can go to the Windows Store and install Linux.
+Yeah, that&amp;rsquo;s a thing now and it&amp;rsquo;s pretty cool.
+What is the Windows Subsystem for Linux (WSL)? It&amp;rsquo;s a new Windows feature that allows Linux distributions like Ubuntu and OpenSUSE to run inside of Windows.</description>
+    </item>
+    
+  </channel>
+</rss>

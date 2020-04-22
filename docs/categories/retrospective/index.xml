@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>retrospective on David Wesst</title>
+    <link>https://davidwesst.com/categories/retrospective/</link>
+    <description>Recent content in retrospective on David Wesst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jan 2016 13:39:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://davidwesst.com/categories/retrospective/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Looking Forward into 2016</title>
+      <link>https://davidwesst.com/blog/looking-forward-into-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 13:39:12 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/looking-forward-into-2016/</guid>
+      <description>{% img http://blog.davidwesst.com/2016/01/Looking-Forward-into-2016/sunrise.png %}
+This is the spiritual sequel to my previous {% post_link 2016-01-01-Highlight-Reel-for-2015 &amp;ldquo;Highlight Reel for 2015&amp;rdquo; %} post. You don&amp;rsquo;t need to read it previously, but it might provide some context on some of these ideas.
+I decided that with everything still in flux and forever changing, it&amp;rsquo;s easier for me to list out the interests and ideas, rather than concrete requirements for individual projects. Not sure how they&amp;rsquo;ll pan out exactly, but here&amp;rsquo;s the &amp;ldquo;what, why, and how&amp;rdquo; for the plan for 2016.</description>
+    </item>
+    
+    <item>
+      <title>Highlight Reel for 2015</title>
+      <link>https://davidwesst.com/blog/highlight-reel-for-2015/</link>
+      <pubDate>Fri, 01 Jan 2016 13:31:57 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/highlight-reel-for-2015/</guid>
+      <description>{% img http://blog.davidwesst.com/2016/01/Highlight-Reel-for-2015/thinker.png %}
+I just finished reading my post about 2014. If I were to compare my plans for 2015 to the result of the year-long sprint, I&amp;rsquo;d have to say that it appears that we are either way off track, or that the requirements have changed quite a bit.
+2015 has been great, with all sorts of chaos thrown throughout. In this post I&amp;rsquo;ll share with you the highlights and the lessons learned from those events.</description>
+    </item>
+    
+  </channel>
+</rss>

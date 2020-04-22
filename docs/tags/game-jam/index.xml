@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game Jam on David Wesst</title>
+    <link>https://davidwesst.com/tags/game-jam/</link>
+    <description>Recent content in Game Jam on David Wesst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Jan 2020 09:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://davidwesst.com/tags/game-jam/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gamejam Pro Tips and Lessons Learned</title>
+      <link>https://davidwesst.com/blog/gamejam-protips-and-lessons-learned/</link>
+      <pubDate>Fri, 03 Jan 2020 09:00:00 -0600</pubDate>
+      
+      <guid>https://davidwesst.com/blog/gamejam-protips-and-lessons-learned/</guid>
+      <description>Sharing my lessons learned from my GameOff game jam experience and how they will be applied to my game development practice moving forward!
+I kick off the decade by sharing the lessons learned from participating in the GameOff Gamejam in 2019. Now that I&amp;rsquo;m is moving forward with the Car Scientist game project, it&amp;rsquo;s clear that these four key points will have an impact on how his game development and design process moving forward.</description>
+    </item>
+    
+  </channel>
+</rss>

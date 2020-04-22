@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Excel on David Wesst</title>
+    <link>https://davidwesst.com/tags/excel/</link>
+    <description>Recent content in Excel on David Wesst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jan 2020 10:51:04 -0600</lastBuildDate>
+    
+	<atom:link href="https://davidwesst.com/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>No Cost Game Design Toolbox</title>
+      <link>https://davidwesst.com/blog/no-cost-game-design-toolbox/</link>
+      <pubDate>Mon, 13 Jan 2020 10:51:04 -0600</pubDate>
+      
+      <guid>https://davidwesst.com/blog/no-cost-game-design-toolbox/</guid>
+      <description>In 2020, I have been focusing my energy into game design. In this video, I share my game design toolbox and process and how it literally costs nothing to use the tools themselves.
+  </description>
+    </item>
+    
+  </channel>
+</rss>

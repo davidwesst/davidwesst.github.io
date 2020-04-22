@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>conquest on David Wesst</title>
+    <link>https://davidwesst.com/tags/conquest/</link>
+    <description>Recent content in conquest on David Wesst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 May 2017 08:31:41 +0000</lastBuildDate>
+    
+	<atom:link href="https://davidwesst.com/tags/conquest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conquest April 2017 Devblog</title>
+      <link>https://davidwesst.com/blog/conquest-april-2017-devblog/</link>
+      <pubDate>Tue, 02 May 2017 08:31:41 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/conquest-april-2017-devblog/</guid>
+      <description>This is the April 2017 update for my video game project I call &amp;ldquo;Conquest&amp;rdquo;.
+This month, I have continued to make progress on my game project. The unexpected thing that happened was the fact that I decided to take a step back and do some research and development before continuing forward with the game idea I have in mind.
+Status Update Here&amp;rsquo;s the thing: my game project is too big. At least for now, it&amp;rsquo;s too big, and I don&amp;rsquo;t have enough experience and knowledge to be co fortable taking this idea and turning it into a game.</description>
+    </item>
+    
+    <item>
+      <title>Introducing My Game Project - March 2017 Devblog</title>
+      <link>https://davidwesst.com/blog/conquest-march-2017-devblog/</link>
+      <pubDate>Mon, 03 Apr 2017 06:00:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/conquest-march-2017-devblog/</guid>
+      <description>I&amp;rsquo;ve wanted to make a video game since I was very young. It got me into programming during my university career, and is something of a passion of mine now that I&amp;rsquo;m older and more of a seasoned developer.
+I&amp;rsquo;ve toyed and tinkered with different game ideas and technologies through the years, but never really got anything done. At the beginning of this year, I started working on something I decided would be my first &amp;ldquo;real&amp;rdquo; game.</description>
+    </item>
+    
+  </channel>
+</rss>

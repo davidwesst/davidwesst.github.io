@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.NET Core on David Wesst</title>
+    <link>https://davidwesst.com/tags/.net-core/</link>
+    <description>Recent content in .NET Core on David Wesst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Oct 2016 10:47:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://davidwesst.com/tags/.net-core/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows Not Required - The New Microsoft Development Story (Video)</title>
+      <link>https://davidwesst.com/blog/windows-not-required-video/</link>
+      <pubDate>Mon, 03 Oct 2016 10:47:31 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/windows-not-required-video/</guid>
+      <description>This is a recording of my recent Winnipeg .NET User Group talk about using Microsoft tools without requiring Windows.
+It&amp;rsquo;s not the most technical as I go over a ton of topics, at high level, ranging from development tools, to applications. Still, I find this stuff really interesting and hopefully you enjoy it too.
+You can view the slides here and find their source code here on GitHub.</description>
+    </item>
+    
+  </channel>
+</rss>

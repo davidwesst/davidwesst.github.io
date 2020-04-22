@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>amd on David Wesst</title>
+    <link>https://davidwesst.com/tags/amd/</link>
+    <description>Recent content in amd on David Wesst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Sep 2016 08:25:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://davidwesst.com/tags/amd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Compile Typescript into a Single File with AMD Modules with Gulp</title>
+      <link>https://davidwesst.com/blog/typescript-with-amd-and-gulp/</link>
+      <pubDate>Mon, 12 Sep 2016 08:25:01 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/typescript-with-amd-and-gulp/</guid>
+      <description>I&amp;rsquo;ve been tinkering with TypeScript lately and was trying to setup my project to compile all of my modules into a single file, which would then be used in an HTML page. Maybe this is obvious to the more experienced TypeScript developer, but I had made a number of false assumptions while trying to get this to work.
+This post will walk you through what I did to setup my build and get it working in an HTML page.</description>
+    </item>
+    
+  </channel>
+</rss>

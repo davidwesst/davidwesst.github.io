@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Car Scientist on David Wesst</title>
+    <link>https://davidwesst.com/tags/car-scientist/</link>
+    <description>Recent content in Car Scientist on David Wesst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Feb 2020 10:03:24 -0600</lastBuildDate>
+    
+	<atom:link href="https://davidwesst.com/tags/car-scientist/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jan 2020 Devlog</title>
+      <link>https://davidwesst.com/blog/jan-2020-devlog/</link>
+      <pubDate>Tue, 04 Feb 2020 10:03:24 -0600</pubDate>
+      
+      <guid>https://davidwesst.com/blog/jan-2020-devlog/</guid>
+      <description>Did you know that I really try and make video games and not just talk about them? Me neither, but this video will fix all that!
+I tend to fall into the crutch of talking about technology rather than actually doing it. There is nothing wrong with the evangelism/marketing side of the tech community, but the whole point of me doing this is to share my journey and the tips along the way.</description>
+    </item>
+    
+  </channel>
+</rss>

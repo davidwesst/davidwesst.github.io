@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community on David Wesst</title>
+    <link>https://davidwesst.com/tags/community/</link>
+    <description>Recent content in Community on David Wesst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Jan 2020 00:09:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://davidwesst.com/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Where to Find Your Gamedev Community</title>
+      <link>https://davidwesst.com/blog/where-to-find-your-gamedev-community/</link>
+      <pubDate>Sat, 18 Jan 2020 00:09:00 -0600</pubDate>
+      
+      <guid>https://davidwesst.com/blog/where-to-find-your-gamedev-community/</guid>
+      <description>Four places to find your new game development and/or design and/or technology community and figure out if it&amp;rsquo;s even good!
+  Did you know there are people out there who will help you with your game because they WANT TO DO IT? I know, right? This magical place is called a “community” and they exist literally all over the world. You just need to find one. In this video, I talk about four different places to find technology and game development/design communities right from where your sitting.</description>
+    </item>
+    
+  </channel>
+</rss>

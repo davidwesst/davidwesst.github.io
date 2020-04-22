@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>typescript on David Wesst</title>
+    <link>https://davidwesst.com/categories/typescript/</link>
+    <description>Recent content in typescript on David Wesst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Mar 2017 06:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://davidwesst.com/categories/typescript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Initial Thoughts on Using Phaser</title>
+      <link>https://davidwesst.com/blog/new-post-initial-thoughts-on-phaser/</link>
+      <pubDate>Tue, 07 Mar 2017 06:00:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/new-post-initial-thoughts-on-phaser/</guid>
+      <description>I&amp;rsquo;m not a game dev, but have always wanted to make a video game. I&amp;rsquo;ve started and stopped so many project over the years, that I have seriously lost count.
+With the new year and a fresh mind, I decided to take a stab at it again, this time focusing on just getting something done rather than getting something done right as a sort of side project.
+It&amp;rsquo;s been about two months since I&amp;rsquo;ve started, and I have something basic working (although I&amp;rsquo;m not willing to share it yet) and I thought I would share my thoughts on Phaser, the framework I decided to use to help me build my game.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ReactJS on David Wesst</title>
+    <link>https://davidwesst.com/tags/reactjs/</link>
+    <description>Recent content in ReactJS on David Wesst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Sep 2016 19:55:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://davidwesst.com/tags/reactjs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Build ReactJS with Gulp</title>
+      <link>https://davidwesst.com/blog/how-to-build-reactjs-with-gulp/</link>
+      <pubDate>Mon, 19 Sep 2016 19:55:48 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/how-to-build-reactjs-with-gulp/</guid>
+      <description>I wanted to play with ReactJS last week and figured I would just add another gulp talk to my build process, being that it&amp;rsquo;s all the rage right now.
+It turns out that it wasn&amp;rsquo;t that simple, as it turns out that the gulp-react has been &amp;ldquo;deprecated in favor of gulp-babel&amp;rdquo;. I hadn&amp;rsquo;t planned on learning Babel, but it turns out it wasn&amp;rsquo;t very difficult once I was able to put all the pieces together.</description>
+    </item>
+    
+  </channel>
+</rss>

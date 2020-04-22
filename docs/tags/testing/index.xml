@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>testing on David Wesst</title>
+    <link>https://davidwesst.com/tags/testing/</link>
+    <description>Recent content in testing on David Wesst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Aug 2017 12:10:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://davidwesst.com/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IstanbulJS Code Coverage Reports in VSTS</title>
+      <link>https://davidwesst.com/blog/istanbuljs-in-vsts/</link>
+      <pubDate>Thu, 03 Aug 2017 12:10:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/istanbuljs-in-vsts/</guid>
+      <description>Here&amp;rsquo;s another dev thing I use: IstanbulJS in Visual Studio Team Services (VSTS) builds and display the test reports as part of the build reports. When a build completes, I get a report like this one.
+I can browse the report right in the build report, and drill into the results for each file.
+This is how I did it.
+Step 0: Assumptions I&amp;rsquo;m not going to go into the details on how to setup IstanbulJS or a test suite, but you&amp;rsquo;ll need a project with tests and uses the IstanbulJS command line tool, NYC, to run them.</description>
+    </item>
+    
+    <item>
+      <title>Mocha Test Reports in VSTS</title>
+      <link>https://davidwesst.com/blog/mocha-in-vsts/</link>
+      <pubDate>Tue, 01 Aug 2017 11:19:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/mocha-in-vsts/</guid>
+      <description>Here&amp;rsquo;s another dev thing I use: MochaJS in Visual Studio Team Services (VSTS) builds and display the test reports as part of the build reports. See? Like this.
+This wasn&amp;rsquo;t me trying to fit a square peg into a round hole. VSTS is exceptionally flexible and it comes bundled with all the pieces you need to do this out of the box. The key is making sure that we setup our test runner to produce the output VSTS needs.</description>
+    </item>
+    
+  </channel>
+</rss>

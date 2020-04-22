@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game Design on David Wesst</title>
+    <link>https://davidwesst.com/tags/game-design/</link>
+    <description>Recent content in Game Design on David Wesst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Feb 2020 09:48:36 -0600</lastBuildDate>
+    
+	<atom:link href="https://davidwesst.com/tags/game-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How Github Makes Game Making Easier for Noncoders</title>
+      <link>https://davidwesst.com/blog/how-github-makes-game-making-easier-for-noncoders/</link>
+      <pubDate>Wed, 19 Feb 2020 09:48:36 -0600</pubDate>
+      
+      <guid>https://davidwesst.com/blog/how-github-makes-game-making-easier-for-noncoders/</guid>
+      <description>In this video, DW goes through five things he&amp;rsquo;s been using in Github while designing his latest prototype that require zero coding skills.
+GitHub is a social development platform that will make your game development journey easier even if you&amp;rsquo;re not a coder! We&amp;rsquo;ll cover how GitHub can help keep your file history, through to how it can help organize your work, and even where to find cool projects to learn (and possibly contribute to).</description>
+    </item>
+    
+    <item>
+      <title>Where to Find Your Gamedev Community</title>
+      <link>https://davidwesst.com/blog/where-to-find-your-gamedev-community/</link>
+      <pubDate>Sat, 18 Jan 2020 00:09:00 -0600</pubDate>
+      
+      <guid>https://davidwesst.com/blog/where-to-find-your-gamedev-community/</guid>
+      <description>Four places to find your new game development and/or design and/or technology community and figure out if it&amp;rsquo;s even good!
+  Did you know there are people out there who will help you with your game because they WANT TO DO IT? I know, right? This magical place is called a “community” and they exist literally all over the world. You just need to find one. In this video, I talk about four different places to find technology and game development/design communities right from where your sitting.</description>
+    </item>
+    
+    <item>
+      <title>No Cost Game Design Toolbox</title>
+      <link>https://davidwesst.com/blog/no-cost-game-design-toolbox/</link>
+      <pubDate>Mon, 13 Jan 2020 10:51:04 -0600</pubDate>
+      
+      <guid>https://davidwesst.com/blog/no-cost-game-design-toolbox/</guid>
+      <description>In 2020, I have been focusing my energy into game design. In this video, I share my game design toolbox and process and how it literally costs nothing to use the tools themselves.
+  </description>
+    </item>
+    
+    <item>
+      <title>Gamejam Pro Tips and Lessons Learned</title>
+      <link>https://davidwesst.com/blog/gamejam-protips-and-lessons-learned/</link>
+      <pubDate>Fri, 03 Jan 2020 09:00:00 -0600</pubDate>
+      
+      <guid>https://davidwesst.com/blog/gamejam-protips-and-lessons-learned/</guid>
+      <description>Sharing my lessons learned from my GameOff game jam experience and how they will be applied to my game development practice moving forward!
+I kick off the decade by sharing the lessons learned from participating in the GameOff Gamejam in 2019. Now that I&amp;rsquo;m is moving forward with the Car Scientist game project, it&amp;rsquo;s clear that these four key points will have an impact on how his game development and design process moving forward.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jabba on David Wesst</title>
+    <link>https://davidwesst.com/tags/jabba/</link>
+    <description>Recent content in jabba on David Wesst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Aug 2017 09:35:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://davidwesst.com/tags/jabba/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jabba, the Java Version Manager for Everyone</title>
+      <link>https://davidwesst.com/blog/jabba/</link>
+      <pubDate>Wed, 16 Aug 2017 09:35:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/jabba/</guid>
+      <description>Here&amp;rsquo;s another dev thing I use: Jabba, a cross-platform Java version manager that works for Windows.
+Over the the past few years, I&amp;rsquo;ve been doing JDK-based development in an enterprise Windows environment. In that time, I&amp;rsquo;ve continually struggled with being able to easily switch between versions of Java on my machine, depending on the project. We have legacy application that run old Java, and modern applications that run newer versions of Java.</description>
+    </item>
+    
+  </channel>
+</rss>

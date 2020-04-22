@@ -4,6 +4,9 @@ title = "David Wesst"
 subtitle = "The OFFICIAL source for all things DW"
 theme = "minimal"
 
+# output config
+publishDir = "docs/"
+
 # Theme Config
 disqusShortname = "" # delete this to disable disqus comments
 googleAnalytics = ""

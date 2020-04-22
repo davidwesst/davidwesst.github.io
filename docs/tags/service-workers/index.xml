@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>service-workers on David Wesst</title>
+    <link>https://davidwesst.com/tags/service-workers/</link>
+    <description>Recent content in service-workers on David Wesst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://davidwesst.com/tags/service-workers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Service Workers and PWAs are Super Cool</title>
+      <link>https://davidwesst.com/blog/websummit-pwa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidwesst.com/blog/websummit-pwa/</guid>
+      <description>This is part of a series of posts capturing the highlights from my experience at the Microsoft Edge Web Summit 2017
+One of the core items highlighted by the Microsoft Edge team, along with many others who were just web professionals, was the importance of Progressive Web Apps (PWAs). I started out thinking they were something that could be interesting one day, but left the conference convinced that this will change the way we think of the web.</description>
+    </item>
+    
+  </channel>
+</rss>
