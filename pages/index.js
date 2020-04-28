@@ -16,7 +16,7 @@
                         <p>The catch is that I spend most of my B-time working on game development rather than web code, so I'll get to it eventually. :)</p>
                     </article>
                     <article>
-                        <h2>In the meantime...</h2>
+                        <h3>In the meantime...</h3>
                         <p>Why not check out my social link down below? You can usually get a hold of me there.</p>
                     </article>
                     <footer>
