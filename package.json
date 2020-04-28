@@ -22,7 +22,7 @@
     "dev": "next dev",
     "build": "next build",
     "clean": "rm -rf .next out",
-    "deploy": "npm run clean && npm run build && npm run publish",
+    "deploy": "npm run clean && npm run build && npm run export && npm run publish",
     "export": "next export",
     "publish": "gh-pages -d out -t true",
     "start": "next start"
