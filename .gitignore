@@ -9,6 +9,11 @@ $RECYCLE.BIN/
 # OSX
 .DS_Store
 
+# NextJS
+.next
+out
+docs
+
 #
 # NodeJS .gitignore
 #

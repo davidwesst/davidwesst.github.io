@@ -15,12 +15,16 @@
     "remark": "^12.0.0",
     "remark-html": "^11.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "clean": "rm -rf .next",
-    "export": "npm run clean && next build && next export -o docs",
+    "clean": "rm -rf .next out",
+    "deploy": "npm run clean && npm run build && npm run publish",
+    "export": "next export",
+    "publish": "gh-pages -d out -t true",
     "start": "next start"
   },
   "repository": {
