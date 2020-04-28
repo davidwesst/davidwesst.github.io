@@ -1,8 +1,8 @@
 {
   "name": "dw-website",
   "version": "1.0.0",
-  "description": "Website (www.davidwesst.com)\r ---",
-  "main": "index.js",
+  "description": "dw-website",
+  "private": true,
   "directories": {
     "doc": "docs"
   },
@@ -17,7 +17,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
