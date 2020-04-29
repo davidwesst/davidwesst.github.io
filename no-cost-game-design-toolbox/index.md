@@ -1,11 +1,9 @@
 ---
 title: "No Cost Game Design Toolbox"
-date: 2020-01-13T10:51:04-06:00
-
+date: Tue, 15 Aug 2017 12:35:00 GMT
 layout: post
 authorId: david_wesst
 originalurl: http://www.davidwesst.com/blog/no-cost-game-design-toolbox/
-tags:
 categories:
     - Game Design
 tags:
