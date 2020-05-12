@@ -1,0 +1,102 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="https://www.davidwesst.com/_next/static/-9wn_hi6_-Q32OgH9YOcv/pages/_app.js" as="script"/><link rel="preload" href="https://www.davidwesst.com/_next/static/-9wn_hi6_-Q32OgH9YOcv/pages/blog/%5Bid%5D.js" as="script"/><link rel="preload" href="https://www.davidwesst.com/_next/static/runtime/webpack-c212667a5f965e81e004.js" as="script"/><link rel="preload" href="https://www.davidwesst.com/_next/static/chunks/framework.e84fa698c7ee940652bd.js" as="script"/><link rel="preload" href="https://www.davidwesst.com/_next/static/chunks/commons.7c101d7f1672b68d7c1c.js" as="script"/><link rel="preload" href="https://www.davidwesst.com/_next/static/runtime/main-98aa3916935decc0cde3.js" as="script"/></head><body><div id="__next"><h1>IstanbulJS Code Coverage Reports in VSTS</h1><article><div>istanbuljs-in-vsts</div><div>Thu Aug 03 2017 07:10:00 GMT-0500 (Central Daylight Time)</div><div><p>Here's another dev thing I use: <a href="https://istanbul.js.org/">IstanbulJS</a> in <a href="https://www.visualstudio.com/team-services/continuous-integration/">Visual Studio Team Services</a> (VSTS) builds and display the test reports as part of the build reports. When a build completes, I get a report like this one.</p>
+<p><img src="https://davidwesst.blob.core.windows.net/blog/istanbuljs-in-vsts/vsts-code-coverage-report.gif" alt="VSTS Build Report with an IstanbulJS code coverage report" title="VSTS Build Report with an IstanbulJS code coverage report"></p>
+<p>I can browse the report right in the build report, and drill into the results for each file.</p>
+<p>This is how I did it.</p>
+<h2>Step 0: Assumptions</h2>
+<p>I'm not going to go into the details on how to setup IstanbulJS or a test suite, but you'll need a project with tests and uses the IstanbulJS command line tool, <a href="https://github.com/istanbuljs/nyc">NYC</a>, to run them. My suggestion is to use <a href="https://mochajs.org/">Mocha</a> as <a href="http://www.westerndevs.com/development/mocha-in-vsts/">the test report can be integreated into VSTS as well</a>.</p>
+<p>You'll also need a VSTS account, which is free and worth the effort.</p>
+<h2>Step 1: Script Your Command</h2>
+<p>The goal here is to be able to run a script command that will execute the appropriate code coverage command, complete with parameters, easily. I use <a href="https://docs.npmjs.com/misc/scripts">npm scripts</a> for this tutorial, but you can use whatever scripting tool you'd like.</p>
+<p>In my case, I like to run the code coverage report everytime I run my Mocha tests. So, I've updated my <code>npm test</code> command in <em>package.json</em> to use NYC. It looks like:</p>
+<pre><code>  "scripts": {
+    "test": "./node_modules/.bin/nyc ./node_modules/.bin/mocha --recursive --reporter=mocha-multi-reporters "
+  }
+</code></pre>
+<p>Note, that I don't use globally installed packages. I only use the local ones installed in my <em>node_modules</em> folder.</p>
+<h2>Step 2: Configuring NYC</h2>
+<p>I've configured it in the <em>package.json</em> file with an <code>"nyc"</code> configuration object. Mine looks like this:</p>
+<pre><code>  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "lines": 99,
+    "statements": 99,
+    "functions": 99,
+    "branches": 99,
+    "include": [
+      "src/**/*.js"
+    ],
+    "reporter": [
+      "text",
+      "cobertura",
+      "html"
+    ],
+    "report-dir": "./.test_output/coverage"
+  }
+</code></pre>
+<p>The part of the configuration we care about for this tutorial are the <code>"reporter"</code> and <code>"report-dir"</code> properties. The rest of the configuration is out of scope for this post, but you can learn more in the <a href="https://github.com/istanbuljs/nyc#configuring-nyc">nyc README configuration section</a>.</p>
+<p>For <code>"reporters"</code>, you can see that we are using three different reporters. The <em>text</em> reporter is the one that displays in the terminal, the <em>cobertura</em> reporter generates an XML file with all of the results which we'll need, and the <em>html</em> reporter generates the HTML files you saw me browsing at the beginning of this post.</p>
+<p>At this point, when we run <code>npm test</code> we get run our tests and generate the code coverage assets we want.</p>
+<h2>Step 3: Post-Processing the HTML Report</h2>
+<p>This one isn't obvious, but I'm going to save you the trouble of discovering it for yourself.</p>
+<p>That being said, if you don't mind the plain text reports sans-CSS, you can skip this step altogether.</p>
+<p>Our HTML report is going to get displayed in VSTS. Remember, the HTML report isn't just a single file, it's a bunch of HTML files complete with CSS for styling. VSTS doesn't natively load up the extra CSS files, which means we'll need to embed the CSS right into the files themselves to create a copy of the report that'll look good in VSTS.</p>
+<p>Thanks to <a href="http://anthonychu.ca/post/css-styles-vsts-code-coverage/">this post from Anthony Chu</a>, I had a headstart on figuring out how to solve this issue. The plan is to run a post-processing script on the <em>posttest</em> script command in npm. I called my script file <em>process-coverage-report.js</em> and updated the scripts section of my <em>package.json</em> to look like this:</p>
+<pre><code>"scripts": {
+  "test": "./node_modules/.bin/nyc ./node_modules/.bin/mocha --recursive --reporter=mocha-multi-reporters ",
+  "posttest": "node ./tools/process-coverage-report.js"
+},
+</code></pre>
+<p>The <em>posttest</em> script will everytime we run <code>npm test</code>. You can also call it directly by running <code>npm run posttest</code> but be sure to have test results for it to process.</p>
+<p>I'll cut to the case, and just show you my post-processing code.</p>
+<pre><code>let fs = require("fs"),
+    path = require("path"),
+    inline = require("inline-css");
+
+const TEST_RESULTS_DIRECTORY = "./.test_output";
+const CODE_COVERAGE_DIRECTORY = "./.test_output/coverage";
+
+fs.readdir(CODE_COVERAGE_DIRECTORY, (err, files)=> {
+    if(err) { throw new Error(err); }
+
+    let reports = files.filter((report)=> {
+        return report.endsWith(".html");
+    });
+
+    reports.forEach((report)=> {
+        let filePath = path.join(CODE_COVERAGE_DIRECTORY, report);
+        let options = { 
+            url: "file://" + path.resolve(filePath),
+            extraCss: ".pad1 { padding: 0; }"
+        };
+
+        fs.readFile(path.resolve(filePath), (err, data)=> {
+            inline(data, options)
+                .then((html)=> {
+                    let outputFile = path.join(TEST_RESULTS_DIRECTORY, report);
+                    fs.writeFile(outputFile, html, (err)=> {
+                        if(err) { throw err; }
+                    });
+                })
+                .catch((err)=> {
+                    console.log(err);
+                });
+        });
+    });
+});
+</code></pre>
+<p>My build doesn't use a task runner like Gulp I settled on <a href="https://www.npmjs.com/package/inline-css">inline-css</a> because I liked the API and it returned promises. If you're using Gulp or Grunt, there are some good options (<a href="https://www.npmjs.com/package/inline-css">as suggested by Anthony</a>) for you to create a task to do this for you.</p>
+<p>Now, when you run <code>npm test</code> you'll end up with an extra copy of the HTML report, where you have nothing but HTML files with CSS embedded in the files themselves.</p>
+<h2>Step 4: Adding this to VSTS</h2>
+<p>All you need to do here, is configure your build to use the new code coverage setup. We do that by adding the <em>Publish Code Coverage Results</em> task as a build step and configuring properly. Here's what my configuration looks like:</p>
+<ul>
+<li>Version:  1.*</li>
+<li>Display Name: Publish Code Coverage Results | NYC</li>
+<li>Code Coverage Tool: Cobertura</li>
+<li>Summary File: $(System.DefaultWorkingDirectory)/.test_output/coverage/cobertura-coverage.xml</li>
+<li>Report Directory: $(System.DefaultWorkingDirectory)/.test_output     |</li>
+</ul>
+<p>Your properties may vary, depending on how to configured NYC.</p>
+<h2>Step 5: Done</h2>
+<p>And now we code coverage reporting showing up in VSTS. Huzzah!</p>
+<p>Happy code covering!</p>
+</div></article><footer><a href="/blog">Back to Post Listing</a></footer></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"postData":{"id":"istanbuljs-in-vsts","htmlContent":"\u003cp\u003eHere's another dev thing I use: \u003ca href=\"https://istanbul.js.org/\"\u003eIstanbulJS\u003c/a\u003e in \u003ca href=\"https://www.visualstudio.com/team-services/continuous-integration/\"\u003eVisual Studio Team Services\u003c/a\u003e (VSTS) builds and display the test reports as part of the build reports. When a build completes, I get a report like this one.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://davidwesst.blob.core.windows.net/blog/istanbuljs-in-vsts/vsts-code-coverage-report.gif\" alt=\"VSTS Build Report with an IstanbulJS code coverage report\" title=\"VSTS Build Report with an IstanbulJS code coverage report\"\u003e\u003c/p\u003e\n\u003cp\u003eI can browse the report right in the build report, and drill into the results for each file.\u003c/p\u003e\n\u003cp\u003eThis is how I did it.\u003c/p\u003e\n\u003ch2\u003eStep 0: Assumptions\u003c/h2\u003e\n\u003cp\u003eI'm not going to go into the details on how to setup IstanbulJS or a test suite, but you'll need a project with tests and uses the IstanbulJS command line tool, \u003ca href=\"https://github.com/istanbuljs/nyc\"\u003eNYC\u003c/a\u003e, to run them. My suggestion is to use \u003ca href=\"https://mochajs.org/\"\u003eMocha\u003c/a\u003e as \u003ca href=\"http://www.westerndevs.com/development/mocha-in-vsts/\"\u003ethe test report can be integreated into VSTS as well\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eYou'll also need a VSTS account, which is free and worth the effort.\u003c/p\u003e\n\u003ch2\u003eStep 1: Script Your Command\u003c/h2\u003e\n\u003cp\u003eThe goal here is to be able to run a script command that will execute the appropriate code coverage command, complete with parameters, easily. I use \u003ca href=\"https://docs.npmjs.com/misc/scripts\"\u003enpm scripts\u003c/a\u003e for this tutorial, but you can use whatever scripting tool you'd like.\u003c/p\u003e\n\u003cp\u003eIn my case, I like to run the code coverage report everytime I run my Mocha tests. So, I've updated my \u003ccode\u003enpm test\u003c/code\u003e command in \u003cem\u003epackage.json\u003c/em\u003e to use NYC. It looks like:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e  \"scripts\": {\n    \"test\": \"./node_modules/.bin/nyc ./node_modules/.bin/mocha --recursive --reporter=mocha-multi-reporters \"\n  }\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eNote, that I don't use globally installed packages. I only use the local ones installed in my \u003cem\u003enode_modules\u003c/em\u003e folder.\u003c/p\u003e\n\u003ch2\u003eStep 2: Configuring NYC\u003c/h2\u003e\n\u003cp\u003eI've configured it in the \u003cem\u003epackage.json\u003c/em\u003e file with an \u003ccode\u003e\"nyc\"\u003c/code\u003e configuration object. Mine looks like this:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e  \"nyc\": {\n    \"check-coverage\": true,\n    \"per-file\": true,\n    \"lines\": 99,\n    \"statements\": 99,\n    \"functions\": 99,\n    \"branches\": 99,\n    \"include\": [\n      \"src/**/*.js\"\n    ],\n    \"reporter\": [\n      \"text\",\n      \"cobertura\",\n      \"html\"\n    ],\n    \"report-dir\": \"./.test_output/coverage\"\n  }\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eThe part of the configuration we care about for this tutorial are the \u003ccode\u003e\"reporter\"\u003c/code\u003e and \u003ccode\u003e\"report-dir\"\u003c/code\u003e properties. The rest of the configuration is out of scope for this post, but you can learn more in the \u003ca href=\"https://github.com/istanbuljs/nyc#configuring-nyc\"\u003enyc README configuration section\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eFor \u003ccode\u003e\"reporters\"\u003c/code\u003e, you can see that we are using three different reporters. The \u003cem\u003etext\u003c/em\u003e reporter is the one that displays in the terminal, the \u003cem\u003ecobertura\u003c/em\u003e reporter generates an XML file with all of the results which we'll need, and the \u003cem\u003ehtml\u003c/em\u003e reporter generates the HTML files you saw me browsing at the beginning of this post.\u003c/p\u003e\n\u003cp\u003eAt this point, when we run \u003ccode\u003enpm test\u003c/code\u003e we get run our tests and generate the code coverage assets we want.\u003c/p\u003e\n\u003ch2\u003eStep 3: Post-Processing the HTML Report\u003c/h2\u003e\n\u003cp\u003eThis one isn't obvious, but I'm going to save you the trouble of discovering it for yourself.\u003c/p\u003e\n\u003cp\u003eThat being said, if you don't mind the plain text reports sans-CSS, you can skip this step altogether.\u003c/p\u003e\n\u003cp\u003eOur HTML report is going to get displayed in VSTS. Remember, the HTML report isn't just a single file, it's a bunch of HTML files complete with CSS for styling. VSTS doesn't natively load up the extra CSS files, which means we'll need to embed the CSS right into the files themselves to create a copy of the report that'll look good in VSTS.\u003c/p\u003e\n\u003cp\u003eThanks to \u003ca href=\"http://anthonychu.ca/post/css-styles-vsts-code-coverage/\"\u003ethis post from Anthony Chu\u003c/a\u003e, I had a headstart on figuring out how to solve this issue. The plan is to run a post-processing script on the \u003cem\u003eposttest\u003c/em\u003e script command in npm. I called my script file \u003cem\u003eprocess-coverage-report.js\u003c/em\u003e and updated the scripts section of my \u003cem\u003epackage.json\u003c/em\u003e to look like this:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e\"scripts\": {\n  \"test\": \"./node_modules/.bin/nyc ./node_modules/.bin/mocha --recursive --reporter=mocha-multi-reporters \",\n  \"posttest\": \"node ./tools/process-coverage-report.js\"\n},\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eThe \u003cem\u003eposttest\u003c/em\u003e script will everytime we run \u003ccode\u003enpm test\u003c/code\u003e. You can also call it directly by running \u003ccode\u003enpm run posttest\u003c/code\u003e but be sure to have test results for it to process.\u003c/p\u003e\n\u003cp\u003eI'll cut to the case, and just show you my post-processing code.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003elet fs = require(\"fs\"),\n    path = require(\"path\"),\n    inline = require(\"inline-css\");\n\nconst TEST_RESULTS_DIRECTORY = \"./.test_output\";\nconst CODE_COVERAGE_DIRECTORY = \"./.test_output/coverage\";\n\nfs.readdir(CODE_COVERAGE_DIRECTORY, (err, files)=\u003e {\n    if(err) { throw new Error(err); }\n\n    let reports = files.filter((report)=\u003e {\n        return report.endsWith(\".html\");\n    });\n\n    reports.forEach((report)=\u003e {\n        let filePath = path.join(CODE_COVERAGE_DIRECTORY, report);\n        let options = { \n            url: \"file://\" + path.resolve(filePath),\n            extraCss: \".pad1 { padding: 0; }\"\n        };\n\n        fs.readFile(path.resolve(filePath), (err, data)=\u003e {\n            inline(data, options)\n                .then((html)=\u003e {\n                    let outputFile = path.join(TEST_RESULTS_DIRECTORY, report);\n                    fs.writeFile(outputFile, html, (err)=\u003e {\n                        if(err) { throw err; }\n                    });\n                })\n                .catch((err)=\u003e {\n                    console.log(err);\n                });\n        });\n    });\n});\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eMy build doesn't use a task runner like Gulp I settled on \u003ca href=\"https://www.npmjs.com/package/inline-css\"\u003einline-css\u003c/a\u003e because I liked the API and it returned promises. If you're using Gulp or Grunt, there are some good options (\u003ca href=\"https://www.npmjs.com/package/inline-css\"\u003eas suggested by Anthony\u003c/a\u003e) for you to create a task to do this for you.\u003c/p\u003e\n\u003cp\u003eNow, when you run \u003ccode\u003enpm test\u003c/code\u003e you'll end up with an extra copy of the HTML report, where you have nothing but HTML files with CSS embedded in the files themselves.\u003c/p\u003e\n\u003ch2\u003eStep 4: Adding this to VSTS\u003c/h2\u003e\n\u003cp\u003eAll you need to do here, is configure your build to use the new code coverage setup. We do that by adding the \u003cem\u003ePublish Code Coverage Results\u003c/em\u003e task as a build step and configuring properly. Here's what my configuration looks like:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eVersion:  1.*\u003c/li\u003e\n\u003cli\u003eDisplay Name: Publish Code Coverage Results | NYC\u003c/li\u003e\n\u003cli\u003eCode Coverage Tool: Cobertura\u003c/li\u003e\n\u003cli\u003eSummary File: $(System.DefaultWorkingDirectory)/.test_output/coverage/cobertura-coverage.xml\u003c/li\u003e\n\u003cli\u003eReport Directory: $(System.DefaultWorkingDirectory)/.test_output     |\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eYour properties may vary, depending on how to configured NYC.\u003c/p\u003e\n\u003ch2\u003eStep 5: Done\u003c/h2\u003e\n\u003cp\u003eAnd now we code coverage reporting showing up in VSTS. Huzzah!\u003c/p\u003e\n\u003cp\u003eHappy code covering!\u003c/p\u003e\n","title":"IstanbulJS Code Coverage Reports in VSTS","category":["development"],"tags":["javascript","visual studio team services","istanbuljs","nyc","testing"],"excerpt":"Here's another dev thing I use: IstanbulJS in Visual Studio Team Services (VSTS) builds and display the test reports as part of the build reports.","layout":"post","date":"Thu Aug 03 2017 07:10:00 GMT-0500 (Central Daylight Time)","authorId":"david_wesst"}},"__N_SSG":true},"page":"/blog/[id]","query":{"id":"istanbuljs-in-vsts"},"buildId":"-9wn_hi6_-Q32OgH9YOcv","assetPrefix":"https://www.davidwesst.com","runtimeConfig":{},"nextExport":false,"isFallback":false,"gsp":true}</script><script nomodule="" src="https://www.davidwesst.com/_next/static/runtime/polyfills-10c88b4b028d13fe33de.js"></script><script async="" data-next-page="/_app" src="https://www.davidwesst.com/_next/static/-9wn_hi6_-Q32OgH9YOcv/pages/_app.js"></script><script async="" data-next-page="/blog/[id]" src="https://www.davidwesst.com/_next/static/-9wn_hi6_-Q32OgH9YOcv/pages/blog/%5Bid%5D.js"></script><script src="https://www.davidwesst.com/_next/static/runtime/webpack-c212667a5f965e81e004.js" async=""></script><script src="https://www.davidwesst.com/_next/static/chunks/framework.e84fa698c7ee940652bd.js" async=""></script><script src="https://www.davidwesst.com/_next/static/chunks/commons.7c101d7f1672b68d7c1c.js" async=""></script><script src="https://www.davidwesst.com/_next/static/runtime/main-98aa3916935decc0cde3.js" async=""></script><script src="https://www.davidwesst.com/_next/static/-9wn_hi6_-Q32OgH9YOcv/_buildManifest.js" async=""></script><script src="https://www.davidwesst.com/_next/static/-9wn_hi6_-Q32OgH9YOcv/_ssgManifest.js" async=""></script></body></html>

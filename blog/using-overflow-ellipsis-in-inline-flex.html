@@ -1,0 +1,102 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="https://www.davidwesst.com/_next/static/-9wn_hi6_-Q32OgH9YOcv/pages/_app.js" as="script"/><link rel="preload" href="https://www.davidwesst.com/_next/static/-9wn_hi6_-Q32OgH9YOcv/pages/blog/%5Bid%5D.js" as="script"/><link rel="preload" href="https://www.davidwesst.com/_next/static/runtime/webpack-c212667a5f965e81e004.js" as="script"/><link rel="preload" href="https://www.davidwesst.com/_next/static/chunks/framework.e84fa698c7ee940652bd.js" as="script"/><link rel="preload" href="https://www.davidwesst.com/_next/static/chunks/commons.7c101d7f1672b68d7c1c.js" as="script"/><link rel="preload" href="https://www.davidwesst.com/_next/static/runtime/main-98aa3916935decc0cde3.js" as="script"/></head><body><div id="__next"><h1>Using text-overflow:ellipsis with Inline Flex</h1><article><div>using-overflow-ellipsis-in-inline-flex</div><div>Mon Feb 29 2016 09:58:40 GMT-0600 (Central Standard Time)</div><div><p><a href="http://www.westerndevs.com/bios/dave_paquette/">Dave Paquette</a>, a fellow Western Dev, hit a strange CSS snag the other day. He wanted to use the <code>text-overflow: ellipsis</code> on a flexbox item that displayed text, where the ellipsis would show up if the text was too long.</p>
+<p>It didn't work as expected, but after some digging, a solution was discovered. This post exists to document both the problem and solution with the hope that it prevents future headaches for other CSS developers.</p>
+<h2>The Problem</h2>
+<p>His code went something like this:</p>
+<pre><code class="language-html">&#x3C;ul>
+  &#x3C;li class="item">
+    &#x3C;i>Icon&#x3C;/i>
+    &#x3C;span>Item Code 321&#x3C;/span>
+    &#x3C;span>Descriptive Text&#x3C;/span>
+  &#x3C;/li>
+  &#x3C;li class="item">
+    &#x3C;i>Icon&#x3C;/i>
+    &#x3C;span>Item Code that is way too long and shoud use ellipsis&#x3C;/span>
+    &#x3C;span>Descriptive Text&#x3C;/span>
+  &#x3C;/li>
+  &#x3C;li class="item">
+    &#x3C;i>Icon&#x3C;/i>
+    &#x3C;span>Item Code 123&#x3C;/span>
+    &#x3C;span>Descriptive Text&#x3C;/span>
+  &#x3C;/li>
+&#x3C;/ul>
+</code></pre>
+<pre><code class="language-css">li span {
+  display: inline-flex;
+}
+
+.item span {
+  width: 100px;
+  margin-left: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+</code></pre>
+<p>The goal here is to have all the <code>&#x3C;span></code> elements line up, regardless of their contents. If their contents exceed the length of the <code>&#x3C;span></code> then should display an ellipsis.</p>
+<p>This isn't the case.</p>
+<p>Instead, you get something like this:</p>
+<p>{% asset_img broken-result.png "Not quite right" %}</p>
+<p>We have everything aligned, but no ellipsis. Why?</p>
+<h2>The Solution</h2>
+<p>It turns out that this is the expected behaviour (see "But Why?" section below).</p>
+<p>The solution is to make sure that we apply the <code>text-overflow</code> property to a block element that lives inside a flex item. In our case, we need to wrap the text we want to have the ellipsis show up in a block element.</p>
+<p>The working code looks like this:</p>
+<pre><code class="language-html">&#x3C;ul>
+  &#x3C;li class="item">
+    &#x3C;i>Icon&#x3C;/i>
+    &#x3C;span>
+        &#x3C;div>
+          Item Code 321
+        &#x3C;/div>
+    &#x3C;/span>
+    &#x3C;span>Descriptive Text&#x3C;/span>
+  &#x3C;/li>
+  &#x3C;li class="item">
+    &#x3C;i>Icon&#x3C;/i>
+    &#x3C;span>
+        &#x3C;div>
+          Item Code that is way too long and shoud use ellipsis
+        &#x3C;/div>
+    &#x3C;/span>
+    &#x3C;span>Descriptive Text&#x3C;/span>
+  &#x3C;/li>
+  &#x3C;li class="item">
+    &#x3C;i>Icon&#x3C;/i>
+    &#x3C;span>
+        &#x3C;div>
+          Item Code 123
+        &#x3C;/div>
+    &#x3C;/span>
+    &#x3C;span>Descriptive Text&#x3C;/span>
+  &#x3C;/li>
+&#x3C;/ul>
+</code></pre>
+<pre><code class="language-css">.item span {
+  display: inline-flex;
+}
+
+.item span {
+  width: 100px;
+  margin-left: 1em;
+  white-space: nowrap;
+}
+
+.item span div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+</code></pre>
+<p>The <code>&#x3C;div></code> we introduce is a block element that lives inside of the flex item. Now the <code>text-overflow</code> property applies, and all is good!</p>
+<p>{% asset_img working-result.png "It Works!" %}</p>
+<h3>The Solution in Action</h3>
+<p>In case you want to see the end result working, here you can check it out <a href="https://jsfiddle.net/davidwesst/fhkt9mco/5/embed/html,css,result">here</a>.</p>
+<script async src="https://jsfiddle.net/davidwesst/fhkt9mco/5/embed/html,css,result/"></script>
+<h2>But Why?</h2>
+<p>I'll try and explain this, but be aware that I'm likely oversimplifying things.</p>
+<p>As I mentioned before, this whole issue is expected behaviour. If you look at <a href="https://drafts.csswg.org/css-ui/#text-overflow">the spec</a> for, <code>text-overflow</code> you find the definition you see in the quote below</p>
+<p>This property specifies rendering when inline content overflows its line box edge in the inline progression direction of its block container element ("the block") that has overflow other than visible.</p>
+<p>It turns out <code>text-overflow</code> isn't meant to work on flex items, rather it is meant to work on block items as per the spec.</p>
+<p>That being said, so what? I mean, can't the spec be adjusted to include <code>text-overflow</code> on flex items? Although you would think it's not a big deal to make this work for flex-items too, there are a number of considerations that need to be taken into account. More specifically, how flexbox works.</p>
+<p>It turns out that there really isn't a clean way to do this. If you're wondering how I came to that conclusion you can stop because I didn't. Those responsible for the specification did, and you can read the full conversation that started with a <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=912434">Mozilla bug report</a> and leads to a whole <a href="http://lists.w3.org/Archives/Public/www-style/2013Sep/0070.html">mail group discussion</a> about why it should (or, in this case, should not) be implemented as part of the spec.</p>
+<p>And that, ladies and gentlemen, is how you get <code>text-overflow</code> working on flex items. You don't. :)</p>
+</div></article><footer><a href="/blog">Back to Post Listing</a></footer></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"postData":{"id":"using-overflow-ellipsis-in-inline-flex","htmlContent":"\u003cp\u003e\u003ca href=\"http://www.westerndevs.com/bios/dave_paquette/\"\u003eDave Paquette\u003c/a\u003e, a fellow Western Dev, hit a strange CSS snag the other day. He wanted to use the \u003ccode\u003etext-overflow: ellipsis\u003c/code\u003e on a flexbox item that displayed text, where the ellipsis would show up if the text was too long.\u003c/p\u003e\n\u003cp\u003eIt didn't work as expected, but after some digging, a solution was discovered. This post exists to document both the problem and solution with the hope that it prevents future headaches for other CSS developers.\u003c/p\u003e\n\u003ch2\u003eThe Problem\u003c/h2\u003e\n\u003cp\u003eHis code went something like this:\u003c/p\u003e\n\u003cpre\u003e\u003ccode class=\"language-html\"\u003e\u0026#x3C;ul\u003e\n  \u0026#x3C;li class=\"item\"\u003e\n    \u0026#x3C;i\u003eIcon\u0026#x3C;/i\u003e\n    \u0026#x3C;span\u003eItem Code 321\u0026#x3C;/span\u003e\n    \u0026#x3C;span\u003eDescriptive Text\u0026#x3C;/span\u003e\n  \u0026#x3C;/li\u003e\n  \u0026#x3C;li class=\"item\"\u003e\n    \u0026#x3C;i\u003eIcon\u0026#x3C;/i\u003e\n    \u0026#x3C;span\u003eItem Code that is way too long and shoud use ellipsis\u0026#x3C;/span\u003e\n    \u0026#x3C;span\u003eDescriptive Text\u0026#x3C;/span\u003e\n  \u0026#x3C;/li\u003e\n  \u0026#x3C;li class=\"item\"\u003e\n    \u0026#x3C;i\u003eIcon\u0026#x3C;/i\u003e\n    \u0026#x3C;span\u003eItem Code 123\u0026#x3C;/span\u003e\n    \u0026#x3C;span\u003eDescriptive Text\u0026#x3C;/span\u003e\n  \u0026#x3C;/li\u003e\n\u0026#x3C;/ul\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cpre\u003e\u003ccode class=\"language-css\"\u003eli span {\n  display: inline-flex;\n}\n\n.item span {\n  width: 100px;\n  margin-left: 1em;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eThe goal here is to have all the \u003ccode\u003e\u0026#x3C;span\u003e\u003c/code\u003e elements line up, regardless of their contents. If their contents exceed the length of the \u003ccode\u003e\u0026#x3C;span\u003e\u003c/code\u003e then should display an ellipsis.\u003c/p\u003e\n\u003cp\u003eThis isn't the case.\u003c/p\u003e\n\u003cp\u003eInstead, you get something like this:\u003c/p\u003e\n\u003cp\u003e{% asset_img broken-result.png \"Not quite right\" %}\u003c/p\u003e\n\u003cp\u003eWe have everything aligned, but no ellipsis. Why?\u003c/p\u003e\n\u003ch2\u003eThe Solution\u003c/h2\u003e\n\u003cp\u003eIt turns out that this is the expected behaviour (see \"But Why?\" section below).\u003c/p\u003e\n\u003cp\u003eThe solution is to make sure that we apply the \u003ccode\u003etext-overflow\u003c/code\u003e property to a block element that lives inside a flex item. In our case, we need to wrap the text we want to have the ellipsis show up in a block element.\u003c/p\u003e\n\u003cp\u003eThe working code looks like this:\u003c/p\u003e\n\u003cpre\u003e\u003ccode class=\"language-html\"\u003e\u0026#x3C;ul\u003e\n  \u0026#x3C;li class=\"item\"\u003e\n    \u0026#x3C;i\u003eIcon\u0026#x3C;/i\u003e\n    \u0026#x3C;span\u003e\n        \u0026#x3C;div\u003e\n          Item Code 321\n        \u0026#x3C;/div\u003e\n    \u0026#x3C;/span\u003e\n    \u0026#x3C;span\u003eDescriptive Text\u0026#x3C;/span\u003e\n  \u0026#x3C;/li\u003e\n  \u0026#x3C;li class=\"item\"\u003e\n    \u0026#x3C;i\u003eIcon\u0026#x3C;/i\u003e\n    \u0026#x3C;span\u003e\n        \u0026#x3C;div\u003e\n          Item Code that is way too long and shoud use ellipsis\n        \u0026#x3C;/div\u003e\n    \u0026#x3C;/span\u003e\n    \u0026#x3C;span\u003eDescriptive Text\u0026#x3C;/span\u003e\n  \u0026#x3C;/li\u003e\n  \u0026#x3C;li class=\"item\"\u003e\n    \u0026#x3C;i\u003eIcon\u0026#x3C;/i\u003e\n    \u0026#x3C;span\u003e\n        \u0026#x3C;div\u003e\n          Item Code 123\n        \u0026#x3C;/div\u003e\n    \u0026#x3C;/span\u003e\n    \u0026#x3C;span\u003eDescriptive Text\u0026#x3C;/span\u003e\n  \u0026#x3C;/li\u003e\n\u0026#x3C;/ul\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003cpre\u003e\u003ccode class=\"language-css\"\u003e.item span {\n  display: inline-flex;\n}\n\n.item span {\n  width: 100px;\n  margin-left: 1em;\n  white-space: nowrap;\n}\n\n.item span div {\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eThe \u003ccode\u003e\u0026#x3C;div\u003e\u003c/code\u003e we introduce is a block element that lives inside of the flex item. Now the \u003ccode\u003etext-overflow\u003c/code\u003e property applies, and all is good!\u003c/p\u003e\n\u003cp\u003e{% asset_img working-result.png \"It Works!\" %}\u003c/p\u003e\n\u003ch3\u003eThe Solution in Action\u003c/h3\u003e\n\u003cp\u003eIn case you want to see the end result working, here you can check it out \u003ca href=\"https://jsfiddle.net/davidwesst/fhkt9mco/5/embed/html,css,result\"\u003ehere\u003c/a\u003e.\u003c/p\u003e\n\u003cscript async src=\"https://jsfiddle.net/davidwesst/fhkt9mco/5/embed/html,css,result/\"\u003e\u003c/script\u003e\n\u003ch2\u003eBut Why?\u003c/h2\u003e\n\u003cp\u003eI'll try and explain this, but be aware that I'm likely oversimplifying things.\u003c/p\u003e\n\u003cp\u003eAs I mentioned before, this whole issue is expected behaviour. If you look at \u003ca href=\"https://drafts.csswg.org/css-ui/#text-overflow\"\u003ethe spec\u003c/a\u003e for, \u003ccode\u003etext-overflow\u003c/code\u003e you find the definition you see in the quote below\u003c/p\u003e\n\u003cp\u003eThis property specifies rendering when inline content overflows its line box edge in the inline progression direction of its block container element (\"the block\") that has overflow other than visible.\u003c/p\u003e\n\u003cp\u003eIt turns out \u003ccode\u003etext-overflow\u003c/code\u003e isn't meant to work on flex items, rather it is meant to work on block items as per the spec.\u003c/p\u003e\n\u003cp\u003eThat being said, so what? I mean, can't the spec be adjusted to include \u003ccode\u003etext-overflow\u003c/code\u003e on flex items? Although you would think it's not a big deal to make this work for flex-items too, there are a number of considerations that need to be taken into account. More specifically, how flexbox works.\u003c/p\u003e\n\u003cp\u003eIt turns out that there really isn't a clean way to do this. If you're wondering how I came to that conclusion you can stop because I didn't. Those responsible for the specification did, and you can read the full conversation that started with a \u003ca href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=912434\"\u003eMozilla bug report\u003c/a\u003e and leads to a whole \u003ca href=\"http://lists.w3.org/Archives/Public/www-style/2013Sep/0070.html\"\u003email group discussion\u003c/a\u003e about why it should (or, in this case, should not) be implemented as part of the spec.\u003c/p\u003e\n\u003cp\u003eAnd that, ladies and gentlemen, is how you get \u003ccode\u003etext-overflow\u003c/code\u003e working on flex items. You don't. :)\u003c/p\u003e\n","layout":"post","title":"Using text-overflow:ellipsis with Inline Flex","categories":["css"],"date":"Mon Feb 29 2016 09:58:40 GMT-0600 (Central Standard Time)","tags":["html","css","flexbox"],"excerpt":"Two out of three Dave's hit this obscure CSS problem that turned out to be expected behaviour. David Wesst walks us through the reason why and how to fix it.","authorId":"david_wesst","originalurl":"http://www.webnotwar.ca/opensource/using-text-overflowellipsis-with-inline-flex/"}},"__N_SSG":true},"page":"/blog/[id]","query":{"id":"using-overflow-ellipsis-in-inline-flex"},"buildId":"-9wn_hi6_-Q32OgH9YOcv","assetPrefix":"https://www.davidwesst.com","runtimeConfig":{},"nextExport":false,"isFallback":false,"gsp":true}</script><script nomodule="" src="https://www.davidwesst.com/_next/static/runtime/polyfills-10c88b4b028d13fe33de.js"></script><script async="" data-next-page="/_app" src="https://www.davidwesst.com/_next/static/-9wn_hi6_-Q32OgH9YOcv/pages/_app.js"></script><script async="" data-next-page="/blog/[id]" src="https://www.davidwesst.com/_next/static/-9wn_hi6_-Q32OgH9YOcv/pages/blog/%5Bid%5D.js"></script><script src="https://www.davidwesst.com/_next/static/runtime/webpack-c212667a5f965e81e004.js" async=""></script><script src="https://www.davidwesst.com/_next/static/chunks/framework.e84fa698c7ee940652bd.js" async=""></script><script src="https://www.davidwesst.com/_next/static/chunks/commons.7c101d7f1672b68d7c1c.js" async=""></script><script src="https://www.davidwesst.com/_next/static/runtime/main-98aa3916935decc0cde3.js" async=""></script><script src="https://www.davidwesst.com/_next/static/-9wn_hi6_-Q32OgH9YOcv/_buildManifest.js" async=""></script><script src="https://www.davidwesst.com/_next/static/-9wn_hi6_-Q32OgH9YOcv/_ssgManifest.js" async=""></script></body></html>
