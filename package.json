@@ -13,15 +13,14 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "remark": "^12.0.0",
-    "remark-html": "^11.0.1"
-  },
-  "devDependencies": {
+    "remark-html": "^11.0.1",
+    "rimraf": "^3.0.2",
     "gh-pages": "^2.2.0"
   },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "clean": "rm -rf .next out",
+    "clean": "rimraf .next out",
     "deploy": "npm run clean && npm run build && npm run export && npm run publish",
     "export": "next export",
     "publish": "gh-pages -d out -t true",
