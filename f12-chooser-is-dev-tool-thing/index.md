@@ -16,8 +16,8 @@ The F12 Chooser is a development tool thing that I like and you should know abou
 
 <!-- more -->
 
-[1]: https://i.imgur.com/wt4L09z.png
-[2]: https://i.imgur.com/ch1TjEr.gif
+[1]: wt4L09z.png
+[2]: ch1TjEr.gif
 [3]: https://docs.microsoft.com/en-us/office/dev/add-ins/testing/debug-add-ins-using-f12-developer-tools-on-windows-10
 [4]: https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide
 

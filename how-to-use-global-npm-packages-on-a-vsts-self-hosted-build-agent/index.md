@@ -32,7 +32,7 @@ Even though the install command was successful, the build script still couldn't 
 
 Another symptom of this problem is that Team Services can't see global NPM packages as common capabilities, such as Bower, Gulp, and Grunt.
 
-!["Gulp and Grunt as capabilities"](http://i.imgur.com/pkLEzkEl.png)
+!["Gulp and Grunt as capabilities"](pkLEzkEl.png)
 
 I setup my build agent to use the NetworkService user account, but it could be setup for any user. The problem is that the NetworkService account can't see the global packages on the machine after they are installed. The solution is to configure NPM to point to a folder that is visible to the NetworkService account.
 

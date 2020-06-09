@@ -53,16 +53,16 @@ Now that we have a post backlog, I start planning what posts I am going to write
 ### Setting up Iterations
 For starters, I setup my iterations. I like planning about one month at a time, so I go with 4-week iterations and named by the month that consumes most of the iteration. This all happens in the _Work_ configuation section of the site.
 
-![Work Configuration Menu](http://i.imgur.com/E4GjQDM.png)
+![Work Configuration Menu](E4GjQDM.png)
 
-![Creating a New Iteration](http://i.imgur.com/a27TBI4.png)
+![Creating a New Iteration](a27TBI4.png)
 
 ### The ~~Sprint~~ Post Planning
 Now that we have iterations, I plan what posts I want to write for the month.
 
 I do this by dragging the posts onto the iteration on the right side, and adding tasks as described by the [VSTS team](https://www.visualstudio.com/en-us/docs/work/scrum/sprint-planning).
 
-![Adding a User Story to an Iteration](http://i.imgur.com/67xoqOK.gif)
+![Adding a User Story to an Iteration](67xoqOK.gif)
 
 #### Tasks and Templates
 Although tasks on a blog post work item might sound excessive, my writing process has multiple steps to try and make it easy for me to blog. First I write the initial draft (text-only), followed by proof reading and filling in the images and links that I've left. Sometimes there are other tasks like updating links on old posts, like on this post which is part of a series of posts.
@@ -83,7 +83,7 @@ Because we're using a [static site generator](https://www.staticgen.com/) a post
 
 For me, I create a new [topic branch](  ) for the post. Since I host my source code in VSTS, I use the web UI to create a new branch in the work item. On my local machine, I create a new local branch that is mapped to the new remote branch and start create a new draft post with `hexo new draft "My Post Title"`.
 
-![Creating a new branch from the work item](http://i.imgur.com/3xZztPR.png)
+![Creating a new branch from the work item](3xZztPR.png)
 
 This creates a new post file in the `source\_drafts` folder of the project, and I start writing and going through the tasks. As I complete the tasks I make commits and associate them with the tasks and work items by adding the ID numbers in the messages. For example:
 
@@ -93,11 +93,11 @@ git commit -m "wrote initial draft. part of #201 closes task #212"
 
 The `#201` and `#212` get picked up by VSTS and associate them with the cooresponding task and user story, just like it does in GitHub. Unlike GitHub, the `closes` key word doesn't actually close the work item, which I don't mind, but should be noted for those coming from GitHub like I did.
 
-![Related Work in a Work Item](http://i.imgur.com/ZO8nzTM.png)
+![Related Work in a Work Item](ZO8nzTM.png)
 
 Once I complete all my tasks and push all the commits to VSTS, I create a Pull Request and move the work item on the board to the "Committed" column.
 
-![A VSTS Pull Request](http://i.imgur.com/xT1tfEf.png)
+![A VSTS Pull Request](xT1tfEf.png)
 
 ### Why a Pull Request?
 Again, another good question. You're pretty good at this.

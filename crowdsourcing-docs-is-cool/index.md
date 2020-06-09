@@ -14,7 +14,7 @@ The idea of these large enterprises crowdsourcing their technical documentation 
 
 <!-- more -->
 
-[1]: https://i.imgur.com/5ptKftE.png
+[1]: 5ptKftE.png
 [2]: https://docs.microsoft.com/en-us/microsoft-edge/extensions/extensions-for-enterprise
 [3]: https://github.com/awsdocs
 [4]: https://github.com/MicrosoftDocs

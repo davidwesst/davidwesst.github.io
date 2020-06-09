@@ -114,7 +114,7 @@ This will bring in the `highlight.js.scss` file when I build my styles using `gu
 And now highlight.js ready to Use in our application.
 
 <figure class="image">
-    ![Highlight.js in Action](http://i.imgur.com/1cUniu9.png)
+    ![Highlight.js in Action](1cUniu9.png)
     <figcaption>Highlight.js in Action</figcaption>
 </figure>
 

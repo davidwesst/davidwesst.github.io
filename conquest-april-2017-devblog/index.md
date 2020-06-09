@@ -30,7 +30,7 @@ It's my first original video game, after all, and if you watch or read game desi
 
 So that's what I did. And I made [Breakout](https://github.com/davidwesst/breakout) by following [this MDN](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript) tutorial.
 
-![](http://i.imgur.com/TnoJp0Gm.png)
+![](TnoJp0Gm.png)
 
 I know that this isn't going to blow anyone's mind, but it's first game I've made with nothing but vanilla JavaScript and let me get familiar with the basics of JavaScript game development, without blindly relaying on a framework.
 

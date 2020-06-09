@@ -26,7 +26,7 @@ This game is something of a life long conquest for me, but that isn't where the 
 
 In the meantime, you can take a look the [first official screenshots](http://imgur.com/a/x7eGr):
 
-![](http://i.imgur.com/dqEGoFf.png)
+![](dqEGoFf.png)
 
 It's not much to look at, but this is just the beginning.
 

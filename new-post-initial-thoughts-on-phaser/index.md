@@ -35,7 +35,7 @@ Here's the technical rundown:
 
 If you think back to the old NES (Nintendo Entertainment System) and SNES (Super Nintendo Entertainment System) days, games like Final Fantasy, and the Legend of Zelda are good examples of the look of the game.
 
-!["The Legend of Zelda for the NES"](http://i.imgur.com/0LLlYoxb.png)
+!["The Legend of Zelda for the NES"](0LLlYoxb.png)
 
 ### Where did you come up with these Requirements?
 I decided to make a game that I wanted to play. That's really about it.

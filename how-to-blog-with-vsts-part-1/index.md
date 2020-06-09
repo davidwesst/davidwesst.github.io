@@ -60,7 +60,7 @@ Sign up for the free account [here](https://www.visualstudio.com/vsts-test/) and
 
 If you want more details about the project processes available, and the differences between them, take a look at [this link](https://www.visualstudio.com/en-us/docs/work/guidance/choose-process).
 
-!["Create a New Project in VSTS"](http://i.imgur.com/CYlb9sNm.png)
+!["Create a New Project in VSTS"](CYlb9sNm.png)
 
 ### Web Host
 Just like any website, you're going to need a place to host it. Lucky for us, we're only hosting static files which makes the options pretty open.

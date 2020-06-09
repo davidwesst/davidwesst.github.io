@@ -14,9 +14,9 @@ Which one should you pick: TypeScript or JavaScript? They are both great languag
 
 <!-- more -->
 
-[1]: https://i.imgur.com/Wxx5fMI.png
-[2]: https://i.imgur.com/IAPRGfv.png
-[3]: https://i.imgur.com/yCn8NUQ.png
+[1]: Wxx5fMI.png
+[2]: IAPRGfv.png
+[3]: yCn8NUQ.png
 [4]: https://code.visualstudio.com
 [5]: https://github.com/tc39/ecma262
 [6]: https://code.visualstudio.com/docs/languages/javascript#_type-checking-and-quick-fixes-for-javascript-files
