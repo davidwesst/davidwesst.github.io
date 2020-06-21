@@ -8,8 +8,8 @@ tags:
   - phaser
 categories:
   - devblog
-date: 2017-04-03 06:00:00
-updated: 2017-04-03 06:00:00
+date: "2017-04-03T06:00:00"
+updated: "2017-04-03T06:00:00"
 originalurl: "https://blog.davidwesst.com/2017/04/Conquest-March-2017-Devblog/"
 authorId: david_wesst
 excerpt: This is the first of monthly status update posts on my video game project I call Conquest.

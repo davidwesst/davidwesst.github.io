@@ -8,8 +8,8 @@ tags:
   - vsts
   - alm
   - hexo
-date: 2016-11-21 07:30:00
-updated: 2016-11-21 07:30:00
+date: "2016-11-21T07:30:00"
+updated: "2016-11-21T07:30:00"
 excerpt: I wanted to understand how to use Visual Studio Team Services (VSTS) for a "real" project. Being a noob, I decided to move my blog to VSTS to understand how _any_ project can benefit from ALM practices using VSTS. In part 4 of 5, we setup a _Build_ script.
 authorId: david_wesst
 ---

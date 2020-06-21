@@ -1,6 +1,6 @@
 ---
 title: "Where to Find Your Gamedev Community"
-date: 2020-01-18T00:09:00-06:00
+date: "2020-01-18T00:09:00"
 category:
     - Game Development
 tags:

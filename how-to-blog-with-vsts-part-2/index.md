@@ -10,7 +10,7 @@ tags:
   - git
 categories:
   - alm
-date: 2016-11-07 09:00:00
+date: "2016-11-07T09:00:00"
 excerpt: I wanted to understand how to use Visual Studio Team Services (VSTS) for a "real" project. Being a noob, I decided to move my blog to VSTS to understand how _any_ project can benefit from ALM practices using VSTS. In part 2 of 5, we get our blog into source control.
 authorId: david_wesst
 originalurl: https://blog.davidwesst.com/2016/11/How-to-Blog-with-VSTS-Part-2/

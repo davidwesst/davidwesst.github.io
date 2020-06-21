@@ -10,7 +10,7 @@ tags:
     - testing
 excerpt: "Here's another dev thing I use: IstanbulJS in Visual Studio Team Services (VSTS) builds and display the test reports as part of the build reports."
 layout: post
-date: 2017-08-03 12:10:00
+date: "2017-08-03T12:10:00"
 authorId: david_wesst
 ---
 

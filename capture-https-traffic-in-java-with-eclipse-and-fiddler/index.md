@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Capturing HTTPS Traffic in Java with Eclipse and Fiddler
-date: 2015-10-07 09:41:35
+date: "2015-10-07T09:41:35"
 categories:
 comments: true
 authorId: david_wesst

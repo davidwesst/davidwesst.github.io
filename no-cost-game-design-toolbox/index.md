@@ -1,6 +1,6 @@
 ---
 title: "No Cost Game Design Toolbox"
-date: Tue, 15 Aug 2017 12:35:00 GMT
+date: "2017-08-15T12:35:00"
 layout: post
 authorId: david_wesst
 originalurl: http://www.davidwesst.com/blog/no-cost-game-design-toolbox/
@@ -19,4 +19,4 @@ In 2020, I have been focusing my energy into game design. In this video, I share
 
 <!-- more -->
 
-{{< youtube Wtt_a2hbF3o >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rq0JDWnVt8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -9,7 +9,7 @@ tags:
     - testing
 excerpt: "Here's another dev thing I do: Display my MochaJS test report in the Visual Studio Team Services (VSTS) build report."
 layout: post
-date: 2017-08-01 11:19:00
+date: "2017-08-01T11:19:00"
 authorId: david_wesst
 ---
 

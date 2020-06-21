@@ -1,7 +1,6 @@
 ---
 title: "Jan 2020 Devlog"
-date: 2020-02-04T10:03:24-06:00
-
+date: "2020-02-04T10:03:24"
 layout: post
 authorId: david_wesst
 originalurl: http://www.davidwesst.com/blog/jan-2020-devlog
@@ -12,6 +11,7 @@ tags:
     - Game Development
     - Video
     - Car Scientist
+description: "A vlog post where I review the progress I've made on the game Car Scientist."
 ---
 
 Did you know that I really try and make video games and not just talk about them? Me neither, but this video will fix all that!
@@ -22,6 +22,6 @@ In this video I cover the bit of progres I've had on Car Scientist, and how it's
 
 <!-- more -->
 
-{{< youtube -sKlp_CUhB0 >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-sKlp_CUhB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 

@@ -4,7 +4,7 @@ title: "Code - The Visual Studio for Everybody"
 categories:
 comments: true
 authorId: david_wesst
-date: 2015-12-07 12:13:06
+date: "2015-12-07T12:13:06"
 originalurl: http://blog.davidwesst.com/2015/12/Code-The-Visual-Studio-for-Everybody/
 ---
 

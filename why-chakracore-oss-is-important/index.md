@@ -5,7 +5,7 @@ categories:
   - javascript
   - nodejs
   - chakra
-date: 2016-01-14 14:43:33
+date: "2016-01-14T14:43:33"
 excerpt: It's pretty cool that Microsoft has released the source code of their JavaScript engine Chakra. But, why it is important and how do developers actually benefit from this? 
 authorId: david_wesst
 originalurl: http://blog.davidwesst.com/2016/01/Why-ChakraCore-OSS-is-Important/
