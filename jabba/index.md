@@ -1,6 +1,6 @@
 ---
 title: Jabba, the Java Version Manager for Everyone
-date: 2017-08-16 09:35:00
+date: "2017-08-16T09:35:00"
 category:
     - java
 tags:

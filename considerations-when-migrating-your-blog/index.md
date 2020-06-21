@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Considerations When Migrating Your Blog"
-date: 2015-08-01 16:15:22
+date: "2015-08-01T16:15:22"
 categories:
 comments: true
 authorId: david_wesst

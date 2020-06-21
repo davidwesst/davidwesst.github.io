@@ -4,7 +4,7 @@ title: Exploring JavaScript Game Frameworks
 categories:
     - JavaScript
     - Game
-date: 2016-02-08 16:11:44
+date: "2016-02-08T16:11:44"
 tags:
     - JavaScript
     - Game Development

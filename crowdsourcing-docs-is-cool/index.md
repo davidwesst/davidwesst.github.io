@@ -7,7 +7,7 @@ tags:
 categories:
   - Development
 authorId: david_wesst
-date: 2018-03-13 09:40:00
+date: "2018-03-13T09:40:00"
 ---
 
 The idea of these large enterprises crowdsourcing their technical documentation is pretty cool. More cool than I had originally realized, and I want to take a moment to explain why I like it and why you should get involved yourself.

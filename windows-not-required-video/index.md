@@ -3,7 +3,7 @@ layout: post
 title: Windows Not Required - The New Microsoft Development Story (Video)
 categories:
   - Video 
-date: 2016-10-03 10:47:31
+date: "2016-10-03T10:47:31"
 tags:
   - .NET Core
   - Docker

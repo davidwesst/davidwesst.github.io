@@ -9,8 +9,8 @@ tags:
   - javascript
 categories:
   - devblog
-date: 2017-05-02 08:31:41
-updated: 2017-05-02 08:31:41
+date: "2017-05-02T08:31:41"
+updated: "2017-05-02T08:31:41"
 authorId: david_wesst
 originalurl: "https://blog.davidwesst.com/2017/05/Conquest-April-2017-Devblog/"
 ---

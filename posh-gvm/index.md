@@ -1,6 +1,6 @@
 ---
 title: Posh-GVM, the Groovy Version Manager for Powershell
-date: 2017-08-17 10:00:00
+date: "2017-08-17T10:00:00"
 category:
     - java
 tags:

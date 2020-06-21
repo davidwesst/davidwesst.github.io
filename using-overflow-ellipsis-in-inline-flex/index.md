@@ -3,7 +3,7 @@ layout: post
 title: "Using text-overflow:ellipsis with Inline Flex"
 categories:
   - css
-date: 2016-02-29 15:58:40
+date: "2016-02-29T15:58:40"
 tags:
   - html
   - css

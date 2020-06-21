@@ -3,7 +3,7 @@ layout: post
 title: How to Blog with VSTS (Part 1)
 categories:
   - alm
-date: 2016-10-31 08:43:31
+date: "2016-10-31T08:43:31"
 tags:
   - visual studio team services
   - vsts

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Compile Typescript into a Single File with AMD Modules with Gulp
-date: 2016-09-12 08:25:01
+date: "2016-09-12T08:25:01"
 tags:
   - typescript
   - javascript

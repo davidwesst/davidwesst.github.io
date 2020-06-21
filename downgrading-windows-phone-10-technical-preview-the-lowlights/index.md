@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Downgrading Windows Phone 10 Technical Preview - The Lowlights"
-date: 2015-09-22T10:56:02-04:00
+date: "2015-09-22T10:56:02"
 categories:
 comments: true
 authorId: david_wesst

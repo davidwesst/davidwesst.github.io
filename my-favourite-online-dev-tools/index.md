@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Favourite Online Dev Tools
-date: 2015-10-28 08:44:09
+date: "2015-10-28T08:44:09"
 categories:
 comments: true
 authorId: david_wesst

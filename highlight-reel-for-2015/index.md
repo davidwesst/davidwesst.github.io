@@ -7,7 +7,7 @@ excerpt: David Wesst takes a moment to look back at his personal and professiona
 comments: true
 authorId: david_wesst
 originalurl: 'http://blog.davidwesst.com/2016/01/Highlight-Reel-for-2015/'
-date: 2016-01-01 13:31:57
+date: "2016-01-01T13:31:57"
 ---
 
 

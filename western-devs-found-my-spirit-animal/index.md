@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Western Devs (and MVP) Found My Spirit Animal"
-date: 2015-08-12 11:27:05
+date: "2015-08-12T11:27:05"
 authorId: david_wesst
 originalurl: http://blog.davidwesst.com/2015/08/Western-Devs-Found-My-Spirit-Animal/
 comments: true

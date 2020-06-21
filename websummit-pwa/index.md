@@ -1,6 +1,6 @@
 ---
 title: Service Workers and PWAs are Super Cool
-date: 2017-09-18 13:35:00 -600
+date: "2017-09-18T13:35:00"
 categories: 
     - web
 tags:
