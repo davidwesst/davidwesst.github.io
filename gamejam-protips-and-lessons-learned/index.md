@@ -17,4 +17,4 @@ I kick off the decade by sharing the lessons learned from participating in the G
 
 <!-- more -->
 
-{{< youtube eJZ75UpQZYw >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eJZ75UpQZYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
