@@ -1,0 +1,16 @@
+name: Publish
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  publish_to_website:
+    name: Publish on davidwesst.com
+    steps:
+    - name: Trigger Website Publish
+      uses: peter-evans/repository-dispatch@v1.1.1
+      with:
+        repository: davidwesst/website
+        token: ${{ secrets.WEBSITE_PUBLISH_TOKEN }}
+        event-type: blog-update
