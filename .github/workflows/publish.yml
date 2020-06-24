@@ -15,3 +15,4 @@ jobs:
         repository: davidwesst/website
         token: ${{ secrets.WEBSITE_PUBLISH_TOKEN }}
         event-type: blog-update
+        client-payload: '{ "sha": "${{ github.sha }}" }'
