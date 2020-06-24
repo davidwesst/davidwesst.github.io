@@ -3,8 +3,8 @@ on:
   push:
     branches:
       - main
-    repository_dispatch:
-      types: blog-update
+  repository_dispatch:
+    types: blog-update
 
 jobs:
   build:
