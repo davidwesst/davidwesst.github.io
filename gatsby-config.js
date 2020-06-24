@@ -7,7 +7,16 @@
 module.exports = {
   siteMetadata: {
     title: `davidwesst.com`,
-    tagline: `Amateur GameDev Done Professionally`
+    tagline: `Amateur GameDev Done Professionally`,
+    author: {
+      name: `David Wesst`,
+      shortname: `DW`,
+    },
+    social: {
+      twitter: `https://twitter.com/davidwesst`,
+      youtube: `https://youtube.com/davidwesst`,
+      github: `https://github.com/davidwesst`
+    }
   },
   plugins: [
     {
