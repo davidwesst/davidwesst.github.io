@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - run: git submodule init
     - uses: actions/setup-node@v2-beta
       with:
         node-version: 14
