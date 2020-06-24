@@ -1,4 +1,4 @@
 [submodule "content/blog"]
 	path = content/blog
-	url = git@github.com:davidwesst/blog.git
+	url = https://github.com/davidwesst/blog.git
 	branch = main
