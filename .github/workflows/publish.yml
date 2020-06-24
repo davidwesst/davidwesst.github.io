@@ -7,6 +7,7 @@ on:
 jobs:
   publish_to_website:
     name: Publish on davidwesst.com
+    runs-on: ubuntu-latest
     steps:
     - name: Trigger Website Publish
       uses: peter-evans/repository-dispatch@v1.1.1
