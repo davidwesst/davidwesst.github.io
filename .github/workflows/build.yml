@@ -14,8 +14,8 @@ jobs:
       with:
         node-version: 14
     - run: | 
-      npm install -g gatsby-cli
-      npm install
+        npm install -g gatsby-cli
+        npm install
     - run: npm run build
     - uses: actions/upload-artifact@v2
       with:
