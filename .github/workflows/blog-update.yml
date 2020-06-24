@@ -1,8 +1,7 @@
-name: CI/CD
+name: Blog Update
 on:
-  push:
-    branches:
-      - main
+  repository_dispatch:
+    types: blog-update
 
 jobs:
   build:
@@ -38,7 +37,7 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./website
           cname: www.davidwesst.com
-          commit_message: ${{ github.event.head_commit.message }}
+          commit_message: "Blog Update - ${{ github.event.client_payload.sha }}"
 
 
  
