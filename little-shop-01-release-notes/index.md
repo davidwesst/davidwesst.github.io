@@ -18,6 +18,8 @@ In this video, DW walks through the new features rolled out both in-game and beh
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/baMlNqGgiV4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+You can play the game here on [Itch.io](https://davidwesst.itch.io/little-shop-of-wall-street).
+
 ## Side Notes
 
 This release is an important one for me. 
