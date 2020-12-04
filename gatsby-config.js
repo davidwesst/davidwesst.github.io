@@ -5,11 +5,14 @@
  */
 
 module.exports = {
+  flags: {
+    PRESERVE_WEBPACK_CACHE: true,
+  },
   siteMetadata: {
     title: `davidwesst.com`,
     siteUrl: `https://www.davidwesst.com`,
-    description: `Amateur GameDev Done Professionally`,
-    tagline: `Amateur GameDev Done Professionally`,
+    description: `Amateur Gamedev Done Professionally`,
+    tagline: `Amateur Gamedev Done Professionally`,
     author: {
       name: `David Wesst`,
       shortname: `DW`,
@@ -21,6 +24,19 @@ module.exports = {
     }
   },
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            maxWidth: 800,
+          }
+        ]
+      }
+    },
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -34,7 +50,6 @@ module.exports = {
         path: `${__dirname}/content/blog`
       }
     },
-    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-feed`,
       options: {
