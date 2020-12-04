@@ -7,7 +7,7 @@ excerpt: "That's right everyone, I've been awarded the the Microsoft MVP award i
 
 [1]: MVP_Horizontal_FullColor.png
 
-![1]
+![][1]
 
 That's right everyone, I've been awarded the the Microsoft MVP award in the area of Internet Explorer again for 2014.
 

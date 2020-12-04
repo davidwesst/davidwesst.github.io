@@ -17,7 +17,7 @@ Yeah...well, I think I'm funny. ([Sad Trombone](https://www.youtube.com/watch?v=
 
 * * *
 
-![1]
+![][1]
 
 Here's why I use [RequireJS](http://requirejs.org/): it ensures that the JavaScript I need to run my code is loaded. I don't need to worry about the order of the `&lt;script&gt;` tags in the HTML. I don't need to do any sort of checking or `onload` event stuff, I just know it's good to go.
 

@@ -39,7 +39,7 @@ I ended up trying out a few, but these were my top three notable ones.
 
 #### Sublime Text 3
 
-![1]
+![][1]
 
 I found the aesthetics of Sublime Text to be the best of the three,  especially the high level view of the file on the right. Still, it didn't win me over in the end.
 
@@ -51,7 +51,7 @@ Moving on.
 
 #### Notepad++
 
-![2]
+![][2]
 
 I have used Npp a bunch over the years, but never as a primary code editor. Generally, it's the replacement to Notepad on a server so that I can edit config files on the spot once and a while. This time around, I gave it a real shot.
 
@@ -63,7 +63,7 @@ I'm still using it now with my JS projects, but the web hipster in me misses Sub
 
 #### Vim7
 
-![3]
+![][3]
 
 And then it finally happened: I dropped the GUI. Through the years, I have always tried Vim as I know it _can_ be powerful. Unforuntely, I was never really able to get the hang of it...until now.
 

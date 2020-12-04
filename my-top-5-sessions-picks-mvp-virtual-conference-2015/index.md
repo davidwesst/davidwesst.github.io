@@ -7,7 +7,7 @@ date: "2015-05-13T14:36:03"
 ---
 [1]: VCon_Hero.jpg
 
-![1]
+![][1]
 
 Tomorrow marks day one of the first ever [Microsoft MVP Virtual Conference](http://mvp.microsoft.com/en-us/virtualconference.aspx). This is awesome, because it's a conference that I can attend that:
 

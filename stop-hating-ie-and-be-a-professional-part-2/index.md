@@ -5,8 +5,6 @@ date: "2013-01-17T07:16:00"
 excerpt: "This post is part two of three. Part 1 (Be a Realist) and Part 3 (Be a Leader) are also available."
 ---
 
-[1]: window8_heart_html5.png
-
 This post is part two of three. [Part 1 (Be a Realist)](http://www.davidwesst.com/stop-hating-ie-and-be-a-professional-part-1) and [Part 3 (Be a Leader)](http://www.davidwesst.com/stop-hating-ie-and-be-a-professional-part-3) are also available.
 
 It’s 2013, and it is time for people to get over their hate for Internet Explorer. Yes, IE has had its issues in the past. I know it, you know it, even [Microsoft knows it](http://www.ie6countdown.com/). At the end of the day, developers that whine and complain and about supporting IE are trying to be trendy and fit-in rather than be a professional. Supporting IE isn’t nearly as painful as the complainers make it out to be and that it actually makes the most sense for any web project. 
@@ -17,10 +15,7 @@ In this post, I ask the IE complainers to put their big boy/girl pants on by bei
 
 ### Be a Strategist
 
-<figure>  
-![1]
-<figcaption>HTML5 and Windows 8\. All powered by Internet Explorer 10.</figcaption>  
-</figure>
+![HTML5 and Windows 8\. All powered by Internet Explorer 10.][1]
 
 If you work around a Microsoft platform you know that Windows 8 support native HTML5 applications, those being the Windows Store apps. What is the powerhouse behind these new apps? Is it some kind of special .NET complier?
 
@@ -41,3 +36,5 @@ Maybe I’m crazy, but complaining about being ready for the future of your app 
 …And every client I have ever dealt with.
 
 …Ever.
+
+[1]: window8_heart_html5.png

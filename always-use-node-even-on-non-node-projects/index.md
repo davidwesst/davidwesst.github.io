@@ -14,7 +14,7 @@ That's right. I said it: Always use Node, no matter what! Even if your server is
 
 Why? That's what I'm going to tell you.
 
-![1]
+![][1]
 
 ### Before we start...
 

@@ -9,7 +9,7 @@ excerpt: "Netfront is a web browser that I hadn't heard of before, but I have in
 
 [1]: PSP_Browser.jpg
 
-![1]
+![][1]
 <small>[Image Source: Wikimedia](http://upload.wikimedia.org/wikipedia/commons/6/60/PSP_Browser.jpg)</small>
 
 [NetFront](http://gl.access-company.com/products/browser/netfrontbrowsernx-2/) is a web browser that I hadn't heard of before, but I have installed on six of my devices.

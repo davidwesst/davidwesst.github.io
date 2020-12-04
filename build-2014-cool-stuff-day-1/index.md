@@ -7,7 +7,7 @@ excerpt: "I haven't been to BUILD, but I always follow it as Microsoft makes a b
 
 [1]: microsoft-build.jpg
 
-![1] I haven't been to BUILD, but I always follow it as Microsoft makes a bunch of really cool announcements throughout that pump me up.
+![][1] I haven't been to BUILD, but I always follow it as Microsoft makes a bunch of really cool announcements throughout that pump me up.
 
 I know there are plenty of people talking about BUILD, but I thought I'd take a moment to share my favourite bits that came out of day one.
 

@@ -1,7 +1,7 @@
 ---
 title: 'Pro Tip: Office 365 to Simplify Communication'
 tags: []
-date: T2013-11-05T18:59:00"
+date: "2013-11-05T18:59:00"
 excerpt: "I believe the key to being professional is communication."
 ---
 [1]: 110513_1851_ProTipOffic1.png
@@ -16,7 +16,7 @@ I present this, I'm going to attempt to answer the two questions that I get aske
 
 ### Why do you pay for email and calendar? Isn't Outlook.com Free?
 
-![1]
+![][1]
 
 The majority of my professional life happens in my email. It might start with a web form I fill out, a contract that I've discussed, or a presentation that I deliver, but at the end of the day the communication ends up on my email. 
 
@@ -26,13 +26,13 @@ In the professional space, my email and calendar is an integral part of keeping 
 
 ### Why do you pay for SharePoint?
 
-![2]
+![][2]
 
 SharePoint gives me two things: reliable document backups and a public facing website. 
 
 #### SkyDrive Pro
 
-![3]
+![][3]
 
 With Office 365 and Office 2013, you get the option to install and setup SkyDrive Pro which is pretty much the same argument from earlier regarding email. I could get it for free, but if something goes wrong with my file backups (which it has) who do I have to call? In my experience it is a public forum that eventually gets dealt with, but being that SkyDrive is a free service, the number of support tickets are excessive and it just takes time. 
 

@@ -8,7 +8,9 @@ date: "2015-04-08T13:42:44"
 excerpt: "In recent days, a specific YouTube channel has my caught my attention. It's called Lazy Game Reviews, and last night I came across a great playlist of only four episoded called: LGR Tech Tales where LGR, the host, goes through a specific event in computer history."
 ---
 
-![1]: Windows_NT_logo_svg.png
+[1]: Windows_NT_logo_svg.png
+
+![][1]
 
 In recent days, a specific YouTube channel has my caught my attention. It's called [Lazy Game Reviews](https://www.youtube.com/channel/UCLx053rWZxCiYWsBETgdKrQ), and last night I came across a great playlist of only four episoded called: [LGR Tech Tales](https://www.youtube.com/watch?v=gB1vrRFJI1Q&amp;list=PLbBZM9aUMsjEVZPCDMl-lXOx50rSBNFQC) where LGR, the host, goes through a specific event in computer history.
 

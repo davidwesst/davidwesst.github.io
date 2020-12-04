@@ -18,7 +18,7 @@ Bam! They give me a shoutout on the episode at 2:15! That was an awesome and une
 
 ## It's Not Just What You Know...
 
-![1]
+![][1]
 
 It's also who you know.
 

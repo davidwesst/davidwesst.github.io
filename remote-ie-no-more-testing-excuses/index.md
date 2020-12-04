@@ -10,7 +10,7 @@ excerpt: "Today the IE team released Remote IE. This is awesome. Let me explain.
 
 Today the IE team released Remote IE. This is awesome. Let me explain.
 
-![1]
+![][1]
 
 ## IE on Everything
 
@@ -32,7 +32,7 @@ A common complaint about testing sites in IE is that they don't want to run VMs 
 
 No hardware requirement. No OS requirement. Just an internet connection.
 
-![2]
+![][2]
 
 Now test your app in IE.
 

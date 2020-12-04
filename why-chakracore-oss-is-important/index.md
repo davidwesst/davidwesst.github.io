@@ -21,11 +21,11 @@ This post answers the question that I don't see people asking: *why is having a 
 
 Maybe you already know the answer to this, or maybe you're just too shy to ask, but I'm going to take a moment and try and give you some idea about why ChakraCore being open source is really cool.
 
-![1]
+![][1]
 
 ### 1. Alternative JavaScript Engine for NodeJS
 
-![2]
+![][2]
 
 This might be the most important point for me, as NodeJS is my development platform of choice. For the first time in the history of NodeJS, there is an alternative to the V8 JavaScript engine that has been built into NodeJS from the beginning.
 
@@ -35,7 +35,7 @@ Plus, if you can change NodeJS to use ChakraCore, then why couldn't you sub in a
 
 ### 2. Community Support and Pull Requests
 
-![3]
+![][3]
 
 Oh no! Not another security gap in all the browsers! What ever will we do?
 

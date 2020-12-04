@@ -1,7 +1,7 @@
 ---
 title: DW on Tour
 tags: []
-date: 2013-10-29 03:52:00
+date: "2013-10-29T03:52:00"
 excerpt: "That's right, I'm heading out on a small tour out west in November and December to do some talking about HTML and JavaScript. I suggest you find your way to DevTeach in Vancouver or Saskatoon in November to learn some awesome tricks. "
 ---
 
@@ -14,7 +14,7 @@ Here's the skinny on what you can expect from me at each conference:
 
 ### [Prairie Developers Conference – Sasktoon, SK (November 4-5, 2013)](http://www.prairiedevcon.com)
 
-![1]
+![][1]
 
 #### HTML5: The Parts You Care About
 
@@ -26,7 +26,7 @@ We are witnessing a major change in the world of software development, and it is
 
 ### [DevTeach – Vancouver, BC (December 2-4, 2013)](http://www.devteach.com)
 
-![2]
+![][2]
 
 #### NodeJS for Novices
 

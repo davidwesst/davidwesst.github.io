@@ -16,15 +16,15 @@ I bought the Humble Mozilla Bundle earlier this week and I wanted to take a mome
 
 When I login to my Humble Bundle account, I get this at the top of the page.
 
-![1]
+![][1]
 
 Now, I click play and it installs.
 
-![2]
+![][2]
 
 Then I play freaking FTL: Advanced Edition in the freaking web browser!
 
-![3]
+![][3]
 
 #### Room For Improvement
 
