@@ -1,9 +1,11 @@
+---
 title: Stop Hating IE and Be a Professional (Part 2)
 tags: []
-date: 2013-01-17 07:16:00
+date: "2013-01-17T07:16:00"
+excerpt: "This post is part two of three. Part 1 (Be a Realist) and Part 3 (Be a Leader) are also available."
 ---
-This post is part two of three. Part 1 (Be a Realist) and Part 3 (Be a Leader) are also available.
-<!-- more -->
+
+[1]: window8_heart_html5.png
 
 This post is part two of three. [Part 1 (Be a Realist)](http://www.davidwesst.com/stop-hating-ie-and-be-a-professional-part-1) and [Part 3 (Be a Leader)](http://www.davidwesst.com/stop-hating-ie-and-be-a-professional-part-3) are also available.
 
@@ -16,7 +18,7 @@ In this post, I ask the IE complainers to put their big boy/girl pants on by bei
 ### Be a Strategist
 
 <figure>  
-{% asset_img window8_heart_html5.png %}
+![1]
 <figcaption>HTML5 and Windows 8\. All powered by Internet Explorer 10.</figcaption>  
 </figure>
 

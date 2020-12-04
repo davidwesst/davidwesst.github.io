@@ -1,12 +1,12 @@
+---
 title: Why the Humble Mozilla Bundle is Awesome
 tags:
   - cool-stuff
   - javascript
   - cordova
-date: 2014-10-29 15:35:00
+date: "2014-10-29T15:35:00"
+excerpt: "Last week, I saw my worlds collide in this Humble Bundle my mind was blown."
 ---
-Last week, I saw my worlds collide in this Humble Bundle my mind was blown.
-<!-- more -->
 
 [Last week](http://www.davidwesst.com/humble-bundle-games-go-javascript/), I saw my worlds collide in this [Humble Bundle](https://www.humblebundle.com/?asmjs_bundle&amp;utm_source=Firefox&amp;utm_medium=Snippet1b&amp;utm_campaign=Humble%20Mozilla%20Bundle#asmjs_bundle-time-remaining) my mind was blown.
 

@@ -1,9 +1,11 @@
+---
 title: Stop Hating IE and Be a Professional (Part 3)
 tags: []
-date: 2013-01-18 07:17:00
+date: "2013-01-18T07:17:00"
+excerpt: "This post is part three of three. Part 1 (Be a Realist) and Part 2 (Be a Strategist) are already published and available."
 ---
-This post is part three of three. Part 1 (Be a Realist) and Part 2 (Be a Strategist) are already published and available.
-<!-- more -->
+
+[1]: ie10_logo.png
 
 This post is part three of three. [Part 1 (Be a Realist)](http://www.davidwesst.com/stop-hating-ie-and-be-a-professional-part-1) and [Part 2 (Be a Strategist)](http://www.davidwesst.com/stop-hating-ie-and-be-a-professional-part-2) are already published and available.
 
@@ -18,7 +20,7 @@ In this post, I ask the IE complainers to put their big boy/girl pants on by bei
 ### Be a Leader
 
 <figure>  
-{% asset_img ie10_logo.png %}
+![1]
 <figcaption>Internet Explorer 10 is helping to solve the problem of old IE. Are you?</figcaption>  
 </figure>
 

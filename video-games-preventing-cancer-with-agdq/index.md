@@ -1,10 +1,10 @@
+---
 title: Video Games Preventing Cancer with AGDQ
 tags:
   - games
-date: 2015-01-08 20:07:01
+date: "2015-01-08T20:07:01"
+excerpt: "I wanted to share something I find freaking cool. It's called Awesome Games Done Quickly, or AGDQ."
 ---
-I wanted to share something I find freaking cool. It&#39;s called Awesome Games Done Quickly, or AGDQ.
-<!-- more -->
 
 I wanted to share something I find freaking cool. It's called Awesome Games Done Quickly, or AGDQ.
 

@@ -1,15 +1,17 @@
+---
 title: The Difference between Apps and Games
 tags: []
-date: 2013-07-30 04:27:00
+date: "2013-07-30T04:27:00"
+excerpt: "No, really. Are they actually that different?"
 ---
-No, really. Are they actually that different?
-<!-- more -->
+
+[1]: blog_appsVSgames.png
 
 No, really. Are they actually that different?
 
 A lot of us are app developers and look at video games like they are some kind of foreign entity that we just cannot understand. They are art, not science. They are entertainment, not business. Games are a whole other beast. I'm sure there are a number of other explanations that I have been told over the past many years, but as I have attempted to look behind the curtain of video game development, being the producer on one for the past year, I don't think they are that different, although there are some differences. 
 
-{% asset_img blog_appsVSgames.png %}
+![1]
 
 In video games, having a clear understanding of the vision is key. This is why you end up with someone that is responsible for knowing that vision inside and out. Why? Well, you need to know what sort of experience you are trying to deliver to your player. 
 

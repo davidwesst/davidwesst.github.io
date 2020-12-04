@@ -1,9 +1,9 @@
+---
 title: 'Answering the question: When will IE support that HTML feature?'
 tags: []
-date: 2014-04-03 00:43:43
+date: "2014-04-03T00:43:43"
+excerpt: "Tired of waiting to hear from Microsoft on whether or not IE will support the latest HTML5 feature?"
 ---
-Tired of waiting to hear from Microsoft on whether or not IE will support the latest HTML5 feature?
-<!-- more -->
 
 Tired of waiting to hear from Microsoft on whether or not IE will support the latest HTML5 feature?
 

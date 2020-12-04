@@ -1,26 +1,30 @@
+---
 title: Installing Games JavaScript Style
 tags:
   - cool-stuff
   - javascript
   - games
-date: 2014-10-24 16:20:41
+date: "2014-10-24T16:20:41"
+excerpt: "I bought the Humble Mozilla Bundle earlier this week and I wanted to take a moment to show people what it looks like to install a JavaScript game in the browser."
 ---
-I bought the Humble Mozilla Bundle earlier this week and I wanted to take a moment to show people what it looks like to install a JavaScript game in the browser.
-<!-- more -->
+
+[1]: play.PNG
+[2]: ftl-1.PNG
+[3]: ftl.PNG
 
 I bought the Humble Mozilla Bundle earlier this week and I wanted to take a moment to show people what it looks like to install a JavaScript game in the browser.
 
 When I login to my Humble Bundle account, I get this at the top of the page.
 
-{% asset_img play.PNG %}
+![1]
 
 Now, I click play and it installs.
 
-{% asset_img ftl-1.PNG %}
+![2]
 
 Then I play freaking FTL: Advanced Edition in the freaking web browser!
 
-{% asset_img ftl.PNG %}
+![3]
 
 #### Room For Improvement
 

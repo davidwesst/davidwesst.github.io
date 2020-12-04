@@ -1,11 +1,13 @@
+---
 title: Why do you RequireJS?
 tags:
   - code
   - requirejs
-date: 2014-10-07 17:15:11
+date: "2014-10-07T17:15:11"
+excerpt: "Get it? RequireJS is a dependency management framework I use in JavaScript to manage...well my dependencies. But, the title is a play on words cause...of course you require JS...cause...JavaScript is required to..."
 ---
-Get it? RequireJS is a dependency management framework I use in JavaScript to manage...well my dependencies. But, the title is a play on words cause...of course you require JS...cause...JavaScript is required to...
-<!-- more -->
+
+[1]: requirejs-logo.PNG
 
 Get it? [RequireJS](http://requirejs.org/) is a dependency management framework I use in JavaScript to manage...well my dependencies. But, the title is a play on words cause...of course you require JS...cause...JavaScript is required to...
 
@@ -15,7 +17,7 @@ Yeah...well, I think I'm funny. ([Sad Trombone](https://www.youtube.com/watch?v=
 
 * * *
 
-{% asset_img requirejs-logo.PNG %}
+![1]
 
 Here's why I use [RequireJS](http://requirejs.org/): it ensures that the JavaScript I need to run my code is loaded. I don't need to worry about the order of the `&lt;script&gt;` tags in the HTML. I don't need to do any sort of checking or `onload` event stuff, I just know it's good to go.
 

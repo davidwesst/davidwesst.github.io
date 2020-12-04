@@ -1,15 +1,17 @@
+---
 title: 'Living on the (Microsoft) Edge on May 5 & 6'
 tags:
   - Internet Explorer
   - Windows 10
   - Edge
   - Conference
-date: 2015-05-04 05:22:00
+date: "2015-05-04T05:22:00"
+excerpt: "2015 brought introduced a lot of new stuff in the Microsoft space, including how Windows 10 is changing up the web application game."
 ---
-{% asset_img edgeconference2015-markup-1.png %}
-<!-- more -->
+[1]: edgeconference2015-markup-1.png
 
-{% asset_img edgeconference2015-markup-1.png %}
+![1]
+
 2015 brought introduced a lot of new stuff in the Microsoft space, including how Windows 10 is changing up the web application game.
 
 One of the big announcements was the name of Project Spartan. It is called Microsoft Edge. The browser, that is greenfield and forever evolving with web standards. 

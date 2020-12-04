@@ -1,10 +1,12 @@
+---
 title: "Whatcha doin' DW?"
 tags:
   - me
-date: 2014-07-29 05:38:56
+date: "2014-07-29T05:38:56"
+excerpt: "Lot's of stuff really, but here's the big ones at 50,000 feet."
 ---
-Lot&#39;s of stuff really, but here&#39;s the big ones at 50,000 feet.
-<!-- more -->
+
+[1]: GlitchIcon_purple-128x128.png
 
 Lot's of stuff really, but here's the big ones at 50,000 feet.
 
@@ -12,7 +14,7 @@ _Reader Beware: This is just a personal brain dump. If you're looking for techni
 
 ### Hypertext Gaming and Twitch
 
-{% asset_img GlitchIcon_purple-128x128.png %}
+![1]
 
 The [original plan](http://http://www.davidwesst.com/hypertext-gaming-starting-june-29/) for this was to focus all of my streaming on HTML5 related content. I planned it all out, and with doing three streams per week, for about 2 hours each stream, lead to a realization: I need a lot of content to fill that time.
 

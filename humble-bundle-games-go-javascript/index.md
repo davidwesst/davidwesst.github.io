@@ -1,17 +1,19 @@
+---
 title: Humble Bundle Games Go JavaScript
 tags:
   - cool-stuff
   - javascript
   - games
   - fun
-date: 2014-10-23 16:12:28
+date: "2014-10-23T16:12:28"
+excerpt: "Last week, I noticed a playable game on the Firefox start page."
 ---
-Last week, I noticed a playable game on the Firefox start page. The link at the base of the page lead me to this:
-<!-- more -->
+
+[1]: humblebundle-1.PNG
 
 Last week, I noticed a playable game on the Firefox start page. The link at the base of the page lead me to this:
 
-{% asset_img humblebundle-1.PNG %}
+![1]
 
 You can buy games on Steam and play them in the browser or on your desktop through Steam.
 

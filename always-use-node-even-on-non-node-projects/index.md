@@ -1,18 +1,20 @@
+---
 title: Always Use Node (Even on Non-Node Projects)
 tags:
   - code
   - npm
   - nodejs
-date: 2014-10-09 22:09:12
+date: "2014-10-09T22:09:12"
+excerpt: "That's right. I said it: Always use Node, no matter what! Even if your server isn't going to be a Node server, just have it installed because you'll use it."
 ---
-That&#39;s right. I said it: Always use Node, no matter what! Even if your server isn&#39;t going to be a Node server, just have it installed because you&#39;ll use it.
-<!-- more -->
+
+[1]: node-logo.png
 
 That's right. I said it: Always use Node, no matter what! Even if your server isn't going to be a Node server, just have it installed because you'll use it.
 
 Why? That's what I'm going to tell you.
 
-{% asset_img node-logo.png %}
+![1]
 
 ### Before we start...
 

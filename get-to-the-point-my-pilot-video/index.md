@@ -1,11 +1,11 @@
+---
 title: 'Get to the Point: My Pilot Video'
 tags:
   - Get to the Point
   - Office Mix
-date: 2014-12-30 22:43:12
+date: "2014-12-30T22:43:12"
+excerpt: "To close out the year, I'm kicking off a new project that I've wanted to do for a long time now."
 ---
-To close out the year, I&#39;m kicking off a new project that I&#39;ve wanted to do for a long time now.
-<!-- more -->
 
 To close out the year, I'm kicking off a new project that I've wanted to do for a long time now.
 

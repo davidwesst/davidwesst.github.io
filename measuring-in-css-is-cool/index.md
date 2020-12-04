@@ -1,3 +1,4 @@
+---
 title: Measuring in CSS is Cool
 tags:
   - css
@@ -6,15 +7,15 @@ tags:
   - stylesheets
 categories:
   - development
-date: 2016-03-07 09:04:00
+date: "2016-03-07T09:04:00"
+excerpt: "I've been on this CSS kick for the past while, and I had forgotten how much CSS can do now. More specifically how things have changed when it comes to measuring height and width."
 ---
 
+[1]: header.png
+
+![1]
+
 <small>[(Originally posted on WebNotWar.ca)](http://www.webnotwar.ca/opensource/measuring-in-css-is-cool/)</small>
-
-{% asset_img header.png %}
-
-I've been on this CSS kick for the past while, and I had forgotten how much CSS can do now. More specifically how things have changed when it comes to measuring height and width.
-<!-- more -->
 
 If you're a CSS expert, this post probably isn't for you. But for those of you who live inside of JavaScript most of the time, it might be a good refresher to see what other web platform tech can do for your sites and apps.
 

@@ -1,9 +1,9 @@
+---
 title: Picking The Technology for my Game
 tags: []
-date: 2013-08-01 18:02:00
+date: "2013-08-01T18:02:00"
+excerpt: "I want to develop a game, and not just produce it."
 ---
-I want to develop a game, and not just produce it. 
-<!-- more -->
 
 I want to develop a game, and not just produce it. 
 

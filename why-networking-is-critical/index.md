@@ -1,11 +1,13 @@
+---
 title: Why Networking is Critical
-date: 2015-07-09 23:03:33
+date: "2015-07-09T23:03:33"
 tags:
 	- Professional Development
 categories:
 	- Musings
+excerpt: "With my new gig as an Application Developer, I started back into technology podcasts. I'm not sure how I came across MSDevShow, but I did notice that Lori Lalonde, the wizard of mobile development in Microsoft-land, was in an episode and decided: Why not?."
 ---
-With my new gig as an Application Developer, I started back into technology podcasts. I&#39;m not sure how I came across MSDevShow, but I did notice that Lori Lalonde, the wizard of mobile development in Microsoft-land, was in an episode and decided &quot;Why not?&quot;.
+
 <!-- more -->
 With my new gig as an Application Developer, I started back into technology podcasts. I'm not sure how I came across [MSDevShow](http://msdevshow.com/), but I did notice that [Lori Lalonde](https://twitter.com/loriblalonde), the wizard of mobile development in Microsoft-land, was in [an episode](http://msdevshow.com/2015/03/cross-platform-voice-and-women-in-tech-with-lori-lalonde/) and decided "Why not?".
 

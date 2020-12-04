@@ -1,12 +1,14 @@
+---
 title: Traf-O-Data and Windows NT on LGR Tech Tales
 tags:
   - fun
   - YouTube
   - Microsoft
-date: 2015-04-08 13:42:44
+date: "2015-04-08T13:42:44"
+excerpt: "In recent days, a specific YouTube channel has my caught my attention. It's called Lazy Game Reviews, and last night I came across a great playlist of only four episoded called: LGR Tech Tales where LGR, the host, goes through a specific event in computer history."
 ---
-In recent days, a specific YouTube channel has my caught my attention. It&#39;s called Lazy Game Reviews, and last night I came across a great playlist of only four episoded called: LGR Tech Tales where LGR, the host, goes through a specific event in computer history.
-<!-- more -->
+
+![1]: Windows_NT_logo_svg.png
 
 In recent days, a specific YouTube channel has my caught my attention. It's called [Lazy Game Reviews](https://www.youtube.com/channel/UCLx053rWZxCiYWsBETgdKrQ), and last night I came across a great playlist of only four episoded called: [LGR Tech Tales](https://www.youtube.com/watch?v=gB1vrRFJI1Q&amp;list=PLbBZM9aUMsjEVZPCDMl-lXOx50rSBNFQC) where LGR, the host, goes through a specific event in computer history.
 
@@ -20,8 +22,6 @@ What I find so facinating, are the [Digital Research](https://youtu.be/hJNaAG2BX
 
 *   When looking for a custom OS for their new PC, Microsoft forwarded IBM to Digital Research. It wasn't until later that Microsoft bought a product and marketed it as MS-DOS 1.0 and took on the contract from IBM, due to frustrations with Digital Research
 *   After commissioning a custom OS from Microsoft, eventually IBM gave up the contract and went to develop their own OS. That original OS, formely named PC-DOS, became Windows NT, the OS we all know and love today.
-
-{% asset_img Windows_NT_logo_svg.png "Windows NT Logo" %}
 
 ## The Point
 

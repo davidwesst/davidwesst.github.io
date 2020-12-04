@@ -1,10 +1,13 @@
+---
 title: 'Back to Basics: The Text Editor'
 tags:
   - back-to-basics
-date: 2014-04-24 03:38:50
+date: "2014-04-24T03:38:50"
 ---
-Goal
-<!-- more -->
+
+[1]: sublimetext.PNG
+[2]: notepadpp.PNG
+[3]: vim.png
 
 ### Goal
 
@@ -36,7 +39,8 @@ I ended up trying out a few, but these were my top three notable ones.
 
 #### Sublime Text 3
 
-{% asset_img sublimetext.PNG %}
+![1]
+
 I found the aesthetics of Sublime Text to be the best of the three,  especially the high level view of the file on the right. Still, it didn't win me over in the end.
 
 The negative I had about it was trying to figure out why there was a price point on it. I get that software like this takes time and effort, and ultimately money. I just didn't understand why I would pay for something that I deemed as a "pretty" application.
@@ -47,7 +51,7 @@ Moving on.
 
 #### Notepad++
 
-{% asset_img notepadpp.PNG %}
+![2]
 
 I have used Npp a bunch over the years, but never as a primary code editor. Generally, it's the replacement to Notepad on a server so that I can edit config files on the spot once and a while. This time around, I gave it a real shot.
 
@@ -59,7 +63,7 @@ I'm still using it now with my JS projects, but the web hipster in me misses Sub
 
 #### Vim7
 
-{% asset_img vim.png %}
+![3]
 
 And then it finally happened: I dropped the GUI. Through the years, I have always tried Vim as I know it _can_ be powerful. Unforuntely, I was never really able to get the hang of it...until now.
 

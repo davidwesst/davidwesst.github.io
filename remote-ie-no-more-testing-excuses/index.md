@@ -1,13 +1,16 @@
+---
 title: Remote IE - No More Testing Excuses
 tags: []
-date: 2014-11-03 18:21:18
+date: "2014-11-03T18:21:18"
+excerpt: "Today the IE team released Remote IE. This is awesome. Let me explain."
 ---
-Today the IE team released Remote IE. This is awesome. Let me explain.
-<!-- more -->
+
+[1]: WP_20141103_002-1-.jpg
+[2]: banner.PNG
 
 Today the IE team released Remote IE. This is awesome. Let me explain.
 
-{% asset_img WP_20141103_002-1-.jpg "Remote IE - No More Testing Excuses" %}
+![1]
 
 ## IE on Everything
 
@@ -29,7 +32,7 @@ A common complaint about testing sites in IE is that they don't want to run VMs 
 
 No hardware requirement. No OS requirement. Just an internet connection.
 
-{% asset_img banner.PNG "Remote IE - No More Testing Excuses" %}
+![2]
 
 Now test your app in IE.
 

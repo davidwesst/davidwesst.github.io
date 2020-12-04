@@ -1,13 +1,11 @@
+---
 title: Ghost 0.5.X from Source to Azure Websites on Canadian Developer Connection
 tags:
   - nodejs
   - ghost
   - azure websites
-date: 2014-12-04 18:38:10
+date: "2014-12-04T18:38:10"
 ---
-
-<!-- more -->
-
 <!--
 ![Ghost 0.5.X from Source to Azure Websites on Canadian Developer Connection](http://www.davidwesst.com/content/images/2014/12/ghostlovesazure.png)
 -->

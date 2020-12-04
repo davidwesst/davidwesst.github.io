@@ -1,11 +1,11 @@
+---
 title: Code - The Visual Studio for Everybody
 tags:
   - Visual Studio Code
   - Presentations
-date: 2015-12-07 12:13:06
+date: "2015-12-07T12:13:06"
+excerpt: "Last week I delivered three presentations: one at the Winnipeg .NET User Group and the other two at Winnipeg Code Camp. Being as awesome as we are, the user group presentation was recorded and has been published on the YouTube page."
 ---
-Last week I delivered three presentations: one at the Winnipeg .NET User Group and the other two at Winnipeg Code Camp. Being as awesome as we are, the user group presentation was recorded and has been published on the YouTube page.
-<!-- more -->
 
 Last week I delivered three presentations: one at the [Winnipeg .NET User Group](http://winnipegdotnet.org/) and the other two at [Winnipeg Code Camp](http://winnipegcodecamp.com/). Being as awesome as we are, the user group presentation was recorded and has been published on the YouTube page.
 

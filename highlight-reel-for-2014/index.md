@@ -1,13 +1,16 @@
+---
 title: Highlight Reel for 2014
 tags:
   - thoughts
   - Get to the Point
   - Prairie Dev Con
   - ZVGQ
-date: 2015-01-01 19:34:29
+date: "2015-01-01T19:34:29"
+excerpt: "This past year has been a rough one for me personally, but professionally, not so bad."
 ---
-This past year has been a rough one for me personally, but professionally, not so bad. 
-<!-- more -->
+
+[1]: newzvgqtitle.PNG
+[2]: html5-controller.png
 
 This past year has been a rough one for me personally, but professionally, not so bad. 
 
@@ -42,7 +45,8 @@ In 2015, I'll be heading to [Prairie Dev Con](http://www.prairiedevcon.com/), he
 
 ### Actually Finishing Up Projects
 
-{% asset_img newzvgqtitle.PNG %}
+![1]
+
 Given I consider my blog and website far from complete, I have made some serious strides in focusing the time I have to code projects and have actually seen progress.
 
 The [biggest project](https://github.com/zvgq/zvgq) has been the "New" Zany Video Game Quotes website. Something I've been slowly working on with one of my closest friends for years. It's only now, nearly 5 years later, that I have something to show.
@@ -53,7 +57,8 @@ Expect more details on what I've learned and have planned for that project in 20
 
 ### Embracing my Passion of Video Games
 
-{% asset_img html5-controller.png %}
+![2]
+
 I have forever been trying to figure out a way to balance my love for gaming with my love for code.
 
 Between my Twitch stream, and constant watching of YouTubers, I've decided it makes more sense to just embrace my love for both and work through finding the balance.

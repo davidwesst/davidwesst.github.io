@@ -1,11 +1,15 @@
+---
 title: 'Hover! A Next-Gen HTML Experience'
 tags: []
-date: 2013-10-02 15:05:00
+date: "2013-10-02T15:05:00"
 ---
-{% asset_img Hover_OldSchool.png %}
-<!-- more -->
 
-{% asset_img Hover_OldSchool.png %}
+[1]: Hover_OldSchool.png
+[2]: Hover_Title.png
+[3]: Hover_MultiplayerSetup_1.png
+[4]: Hover_MultiplayerSetup_2.png
+
+![1]
 
 The remake of Hover! ([http://hover.ie](http://hover.ie)) was released today to the web from the Internet Explorer. I want to highlight the importance of this game coming out to the web. 
 
@@ -21,7 +25,7 @@ I distinguish next-gen HTML games by attemping to setup my gaming experience in 
 
 My process isn't much to look at, I know, but that is the point. A great HTML game is just a great game. I shouldn't need to do a bunch of crazy setup or have to ignore a bunch of problems. If I can't go full-screen, then I'll have distractions. If I can't "get into the game" then, that is a problem with the game itself, but (at least for now) is likey due to distractions within the game platform itself.
 
-{% asset_img Hover_Title.png %}
+![2]
 
 ### So what makes it "Next-Gen"?
 
@@ -39,8 +43,8 @@ That's right. Multiplayer, PvP, bumper car awesomeness.
 
 You click "Multiplayer" and it gives you link to share with one or more players and you can get your game on. This is something that pushes the envelope, and it works using HTML and open standards. Maybe there are more 3D real-time multiplayer games that live in the web, but I certainly haven't seen one. 
 
-{% asset_img Hover_MultiplayerSetup_1.png %}
-{% asset_img Hover_MultiplayerSetup_2.png %}
+![3]
+![4]
 
 *   Step 1: Create a game and share the link with other players*   Step 2: Play Game.
 
