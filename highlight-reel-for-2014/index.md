@@ -45,7 +45,7 @@ In 2015, I'll be heading to [Prairie Dev Con](http://www.prairiedevcon.com/), he
 
 ### Actually Finishing Up Projects
 
-![1]
+![][1]
 
 Given I consider my blog and website far from complete, I have made some serious strides in focusing the time I have to code projects and have actually seen progress.
 
@@ -57,7 +57,7 @@ Expect more details on what I've learned and have planned for that project in 20
 
 ### Embracing my Passion of Video Games
 
-![2]
+![][2]
 
 I have forever been trying to figure out a way to balance my love for gaming with my love for code.
 

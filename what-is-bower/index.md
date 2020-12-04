@@ -18,7 +18,7 @@ So, I'm going to fix that now.
 
 * * *
 
-![1]
+![][1]
 
 Bower is an open-source client-side HTML package manager from the people that brought you Twitter Bootstrap and..well, Twitter I suppose. If you're a Ruby or Rails person, it's like [Gems](https://rubygems.org/). If you're a .NET person, it's like [Nuget](https://www.nuget.org/). If you're a NodeJS person, it's like the [npm](https://www.npmjs.org/).
 
@@ -44,7 +44,7 @@ Now it's all configured. Next time you pull your code from source control into a
 
 Don't want the devDependencies? Then use `bower install --production` and you're good to go.
 
-![2]
+![][2]
 
 You can even define a different installation directory with a `.bowerrc` file in your project. There are other options too [you can configure](http://bower.io/docs/config/) too, but that one is the only one I use for my projects.
 

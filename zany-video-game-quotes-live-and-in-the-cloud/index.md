@@ -12,7 +12,7 @@ excerpt: "I've been working on a side project for roughly 5 years now, and this 
 
 I've been working on a side project for roughly 5 years now, and this past week I managed to finally launch it. [Zany Video Game Quotes](https://new.zanyvideogamequotes.com/), is a site worked on acquired by a very close friend of mine. He worked on the content and enlisted me as the lead developer.
 
-![1]
+![][1]
 
 Before you make judgement about the design or the code or whatever, you can just take a look at [the 15 year old static site](http://www.zanyvideogamequotes.com/) that is the source for this. My site is an improvement one way or another. Geocities FTW.
 

@@ -9,11 +9,9 @@ date: "2014-10-23T16:12:28"
 excerpt: "Last week, I noticed a playable game on the Firefox start page."
 ---
 
-[1]: humblebundle-1.PNG
-
 Last week, I noticed a playable game on the Firefox start page. The link at the base of the page lead me to this:
 
-![1]
+![][1]
 
 You can buy games on Steam and play them in the browser or on your desktop through Steam.
 
@@ -30,3 +28,5 @@ Have an app in C++? [Compile it to JavaScript](http://kripken.github.io/mloc_ems
 My worlds are colliding, and it is freaking awesome.
 
 Thanks for playing. ~ DW
+
+[1]: humblebundle-1.png

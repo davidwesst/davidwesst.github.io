@@ -9,7 +9,7 @@ excerpt: "I like podcasts. Especially the technical kind, but I find it's challe
 
 [1]: msdevshow-logo-1.png
 
-![1]
+![][1]
 
 I like podcasts. Especially the technical kind, but I find it's challenging to find quality dev podcasts in the sea of options out there.
 

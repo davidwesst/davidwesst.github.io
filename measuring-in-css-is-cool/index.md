@@ -13,7 +13,7 @@ excerpt: "I've been on this CSS kick for the past while, and I had forgotten how
 
 [1]: header.png
 
-![1]
+![][1]
 
 <small>[(Originally posted on WebNotWar.ca)](http://www.webnotwar.ca/opensource/measuring-in-css-is-cool/)</small>
 

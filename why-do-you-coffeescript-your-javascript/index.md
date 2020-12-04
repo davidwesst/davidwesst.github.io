@@ -13,7 +13,7 @@ excerpt: "I was asked this the other day: Why don't you just write your code in 
 
 I was asked this the other day: Why don't you just write your code in JavaScript directly? As in, why would you use a langugage that abstracts JavaScript, which  doesn't require compiliation?
 
-![1]
+![][1]
 
 That second question is also the answer: I _want_ a compiler, because a compiler can optimize my code.
 
@@ -57,7 +57,7 @@ The IE team [recently announced the support](http://blogs.msdn.com/b/ie/archive/
 
 Internet Explorer is something of a major player on the web, so I probably want to support those users too.
 
-![2]
+![][2]
 
 ### The Point
 

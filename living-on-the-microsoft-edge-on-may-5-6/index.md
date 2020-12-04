@@ -10,7 +10,7 @@ excerpt: "2015 brought introduced a lot of new stuff in the Microsoft space, inc
 ---
 [1]: edgeconference2015-markup-1.png
 
-![1]
+![][1]
 
 2015 brought introduced a lot of new stuff in the Microsoft space, including how Windows 10 is changing up the web application game.
 

@@ -13,7 +13,7 @@ excerpt: "I realize how crazy that sounds, but after yesterday's keynote from Mi
 
 I realize how crazy that sounds, but after yesterday's keynote from Microsoft at the VS Connect event in New York, I'm wondering if my goal to find a true cross-platform technology is sitting back at base camp just...leveling up.
 
-![1]
+![][1]
 
 ## ASP.NET and the KVM
 

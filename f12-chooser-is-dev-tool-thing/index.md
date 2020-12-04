@@ -22,7 +22,7 @@ The F12 Chooser is a development tool thing that I like and you should know abou
 [3]: https://docs.microsoft.com/en-us/office/dev/add-ins/testing/debug-add-ins-using-f12-developer-tools-on-windows-10
 [4]: https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide
 
-![1]
+![][1]
 
 The [F12 Developer Tools][4] are pretty great. They are the original in-browser developer tools (included in Internet Explorer 7), and have evolved into something more modern for all us "modern" developers.
 
@@ -36,7 +36,7 @@ F12 Chooser is a utility built into Windows that allows you choose the target ap
 ## How do I run it?
 On Windows 10, you run `\\Windows\System32\F12\F12Chooser.exe`. The window that comes up will display a list of targets for which you can attach the F12 tools. You can find the 64-bit version in `C:\Windows\SysWOW64\F12\F12Chooser.exe`.
 
-![2]
+![][2]
 
 ## Why does this matter?
 Because it gives you another option when it seems like the F12 tools are failing. If your browser locks up when you try and debug your application code, you should try the F12 Chooser once the application has loaded in the browser.

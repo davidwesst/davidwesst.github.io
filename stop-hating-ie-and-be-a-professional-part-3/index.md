@@ -20,7 +20,7 @@ In this post, I ask the IE complainers to put their big boy/girl pants on by bei
 ### Be a Leader
 
 <figure>  
-![1]
+![][1]
 <figcaption>Internet Explorer 10 is helping to solve the problem of old IE. Are you?</figcaption>  
 </figure>
 

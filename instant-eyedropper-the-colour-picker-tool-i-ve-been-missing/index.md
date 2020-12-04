@@ -15,15 +15,15 @@ Oh, and it's freeware from SpiceBrains.
 
 One you install it, you get this added to your system tray.
 
-![1]
+![][1]
 
 Then you click and hold the mouse button down to have this display appear by your cursor.
 
-![2]
+![][2]
 
 Continuing to hold, point the crosshairs onto the color you want on your screen and then let go of the mouse button. Now the code display disappears, but you have the value saved in the clipboard.
 
-![3]
+![][3]
 
 Easy, peezy, lemon squeezy.
 

@@ -16,13 +16,13 @@ If you haven't played the classic [SimCity](http://www.simcity.com/en_US/product
 
 But you know what would make it cooler? [Playing it in browser](http://micropolisjs.graememcc.co.uk/), that's what.
 
-![1]
+![][1]
 
 Yeah, it's already been done (and it continuing to be done) by [Graeme McCutcheon](http://www.graememcc.co.uk/), Mozillian and clearly super awesome dude, based solely on his choice of games to port to HTML5.
 
 But let me show you the coolest thing about [MicropolisJS](http://micropolisjs.graememcc.co.uk/), in my not so humble my opinion.
 
-![2]
+![][2]
 
 That's right. [Yours truly contributed](https://github.com/graememcc/micropolisJS/pull/17) to [the project](https://github.com/graememcc/micropolisJS). Booya.
 
@@ -48,7 +48,7 @@ It's something of a major milestone in my personal and professional evolution.
 
 ## The Point
 
-![3]
+![][3]
 Photo credit: [GaborfromHungary](http://www.morguefile.com/creative/GaborfromHungary) from [morguefile.com](http://www.morguefile.com/)
 
 It's pretty direct: MicropolisJS is awesome, and so is open source. If you want to be awesome (like me) [fork the project](https://github.com/graememcc/micropolisJS) and help out a bit.

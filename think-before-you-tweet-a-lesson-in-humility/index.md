@@ -21,7 +21,7 @@ This ended up being a lesson in humility, and a reminder to think before you spe
 
 I wanted to share this simple reminder too those people out there who rush to reply and share an opinion rather than taking a moment to reflect before they speak.
 
-![1]
+![][1]
 
 ### Long Story Short
 

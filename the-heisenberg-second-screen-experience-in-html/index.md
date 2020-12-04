@@ -7,7 +7,7 @@ excerpt: "Breaking Bad is coming to an end."
 
 [1]: breakingbadhtml5.png
 
-![1]
+![][1]
 
 Breaking Bad is coming to an end. We actually signed up for cable because we wanted AMC to watch the final season live and PVR it in case we were running late, and if we record it, then
 

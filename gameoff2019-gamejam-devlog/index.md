@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GitHub Game Off 2019 Game Jam featuring DW"
-date:   "2019-11-26T09:57:00"
+date: "2019-11-26T09:57:00"
 authorId: david_wesst
 originalurl: http://www.davidwesst.com/blog/gameoff2019-gamejam-devlog/
 categories:
@@ -13,6 +13,7 @@ tags:
     - gameoff-2019
     - devlog
 comments: true
+excerpt: "For the past month I have been participating in the GameOff 2019 Gamejam hosted by GitHub over on Itch.io and I've been devlogging about it over on my YouTube channel."
 ---
 
 For the past month I have been participating in the GameOff 2019 Gamejam hosted by GitHub over on Itch.io and I've been devlogging about it over on my YouTube channel.

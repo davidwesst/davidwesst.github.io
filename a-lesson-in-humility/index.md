@@ -1,54 +1,36 @@
 ---
-title: A Lesson in Humility
+title: Traf-O-Data and Windows NT on LGR Tech Tales
 tags:
-- twitch
-- other-test
-date: "2014-08-05T06:38:31"
-excerpt: "This long weekend I changed up the formula in stream and did some stuff off the cuff with respect to setup and playing consoles I hadn't streamed before."
+  - fun
+  - YouTube
+  - Microsoft
+date: "2015-04-08T13:42:44"
+excerpt: "In recent days, a specific YouTube channel has my caught my attention. It's called Lazy Game Reviews, and last night I came across a great playlist of only four episoded called: LGR Tech Tales where LGR, the host, goes through a specific event in computer history."
 ---
 
-[1]: game-fail_315x256.jpg
+[1]: Windows_NT_logo_svg.png
 
-<!-- more -->
+![][1]
 
-This long weekend I changed up the formula in stream and did some stuff off the cuff with respect to setup and playing consoles I hadn't streamed before.
+In recent days, a specific YouTube channel has my caught my attention. It's called [Lazy Game Reviews](https://www.youtube.com/channel/UCLx053rWZxCiYWsBETgdKrQ), and last night I came across a great playlist of only four episoded called: [LGR Tech Tales](https://www.youtube.com/watch?v=gB1vrRFJI1Q&amp;list=PLbBZM9aUMsjEVZPCDMl-lXOx50rSBNFQC) where LGR, the host, goes through a specific event in computer history.
 
-It didn't go well.
+{% youtube wQdK9owqVd0 %}
 
-![1]
+## What's so Interesting?
 
-### Devistation
+Outside of reviewing old [PC hardware](https://www.youtube.com/watch?v=ecxADZwybfE&amp;index=3&amp;list=PLFDCFCDFCF7E7ACDD) and [MS-DOS games](https://www.youtube.com/watch?v=64_CJWYlJho&amp;list=PLbBZM9aUMsjF6-OXZikdTZL9F5OiYsXW0) elsewhere on the channel, this series struck a cord with me because it talks about the beginnings of Traf-O-Data, which we now know as Microsoft.
 
-Afterwards, I felt devistated. Although the audience was minimal, there was still this feeling of total failure.
+What I find so facinating, are the [Digital Research](https://youtu.be/hJNaAG2BXow?list=PLbBZM9aUMsjEVZPCDMl-lXOx50rSBNFQC) and [IBM OS/2](https://youtu.be/wQdK9owqVd0?list=PLbBZM9aUMsjEVZPCDMl-lXOx50rSBNFQC) stories and how they relate to Microsoft. More specifically:
 
-Why? Well, because being that I have done plenty of public speaking in front of an audience, I should have known better. You don't go off the cuff and just start setting up new hardware in the middle of a presentation.
+*   When looking for a custom OS for their new PC, Microsoft forwarded IBM to Digital Research. It wasn't until later that Microsoft bought a product and marketed it as MS-DOS 1.0 and took on the contract from IBM, due to frustrations with Digital Research
+*   After commissioning a custom OS from Microsoft, eventually IBM gave up the contract and went to develop their own OS. That original OS, formely named PC-DOS, became Windows NT, the OS we all know and love today.
 
-### Rebounding
+## The Point
 
-The next night, I was really worried about streaming and failing again, but I learned my lesson.
+I've just really found LGR interesting. Looking back at computing history through the 70's, 80's, and 90's shows just how different things have become. 
 
-For starters, I went through my setup checklist far before I picked up [Cory](http://twitter.com/corybantiasm) to stream with me and got the hardware setup, some backup hardware and every game in my N64 library (we streamed N64 last night and you totally should have been there).
+Ultimately, I have no point other than old computers are really cool. If you're interested in that kind of thing, then I suggest you check out LGR on YouTube.
 
-Second, when Cory arrived nice and early, I did a sound check with him and made sure everything worked with him in place. It took some tweaking, but we got the sound check going and made sure that we were good to go with a basic theme for the evening.
-
-### Expect the Unexpected
-
-Even with all my planning and paranoia, we totally went "off script" (i.e. against the original plan we reviewed two hours prior to streaming).
-
-After supper and a couple of beverages, we decided before we went live that we would go off script and include half of [two_twitchy_girls](http://twitch.tv/two_twitchy_girls) off camera (and on in the end) and remove the technology complexities of switching consoles mid-stream.
-
-### The Point
-
-Last night's stream was really fun, and I thought it went really well. We had great audience engagement from both IRL (In Real Life) people and random Twitchers. Overall, a total success.
-
-What I learned this weekend was that you need to know your threshold for change. In this case, my current limit is the hardware setup as the streaming hardware and software is fragile, and changing things on the the fly in front of a live audience isn't good.
-
-BUT, with that being said, it doesn't mean that you shouldn't be able to handle some variety. Having the whole N64 collection ready to go and being able to bring in a third into the conversation worked out really well!
-
-In conclusion, this was a great experience for live streaming and I'm feeling like I'm finally getting the hang of things. I have learned there differences with being live in front of people for a tech-con versus entertaining people with video games they like to see played.
-
-* * *
-
-Thanks for playing.
+Thanks for Playing. 
 
 ~ DW

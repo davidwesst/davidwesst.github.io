@@ -6,7 +6,7 @@ excerpt: "I'm making my public speaking comeback after nearly a full year off wi
 ---
 [1]: wpgdotnet.png
 
-![1]
+![][1]
 
 I'm making my public speaking comeback after nearly a full year off with a new original presentation called _Going Terminal: Learning to be IDE Free_.
 

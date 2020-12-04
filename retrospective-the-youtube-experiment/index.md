@@ -12,7 +12,7 @@ excerpt: "At the beginning of the month I announced I'd be doing a web series on
 
 At the [beginning of the month](https://www.davidwesst.com/script-unscripted-starts-january-8th-2015/) I announced I'd be doing a web series on YouTube called Script Unscripted. 
 
-![1]
+![][1]
 
 It was planned to be a sort of experiment in content production, as over the past year I've really dived into the whole YouTube thing, to a point where we've cancelled cable in lieu of Internet TV, and I thought: "You know, I could probably do that".
 

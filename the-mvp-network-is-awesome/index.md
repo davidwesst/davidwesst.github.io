@@ -7,12 +7,12 @@ date: "2014-09-23T17:29:54"
 excerpt: "Over the weekend I hit a Windows Azure issue in my side project that totally blocked me. Yesterday, I reached out on Twitter, and the Canadian MVP network picked it up and helped me solve it in 30 minutes."
 ---
 
-[1]: AzureTwitter_2014-09-22.PNG
+[1]: AzureTwitter_2014-09-22.png
 [2]: MVP_Horizontal_FullColor.png
 
 Over the weekend I hit a Windows Azure issue in my side project that totally blocked me. Yesterday, I reached out on Twitter, and the Canadian MVP network picked it up and helped me solve it in 30 minutes.
 
-![1]
+![][1]
 
 You can see the full conversation [here](https://twitter.com/davidwesst/status/514077951168897025)
 
@@ -32,7 +32,7 @@ It's not awesome just because the problem was solved. It's awesome because of th
 
 It's awesome, because I got helped because _they wanted to help_, not because they had to.
 
-![2]
+![][2]
 
 I realize that this is sort of patting my team on the back, but I thought I should take a moment to reflect on how amazing the Canadian MVP network has been to me over the years, and hopefully in the years to come.
 

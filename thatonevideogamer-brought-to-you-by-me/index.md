@@ -9,9 +9,9 @@ date: "2014-10-22T00:48:00"
 excerpt: "Yep, that's me. It's all me. It's awesome!!!!"
 ---
 
-[1]: meOnThatOneVideoGamer.PNG
+[1]: meonthatonevideogamer.png
 
-![1]
+![][1]
 
 Let me explain.
 

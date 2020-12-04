@@ -14,7 +14,7 @@ _Reader Beware: This is just a personal brain dump. If you're looking for techni
 
 ### Hypertext Gaming and Twitch
 
-![1]
+![][1]
 
 The [original plan](http://http://www.davidwesst.com/hypertext-gaming-starting-june-29/) for this was to focus all of my streaming on HTML5 related content. I planned it all out, and with doing three streams per week, for about 2 hours each stream, lead to a realization: I need a lot of content to fill that time.
 

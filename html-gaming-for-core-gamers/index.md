@@ -5,7 +5,7 @@ date: "2013-09-07T21:13:00"
 excerpt: "This is part of a blog series discussing my afterthought on attending PAX Dev and Prime 2013 in Seattle."
 ---
 
-[1]: IEatPAX.jpg
+[1]: ieatpax.jpg
 
 This is part of a blog series discussing my afterthought on attending PAX Dev and Prime 2013 in Seattle.
 
@@ -29,7 +29,7 @@ Enter Atari Arcade
 
 On the main expo floor, right near the front of the hall you saw a large booth dedicated to the [Atari Arcade](http://atari.com/arcade). It was marked as Microsoft booth on the PAX map, but the focus of the booth was for people to compete for a chance to go to Tokyo by getting the high score in one of the classic Atari games hosted on the Atari website. At first I wasn't sure what to expect, but when I returned I found this:. 
 
-![1]
+![][1]
 
 A line up. A line up to play an HTML Game at a conference geared towards core gamers. Sure the IE logo was on the booth and on the swag they gave away (which I'll talk about in a minute), but at the end of the day people were lining up to play an HTML game. 
 
