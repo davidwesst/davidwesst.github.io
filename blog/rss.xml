@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[davidwesst.com]]></title><description><![CDATA[Amateur GameDev Done Professionally]]></description><link>https://www.davidwesst.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 04 Dec 2020 06:10:01 GMT</lastBuildDate><item><title><![CDATA[From Travis CI to GitHub Actions (and GitHub Pages)]]></title><description><![CDATA[Travis CI announced a new pricing model that could have impact on open source projects that are using Travis for continuous integration and…]]></description><link>https://www.davidwesst.com/blog/from-travis-ci-to-github-actions/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/from-travis-ci-to-github-actions/</guid><pubDate>Tue, 10 Nov 2020 18:36:00 GMT</pubDate><content:encoded>&lt;p&gt;Travis CI &lt;a href=&quot;https://blog.travis-ci.com/2020-11-02-travis-ci-new-billing&quot;&gt;announced a new pricing model&lt;/a&gt; that &lt;em&gt;could&lt;/em&gt; have impact on open source projects that are using Travis for continuous integration and/or deployment. For static websites, like the &lt;a href=&quot;https://westerndevs.com&quot;&gt;Western Devs website&lt;/a&gt; or &lt;a href=&quot;https://www.davidwesst.com&quot;&gt;personal website&lt;/a&gt;, this could result in getting some unforeseen costs. With that in mind, we decided to take the plunge an migrate away from Travis and over to &lt;a href=&quot;https://docs.github.com/en/free-pro-team@latest/actions&quot;&gt;GitHub Actions&lt;/a&gt; as they provide CI and CD workflows free for open source projects.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[davidwesst.com]]></title><description><![CDATA[Amateur Gamedev Done Professionally]]></description><link>https://www.davidwesst.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 04 Dec 2020 06:15:42 GMT</lastBuildDate><item><title><![CDATA[From Travis CI to GitHub Actions (and GitHub Pages)]]></title><description><![CDATA[Travis CI announced a new pricing model that could have impact on open source projects that are using Travis for continuous integration and…]]></description><link>https://www.davidwesst.com/blog/from-travis-ci-to-github-actions/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/from-travis-ci-to-github-actions/</guid><pubDate>Tue, 10 Nov 2020 18:36:00 GMT</pubDate><content:encoded>&lt;p&gt;Travis CI &lt;a href=&quot;https://blog.travis-ci.com/2020-11-02-travis-ci-new-billing&quot;&gt;announced a new pricing model&lt;/a&gt; that &lt;em&gt;could&lt;/em&gt; have impact on open source projects that are using Travis for continuous integration and/or deployment. For static websites, like the &lt;a href=&quot;https://westerndevs.com&quot;&gt;Western Devs website&lt;/a&gt; or &lt;a href=&quot;https://www.davidwesst.com&quot;&gt;personal website&lt;/a&gt;, this could result in getting some unforeseen costs. With that in mind, we decided to take the plunge an migrate away from Travis and over to &lt;a href=&quot;https://docs.github.com/en/free-pro-team@latest/actions&quot;&gt;GitHub Actions&lt;/a&gt; as they provide CI and CD workflows free for open source projects.&lt;/p&gt;
 &lt;h2&gt;TL;DR; -- Just show me the code&lt;/h2&gt;
 &lt;p&gt;Fine. &lt;a href=&quot;https://github.com/westerndevs/western-devs-website/blob/master/.github/workflows/ci-cd.yml&quot;&gt;Here is is&lt;/a&gt;. It is open source after all.&lt;/p&gt;
 &lt;p&gt;But just to be clear, this isn&apos;t a tutorial on how to code this up, rather its a walkthrough on what it took to get our &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt; based static site from Travis to GitHub Actions.&lt;/p&gt;
@@ -1485,7 +1485,27 @@ gulp.task(&apos;build-ts&apos;, ()=&gt; {
 &lt;h5&gt;Photo Credits&lt;/h5&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://morguefile.com/creative/anitapeppers&quot;&gt;Anita Peppers | office-daycare.jpg&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Measuring in CSS is Cool]]></title><description><![CDATA[(Originally posted on WebNotWar.ca) If you're a CSS expert, this post probably isn't for you. But for those of you who live inside of…]]></description><link>https://www.davidwesst.com/blog/measuring-in-css-is-cool/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/measuring-in-css-is-cool/</guid><pubDate>Mon, 07 Mar 2016 09:04:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;header.png&quot;&gt;&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Measuring in CSS is Cool]]></title><description><![CDATA[(Originally posted on WebNotWar.ca) If you're a CSS expert, this post probably isn't for you. But for those of you who live inside of…]]></description><link>https://www.davidwesst.com/blog/measuring-in-css-is-cool/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/measuring-in-css-is-cool/</guid><pubDate>Mon, 07 Mar 2016 09:04:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 465px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.14723926380368%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAACEElEQVQoz32SX0hTcRTHf2MS9FI52IgiFoTYcOyhrchkUNFDkBqo/TFoe6iHgpkgkVAPJbGXHsoS9hCFCRb1Uu4t2qzGGLSBs5AFznBipI0G5VTU/bmf7v1tXpDIA9977uF37uec37lH8B9TFEWqrAWFAploFJvDQWtLC8FgkHw+vyG/WCxSKpUQmwFlYlkiSY6MUGezIYSQslgs+Hw+YrEY5WqOZmIzWFmtqNnk+Djvh4dZVOPPExPc6O3FbDbrcLvdjt/vJ5lM/gtcv6qUWllDN7lcbFU/PGy1MtjXx3Q6zdLyMpFIBI/Hg9FolGCv14vYAJAqa1T1GiW9SDQc4k57G/u3b9O7crqcDA09I55IUFu7A5PJRDabrXSoVFqTXtM6au5nFldjE4H7/bC4xLyqwecvOHmqWQcbDAbpA4FAZYaKNqcqjMIKrP6Bld8SfavHJ5NPHGhAmUppCdVSa8x/S3Hp4nl57na79XEJJf4JZTQMX75SfHKZmas7mequJ91VR6pzC2NnahjrqGG1Zze56/v4cc1Kpmsva7cdhC7sksBEPK6vjuD7LEpmGnILLNw9SsgleH1E8OqQYK5NMNkqGD0uWDonCB8TvGxUvRrPqmdvDgqu+Lp1WOXK639Xe6Tewrt78HEAPjyEcD9K6IH6/ojwzdM8PmvjaWcDgfZ6Bpr34O9wkv2Vq6xYdRf/AqIMZWWV4GkgAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;header&quot;
+        title=&quot;header&quot;
+        src=&quot;/static/08736b6f7c842681a0bf9c156033320f/9ff85/header.png&quot;
+        srcset=&quot;/static/08736b6f7c842681a0bf9c156033320f/222b7/header.png 163w,
+/static/08736b6f7c842681a0bf9c156033320f/ff46a/header.png 325w,
+/static/08736b6f7c842681a0bf9c156033320f/9ff85/header.png 465w&quot;
+        sizes=&quot;(max-width: 465px) 100vw, 465px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;&lt;a href=&quot;http://www.webnotwar.ca/opensource/measuring-in-css-is-cool/&quot;&gt;(Originally posted on WebNotWar.ca)&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;If you&apos;re a CSS expert, this post probably isn&apos;t for you. But for those of you who live inside of JavaScript most of the time, it might be a good refresher to see what other web platform tech can do for your sites and apps.&lt;/p&gt;
 &lt;h3&gt;For the Enterprise Developers&lt;/h3&gt;
@@ -1763,14 +1783,98 @@ gulp.task(&apos;build-ts&apos;, ()=&gt; {
 &lt;p&gt;If I missed your favourite (which I&apos;m sure I did) you should drop it in the comment section and share your favourite library and/or toolset. Extra points for open source repository links on the libraries.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why ChakraCore OSS is Important]]></title><description><![CDATA[Chakra is the new JavaScript engine developed by Microsoft, which was first released as part of the, no longer supported Internet Explorer…]]></description><link>https://www.davidwesst.com/blog/why-chakracore-oss-is-important/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/why-chakracore-oss-is-important/</guid><pubDate>Thu, 14 Jan 2016 14:43:33 GMT</pubDate><content:encoded>&lt;p&gt;Chakra is the new JavaScript engine developed by Microsoft, which was first released as part of the, &lt;a href=&quot;https://www.microsoft.com/en-ca/WindowsForBusiness/End-of-IE-support&quot;&gt;no longer supported&lt;/a&gt; Internet Explorer 9. This isn&apos;t a post about why Microsoft having more open source software (OSS) processes and projects is important, or how it is &quot;amazing&quot; that they are turning a new leaf.&lt;/p&gt;
 &lt;p&gt;This post answers the question that I don&apos;t see people asking: &lt;em&gt;why is having a OSS JavaScript engine important to anyone&lt;/em&gt;?&lt;/p&gt;
 &lt;p&gt;Maybe you already know the answer to this, or maybe you&apos;re just too shy to ask, but I&apos;m going to take a moment and try and give you some idea about why ChakraCore being open source is really cool.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;github-page.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c8dbb3c1c252cd7a083b40c12f35ad2f/0f79a/github-page.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 36.809815950920246%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA+klEQVQoz21R2Y6EMAzr/38gQqsRD7Sw3EdLOYs8uKsiRrNIVtwmsZMiIhVB1hKqVsirHEmSQCqJsixRVZWPbdtiHEcPrTWMMR7kASEvoihCHMe+UUqJrut8wbIs/4LiaZoiyzIURXEjGImmadBeItM0eQdrrW9ctw3run6B+b7vMQzDPRmF5nn2fYJFv629Vp6Q1wavTONHjdfdBOcOHMcf9n33IHfO4TzPD87NuKnYrEGnXtCVvFysd+S0NHq+G8+MnIRTkm/XFpyUZ5qxRtBFa3OvysIgyFXYwMgz74Pg05ScgpxUkPBNwt9i8smDIGvYHCLBXOAEvzdPPhfe4oqaZAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;github page&quot;
+        title=&quot;github page&quot;
+        src=&quot;/static/c8dbb3c1c252cd7a083b40c12f35ad2f/a6d36/github-page.png&quot;
+        srcset=&quot;/static/c8dbb3c1c252cd7a083b40c12f35ad2f/222b7/github-page.png 163w,
+/static/c8dbb3c1c252cd7a083b40c12f35ad2f/ff46a/github-page.png 325w,
+/static/c8dbb3c1c252cd7a083b40c12f35ad2f/a6d36/github-page.png 650w,
+/static/c8dbb3c1c252cd7a083b40c12f35ad2f/0f79a/github-page.png 689w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;1. Alternative JavaScript Engine for NodeJS&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;nodejs-logo.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 424px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c87a936014aae0217105a9ef2fb972b0/1cfa9/nodejs-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.987730061349694%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABk0lEQVQoz6VSS0sCURS+f6qFqIQvpATXEbNy76ZFoJGrElq0SwJJaWMFEkGbXtLCZIoZUgZxFoGNTTg4jcrINM04z+54J7WgNp3N/c4933nc71xg/2mGYViW9VsU2P8wAAvPlbdMy7Bst5WqqgzDmKaJRkDAIUHWhA/QYSGbpFmO5/B0XccwjKIoiGGmS/kyiIEoijiOj8cq9DVDYYYNVZdRrF6vx+NxgiCgS5KkIAjOCKb29t4RVR4CkEgk/H5fOr2hjOWTZmb9cuHwcc2wtex2NhgM+nw+mm4VC0Wv37McW2KeO12ZbvHVZu+WFZsgFAoRJBEJR9tdeqsaTV15UjceQXpd9AdKpVIsFru/x1dXsM3d5On5Md8TOqPGHXNUaR889R9AoVCAwuTz+cGwf93ez1QCZ60dOHVuL+f1epPJpCRJ5XI5HIrUajU4NjOk6twF7CzILwA9byqjqPBQcOSyLKsoCsIcxw0GA4Q/tJGiS47aSMbJGlyRnU3Y6Maei85Enqn94wNN237fv1tlGkJL/QSy8kbYt37tXAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;nodejs logo&quot;
+        title=&quot;nodejs logo&quot;
+        src=&quot;/static/c87a936014aae0217105a9ef2fb972b0/1cfa9/nodejs-logo.png&quot;
+        srcset=&quot;/static/c87a936014aae0217105a9ef2fb972b0/222b7/nodejs-logo.png 163w,
+/static/c87a936014aae0217105a9ef2fb972b0/ff46a/nodejs-logo.png 325w,
+/static/c87a936014aae0217105a9ef2fb972b0/1cfa9/nodejs-logo.png 424w&quot;
+        sizes=&quot;(max-width: 424px) 100vw, 424px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;This might be the most important point for me, as NodeJS is my development platform of choice. For the first time in the history of NodeJS, there is an alternative to the V8 JavaScript engine that has been built into NodeJS from the beginning.&lt;/p&gt;
 &lt;p&gt;I have no problems with V8. It&apos;s done well by me, considering without it we likely wouldn&apos;t have NodeJS at all. But having a different option provides more flexibility to the developer. Maybe Chakra can run faster than V8 when it comes to certain tasks, or maybe it can provide more JavaScript features that you want to use for your project. Now you &lt;em&gt;can&lt;/em&gt; change Node&apos;s engine, which means all kinds of opportunity for NodeJS developers.&lt;/p&gt;
 &lt;p&gt;Plus, if you can change NodeJS to use ChakraCore, then why couldn&apos;t you sub in another engine like &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey&quot;&gt;SpiderMonkey&lt;/a&gt; or something else. It leads to more options, which leads to competition, and that is always healthy in my opinion.&lt;/p&gt;
 &lt;h3&gt;2. Community Support and Pull Requests&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;pull-request.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 233px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/288b6d3e51deba01861d86830c177c28/a1d58/pull-request.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31.901840490797547%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABLElEQVQY042QzUvDQBDF878qevQgoqDYUkpB8FBoMT3pzbsHTxVFUQ9tWhE15kNooS1NUyVtPtpkk81zd9Oi9eTAb2Z47BtmVgqcOmacyZUgnFyDuvf/IprerHg5EhaRclia0xSm9wHN1aC7BgzXZFWH4ZlM00XP4b1DAvwNqaU0YBg6BsM+aEjxbD8g117HmV5CRd3F8csWTrQcyq87qL7tocy02nsexadNXHROxZCEErZMIpCURgOqqqLT7SL0I6jjFvZv1yArBVSbh4wDVJo5HD1uQ24WILdLqClF5O82cGmeZ9el9GdDfmrCUpxQRHGCMCb4Cj5heRZG3gi2b4s65tXnWgbXZ2SOmH0R9y6Reo6PnhOgP1kyw3AawXJJxqJf0YROMGBvhfcX32kRsWVzTkALAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;pull request&quot;
+        title=&quot;pull request&quot;
+        src=&quot;/static/288b6d3e51deba01861d86830c177c28/a1d58/pull-request.png&quot;
+        srcset=&quot;/static/288b6d3e51deba01861d86830c177c28/222b7/pull-request.png 163w,
+/static/288b6d3e51deba01861d86830c177c28/a1d58/pull-request.png 233w&quot;
+        sizes=&quot;(max-width: 233px) 100vw, 233px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Oh no! Not another security gap in all the browsers! What ever will we do?&lt;/p&gt;
 &lt;p&gt;Until now, the only solution would have been to wait for an official release from the Microsoft team, hoping that they had all the details they needed. Now, the team can work &lt;em&gt;with&lt;/em&gt; the community directly and publically so that we know where things are at. If there is a security gap reported, people can find it, report it, &lt;em&gt;and fix it&lt;/em&gt; by submitting a pull request directly to the team. &lt;/p&gt;
 &lt;p&gt;Now, my browser can sleep comfortably at night.&lt;/p&gt;
@@ -2436,7 +2540,36 @@ Thanks for playing. ~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA
 &lt;p&gt;After the episode I tweeted them my approval for the episode, Lori (who&apos;ve I&apos;ve met in real life) tweeted back, and I thought that was that....then I listened to &lt;a href=&quot;http://msdevshow.com/2015/04/news-a-palooza/&quot;&gt;the News-a-Palooza episode&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Bam! They give me a shoutout on the episode at 2:15! That was an awesome and unexpected surprise, but it made me realize how important it is to reach out and &lt;em&gt;have&lt;/em&gt; conversations, even if they are 155 characters or less.&lt;/p&gt;
 &lt;h2&gt;It&apos;s Not Just What You Know...&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;network.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e96546adebc77dd8e6b88523445c1b6c/0f2bc/network.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 20.245398773006134%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAAArklEQVQY02NgQAczjGCYn2mGicd/9/8MTfWNzs11barTu/0ECvOvmKSk/A9MTvnPkJb2jzE19R8DfjDDiBFqoDLjDOMNDC8YmLpq21ya6zoM0g3/M2Rkv3RPTf3fCcQgA5mIMZAJaqALEP9imGGsyjnNnE1oipMYw1oGjvDcB+Jpqf+1MyAuZCDGQBaogV0MM43+A+kchtnKTAxzFVk9GP4zhOXdYUgHui4jFbuBABUESkHghNIBAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;network&quot;
+        title=&quot;network&quot;
+        src=&quot;/static/e96546adebc77dd8e6b88523445c1b6c/a6d36/network.png&quot;
+        srcset=&quot;/static/e96546adebc77dd8e6b88523445c1b6c/222b7/network.png 163w,
+/static/e96546adebc77dd8e6b88523445c1b6c/ff46a/network.png 325w,
+/static/e96546adebc77dd8e6b88523445c1b6c/a6d36/network.png 650w,
+/static/e96546adebc77dd8e6b88523445c1b6c/0f2bc/network.png 742w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;It&apos;s also who you know.&lt;/p&gt;
 &lt;p&gt;As cliché as that saying is, I really do believe it. A long time ago, in a casino bar far, far, away another Microsoft MVP told me: &quot;You&apos;re only as good as your network you bring to the table. You&apos;re not going to know everything. But if you know people that know the other stuff, you&apos;re still the hero.&quot;&lt;/p&gt;
 &lt;p&gt;I&apos;m paraphasing, but you get the idea.&lt;/p&gt;
@@ -2491,7 +2624,36 @@ Thanks for playing. ~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA
 &lt;p&gt;Day 2 - 11am PT/1pm CT | &lt;a href=&quot;https://mvp.microsoft.com/en-us/mvp/Chris%20Love-4014103&quot;&gt;Chris Love&lt;/a&gt; &amp;#x26; &lt;a href=&quot;https://mvp.microsoft.com/en-us/mvp/Ryan%20Hayes-4030617&quot;&gt;Ryan Hayes&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Okay, this one is a gimme, considering my MVP area (that being Internet Explorer). I already know a lot, but I&apos;m eager to see what Chris and Ryan (moderating) have to say being two of other experts in the browser space! You should check it out, as there are some cool things coming down the pipe, and I&apos;m looking forward to getting my hands dirty with them.&lt;/p&gt;
 &lt;p&gt;Thanks for Playing. &lt;/p&gt;
-&lt;p&gt;~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Living on the (Microsoft) Edge on May 5 & 6]]></title><description><![CDATA[2015 brought introduced a lot of new stuff in the Microsoft space, including how Windows 10 is changing up the web application game. One of…]]></description><link>https://www.davidwesst.com/blog/living-on-the-microsoft-edge-on-may-5-6/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/living-on-the-microsoft-edge-on-may-5-6/</guid><pubDate>Mon, 04 May 2015 05:22:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;edgeconference2015-markup-1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Living on the (Microsoft) Edge on May 5 & 6]]></title><description><![CDATA[2015 brought introduced a lot of new stuff in the Microsoft space, including how Windows 10 is changing up the web application game. One of…]]></description><link>https://www.davidwesst.com/blog/living-on-the-microsoft-edge-on-may-5-6/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/living-on-the-microsoft-edge-on-may-5-6/</guid><pubDate>Mon, 04 May 2015 05:22:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7ae716445695f58e97ff3e7bc74800e9/0fcea/edgeconference2015-markup-1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 68.09815950920245%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADs0lEQVQ4y22U2U9cZRjGD+OMZRlmWCy7IEvoAAeGfRkQaFgGmFaEFkwEUigWKGDpDMywDmWHdmJQk8am1eidemFi1HJRE4022lJWAZkZxjTQml6oMfoX/PyAxHjhxZPnnPfkfZ/f+33Jkc6Zb1LVPoHOYOJkQhbhSQWEJRsITy4kQi4iMrWUkIR88iwLNHy9Qe1HS9Te/JTSQQdZDT2klTeTmFtLalEdWWWvI508N43GtoyqawnpjS/xuvQVqs67KDuXxPOxK0TNx/oDAXNO1JPbaOZdBDo8BM9uE2BfI3zoW+SaC8gFtUjqllto537lJcc+oQsHRDueEHH9gKgbB8S+9YTQ+X107zwldPYxIdN7hM14iJzZw2fEiTSwi2R14zvlJrm2A72hHknR+DZ+E4/Rju8SNOE6kv+4kxemXITPuNFeE1R2J35C6nEXvnYXPuNulKMupMGfhZxoxjZJrW5Ff0gY2HaHsIV9Yub3eHFepM95iFnwED67R6ggCp7aQ7KJ5iH3UbNk20UxsIXCui1qh+9O/O1b6E1tyNlGJMPQZyjtv4hk8eHacXLwtAfNlAetkGTdIajvARG93xHd/Q3BfT8S1vs9GvOKGHhI6cJvaI3UihbScqqRCvo/IXFyh1cdK1Q6NilZdBI0uo1v3woBfQ/x6V8XzY/wFwNU1i2eH/gJhW3nmG5w94jQW6wsm9rRyaVIJeaPmbv7lN//+BP3s7959ttfGG8J4s77BPavIg2LlYfd/3H3MdmRxNChPXwHV0kzNhMWm42U2jKLdniLhNFl4kYeEje2TIDlASpBJ/VviJvcPPb/1frRkSi773H1VCUXotKRtMUdeI2KVMsjvMzrKHrXUQ9t4j+yQaBYxde2gnpYNJoFrWX1X/fqXxMuzrF/E+WlLyhMzKA4JQdJFZNNVEUPla9Y0De/SbylB01lB94vd+NT3IXctoi23MyJosuE1tiIrh9HXXYVZWHXUe1EaR/x9WMk5ZUSm2ZAkrxUGCNV3NOHYGnyp/pDJQl6NcbSakw1Z+jttqKXM5B1MkU5BeRn5lBVZqS8uAzv57xJOaWn5PQZ0vLKSUkvQQry1xKRX0FI+20aL9bxvjWKYoPMFcsYrR0WzLZ56hvbaWq9wvjkImbzKHb7PCbTebw1kVTV9SDnmohJyiNe/AOkTF0oUlqFuL37mC628fnlOArSk0jQZaBL0pOeaSA3rwRDwWnKy89Se7aBhvomXjvfzIAIfXfxDo65RW4IffDebf4BRMhVvr4h8NsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;edgeconference2015 markup 1&quot;
+        title=&quot;edgeconference2015 markup 1&quot;
+        src=&quot;/static/7ae716445695f58e97ff3e7bc74800e9/a6d36/edgeconference2015-markup-1.png&quot;
+        srcset=&quot;/static/7ae716445695f58e97ff3e7bc74800e9/222b7/edgeconference2015-markup-1.png 163w,
+/static/7ae716445695f58e97ff3e7bc74800e9/ff46a/edgeconference2015-markup-1.png 325w,
+/static/7ae716445695f58e97ff3e7bc74800e9/a6d36/edgeconference2015-markup-1.png 650w,
+/static/7ae716445695f58e97ff3e7bc74800e9/0fcea/edgeconference2015-markup-1.png 851w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;2015 brought introduced a lot of new stuff in the Microsoft space, including how Windows 10 is changing up the web application game.&lt;/p&gt;
 &lt;p&gt;One of the big announcements was the name of Project Spartan. It is called Microsoft Edge. The browser, that is greenfield and forever evolving with web standards. &lt;/p&gt;
 &lt;p&gt;Now that you wanted to learn more about the Edge of the Web with Microsoft, you don&apos;t have to wait. &lt;strong&gt;The &lt;a href=&quot;http://devchannel.modern.ie/websummit2015&quot;&gt;Microsoft Edge Web Summit&lt;/a&gt; is coming to you live from Mountain View, California on May 5 &amp;#x26; 6&lt;/strong&gt; and they are going to get into the details of Edge.&lt;/p&gt;
@@ -2512,7 +2674,36 @@ I like F12 developer tools, and the improvements they&apos;ve been making have b
 &lt;h6&gt;Advancing JavaScript Without Breaking the Web&lt;/h6&gt;
 &lt;p&gt;&lt;em&gt;May 6, 11am EDT&lt;/em&gt; --
 People seem to forget that JavaScript is a 20 year old language, and the fact that we are still using today the old stuff remains compatible. It&apos;s impressive really, but takes some serious effort. I&apos;m curious to know how the community is advancing my langugage of choice without changing it completely.&lt;/p&gt;
-&lt;p&gt;Thanks for Playing. ~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[MSDevShow...A Dev Podcast Review]]></title><description><![CDATA[I like podcasts. Especially the technical kind, but I find it's challenging to find quality dev podcasts in the sea of options out there…]]></description><link>https://www.davidwesst.com/blog/msdevshow-a-dev-podcast-review/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/msdevshow-a-dev-podcast-review/</guid><pubDate>Thu, 30 Apr 2015 14:47:01 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;msdevshow-logo-1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Thanks for Playing. ~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[MSDevShow...A Dev Podcast Review]]></title><description><![CDATA[I like podcasts. Especially the technical kind, but I find it's challenging to find quality dev podcasts in the sea of options out there…]]></description><link>https://www.davidwesst.com/blog/msdevshow-a-dev-podcast-review/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/msdevshow-a-dev-podcast-review/</guid><pubDate>Thu, 30 Apr 2015 14:47:01 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4c2011c4aa00dbcd58f2756c76a23c7e/9c177/msdevshow-logo-1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 15.950920245398773%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA6UlEQVQI1yXKTUoDMQCG4TmHe4/hQdx6APd6AA+g4EJFq63TSTKxmWb+kknSVCuCPxS0G/duCgmCLi18Vly98PIkm6fvG8fMN/x65CitbZpKe0G0ZVlpyUBYMpSOXeX2fP2yXFva545c5pakhaN/JqsM75G7g4E7SYAk2e/7nW8ngVcPPCngocVnmQGPLbC4BxwFZgJfimPVpsCLWZsKmE+A29F/5wYfU4PtI72V7OXPZw0RP/qmWnaiiWXlw7CYBlu0UY11VKINlonYYyakeRecmUVFRVRsHHU9iVp2sZN62dR+tcvfDn8BzxSzQ/0EfqoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;msdevshow logo 1&quot;
+        title=&quot;msdevshow logo 1&quot;
+        src=&quot;/static/4c2011c4aa00dbcd58f2756c76a23c7e/a6d36/msdevshow-logo-1.png&quot;
+        srcset=&quot;/static/4c2011c4aa00dbcd58f2756c76a23c7e/222b7/msdevshow-logo-1.png 163w,
+/static/4c2011c4aa00dbcd58f2756c76a23c7e/ff46a/msdevshow-logo-1.png 325w,
+/static/4c2011c4aa00dbcd58f2756c76a23c7e/a6d36/msdevshow-logo-1.png 650w,
+/static/4c2011c4aa00dbcd58f2756c76a23c7e/9c177/msdevshow-logo-1.png 880w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;I like podcasts. Especially the technical kind, but I find it&apos;s challenging to find quality dev podcasts in the sea of options out there.&lt;/p&gt;
 &lt;p&gt;MSDevShow is one that a discovered, and it did not disappoint.&lt;/p&gt;
 &lt;h2&gt;MSDevShow: Real Conversations with Devs&lt;/h2&gt;
@@ -2529,7 +2720,38 @@ People seem to forget that JavaScript is a 20 year old language, and the fact th
 &lt;h2&gt;The Point&lt;/h2&gt;
 &lt;p&gt;I like MSDevShow. Maybe you will too, I don&apos;t know, but you should give it a shot. Check out their episode list and pick one on a topic you like. I&apos;m sure they won&apos;t disappoint.&lt;/p&gt;
 &lt;p&gt;Thanks for Playing. ~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Zany Video Game Quotes - Live and in the Cloud]]></title><description><![CDATA[I've been working on a side project for roughly 5 years now, and this past week I managed to finally launch it. Zany Video Game Quotes, is a…]]></description><link>https://www.davidwesst.com/blog/zany-video-game-quotes-live-and-in-the-cloud/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/zany-video-game-quotes-live-and-in-the-cloud/</guid><pubDate>Tue, 28 Apr 2015 05:15:58 GMT</pubDate><content:encoded>&lt;p&gt;I&apos;ve been working on a side project for roughly 5 years now, and this past week I managed to finally launch it. &lt;a href=&quot;https://new.zanyvideogamequotes.com/&quot;&gt;Zany Video Game Quotes&lt;/a&gt;, is a site worked on acquired by a very close friend of mine. He worked on the content and enlisted me as the lead developer.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;new-zvgq.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b77bc9d686717dc784797cccb3acceac/d8104/new-zvgq.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 36.19631901840491%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAB10lEQVQozx3PSU8TAQDF8SFqIJRahu77Mm1naTszBcrQhSa0lKWgXWEorYCIGEzUkGhMNF5MXE6e9eBn/Tt4+OXdXt4TyuUpRX2GWjjDKNoY+gTVyZx6jFw4JafZyPfkYxT5BCV/TC43Ju+kLNvkHapySuG/E4QNy6bZ6LPdHKGb94a02zO63SsOjy4Zjq4ZD26we684798ye3rD8/MPDIe37PYGHIxHWN0+Wwd9Wt1rBCnqp1MSsGvLeGUZb9hHX6/ye3LG38spf06fMbY6fHn/kh93L/j27opfPz/x/esbLj6ucfXZoPa6hH6RxBw4C3esEDvrC4yaXqa7ATqVAAmfyN3RJm87dWbVNp75x4z6LTZrJRLJIIVMBMtUWatXUQ2dhJTB7XMTjFgIk8oqvVISKRTCCIsknTL/3CJqq0F5sI952Ca+JLI+P4f2QEAWBPYc2w8FVoMiMdcCiseF5nlErbjnFK4bdAsJNrIZ9JCIFlrBkhUy2RTKqo66VmZ5aZmWqlGLxjBFka20n5YW5kkphyXFOSjlqQQWaer7CP6siVcz8Gd1VpJ53KE4wXQRb7buXMhjpdKU41HikoSUklCCKcKBKC7Ry6JHJKsopHMKgrM4EmvwD0ar4Z6hSrkzAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;new zvgq&quot;
+        title=&quot;new zvgq&quot;
+        src=&quot;/static/b77bc9d686717dc784797cccb3acceac/a6d36/new-zvgq.png&quot;
+        srcset=&quot;/static/b77bc9d686717dc784797cccb3acceac/222b7/new-zvgq.png 163w,
+/static/b77bc9d686717dc784797cccb3acceac/ff46a/new-zvgq.png 325w,
+/static/b77bc9d686717dc784797cccb3acceac/a6d36/new-zvgq.png 650w,
+/static/b77bc9d686717dc784797cccb3acceac/e548f/new-zvgq.png 975w,
+/static/b77bc9d686717dc784797cccb3acceac/3c492/new-zvgq.png 1300w,
+/static/b77bc9d686717dc784797cccb3acceac/d8104/new-zvgq.png 1365w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Before you make judgement about the design or the code or whatever, you can just take a look at &lt;a href=&quot;http://www.zanyvideogamequotes.com/&quot;&gt;the 15 year old static site&lt;/a&gt; that is the source for this. My site is an improvement one way or another. Geocities FTW.&lt;/p&gt;
 &lt;h2&gt;The Developer Details&lt;/h2&gt;
 &lt;p&gt;The code is NodeJS/JavaScript, hosted and fully powered by Windows Azure. Some decisions were made that I&apos;m unsure of it at this point, but it was more important to get something out there and live rather than getting caught in the weeds.&lt;/p&gt;
@@ -2660,7 +2882,34 @@ People seem to forget that JavaScript is a 20 year old language, and the fact th
 &lt;p&gt;This week, I&apos;m taking a step further.&lt;/p&gt;
 &lt;p&gt;Starting January 8th at 8pm CST, I will be kicking off my new YouTube livestream: Script Unscripted. &lt;/p&gt;
 &lt;h2&gt;Pilot Series: Playing with Cordova&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;cordova_256.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 256px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/216157ed3259375c83aee871efa7fbed/6f3f2/cordova_256.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFF0lEQVQ4y22UbUxTZxTHb+klJmzZFzbNvizRLRqCzDh1VHRahWLUtcUhm1SXKChG8WXMCQgUlc5JNoog0Iq8CGbiNgaWlvJiW5UXC5YibGHug0ZIoEBTkALlpd72OTvPDW5fdpNfznOb9pf/OedJGUIIQ1lcXHxD0Pz8fJbH47kyMzOTMzU1pZqcnFS5XC6V0+lUjY+P54yNjeUiJ/CdeYPD4eBhAIDH6/UKEVpzFhYWYHZ2FtxuN6AQUAgoBJTAyIgDhoeHsY4ACmKoBM9C5D+h3+8PQGjSMI7jfAgBIK+J38/Nzc1xr1694lDITU+7uTnPLDftdnvxx1Q6iPUtKkMEdrud4dtFgWBJaEYRzHo83J8Df4Ott5+MOEbJa6+XLMzPk96+P0iDsZW0mB7A6Ojo6yWpeimdED/jhUKaEusxlOIROEubFc5eyCEJp1PB0GKBcacThrFV5RU1hIRLSIgomjS2Wsi0e+pN+5uoDKUBfEKUrMDqoraZWY9framEzO/zyPnsH+D8xauQkqGCE+ey4KuEUyCWxsO6bXvJ4VNpMDkxwY3iXFH0uL+/n+ET0nQ+n68K2+bTtVltoMorIaq8IiqF1Iu5vPDkd0o4mPQN7JQpIGLXfvh42+dEZ2wFOtdhXBAmPffvUnDtdrwOMOFy+XTG+6SwtApKym9DQUk5XMfzNW0lFCBn0y/DJ2IphEftg482RhJ18U0yNPiSe/r0KfT19f2MMAxeBUoNxuVbMOJsLuUWwNXiMshregDKq9fgwuUfIRXb3x1/DPYUV8E6yReweoMYKm7XkGd/DfisXV1gtVrPdXd3Mwwmo+Q4qHBygmu1PCLJ32ZCRr4W6hwuOJ52GRJOpULsoeOwUXYICl+OwnrpQQjdtAN++b2e9Nrtvvb2dkCkCMMPElHQbTmd4z7zwzaiOHISEtIuQcGzlxBzOBmkBxJBFCmHtTvlcLqjF0Kwro+QgMHYTDo7O4jFYgGz2RyGMAyKKJ8ODg7SwfoftXcQ2YEjEB13GCKT02Dr7v2wWbIPwiKiIXSzBEJlB2E1ptscJaMSPwItLS2O5ubmFU1NTQwzNDTEoOyD58+fT7148QKePLH5t+/9koRF7CJrN+0koSIJ3r0osgbPCIRs2E5WrvuM7I79Gkz37/tQAo2NjXa6C/6hQky27Bk+AwMDgPfJV33nV9CWV0NJ2S0oulFOCjVluPFSyC/SEnWRFn4qKIHS8lvEaDRyDQ0NoNPp6rEyer1eyNhstgD8M2BQZKbr7+np8fXYbKSry7rY02Mj3d1d8PhxJ+lobyOPHj4Ei9nkN+j1iwaDgYq4+vp6qK2tzaXzu3fvnpCpqalh6V3s6Ogox7Vjy098hdeLPDK5vMlkMnE4Hz8m8ev1Bh8Cd+/edYdHbG0qLNb4G3Q672+1tVBZWZlEHRUVFUJGq9XyQpyDsrOzEzAxqNX5Y6tWfVi7tD06dKCzorW6uno++N337twoLeMaMWVdXR3k5+fvoQ6NRiNkpFJpAI6STUxM3Jidna1KTk4uCw8Pv8WybFlMTIxJLpebZTKZGb9nxrNFLBYbBQKBJkoiqUpKSio+j090dPRKdAhjY2MFdC+C5cuXL8P6DvI+EoZsRaIQ8f+wA4lERMgaJBh5Ozg4mOW3LBKJ+KpQKAKUSmVgZmZmIKZhg4KChFlZWSx+xmZkZLDp6eksfT969CjLBgYK4+MV7JkzZwJTUlLYLVu28Mni4uKYfwCAxf3mGDuvBAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;cordova 256&quot;
+        title=&quot;cordova 256&quot;
+        src=&quot;/static/216157ed3259375c83aee871efa7fbed/6f3f2/cordova_256.png&quot;
+        srcset=&quot;/static/216157ed3259375c83aee871efa7fbed/222b7/cordova_256.png 163w,
+/static/216157ed3259375c83aee871efa7fbed/6f3f2/cordova_256.png 256w&quot;
+        sizes=&quot;(max-width: 256px) 100vw, 256px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Each Thursday for the month of January, I&apos;ll be getting familiar with &lt;a href=&quot;http://cordova.apache.org/&quot;&gt;Apache Cordova&lt;/a&gt;, in preparation for my presentation at &lt;a href=&quot;http://prariedevcon.com&quot;&gt;Prarie Dev Con&lt;/a&gt; in March.&lt;/p&gt;
 &lt;p&gt;The goal for the series will be to build a project that allows me a single set of source code, with multiple builds for web, Windows Phone, and Windows 8 applications. &lt;/p&gt;
 &lt;p&gt;Oh, and I&apos;m going to try and only use a command prompt and enhanced text editor. As in, no Eclipse or Visual Studio if I can help it.&lt;/p&gt;
@@ -2742,7 +2991,34 @@ This one is really late in the year, but it was accomplished. Get to the Point i
 &lt;p&gt;I didn&apos;t quite get everything I wanted done for January 1, but I made some serious progress and have something to show for it.&lt;/p&gt;
 &lt;p&gt;Expect more details on what I&apos;ve learned and have planned for that project in 2015.&lt;/p&gt;
 &lt;h3&gt;Embracing my Passion of Video Games&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;html5-controller.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 230px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1dafcfc1d8d13c6fb13e8820f3faab47/81c8e/html5-controller.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 76.07361963190185%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABcRAAAXEQHKJvM/AAAEB0lEQVQ4y22UaUxUVxTH72CXRLrQBhJW2d4yQBeIIdSMGc1YYLY3gzOyFGMtiqQp1C/STGoD4QNEC4VoTHU+lKK1afoBrbFU6aKlJVGnUGitWCgtMHPnzeqAIAXG9+ae3plW0u0l/7yTl5df/vee8z8I/evBRhY5DSya0zNxboGtoNrvFri9bhO/Lmzg9rr0f5OOfRkb2Ab6bxH6P+CMIQdN6jYpaH2LwsBtZP8hr4UDXxVV5V+itVjBAYUe/g/QRYEegVOIAheFf4opEBu5NVrL2JArY12OHNrNyEsHWHlxf0zS0qt5Yd8uDpxatnYdpFAokFKpRFDDoAk9uwGsLHKZlB/isgzwHDss+ceuE//IMPHR98r0TSK7bhPJ+TOR5ibIvVZDxCNkgtOYXx4DPVBCQgLKS3wC/VRV/NApNY8CloIurEkBb2+nFJSB+MdvgP/GEKxMfg/yzI8gzdwE6ZdRsmTTgChkEwosQc3NzQoAiKNSNDU1bYjZHQSEkhj+mj7/uEeTDJ6uQ3Jw8R4RG0rB9cLjELSkwN3aZFioSYa7u9PIQl3sDpdcWlaJ6uvrEYXF1NjYiDZujEc7tqltOYWb7Z1b2AHfi6kgtjVEguEI8TuGwPvZx7B8/RJIo4MQ/u4yrA2+F1loeA7cAiO6jPkpqLS0lO/u7r5gt9sHqqqqtlJ/RbnZWcdbipIRNueZcXkmiE1CJHp//olx8P86Cas+DCTkoR6ARLy/RebrCqLdn3JZih5DZ89+cKWnpwcGLw/C2NiYfKTjaECv3nrwq7ZjKGTit9DOgnvX8+B55w0iNhoA63MhVPcsLB7gQfbNEXnKIYdeyqYO+WuuPeo41NbWMeNwOODq1Svh8/3n5OHRIeg4aYfKfW8OfCQ8U+7VZoXwHhUEQ/PE98lpwDvS4I41DZYOqSCyvEjuj16Sg5WbAAvKi7PbMhAqKCis0GoN0zbbETjf/zmceP+ofOLdVulkux1aX993TtQkT7urN0NgaiISXL1P/LfG4fcfhgHWlkn0yOEv+6SAJZ0C8/qcZbkIlZRsj/b1ESq1SmW+2PJWO3zd3we9XW+DQbP9QlCXNRIdbvGgWaLjQxvzDVkNeEAa+4KsnGmJLNvU4UA1AzSCnXPlLEJarRD3YLh7T7sQx6sbKqyvBYpKSuYSHn24OGTmR2h6AJfRY9ERwnpGCtUXSouvZMrz1alwp5YBj4WnQNZGM/0nKCnpSZSSkhGbxeLindFPT1M9pUqMR7MGRks72IdNyttus1LCsSwz4K1UgrgzbwEb+W9phtuxicukywGh9PRUlJiYtB5Bq7Vp3bEmOzVulm4euiBoxpl4CiumdTPN9imnjq1x6phcRw6PqDvkNnFULPoDXNpYMpXm9qYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;html5 controller&quot;
+        title=&quot;html5 controller&quot;
+        src=&quot;/static/1dafcfc1d8d13c6fb13e8820f3faab47/81c8e/html5-controller.png&quot;
+        srcset=&quot;/static/1dafcfc1d8d13c6fb13e8820f3faab47/222b7/html5-controller.png 163w,
+/static/1dafcfc1d8d13c6fb13e8820f3faab47/81c8e/html5-controller.png 230w&quot;
+        sizes=&quot;(max-width: 230px) 100vw, 230px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;I have forever been trying to figure out a way to balance my love for gaming with my love for code.&lt;/p&gt;
 &lt;p&gt;Between my Twitch stream, and constant watching of YouTubers, I&apos;ve decided it makes more sense to just embrace my love for both and work through finding the balance.&lt;/p&gt;
 &lt;p&gt;I&apos;m not sure where it will go in 2015, but I have some ideas. I&apos;ll talk more on it in the New Year.&lt;/p&gt;
@@ -2783,7 +3059,35 @@ This one is really late in the year, but it was accomplished. Get to the Point i
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.davidwesst.com//www.youtube.com/embed/pAfPqxzyBIc&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[Think Before You Tweet: A Lesson in Humility]]></title><description><![CDATA[Over the weekend I tripped over brain and sounded like a goof on Twitter while trying to engage a number of technology experts. This ended…]]></description><link>https://www.davidwesst.com/blog/think-before-you-tweet-a-lesson-in-humility/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/think-before-you-tweet-a-lesson-in-humility/</guid><pubDate>Mon, 17 Nov 2014 17:40:10 GMT</pubDate><content:encoded>&lt;p&gt;Over the weekend I tripped over brain and &lt;a href=&quot;https://twitter.com/ferventcoder/status/533804756477939712&quot;&gt;sounded like a goof on Twitter&lt;/a&gt; while trying to engage a number of technology experts.&lt;/p&gt;
 &lt;p&gt;This ended up being a lesson in humility, and a reminder to think before you speak...or tweet in this case. &lt;/p&gt;
 &lt;p&gt;I wanted to share this simple reminder too those people out there who rush to reply and share an opinion rather than taking a moment to reflect before they speak.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;chocolateytwitter.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 616px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/02e0a2d2049ac6efb0e884f34992fd3b/40040/chocolateytwitter.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 117.79141104294477%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAEcklEQVQ4y21VOY8cVRjcv0QGIgNEQEJkkZMiAo4AIUFAQkCAhEgsiz9AwCVk8FqWhQXe2cPr9Vy7s3N19/Q5fR/Tx+yaor7XPci2PFLpe93T/eZ99VXV7B0fHuOLd9/GPw/u4SAB7ls5ztwUl3aIoR3h0osxW6cw0gqrIIXleLDcNVasNqvt+TBsF36UoGyusHdydIrP3noVB3d/xWlQo6d5ODPWGOouHmku+oaLkeljzM3PdQtLfQXTcaFbDqsH0/WwXFlYh3G7YVY2sPil7/tIswJhGCHkr8kDYZwiIKIkI1J1nZU1qu21evlZbOot0WCvKEvE8RppXiBOc8RZzvUGm6pBKQ+xCiqu66unL91sd6/gc3vT4UN8+d4r+PP2jzieO3hwNsajS40thuivfMXfzM8wj0qsvEBx6KxZyZ3pCIcBdNOGF8TqlHsrQ8MP391E72QAkzfnlofVOsTcdDExbPhZiaS6QlRuEWW7LgqFqFuHpCTJy3bD+hrqs30KbMhPQah2ibrZdtfkTe690OpLW7aNC/z0/cfoP/4bl4aH8WyJ+cqGmxRw4wLrdKMQbmrkfCHbVM8hLdgBOZe1OuFkeIyPbryD32/fxtiNcXixxEC38UR3cDRdoa/Z6FNCp8RgMsNgNMZpf4j++AJngxEWuql06UdpK5uC/ITFNZKiYXuVmnBabJBw2gLhTN2jChL1Xal4E85kLW2WbFlOp1peBxHm5yO4jgOXw5ApivbkhV1bOXmshauOr/8hHNYt31LVhke9Y3zyBp1y5xf06YYTSmZILqdsf6Csl2BK6ehpDZucKtvRamI7i9yaeUNb1gqZbOgFCXp378CYX0DzQixtDxphuD40x4fOF3Wug6JGwpNK2zEhNeGgYjot3jSqFhWHIv2Lcor6itZrecuEG/IprYhs2rbqrrWtck35DBQVTcehPjvDrc9v4PDhPsYMhceTuRK0GRXQgwx2soHFVt2sQkzRRhxiQJGHJcWetwNaRzFFXrSymU+G+OrDD7B/7y/aLMH5ysM5NxwsLYy5Hi5N/pCreB1pFmFjYvsY8d5koWO60FR8ySDltHvV1b+o2XLOXy8ol0Im28km76pcy1rSSOSTkxK5blVQP+8Ug1nW2/8Di+klpoaFczpl5QZY0ykeEWR0CVsrGmpN9MZa7NBxnHbyUhueHD7Cp2++huN7v+EyqpQzJk7YysYKMWEV6Si4kaJF1rMgxzwkTAcG83Qddokd5xVmFxcUNlM3zuBS6AGrSak4fqjiSVVGlkBiSmLL4XM2NejmdXtSyU3hsKjEbqmym0poprUkdNElzy59xCkNW663rFddpZxqJZ02hFXL83EPX7//Ou7f/RmP+X/SG03xZGEqd0hrSz/Fwm9D1qZ0LPmzIhyezMzonq5Gm6b9CzC0BW5+8y0Ojp7ASXK6JcJqc41Z0kCjFhcM3IW9xoKD0ogZg3fKezFdEXQOCVnTXcsytYpWEdtkz2Rb2oWCmp5yy1Y5RcJWUL7gll3a/AfGP/2MvgahvAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;chocolateytwitter&quot;
+        title=&quot;chocolateytwitter&quot;
+        src=&quot;/static/02e0a2d2049ac6efb0e884f34992fd3b/40040/chocolateytwitter.png&quot;
+        srcset=&quot;/static/02e0a2d2049ac6efb0e884f34992fd3b/222b7/chocolateytwitter.png 163w,
+/static/02e0a2d2049ac6efb0e884f34992fd3b/ff46a/chocolateytwitter.png 325w,
+/static/02e0a2d2049ac6efb0e884f34992fd3b/40040/chocolateytwitter.png 616w&quot;
+        sizes=&quot;(max-width: 616px) 100vw, 616px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;Long Story Short&lt;/h3&gt;
 &lt;p&gt;In my conversation with the creator of &lt;a href=&quot;https://chocolatey.org/&quot;&gt;Chocolatey&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ferventcoder&quot;&gt;Rob Reynolds&lt;/a&gt;, I managed confuse its machine package manager functionality with that of langugage-specific package managers like &lt;a href=&quot;https://www.nuget.org/&quot;&gt;Nuget&lt;/a&gt; and &lt;a href=&quot;https://www.npmjs.org/&quot;&gt;NPM&lt;/a&gt;. Silly to most, but kind of embarassing considering &lt;a href=&quot;https://twitter.com/davidwesst/status/533798992270745601&quot;&gt;I&apos;m the one that brought Chocolatey into it&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;At the end of the day, I tried to correct the situation by acknowledging my confusion and &lt;a href=&quot;https://twitter.com/davidwesst/status/533848025375195136&quot;&gt;replying via Twitter&lt;/a&gt;, but it was too late and &lt;a href=&quot;http://&quot;&gt;Simon Timms caught it&lt;/a&gt; and mocked me (rightfully so, might I add).&lt;/p&gt;
@@ -2802,7 +3106,35 @@ This one is really late in the year, but it was accomplished. Get to the Point i
 &lt;p&gt;It&apos;s simple: know what you&apos;re talking about before you talk about it.&lt;/p&gt;
 &lt;p&gt;Being a speaker in the development community, people tend to look at you as an expert. When you speak publically, know your point before you starting making them, or else risk misinforming people and ultimately losing a bit of credability in the process.&lt;/p&gt;
 &lt;p&gt;Thanks for playing. ~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Can ASP.NET Become the Next Node.JS?]]></title><description><![CDATA[I realize how crazy that sounds, but after yesterday's keynote from Microsoft at the VS Connect event in New York, I'm wondering if my goal…]]></description><link>https://www.davidwesst.com/blog/can-asp-net-become-the-next-node-js/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/can-asp-net-become-the-next-node-js/</guid><pubDate>Fri, 14 Nov 2014 17:49:49 GMT</pubDate><content:encoded>&lt;p&gt;I realize how crazy that sounds, but after yesterday&apos;s keynote from Microsoft at the VS Connect event in New York, I&apos;m wondering if my goal to find a true cross-platform technology is sitting back at base camp just...leveling up.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;aspnetthenewnodejs.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 551px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/02bd02494e432023ee820d9edf22c14c/db783/aspnetthenewnodejs.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 36.19631901840491%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAABRklEQVQoz52RPU/CUBSG+5scXJz8E8af4qomxsXBRRccNEGMMXFCSBQJhkhQPgabQFsKlWqtCRQajErL7WMpoLIZ3+TJfe/JOSfn3iMRSoQU2y6KPRhfkTuftF0v8kEQRMz7ySmEmIuPkZrdDzYuDVZOaizsVbm2PZbjOvfWe5Q8EtPiQEyLxLePhhFivuHaeZ3FnSLP4UCrpxpLuyU2LzT+IlWtT0zwE5NqTz0Uq0fgD7GcAWX1lX7fxfeGNJstTNPEMAy0hspBLEa2ekbO3uc4ccTW9jrxxCENU+ZxUKbrdJAMXUOtyZQrFRqqQrulUQn9gyyHjfu4rovjOFgvFkpNoW6WkJ0Ut4U8xbsChWIeZ2Bjv6n4vo90lcmQSqfJZrPhEzRyuRuSySS6rvMfSdHHj0YRM3meN/fRM8YLENOlRH7K75wvg3MJDPxCYqAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;aspnetthenewnodejs&quot;
+        title=&quot;aspnetthenewnodejs&quot;
+        src=&quot;/static/02bd02494e432023ee820d9edf22c14c/db783/aspnetthenewnodejs.png&quot;
+        srcset=&quot;/static/02bd02494e432023ee820d9edf22c14c/222b7/aspnetthenewnodejs.png 163w,
+/static/02bd02494e432023ee820d9edf22c14c/ff46a/aspnetthenewnodejs.png 325w,
+/static/02bd02494e432023ee820d9edf22c14c/db783/aspnetthenewnodejs.png 551w&quot;
+        sizes=&quot;(max-width: 551px) 100vw, 551px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;ASP.NET and the KVM&lt;/h2&gt;
 &lt;p&gt;This isn&apos;t any secret as this demo was done a while ago by Microsoft, but ASP.NET 5 (formerly known as ASP.NET vNext) can run on OSX or Linux meaning we can host ASP.NET application on anything.&lt;/p&gt;
 &lt;p&gt;Literally anything.&lt;/p&gt;
@@ -2820,7 +3152,34 @@ This one is really late in the year, but it was accomplished. Get to the Point i
 &lt;p&gt;At this point, I don&apos;t think ASP.NET is going to take over the NodeJS market, but I do think there is an opportunity for Microsoft and going cross-platform.&lt;/p&gt;
 &lt;p&gt;As long as NodeJS is sitting there stagnating, trying to find direction developers are going to keep on building software. At the end of the day, are you going to pick a new platform that quickly went silent, or a tried and tested platform that can work on any machine?&lt;/p&gt;
 &lt;p&gt;2015 just might be the year of ASP.NET.&lt;/p&gt;
-&lt;p&gt;~ Thanks for Playing.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[November 27 - Going Terminal: Learning to be IDE Free]]></title><description><![CDATA[I'm making my public speaking comeback after nearly a full year off with a new original presentation called Going Terminal: Learning to be…]]></description><link>https://www.davidwesst.com/blog/november-27-going-terminal-learning-to-be-ide-free/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/november-27-going-terminal-learning-to-be-ide-free/</guid><pubDate>Thu, 13 Nov 2014 19:27:16 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;wpgdotnet.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;~ Thanks for Playing.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[November 27 - Going Terminal: Learning to be IDE Free]]></title><description><![CDATA[I'm making my public speaking comeback after nearly a full year off with a new original presentation called Going Terminal: Learning to be…]]></description><link>https://www.davidwesst.com/blog/november-27-going-terminal-learning-to-be-ide-free/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/november-27-going-terminal-learning-to-be-ide-free/</guid><pubDate>Thu, 13 Nov 2014 19:27:16 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 184px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0b4f22dabe4294b3115704d500cc7478/5a64f/wpgdotnet.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 39.877300613496935%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAACgElEQVQoz2OQSGkVlK1axiiZ3sUrlTuJGcgXFU+oNxBPbJQWCcxhkE6utWSwWCBYvsLLpHG96++6tU7/a9c4/APRDevc/jet9/wHpP82rnP/X7/e6SmDWGz1VLHYqhSxmKrdQHYIEP8BGtgsHlc7D8heLZlU18If0bAuqCe5tnmL9e/5hwv/Lzla+W/BkaL/m872/5+6J+n/xrO9QLGqf3Ub7P4zCAdlVwgHZp0TCcqZJRyYeUQ0rPCCcECmrEhYYa9oeNF/hZBwYW6/0n6/9qSmjl12X1eeqfu359rsP2cebP5z5PbyPxP2hP1Zc67xz+wj6X8bt9j9ZBD0StAR9E6sF/SKNwCyK4QDMuYDDd4EtKQKiEPFQrL6eTyzDwZ1h1ROOxb0f/mZiv8zjyX833Nr2v+NF9v/zzic8H/Byaz/M47G/m/f4/KfgcsliUHQNYIBBATcohmEvBOnArGGkDdQ3Cs+Ssg7YTqve9KU+Ck+Kq27HA4373S41bzT/krDdsurrbucrrbvdrkG5F9t2eV4q3mH3R6gMf8ZZKZdYVDq380g37KegUNRg2fy//8M0qWzGfjtA7kFXCJ02RkYGO0a8hkaTi5giN2wlSFp8zKGyA29DHl79jLk7TrOELN+BUPMhj0M3kUMrAxdG8211dsWO8oCo0u+aU2ofNtGT/nmdU5yTWscFNo3y6vMOCUt37IuUKFppYFy21oDhZZ1rkBsq9i6XkexZZ0diK/UstZKpmmTa+HyUAuG1vW21tod86ylGzdYyjevcZNrWu0FNExLvnmtFpBWkWtYqQmknYF8GaC8LhCbAbGefPNqFSBtAcTmCs2rzSUbNuvUrnG1AgDhDxU2tNg8oAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;wpgdotnet&quot;
+        title=&quot;wpgdotnet&quot;
+        src=&quot;/static/0b4f22dabe4294b3115704d500cc7478/5a64f/wpgdotnet.png&quot;
+        srcset=&quot;/static/0b4f22dabe4294b3115704d500cc7478/222b7/wpgdotnet.png 163w,
+/static/0b4f22dabe4294b3115704d500cc7478/5a64f/wpgdotnet.png 184w&quot;
+        sizes=&quot;(max-width: 184px) 100vw, 184px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;I&apos;m making my public speaking comeback after nearly a full year off with a new original presentation called &lt;em&gt;Going Terminal: Learning to be IDE Free&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;You should register for the event &lt;a href=&quot;http://d.wes.st/14eIC13&quot;&gt;here&lt;/a&gt; and book your seat. Admission is free and it&apos;s going to be a great time where we go old school with our code and build a web application using a text editor, a command line, an empty folder.&lt;/p&gt;
 &lt;p&gt;Here&apos;s the description:&lt;/p&gt;
@@ -2848,7 +3207,36 @@ This one is really late in the year, but it was accomplished. Get to the Point i
 &lt;p&gt;To many, this might not be a big deal. From a technology point, it&apos;s nothing really new.&lt;/p&gt;
 &lt;p&gt;But, remove the requirement for Windows to be needed to test in IE shows me forward thinking inside of IE and Microsoft. It also gets makes developers accountable for their web compatibility.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[SimCity in the Browser...with Source Code]]></title><description><![CDATA[If you haven't played the classic SimCity, I mean Micropolis then you missed out. But you know what would make it cooler? Playing it in…]]></description><link>https://www.davidwesst.com/blog/simcity-in-the-browser-with-source-code/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/simcity-in-the-browser-with-source-code/</guid><pubDate>Fri, 31 Oct 2014 17:50:42 GMT</pubDate><content:encoded>&lt;p&gt;If you haven&apos;t played the classic &lt;a href=&quot;http://www.simcity.com/en_US/product/simcity-classic&quot;&gt;SimCity&lt;/a&gt;, I mean &lt;a href=&quot;https://code.google.com/p/micropolis/&quot;&gt;Micropolis&lt;/a&gt; then you missed out.&lt;/p&gt;
 &lt;p&gt;But you know what would make it cooler? &lt;a href=&quot;http://micropolisjs.graememcc.co.uk/&quot;&gt;Playing it in browser&lt;/a&gt;, that&apos;s what.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;micropolisjs-city.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2509b83f76f9295b913d393b89dfc416/321ea/micropolisjs-city.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 63.80368098159509%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAC5klEQVQ4y4WT2UtUcRTH71tEBD1VtNBLUEFEEZLQRtFDtFlkNs7cdWZuMzU6ae7b2DhjWVZaGjGm7UQatlhqtFBRlmUW+WCQQaROZZpC/gGffo7TYlA9HM7vcDnf+zmbtNXSha73kax9wC73o+phZLWPQvdtQikhVC2MJkyP+I+Rt/bzPTZW1R4kxdJOqvcu8v79uDyPsKoDKOKjQ39PdUolqeYLEpUBDL37D5G/CNYn76bhwHZi7oxHPxfDYe0VNqWfeHmYEs91mnIKhFgYizI0SqqPJuv6XwSb0i28LHBzz+dkb9Uy3GdjcXse4jNbuOxLosavU5pWSNDT9BvZPwjvphu0Fjp5k51EY1BBapdY1DSTOwGNhlwHwfydHM2MpzYzIPr56f89vJ5nFYQurpZYiGmchtQqYb00n/t+jfbcHTQGXBT5DfbYbyFrg6LU3mjJ4THEIy2ICC64OJW4K3PwhVYidUhIbRILm6cKQYO2fJOne3dyM1cm1dEspi8EtV6R+HEMoRrxIz/qRvKULSG2cTqTH0wgrm4u/hOrqBNDel5g0pGzi6TzSzBC8yjRTwrCrxFCPTqcHwMyRGxoA6i2YaQ1NbPZcnkuKadiaRG9fCaGc7xyDU98Jq9zXJSFtmIcW0dKcC0JxRVinfpxOHqE9Ua8bu/Dn1xLlrsMV+ZppCnXJjLp8TiOl29kdcMM4uvmEzjgpM3nECU7uFm6i6KghcSqtZhHV+C338AWJY2UqX4hTwhlZ62npnwpUlVgExUVG3gYkKktlvFmXMBlG6A+I0hXzg7qDjlJKI9jc/UKEsoUvGqnWPzP0bJ7UZRBiveUsi+QxBlBKj3ymqSdW0zwSCL5SpdY6iGcShhvuRWjfhaVBxNRCnWcp5azseQwiu2bIOv5ORBF/USa2Ybb/pZt8iBSc7qV277duM3X4uxGb9ltdFGVFcRz0MONYhstPpXq7CJk+7voTf+ykdgm8kZoPY5OvgPMnJFIYJ2hwwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;micropolisjs city&quot;
+        title=&quot;micropolisjs city&quot;
+        src=&quot;/static/2509b83f76f9295b913d393b89dfc416/a6d36/micropolisjs-city.png&quot;
+        srcset=&quot;/static/2509b83f76f9295b913d393b89dfc416/222b7/micropolisjs-city.png 163w,
+/static/2509b83f76f9295b913d393b89dfc416/ff46a/micropolisjs-city.png 325w,
+/static/2509b83f76f9295b913d393b89dfc416/a6d36/micropolisjs-city.png 650w,
+/static/2509b83f76f9295b913d393b89dfc416/321ea/micropolisjs-city.png 786w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Yeah, it&apos;s already been done (and it continuing to be done) by &lt;a href=&quot;http://www.graememcc.co.uk/&quot;&gt;Graeme McCutcheon&lt;/a&gt;, Mozillian and clearly super awesome dude, based solely on his choice of games to port to HTML5.&lt;/p&gt;
 &lt;p&gt;But let me show you the coolest thing about &lt;a href=&quot;http://micropolisjs.graememcc.co.uk/&quot;&gt;MicropolisJS&lt;/a&gt;, in my not so humble my opinion.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;micropolisjs-pullrequest.PNG&quot;&gt;&lt;/p&gt;
@@ -2864,7 +3252,26 @@ This one is really late in the year, but it was accomplished. Get to the Point i
 &lt;p&gt;Now, as more of a coding hobbyist rather than a professional (as I don&apos;t get paid to code much anymore), I&apos;m talking open source projects and use not much more than a terminal and text editor to develop and build all my code.&lt;/p&gt;
 &lt;p&gt;It&apos;s something of a major milestone in my personal and professional evolution.&lt;/p&gt;
 &lt;h2&gt;The Point&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;file54531acb193b9.jpg&quot;&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 231px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 106.13496932515336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAVABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAMBAgQF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB8e9+Uw5xWQaA/8QAHRAAAgIBBQAAAAAAAAAAAAAAAQIAESIDBBASIf/aAAgBAQABBQIwjBT5t9NXjnK6ncpC18f/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAbEAABBQEBAAAAAAAAAAAAAAACAAEQEUEhMf/aAAgBAQAGPwJNcWfjYiHI5P8A/8QAGhABAAIDAQAAAAAAAAAAAAAAAQAhEBExQf/aAAgBAQABPyFa1LZ9upTjlS0IAe54Q3hUxesf/9oADAMBAAIAAwAAABDzxzz/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAeEAEAAgICAwEAAAAAAAAAAAABABEhMUFhUYHwof/aAAgBAQABPxDLdwFrig/FwQ3YRG1AFy1legz6lAtulbrxAi1tQ582l8/LG9N/EW1n/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;file54531acb193b9&quot;
+        title=&quot;file54531acb193b9&quot;
+        src=&quot;/static/7af40c0d4ef341250987910b340e8ead/d4da3/file54531acb193b9.jpg&quot;
+        srcset=&quot;/static/7af40c0d4ef341250987910b340e8ead/d2f63/file54531acb193b9.jpg 163w,
+/static/7af40c0d4ef341250987910b340e8ead/d4da3/file54531acb193b9.jpg 231w&quot;
+        sizes=&quot;(max-width: 231px) 100vw, 231px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
 Photo credit: &lt;a href=&quot;http://www.morguefile.com/creative/GaborfromHungary&quot;&gt;GaborfromHungary&lt;/a&gt; from &lt;a href=&quot;http://www.morguefile.com/&quot;&gt;morguefile.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;It&apos;s pretty direct: MicropolisJS is awesome, and so is open source. If you want to be awesome (like me) &lt;a href=&quot;https://github.com/graememcc/micropolisJS&quot;&gt;fork the project&lt;/a&gt; and help out a bit.&lt;/p&gt;
 &lt;p&gt;If you don&apos;t want to help, it&apos;s still a cool set of source code to download and play with to see a full working game in HTML and JavaScript. One that you can really recognize.&lt;/p&gt;
@@ -2905,7 +3312,37 @@ Photo credit: &lt;a href=&quot;http://www.morguefile.com/creative/GaborfromHunga
 &lt;p&gt;Take any LOB application that you want to port forward, and consider that you could make it accessible through a web portal, or inside of SharePoint, or whatever.&lt;/p&gt;
 &lt;p&gt;Now, you just worry the the game works in the browser and not the specific platforms.&lt;/p&gt;
 &lt;p&gt;Thanks for Playing. ~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Humble Bundle Games Go JavaScript]]></title><description><![CDATA[Last week, I noticed a playable game on the Firefox start page. The link at the base of the page lead me to this:  You can buy games on…]]></description><link>https://www.davidwesst.com/blog/humble-bundle-games-go-javascript/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/humble-bundle-games-go-javascript/</guid><pubDate>Thu, 23 Oct 2014 16:12:28 GMT</pubDate><content:encoded>&lt;p&gt;Last week, I noticed a playable game on the Firefox start page. The link at the base of the page lead me to this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;humblebundle-1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/59268b58b3ee549540ca4fd9c1ce446d/07a6a/humblebundle-1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 87.11656441717791%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACuUlEQVQ4y4WTSXPaQBCF+SXGgFi8AAYiQBvakIQEQizCgMF4SZmkcsidVOWaqiz/+aVnwDbEJDm86lFX65vX3VJioVqYkmaKiTlpQXqSddzLBm7ozBQpNhqaB5mktDw0JA/DpYnNrw423wf48mOAzU8f3XEbCU91EGkOQqODnu6hT4qeZQaYOj0EVheq0UXL7EGjqOk9hKMRZncjjOch+nEH/UkHRttDotHqQNR9KFbIJRGESTHpmQBNI4Bm9dCyOtBtHy2S4QRw/AEsdwzVjiFqfdSVLiSVgBq14LdctFQXsmzCskawzRgyOVbJpe3GVNiBG4awAwYKyImL3mBEBgKIqg3bC1CVHT6ShEvtrhUdZl1FtVRGZN3SzJYQHQ+S3sZk9gkGOQ9HCwThBFF/CJ/chdENNOqgVrqCU6uiUjd2QG+I1eoDwuEC8fQe8XyNyeIjJvNHRPEKN7dr9AdTjK4fMZ4+UHxAn+CDeL6da1tFNFYgUne8Zccf4+aOALMHPD59xmiy4rom4GC8xHy5hks1DBARaL56z/OuP4REjgwaw/R+AlEytkCFlsKk6gHfIDvL2jb3Kp9H9oJNHem0JHZmwIbsQmy6FHczlGgZ5at3uCxWuIql6j/1pq7MYgVNpc0vJaCDfD6PTCaNdDpFMcPP2+dtjsXn3DGxmnrTgEKfHwcWzs4hCAJSqRSEbBbZPbF8Nisc5LJHauqSuQcsnHFnyWSSxxcQUy6HtFCgi/I8t73gL8DWHpAlT05ODoCCkEGucInN12/0go40dXAMxuqOADM4PT19cfDiJleAYQe4KF7xGkH4E5jlJl5nqNBSdi2z4R/ObntOJvcvejvDQyA5zOVoy3yTmZ2LfR06PlRmZ2Rvy7Lmokb/canSRLnaxHmxhsJFFWeX/1fhgr7JskjvNmiGNv8OfwNInzXRUDFOswAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;humblebundle 1&quot;
+        title=&quot;humblebundle 1&quot;
+        src=&quot;/static/59268b58b3ee549540ca4fd9c1ce446d/a6d36/humblebundle-1.png&quot;
+        srcset=&quot;/static/59268b58b3ee549540ca4fd9c1ce446d/222b7/humblebundle-1.png 163w,
+/static/59268b58b3ee549540ca4fd9c1ce446d/ff46a/humblebundle-1.png 325w,
+/static/59268b58b3ee549540ca4fd9c1ce446d/a6d36/humblebundle-1.png 650w,
+/static/59268b58b3ee549540ca4fd9c1ce446d/e548f/humblebundle-1.png 975w,
+/static/59268b58b3ee549540ca4fd9c1ce446d/07a6a/humblebundle-1.png 1095w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;You can buy games on Steam and play them in the browser or on your desktop through Steam.&lt;/p&gt;
 &lt;p&gt;That. Is. Amazing.&lt;/p&gt;
 &lt;p&gt;I&apos;ve bought the bundle already as I was already eyeing &lt;a href=&quot;http://www.positech.co.uk/democracy3/&quot;&gt;Democracy 3&lt;/a&gt;. But being that we can compile game code into optimized JavaScript that runs in the browser is a game changer.&lt;/p&gt;
@@ -2913,7 +3350,36 @@ Photo credit: &lt;a href=&quot;http://www.morguefile.com/creative/GaborfromHunga
 &lt;p&gt;This is complex code, requiring high performance, running in the browser that wasn&apos;t written in JavaScript. In my mind, it proves that JavaScript is the official connective tissue for all languages to all platforms.&lt;/p&gt;
 &lt;p&gt;Have an app in C++? &lt;a href=&quot;http://kripken.github.io/mloc_emscripten_talk/gindex.html#/&quot;&gt;Compile it to JavaScript&lt;/a&gt; and try it in the browser before you buy it. Have a C# app? &lt;a href=&quot;http://jsil.org/&quot;&gt;Compile it to JavaScript&lt;/a&gt; and make a web-based version. Prefer Java over JavaScript? &lt;a href=&quot;http://www.gwtproject.org/&quot;&gt;Compile it to JavaScript&lt;/a&gt; and you&apos;re back in the browser.&lt;/p&gt;
 &lt;p&gt;My worlds are colliding, and it is freaking awesome.&lt;/p&gt;
-&lt;p&gt;Thanks for playing. ~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ThatOneVideoGamer Brought To You By: Me]]></title><description><![CDATA[Let me explain. The Completionist During my bit of professional soul searching, I rediscovered my true passion for video games. In that time…]]></description><link>https://www.davidwesst.com/blog/thatonevideogamer-brought-to-you-by-me/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/thatonevideogamer-brought-to-you-by-me/</guid><pubDate>Wed, 22 Oct 2014 00:48:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;meonthatonevideogamer.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Thanks for playing. ~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ThatOneVideoGamer Brought To You By: Me]]></title><description><![CDATA[Let me explain. The Completionist During my bit of professional soul searching, I rediscovered my true passion for video games. In that time…]]></description><link>https://www.davidwesst.com/blog/thatonevideogamer-brought-to-you-by-me/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/thatonevideogamer-brought-to-you-by-me/</guid><pubDate>Wed, 22 Oct 2014 00:48:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b1326cdce49b4da3f5860fad203d32db/39a20/meonthatonevideogamer.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 59.50920245398773%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAADOUlEQVQoz02S60/bZRzFH4kZ0F0y5yZSulJKN1gv9NeWXqAtBVpaKJRCJysUNgas0BYqiAHGBmNM3di67KrLNhKIcbpojC+MUeMLNZosLl6i8bYE/xNffHyWzeiLk/Pke05Ocr7fRxTtNiC26xA7Je+oRuySvPMpF1dh9Fdg9RiwmBSef1Ervfr/PP/6H/OOx7MqhFBVIp6tQJTIUJX+iaiqeoIiLbX+MmyN1ditDvappbfkqVb6P3+xnG+TKNYgOuP9RGJJFHcQj68NjcGJzdVCgz+MyR7AYvOh2L3UKR40egtmeysOdwi3rx1vU7v01+MPxvAFuwlHexDe6FFc4QEONsSJD+dJL7zO9NkCs+cKZE9dILd0kazE5PIlhmaWGJ1bZWLxPLnlApnlNRKZBeojKSyBI7hCfbKypglR7kc810Bz/iKFB49Y+fwHNn7c4tZ3j9j8aYu7D//k6tc/s/7wD249+I2b3/zC8O2P6C7cI3z6BqKqQ2a0ItQ+xO6WkxQHVylN3GBf56uo20YoD6expeYkZrH3z6C8NMmhrjGM0RHqutOYukbZUxdmm9aNSt+IKn5J4k32yCzhSkwTGV0hMvEG/v45IqkFOo6vsN02jFCyPNO8jIhcpih6BRGQb/skRZajGNpyhIdk3a4ModGzuPrm2aUkEHNrV0iOZUgMj9N7fILBdJrx/BT+wSkCyXG6jmWJZWYJjUwxkH2Z9hMzOPrSzM8vsblxj/WNt3nvkw/56vctTr31AaJ3bBprYydaJcR+k5+DNbU4jSbqmnrpOZJgIObh29tTTKUa+eLODNevrrLXHiITH+Tk4jXGxpeYfmWe+59+z2t3P0M09wzK6yTklTupdrTKb2LHaDZRojEST/WycibNwkgHhzvq6Y81kEjGKdXZyY+e5sI7X5I7/y6FM9e4ubZJLJlHdLR14/FGMSstOJwhvHYHXquV8jIditmK9VANxgPV1Op1OBQzDouFysoaJnPnZNVfuXz9Pu+vf8zWX39zYnxR7ttood2sEK2zEaw1EdAbaDUcwK3RYXtBjVO9X0KLs0KLo1yDrUwtNS1RGXzY5aK/0UeqqYVjQ8O4G7z8A9kewZh2NuQlAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;meonthatonevideogamer&quot;
+        title=&quot;meonthatonevideogamer&quot;
+        src=&quot;/static/b1326cdce49b4da3f5860fad203d32db/a6d36/meonthatonevideogamer.png&quot;
+        srcset=&quot;/static/b1326cdce49b4da3f5860fad203d32db/222b7/meonthatonevideogamer.png 163w,
+/static/b1326cdce49b4da3f5860fad203d32db/ff46a/meonthatonevideogamer.png 325w,
+/static/b1326cdce49b4da3f5860fad203d32db/a6d36/meonthatonevideogamer.png 650w,
+/static/b1326cdce49b4da3f5860fad203d32db/39a20/meonthatonevideogamer.png 859w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Let me explain.&lt;/p&gt;
 &lt;h3&gt;The Completionist&lt;/h3&gt;
 &lt;p&gt;During my bit of professional soul searching, I rediscovered my true passion for video games. In that time, I found &lt;a href=&quot;https://www.youtube.com/channel/UCPYJR2EIu0_MJaDeSGwkIVw&quot;&gt;ThatOneVideoGamer on YouTube&lt;/a&gt; and really started to look at YouTube and web-based video as a serious entertainment medium.&lt;/p&gt;
@@ -2926,7 +3392,37 @@ Photo credit: &lt;a href=&quot;http://www.morguefile.com/creative/GaborfromHunga
 &lt;p&gt;If you haven&apos;t heard of it, neither of many people.&lt;/p&gt;
 &lt;p&gt;So, I&apos;m going to fix that now.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&quot;bower-logo.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7823edf9095e10493bbac5c878e07e9a/2bef9/bower-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 87.73006134969326%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsTAAALEwEAmpwYAAAExklEQVQ4y22Ue2wUVRTGbxeMQSIP0wA+sESge2d2dmbnsdtSoAu03e22dLvM7KutCpgGeUOBBBUpgpDQtFSIiGAToahIBELEP0CCiIjQQgUUBI0SE2MlULrVUtvu6x7PLPIfk3yZO5mZ3/m+M+cOieRxxKNRi+LIJbn2yaPcirUunMedqS3gu16dyv8TzOPaZyjWqCLlEiIGyPxJwyyfEUKKK/zkF0KeqBHG2PyFzpH+QhcxXJSQWarV4sCHCxWrPn8K17nXI8LVOTJ0Ghrc1p1wJSDDOrcNijW6bnT2cAIIQw2dPbOg3rHwzbsen/f3RePIM4vHEYLFs4gJQ+jCtYU2+FVXIF2tJfqCzlTfPIn1LeBZPOxM9oQ1tnY6D+PHZ4sjVu8kRXroy+c2H4Lsd05DWbF7idfnJW6jaoiBaclU2epeOc0Gd0IqDFRpybu6Br3LRdZ9wsu6ztewngY7DBhqale5BnMrS77W820fPvtaCzze+lt8Qn0rrBpO5LoRhEQdz1uMPJqx2dZWKUMcYV0RFWIBJ+vbw8HOTVVQv3o93Grl2c9hHt7dVJ+61NEBB/a2wNL5Nf1PNX8F4tJNnR8RMmo3tkHPF7KCpsONMwQYiGqpe2GV9URV1h3QILFFhWONk6FpRQ4k9qnsWw9lu9/bAYf3bGc1S1eCu/FT8PkroGKa+oa71EdKvSVDzbiGC4FHfRIMVmlpBEJPRGWxiAaxoArJtzRgzRrcf1mFP3UlVVc+HcplYV+Bqm5wGPOOzC50lmpyMfENHUtqh9uJUcBZgi78KBcxbn9UY93oMBbWEGpKhXuVGnRXaBCPanAzoLAlM3JhTYi7t8hDL9fmjz8adVq3Fk3k67yjrbOWEzpKn8aRkBN7aI7FQ6AJikUyTiEWVeEO6qzfAVvcAtw4IDL4XoLuUyL8cFCEw80C7K63weIlPJRXcF3Yv/0hFzeBXPDLMFCNwGimhw+A0QfAa3MUOFcsw9+NMoPrEqQviaz/vJj+46SY+u6IPVG7y5acuZln09fxUFnEQUilV8knXhEG5zjTXRgxZgrHptv/QL3YgnSjknEGCINLkrlmvRdFtuWUwOSjtrSthU/OXMEl9AIOgi56kqzy8DDYJKfvr1fYv9tkFv/YAQM75YwSxyRgV0VIIuzWRRGOt9vZhrNCKnDaBmMP8Un5Ax48ryBIo4BfuUGfyg0jZTK9+cUOAeCWlEpdEQF+RCfX8fwTCmGpdry+LEFTq5CgDTzIazhwreWg7CWMqNG7QZWeQWcbQzIlxhQcm4BCl4XyOOjYa0/ADYzWIbF0m8SSF0SWbBMhjfHgmgQNc/n+4sn09cUCZywYQ4uiHF0WdFJak0NJSKEEXWYZ5l7u/UbMCmi0HWcIDr0tDPafE1MmAG5iv8wCqBPNQrISY4Xyue0hSskCQkn1RErCIiW+EEcQbDHyOZLZKdU4Py8Wci/gr6ezXKJQW8LB+3W2+OdbBXZ8m5BuWsgzLBjXXRTwhdt6Hh0JJIegm8cwqukqA3ooglWHhDF7tIDLiUzhDvoVul8aaw2UCjTps1MoEzOgjLDoSvOfh2tzV5BHHv+TLeZZx0lXnraSSU9azQJ7sNBfqMzQIihi3jdB5p7NuHnE8R/e+XMlUxrntAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;bower logo&quot;
+        title=&quot;bower logo&quot;
+        src=&quot;/static/7823edf9095e10493bbac5c878e07e9a/a6d36/bower-logo.png&quot;
+        srcset=&quot;/static/7823edf9095e10493bbac5c878e07e9a/222b7/bower-logo.png 163w,
+/static/7823edf9095e10493bbac5c878e07e9a/ff46a/bower-logo.png 325w,
+/static/7823edf9095e10493bbac5c878e07e9a/a6d36/bower-logo.png 650w,
+/static/7823edf9095e10493bbac5c878e07e9a/e548f/bower-logo.png 975w,
+/static/7823edf9095e10493bbac5c878e07e9a/2bef9/bower-logo.png 1024w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Bower is an open-source client-side HTML package manager from the people that brought you Twitter Bootstrap and..well, Twitter I suppose. If you&apos;re a Ruby or Rails person, it&apos;s like &lt;a href=&quot;https://rubygems.org/&quot;&gt;Gems&lt;/a&gt;. If you&apos;re a .NET person, it&apos;s like &lt;a href=&quot;https://www.nuget.org/&quot;&gt;Nuget&lt;/a&gt;. If you&apos;re a NodeJS person, it&apos;s like the &lt;a href=&quot;https://www.npmjs.org/&quot;&gt;npm&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In other words, it&apos;s nothing new.&lt;/p&gt;
 &lt;p&gt;But here&apos;s what makes it awesome: HTML and client-side JavaScript are BFFs within the world of HTML5. So, if you&apos;re using HTML or JavaScript in your client, Bower is going to make remembering and setting up development environments easy.&lt;/p&gt;
@@ -2946,7 +3442,35 @@ Photo credit: &lt;a href=&quot;http://www.morguefile.com/creative/GaborfromHunga
 &lt;p&gt;Oh, and because it&apos;s &lt;a href=&quot;http://nodejs.org&quot;&gt;using NodeJS&lt;/a&gt;, it&apos;s platform agnostic, just like JavaScript and how I like my coding tools.&lt;/p&gt;
 &lt;p&gt;Thanks for playing. ~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Always Use Node (Even on Non-Node Projects)]]></title><description><![CDATA[That's right. I said it: Always use Node, no matter what! Even if your server isn't going to be a Node server, just have it installed…]]></description><link>https://www.davidwesst.com/blog/always-use-node-even-on-non-node-projects/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/always-use-node-even-on-non-node-projects/</guid><pubDate>Thu, 09 Oct 2014 22:09:12 GMT</pubDate><content:encoded>&lt;p&gt;That&apos;s right. I said it: Always use Node, no matter what! Even if your server isn&apos;t going to be a Node server, just have it installed because you&apos;ll use it.&lt;/p&gt;
 &lt;p&gt;Why? That&apos;s what I&apos;m going to tell you.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;node-logo.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/30ffa01c5d3301539b0e5be5ab17e6d1/0b533/node-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 26.993865030674847%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZUlEQVQY02OwdzRjsHcwZzDTtWDMW6jL2PdYjaH5rAZD1x11Ru9IEyZHZ6C8o5mUvYPZdgcHc1aQWnt7cwZzfQvGnLm6jPVHNcHq206oMzQBaQaogapABQx5i3QZuu+pgxQodN5WZ0hoMWCwtQYa4GBmD8RPgQZyOIDU25krWZlaMAANZKg/oskOUj95tzLIQG6QYauBij4Dbe2e9k2FremM5iIg/t98TqPL0cWMDSg/Cyj/0cHB7B6QzQtkz3VwMvtqZ2s+veOGOh9QrTMQezef1fRsOqspAbL9M1BjENAljwpX6pgADfrfdFrzf+tFjdfBWUYWdnbmL4EGFAENeghUo+XoavYnttZgmo2leUbTKU15oEFeQAMrgIYVAbEgyMvN7gGm7ECNjVHlhmIt5zXmARX8BRrc6expygl01WKgYc+BFk8F0sxAegXQggPyDLasR/5Lszae0gwEejkIaJgHEHMCABbNiJaV/5tNAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;node logo&quot;
+        title=&quot;node logo&quot;
+        src=&quot;/static/30ffa01c5d3301539b0e5be5ab17e6d1/0b533/node-logo.png&quot;
+        srcset=&quot;/static/30ffa01c5d3301539b0e5be5ab17e6d1/222b7/node-logo.png 163w,
+/static/30ffa01c5d3301539b0e5be5ab17e6d1/ff46a/node-logo.png 325w,
+/static/30ffa01c5d3301539b0e5be5ab17e6d1/0b533/node-logo.png 500w&quot;
+        sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;Before we start...&lt;/h3&gt;
 &lt;p&gt;I know there are plenty of other package managers for all the &lt;a href=&quot;https://www.nuget.org/&quot;&gt;different&lt;/a&gt; &lt;a href=&quot;https://www.rubygems.org/&quot;&gt;languages&lt;/a&gt; &lt;a href=&quot;https://getcomposer.org/&quot;&gt;out&lt;/a&gt; &lt;a href=&quot;https://pip.pypa.io/en/latest/&quot;&gt;there&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I&apos;m not saying that NodeJS is better or worse than those. &lt;strong&gt;I am saying that npm is freaking fantastic for HTML developers&lt;/strong&gt;.&lt;/p&gt;
@@ -3055,7 +3579,35 @@ I define and configure those in the RequireJS config JSON that gets run before w
 &lt;p&gt;You need to embrace your fan community out there and let things like &lt;a href=&quot;https://github.com/Diogenesthecynic/FullScreenMario&quot;&gt;FullScreenMario&lt;/a&gt; and &lt;a href=&quot;http://www.fullscreenpokemon.com/&quot;&gt;FullScreenPokemon&lt;/a&gt; become part of your web presence, rather than &lt;a href=&quot;http://www.fullscreenmario.com/&quot;&gt;killing them off&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;fullscreenpokemon.PNG&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Thanks for Playing. ~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why do you CoffeeScript your JavaScript?]]></title><description><![CDATA[I was asked this the other day: Why don't you just write your code in JavaScript directly? As in, why would you use a langugage that…]]></description><link>https://www.davidwesst.com/blog/why-do-you-coffeescript-your-javascript/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/why-do-you-coffeescript-your-javascript/</guid><pubDate>Tue, 30 Sep 2014 18:26:07 GMT</pubDate><content:encoded>&lt;p&gt;I was asked this the other day: Why don&apos;t you just write your code in JavaScript directly? As in, why would you use a langugage that abstracts JavaScript, which  doesn&apos;t require compiliation?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;coffeescript-logo.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 450px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/96215865b690b19799dc30ead7ac854f/fc2a6/coffeescript-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 17.177914110429448%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAk0lEQVQI1y3OMQtBURQH8Pcx3itkVpRXJiZlYsBgMuiNmAzKqAxWE4MoZTBKyeew28y+Ar9bht/9n3O7nXuiJEkHTJkzI6ZDL46rBZnJs6yRI2VBkRJ1ut5U5DBy3PnwdvkiDFzSZ8uFIweujDmxY8X63z/Yh4FDnnyZEO4aNBn54EamroZt1GHD1l9Zn5cb2mHjH8j0MFwi5KagAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;coffeescript logo&quot;
+        title=&quot;coffeescript logo&quot;
+        src=&quot;/static/96215865b690b19799dc30ead7ac854f/fc2a6/coffeescript-logo.png&quot;
+        srcset=&quot;/static/96215865b690b19799dc30ead7ac854f/222b7/coffeescript-logo.png 163w,
+/static/96215865b690b19799dc30ead7ac854f/ff46a/coffeescript-logo.png 325w,
+/static/96215865b690b19799dc30ead7ac854f/fc2a6/coffeescript-logo.png 450w&quot;
+        sizes=&quot;(max-width: 450px) 100vw, 450px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;That second question is also the answer: I &lt;em&gt;want&lt;/em&gt; a compiler, because a compiler can optimize my code.&lt;/p&gt;
 &lt;h3&gt;For Example&lt;/h3&gt;
 &lt;p&gt;Remember our script from the &lt;a href=&quot;http://davidwesst.com/why-do-i-javascript/&quot;&gt;last post&lt;/a&gt;? Well, let&apos;s see that same thing in &lt;a href=&quot;http://coffeescript.org&quot;&gt;CoffeeScript&lt;/a&gt;.&lt;/p&gt;
@@ -3079,7 +3631,34 @@ I define and configure those in the RequireJS config JSON that gets run before w
 &lt;h5&gt;For example...&lt;/h5&gt;
 &lt;p&gt;The IE team &lt;a href=&quot;http://blogs.msdn.com/b/ie/archive/2014/09/18/updates-to-our-platform-roadmap.aspx&quot;&gt;recently announced the support&lt;/a&gt; of ES6 features that are &quot;In Development&quot;.&lt;/p&gt;
 &lt;p&gt;Internet Explorer is something of a major player on the web, so I probably want to support those users too.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;ielogo-blue.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 227px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d666cb3d2a231624c52fd155036b9654/9b5be/ielogo-blue.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 97.54601226993866%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADQUlEQVQ4y31USWxNURi+K6KUGktp+6oVC4LEtMOGhFggqQUhlZgJYmGKDTaGpVhIEHYEIUG1VZ0oOlBVNFWpeShv6Ltvfve99/u++869774mdZI/99x7z/n+7//+QRO1UilaSu1TYqj94NUbTMiFTxFZ16bLjMdeWdDkkyXNA3LuY9j8r2UAMwAJxz6aTElPICFN7rhU9sdkf1dQZtX7xFXrlaUA2vUmYNoy7Lt0Iw3oZGaBuWNJOd0bNi8V1nhkcrVHJlZ5ZNxDj0zAc9ULv3wPJ2zHtX9icupDSDSCWGaBVeMnWeRWuiUfl4sfeaUEjKYrc+F9ChyUYn/lS8S8EzRScgl7zWJnaXbzR1RyHrhlZp3X1IhABbg8Fszy4GCSckDQqWA+CmepaX80KXd+xdIhW8w6BgzJw8XtnQEpb9dNoPF4n9fgkx34duBtUJY/95uhE4yglIP7Y90h6QslMgy5VuAwdTuOn9SJdhAg/ngyK9M3EAVDJ1AJQKnvHDjlOc1iVwPdqAE1GYPQCLbxpW6DGMg2zTp/7VvUZO9S+jJZ1+HITooOUev+xu0kUKt6lMpQi8CLnwxIPtiRLfXd9jogWlJ5ZJYWokgJZGmzttUvFR0B2fxKz7JNsIoOXWajEniO2SYwS8kO+cj7oIyGF3rjoSKAjkQGh91zy/D76adl1julYagMPQffSMjMcqffkEIAFFkGQIJSw33ojD3ohL2DbDeMmWdF7IRtQSQne0JpQP5gPbkUIDVkUhr/o+FQS+tGnzL9i0C3DIU8TdUXQ3FmmT1NiyfTErX7DDkBRmdQZmcxGLjvDqCXL36OyAjE/8wTl/UoZnYEy8BieRjahhLZk6cBzNma7Cg65n1q/xvdom1FqueiKLlavHEzy4WKZbFiSvacMkcBXo6xxT6mlQGkTNXg7Z/RdMgrkeoNjtAuo7CZbcpAr2TLy/yWC0bMKB2Vqmqg9kwGF0tQW92SDchVhblHMB5mP1sAZFOihgJLhnqf7wvbo4+mXf0aMSnfAmXOQJYQ6bOfD70LyvxGnxTUeOzepgMWNEupC2edYPbEZg+vQVew5pikZk+mXNiSrcjoXYwmjqen+EfHzhZ0Duh/G3AxKp2HGY4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ielogo blue&quot;
+        title=&quot;ielogo blue&quot;
+        src=&quot;/static/d666cb3d2a231624c52fd155036b9654/9b5be/ielogo-blue.png&quot;
+        srcset=&quot;/static/d666cb3d2a231624c52fd155036b9654/222b7/ielogo-blue.png 163w,
+/static/d666cb3d2a231624c52fd155036b9654/9b5be/ielogo-blue.png 227w&quot;
+        sizes=&quot;(max-width: 227px) 100vw, 227px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;The Point&lt;/h3&gt;
 &lt;p&gt;I like CoffeeScript because it still allows me to learn the features JavaScript, while giving me a compiler to write optimal JavaScript, along with a simpler, cleaner syntax, in my opinion.&lt;/p&gt;
 &lt;p&gt;This is definitely more of a preference when coding JavaScript and isn&apos;t really necessary. I just find that writing CS versus JS was just more intuitive with my background.&lt;/p&gt;
@@ -3226,7 +3805,36 @@ I define and configure those in the RequireJS config JSON that gets run before w
 &lt;p&gt;I ended up installing a few plugins to allow me to browse through my file tree, and thanks to the Github community, I added syntax highlighting for both CoffeeScript and LESS.&lt;/p&gt;
 &lt;p&gt;I&apos;m still using it now with my JS projects, but the web hipster in me misses Sublime.&lt;/p&gt;
 &lt;h4&gt;Vim7&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;vim.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1d0dce9674c52a993cd78f8bd2f4e319/d2a60/vim.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 71.77914110429448%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACPklEQVQ4y4VTy1LbMBT1JhCntWVLsmxZ8gsndKjJa0h+Adhkl7LJBP7/K06vBAHaAl2ckT2Sjs5DCi6vLlHbCnEcQWuFfjZFKzhmjKGKY7AoQkRgLEaSJB9CCIGzsxGOxyOC6bSHyhVt+o5MSZjK4sKUmOY5GiKUhMgR0wFfEY5GIzw9PSHQugDnHCxhNJEiVwoFoZQSOS1mhDRNPf5H+Pj4iKAoWkhhwFMLKSsIVZMqBkUWZZIiIzh16Qvx14SksO06NE2DuqpQFAV0XaPOMnRks0+5h1f5CaFz5hy+Khyuf+J6PsDYklQmqCqDvmtwVVe44ikGUteyZ8LkE4UnQp9hUdRQypBdTZOcCojAyQKnHAURuBzVy8b3Cl0MJzy3fIbD4YCgLIkwL2G1hRbS5yZokSLLnMaIEH9A+LfC8/Nz7Pd7ujazHl3focsz9FTGRSLRGYsfbYuerk6ttd9wIjxdn/cK3X8QBNjtdq6UFnVTo6NyLoiksQaVqUh14a1LKV7Cdxm+qYrd/fQX/o3w7u4WgTHGt2uthaWmdan9d0GEmciIOEdGygraJFPxR4b/Et45yzO0pKyzCh29EmdfT+mAxiCXigpTkFwgI9tudPZPEXgy9pyhI7y9JYXu2Ql6Fdy1y76RxQyJpNNVhAmbIByHGIchwskEE0I4Cf3oSnDNurnxeOwJ7+9J4Xa7xXazwWq9wnwxYHOzwfqGvtdzLNdLrFdrLBYLj9VqheVy+ToOw4D5fO7n2rbBw8Mv/AbZQGYnmc9b7gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;vim&quot;
+        title=&quot;vim&quot;
+        src=&quot;/static/1d0dce9674c52a993cd78f8bd2f4e319/a6d36/vim.png&quot;
+        srcset=&quot;/static/1d0dce9674c52a993cd78f8bd2f4e319/222b7/vim.png 163w,
+/static/1d0dce9674c52a993cd78f8bd2f4e319/ff46a/vim.png 325w,
+/static/1d0dce9674c52a993cd78f8bd2f4e319/a6d36/vim.png 650w,
+/static/1d0dce9674c52a993cd78f8bd2f4e319/d2a60/vim.png 807w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;And then it finally happened: I dropped the GUI. Through the years, I have always tried Vim as I know it &lt;em&gt;can&lt;/em&gt; be powerful. Unforuntely, I was never really able to get the hang of it...until now.&lt;/p&gt;
 &lt;p&gt;Vim gives me the ability to write my JavaScript on any platform, Linux or Windows as it&apos;s totally command line based.&lt;/p&gt;
 &lt;p&gt;Here&apos;s what got me sold on it: the plugins. Again, the only ones I wanted should allow me to explore the file system and have syntax highlighting. Thanks to Github, I found that and managed to get it going in an hour.&lt;/p&gt;
@@ -3246,7 +3854,36 @@ I define and configure those in the RequireJS config JSON that gets run before w
 &lt;p&gt;This is year four, and I&apos;m as pumped as ever to keep it up for another full year!&lt;/p&gt;
 &lt;p&gt;Here is to another year of being an IE MVP!&lt;/p&gt;
 &lt;p&gt;Thanks for playing.&lt;/p&gt;
-&lt;p&gt;~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[BUILD 2014 Cool Stuff - Day 1]]></title><description><![CDATA[I haven't been to BUILD, but I always follow it as Microsoft makes a bunch of really cool announcements throughout that pump me up. I know…]]></description><link>https://www.davidwesst.com/blog/build-2014-cool-stuff-day-1/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/build-2014-cool-stuff-day-1/</guid><pubDate>Thu, 03 Apr 2014 05:26:56 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;microsoft-build.jpg&quot;&gt; I haven&apos;t been to BUILD, but I always follow it as Microsoft makes a bunch of really cool announcements throughout that pump me up.&lt;/p&gt;
+&lt;p&gt;~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[BUILD 2014 Cool Stuff - Day 1]]></title><description><![CDATA[I haven't been to BUILD, but I always follow it as Microsoft makes a bunch of really cool announcements throughout that pump me up. I know…]]></description><link>https://www.davidwesst.com/blog/build-2014-cool-stuff-day-1/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/build-2014-cool-stuff-day-1/</guid><pubDate>Thu, 03 Apr 2014 05:26:56 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1c3ca101aa2381c08b0f9382a5b109ab/d0cbf/microsoft-build.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.44171779141104%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAGrKZPQ4nA//8QAGRAAAwEBAQAAAAAAAAAAAAAAAAECMQMR/9oACAEBAAEFAutORiteVo9//8QAFxEAAwEAAAAAAAAAAAAAAAAAARARUf/aAAgBAwEBPwE3V//EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAgBAgEBPwHIj//EABcQAAMBAAAAAAAAAAAAAAAAABAgIbH/2gAIAQEABj8CguJ//8QAGhABAAIDAQAAAAAAAAAAAAAAAQAhETFRQf/aAAgBAQABPyHENh3H7yHBvCWzmK9jSk//2gAMAwEAAgADAAAAENw//8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/EA3Sbf/EABYRAQEBAAAAAAAAAAAAAAAAAAERAP/aAAgBAgEBPxCRJkb/xAAcEAEBAAICAwAAAAAAAAAAAAABEQAhMUFRYbH/2gAIAQEAAT8Qd7EUKPrJxbrWut4FIE3o/cq2gZcIKLzzk0oS5//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;microsoft build&quot;
+        title=&quot;microsoft build&quot;
+        src=&quot;/static/1c3ca101aa2381c08b0f9382a5b109ab/6aca1/microsoft-build.jpg&quot;
+        srcset=&quot;/static/1c3ca101aa2381c08b0f9382a5b109ab/d2f63/microsoft-build.jpg 163w,
+/static/1c3ca101aa2381c08b0f9382a5b109ab/c989d/microsoft-build.jpg 325w,
+/static/1c3ca101aa2381c08b0f9382a5b109ab/6aca1/microsoft-build.jpg 650w,
+/static/1c3ca101aa2381c08b0f9382a5b109ab/d0cbf/microsoft-build.jpg 950w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt; I haven&apos;t been to BUILD, but I always follow it as Microsoft makes a bunch of really cool announcements throughout that pump me up.&lt;/p&gt;
 &lt;p&gt;I know there are plenty of people talking about BUILD, but I thought I&apos;d take a moment to share my favourite bits that came out of day one.&lt;/p&gt;
 &lt;h3&gt;IE11 on Windows Phone 8.1&lt;/h3&gt;
 &lt;p&gt;If you&apos;re not a WP owner, then you won&apos;t care about this. You&apos;ll just be missing out.&lt;/p&gt;
@@ -3324,7 +3961,37 @@ Old versions of IE lingering around the machines in a big enterprise has been a 
 &lt;p&gt;~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[DW on Tour]]></title><description><![CDATA[That's right, I'm heading out on a small tour out west in November and December to do some talking about HTML and JavaScript. I suggest you…]]></description><link>https://www.davidwesst.com/blog/dw-on-tour/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/dw-on-tour/</guid><pubDate>Tue, 29 Oct 2013 03:52:00 GMT</pubDate><content:encoded>&lt;p&gt;That&apos;s right, I&apos;m heading out on a small tour out west in November and December to do some talking about HTML and JavaScript. I suggest you find your way to DevTeach in Vancouver or Saskatoon in November to learn some awesome tricks. &lt;/p&gt;
 &lt;p&gt;Here&apos;s the skinny on what you can expect from me at each conference: &lt;/p&gt;
 &lt;h3&gt;&lt;a href=&quot;http://www.prairiedevcon.com&quot;&gt;Prairie Developers Conference – Sasktoon, SK (November 4-5, 2013)&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;header_prairie_dev_con_saskatoon.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d77bddbab1feef3e0c50147591c3f1cb/72e01/header_prairie_dev_con_saskatoon.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 16.56441717791411%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAADABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQD/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/2gAMAwEAAhADEAAAAbdBBkFM/wD/xAAZEAABBQAAAAAAAAAAAAAAAAAAAQIDITL/2gAIAQEAAQUCh2+hT//EABYRAAMAAAAAAAAAAAAAAAAAAAEQMv/aAAgBAwEBPwESv//EABYRAAMAAAAAAAAAAAAAAAAAAAEQMv/aAAgBAgEBPwE0v//EABYQAAMAAAAAAAAAAAAAAAAAAAABEP/aAAgBAQAGPwIc/8QAGhAAAgMBAQAAAAAAAAAAAAAAAAEhMXERkf/aAAgBAQABPyGnGQIm+aJNv0//2gAMAwEAAgADAAAAEPvv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARMf/aAAgBAwEBPxBKtnt//8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARMf/aAAgBAgEBPxAgcjl//8QAGhAAAgMBAQAAAAAAAAAAAAAAAAERIZExQf/aAAgBAQABPxC6/Gh4STxnyRFXWf/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;header prairie dev con saskatoon&quot;
+        title=&quot;header prairie dev con saskatoon&quot;
+        src=&quot;/static/d77bddbab1feef3e0c50147591c3f1cb/6aca1/header_prairie_dev_con_saskatoon.jpg&quot;
+        srcset=&quot;/static/d77bddbab1feef3e0c50147591c3f1cb/d2f63/header_prairie_dev_con_saskatoon.jpg 163w,
+/static/d77bddbab1feef3e0c50147591c3f1cb/c989d/header_prairie_dev_con_saskatoon.jpg 325w,
+/static/d77bddbab1feef3e0c50147591c3f1cb/6aca1/header_prairie_dev_con_saskatoon.jpg 650w,
+/static/d77bddbab1feef3e0c50147591c3f1cb/7c09c/header_prairie_dev_con_saskatoon.jpg 975w,
+/static/d77bddbab1feef3e0c50147591c3f1cb/72e01/header_prairie_dev_con_saskatoon.jpg 1024w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h4&gt;HTML5: The Parts You Care About&lt;/h4&gt;
 &lt;p&gt;HTML5 is here to stay, but how to you keep know what information is important and what is nothing more than the buzz. The goal of this presentation is to give you the knowledge and tools to you need to understand how HTML5 can be applied to your software development world. We will discuss and view the current state of HTML5, review some of the common assumptions going on about HTML5, and how to start getting you and your developers off to a good start with HTML5. &lt;/p&gt;
 &lt;h4&gt;The JavaScript Revolution: The New Age of Software Development&lt;/h4&gt;
@@ -3379,7 +4046,35 @@ Old versions of IE lingering around the machines in a big enterprise has been a 
 &lt;p&gt;As I see more of these games, it gives me hope that HTML is truly evolving past its roots of a document collaboration standard and turning into something bigger, richer, and more powerful than we thought. I applaude Daniel Church and the Internet Explorer team for making Hover! and raising the bar. &lt;/p&gt;
 &lt;p&gt;Hover! has raised the bar. Who will be next to take HTML Next-Gen to the next level? &lt;/p&gt;
 &lt;p&gt;Thanks for playing. &lt;/p&gt;
-&lt;p&gt;~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Heisenberg Second Screen Experience in HTML]]></title><description><![CDATA[Breaking Bad is coming to an end. We actually signed up for cable because we wanted AMC to watch the final season live and PVR it in case we…]]></description><link>https://www.davidwesst.com/blog/the-heisenberg-second-screen-experience-in-html/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/the-heisenberg-second-screen-experience-in-html/</guid><pubDate>Fri, 27 Sep 2013 03:37:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;breakingbadhtml5.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Heisenberg Second Screen Experience in HTML]]></title><description><![CDATA[Breaking Bad is coming to an end. We actually signed up for cable because we wanted AMC to watch the final season live and PVR it in case we…]]></description><link>https://www.davidwesst.com/blog/the-heisenberg-second-screen-experience-in-html/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/the-heisenberg-second-screen-experience-in-html/</guid><pubDate>Fri, 27 Sep 2013 03:37:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 580px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c29617c9557dd71ce2c581a76fa4c20f/b6272/breakingbadhtml5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 49.079754601226995%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAACx0lEQVQozyWSaWxMaxyH32mnnfbMOTPnzJkzC62gEnxBRIRyk2vfoo2laatJ7TSqaueW0mtry6CbqiaopRJiaamd+GK5uaFibUPsW2KNJbhoHm/nfn3zf5/8NvGoUqe5zEVNrs62bDfV2QZrM71cKlT5VGvn7a5IPtZG8LQ6lsc7HXyrs9O82eBeqc7N9SY3ii0elLtp2iTfSgxEK/B+hcr6yR5KZxiEpphkjfJTl6fy65CND3ttfD8oaCpxcrtC4Xu9netFBo8q3DzbaoSBz6vc3A4ZXCv0IN7VxHBhtZO8VIuV6T7y0yyWpXpZmubh1pYoWuoE/x0WvNwRxd1Khd05TjITXRSMdZOfpLNR/luRrJMzRGPZaB3RctAWVtYm2IHBveJI/7MNi8b46dU1ngN5Tjgt+CpvaBA0b4vh6BKN4hQPi4d7GNhZYcsUJyk9NUrTvezP9iG+7I1h5xyTNAnaPtvD6gyLXTlexv8R4EJRDJyUCo8IWuqFzM/G9ZDGP6ssji/0U5ZhyowdVE402ZcV5HyevxUYTcNyV1hdyTSTTVN16vMVUgf4aSxzwCnBTwn7Ia1zVnB8sU7DAj/HFvi4WGBI5dFcLrBomBcIFyPe18RyuVAjsVscf6X4SEoMcqMsijljvDRVRYWtfpMZck7w+YCNK2tc1OcGqJroI2uAyoYJKhl9NZaM9HB1rSzlzQ6FxpCL7p3jWZ4mc1iksme+kxF9gryQk+GEhJ0R/BuKoFPARvZQRdq16JvgJMEbS7+OKu3NWLrFKZRnSuCramd4R3OTA/SQ0P7d2zKsd5CN03WpzsadighyR0WiOiIRQsh2NWpnmbJhkz0zfUzoo1I83kvROIv80RL4pNIlN6XzskrnoZzFxXUKr3fbubQugvR+kfjUVtD/sHjDzon5QaonWST10BjcVcNUomnncTCoi8bfySa/AYbUqYIL3ALFAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;breakingbadhtml5&quot;
+        title=&quot;breakingbadhtml5&quot;
+        src=&quot;/static/c29617c9557dd71ce2c581a76fa4c20f/b6272/breakingbadhtml5.png&quot;
+        srcset=&quot;/static/c29617c9557dd71ce2c581a76fa4c20f/222b7/breakingbadhtml5.png 163w,
+/static/c29617c9557dd71ce2c581a76fa4c20f/ff46a/breakingbadhtml5.png 325w,
+/static/c29617c9557dd71ce2c581a76fa4c20f/b6272/breakingbadhtml5.png 580w&quot;
+        sizes=&quot;(max-width: 580px) 100vw, 580px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Breaking Bad is coming to an end. We actually signed up for cable because we wanted AMC to watch the final season live and PVR it in case we were running late, and if we record it, then&lt;/p&gt;
 &lt;p&gt;Here&apos;s the interesting thing though: we haven&apos;t been late for a specific reason. That reason is the Breaking Bad Story Sync app. &lt;/p&gt;
 &lt;h3&gt;What is Story Sync?&lt;/h3&gt;
@@ -3417,7 +4112,35 @@ Old versions of IE lingering around the machines in a big enterprise has been a 
 &lt;p&gt;My answer was found in the first hour of PAX Prime. &lt;/p&gt;
 &lt;p&gt;Enter Atari Arcade &lt;/p&gt;
 &lt;p&gt;On the main expo floor, right near the front of the hall you saw a large booth dedicated to the &lt;a href=&quot;http://atari.com/arcade&quot;&gt;Atari Arcade&lt;/a&gt;. It was marked as Microsoft booth on the PAX map, but the focus of the booth was for people to compete for a chance to go to Tokyo by getting the high score in one of the classic Atari games hosted on the Atari website. At first I wasn&apos;t sure what to expect, but when I returned I found this:. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;ieatpax.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 640px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/030164fe484f29f37cf86ac887b00504/c08c5/ieatpax.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.44171779141104%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAY6oib7HS//EABoQAQEAAgMAAAAAAAAAAAAAAAIBAAMTITL/2gAIAQEAAQUCJlmviCj0qa2pk7g8/wD/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwEn/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BZ//EABwQAAIBBQEAAAAAAAAAAAAAAAABEQIQISIxcf/aAAgBAQAGPwJyl6bUySkjpm3/xAAaEAADAQEBAQAAAAAAAAAAAAAAAREhMUFx/9oACAEBAAE/IXkxXFUg3dF4TRL4kYC6g2+nBUP/2gAMAwEAAgADAAAAED8//8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/ENDa3//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxBCWF//xAAcEAEAAwACAwAAAAAAAAAAAAABABExIUFRYXH/2gAIAQEAAT8QpWMDmejsZxBYnAaT7sK4JTUjKoKGLZXK13YoXbnb4J//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ieatpax&quot;
+        title=&quot;ieatpax&quot;
+        src=&quot;/static/030164fe484f29f37cf86ac887b00504/c08c5/ieatpax.jpg&quot;
+        srcset=&quot;/static/030164fe484f29f37cf86ac887b00504/d2f63/ieatpax.jpg 163w,
+/static/030164fe484f29f37cf86ac887b00504/c989d/ieatpax.jpg 325w,
+/static/030164fe484f29f37cf86ac887b00504/c08c5/ieatpax.jpg 640w&quot;
+        sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;A line up. A line up to play an HTML Game at a conference geared towards core gamers. Sure the IE logo was on the booth and on the swag they gave away (which I&apos;ll talk about in a minute), but at the end of the day people were lining up to play an HTML game. &lt;/p&gt;
 &lt;p&gt;This blew my mind, but the secret sauce wasn&apos;t in the prize or the swag they gave away. It was simple once I saw the booth: Gamers care about games, not the technology. It&apos;s a web-based game, but that totally didn&apos;t matter because they playing Centipede, a classic Atari favourite. They could play Missile Command, one of my personal favourites. At end of the day it was the quality of the game, not the technology that they were worried about. &lt;/p&gt;
 &lt;p&gt;Sure, I&apos;ve had plenty of conversation with gamers about technology and what can do this, and how something is more powerful than that, but really if the game is great the gamer looks past the weaknesses in the technology and plays the game. Regardless of whether its natively installed, has high preforming graphics code, or if it&apos;s just JavaScript and and HTML canvas element. At the end of the day it&apos;s about whether ror not it&apos;s a great game or not. &lt;/p&gt;
@@ -3435,11 +4158,93 @@ Old versions of IE lingering around the machines in a big enterprise has been a 
 &lt;p&gt;~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Instant Eyedropper: The Colour Picker Tool I've Been Missing]]></title><description><![CDATA[I came across this today, and I wanted to share it as this is the first time I've found a simple, minimalistic eyedropper tool that allows…]]></description><link>https://www.davidwesst.com/blog/instant-eyedropper-the-colour-picker-tool-i-ve-been-missing/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/instant-eyedropper-the-colour-picker-tool-i-ve-been-missing/</guid><pubDate>Tue, 20 Aug 2013 14:43:00 GMT</pubDate><content:encoded>&lt;p&gt;I came across this today, and I wanted to share it as this is the first time I&apos;ve found a simple, minimalistic eyedropper tool that allows me to get the HEX value (or another variety of colur value) of any colour that is on my screen.&lt;/p&gt;
 &lt;p&gt;Oh, and it&apos;s freeware from SpiceBrains.&lt;/p&gt;
 &lt;p&gt;One you install it, you get this added to your system tray.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;blog_instanteyedropper_1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 281px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2940084eba412126e4baef2d0139c5b5/6b1e2/blog_instanteyedropper_1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 30.67484662576687%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABYklEQVQY003M3SuDYRjH8efvcCBErZCSlomVlbTJ66a2Ig6cWBFF3mbMZsYka8NsEQ5wKKYmxPKfME70jG0n5u3r3mOLg0+/67ru676kePqdrMf0B08if/3Wj//Ec/l/Hk/95VPqjUQigfQgmnshm3FFJpdCMqN4UN4zCuVIbi8/v09md9+QZXEw+QmvX3+SQhpIfYs6Jz9/Ebsv+RTk96xv5A+xI/qE/Iy0cnDH8t4Ni+EoC8FzHFsRptZPmA2cYt84EyI4Q1HcO5d4dq9YEundv2ZV8B/FCBzH8B3e4t27JHx4gVTa6qO4eZmChkkKtWOUNU7SY/WgMc1Q0z6Lvs+F1uyk3mhDbXTR2LNCkc5GjdFDhzVI2+Am+gE/Jbpp8XcUqdqyTZXJh8rgoFxvo9Jgp3V4jer2aVRNExj63ag77dR1TVFrdKC1uKlomcc0tEXv+A7mkRCW0TCabjeq5jl+AIKNcqvk7HilAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;blog instanteyedropper 1&quot;
+        title=&quot;blog instanteyedropper 1&quot;
+        src=&quot;/static/2940084eba412126e4baef2d0139c5b5/6b1e2/blog_instanteyedropper_1.png&quot;
+        srcset=&quot;/static/2940084eba412126e4baef2d0139c5b5/222b7/blog_instanteyedropper_1.png 163w,
+/static/2940084eba412126e4baef2d0139c5b5/6b1e2/blog_instanteyedropper_1.png 281w&quot;
+        sizes=&quot;(max-width: 281px) 100vw, 281px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Then you click and hold the mouse button down to have this display appear by your cursor.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;blog_instanteyedropper_2.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 275px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5e041752f0e0aaf9cce146a0a4b80970/6b2ea/blog_instanteyedropper_2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 42.94478527607362%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACB0lEQVQoz5WSy2sTURTG5+/RnSsX6qJI/4YKrgS1IGjBB7rxCRLBClYF0YVdiYvWtFhdWJtKa140aRKSJpOmTchMM5nJpM00yUye5eedaRB34oWP893DOR/nfPdKenuA3hJo96m0HYz+AKN3DL3dwbTa1Jv2CM5f3GZfoNqwqTT7aK0emohSrXtEvQ/VVp8Vf4r5l+ssvAny+XWQ0NcM/zoHQnTvUIiJfldY2lEssnkTV/j93QVunPJx85yPyROPmb33BWVvh7m5eZaXV1j9uU4gEMDvX+Tb0hKZbI7DzgDV6njTeYJPnv7i/sQsRa3Jx+kfTJ15zvWzz7h08hFv78yjaiqrgTXCkRjpjMxGLEEwGCUS2WC3qIjVO2LCLlVhnSask168i3FlzCeKdRY/hLg9PsPU2DSTp33M3PpEuz+kZQ85FB6Z+y2sZlfwLpa4NywH1Wh46yoHNkrDQZq4+orz4xeQyxrlmo28axKKbBGOF1gLJVmPpYimZVajccLJHHnVIJTIEAhvejGcypEoKASim8iVOtK1B9+5ePkh6kEDswv1HmzvGeQqNZI7ZTayBdLFCjF5l8R2WXjVI13S2CpXiedLokYhLpeIpPMUzSaSag0pmTbu93FfWvO+wMBbQxer6vYRNecYrk8u3Lwh8obIedw55m6PVHOGf4r1UYMrXB2J/i9+Aw2wfCXqbpkcAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;blog instanteyedropper 2&quot;
+        title=&quot;blog instanteyedropper 2&quot;
+        src=&quot;/static/5e041752f0e0aaf9cce146a0a4b80970/6b2ea/blog_instanteyedropper_2.png&quot;
+        srcset=&quot;/static/5e041752f0e0aaf9cce146a0a4b80970/222b7/blog_instanteyedropper_2.png 163w,
+/static/5e041752f0e0aaf9cce146a0a4b80970/6b2ea/blog_instanteyedropper_2.png 275w&quot;
+        sizes=&quot;(max-width: 275px) 100vw, 275px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Continuing to hold, point the crosshairs onto the color you want on your screen and then let go of the mouse button. Now the code display disappears, but you have the value saved in the clipboard.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;blog_instanteyedropper_3.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 485px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/10017646ebce886bf8c51f7c4264dff1/44c61/blog_instanteyedropper_3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 34.355828220858896%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABbUlEQVQoz12P72/SUBSG+/cbY0z8YBY/LX7zq8a4mU2dc0uZsLIVWhi0pYylFNb1lhb7k2e3BRP0JE/e897znpNc5bij86Pb56St810b8Onnbz5c6BycGbz+esPLL11efNYk17w61nhz2kMdPyBWK5z7GZrep622uD18S/f9O5QTVedX2+T08pbL6zupOufamG/tEUcXPc5uXFpDH9Wcow48yRzTDZh6Ec5DiH0f4MwCbHch8VFaXQPDHGEMLMIo4UkkjYoa2a/ilGSdESdZo8k6J5Jv4SpFxDXZFjm3px7KeDYnT9cEjwFRJIjjmMflkkh+SYiQ5XJBGD41GgmB7/ukf9ZkWcr/5cs9Zeh6jSnKknKP2hdFQS4pdr4sK/K8oKoqyYbNBslW6/IWewcruVBPNjK8TfyFvX7nd7l/KfH8BcrH8w69kYPluNzZExx3ysCa0DEttKHFlTFuaPW3qL1Rk7dlzprUuDudNvvPZnYFpWy2VRYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;blog instanteyedropper 3&quot;
+        title=&quot;blog instanteyedropper 3&quot;
+        src=&quot;/static/10017646ebce886bf8c51f7c4264dff1/44c61/blog_instanteyedropper_3.png&quot;
+        srcset=&quot;/static/10017646ebce886bf8c51f7c4264dff1/222b7/blog_instanteyedropper_3.png 163w,
+/static/10017646ebce886bf8c51f7c4264dff1/ff46a/blog_instanteyedropper_3.png 325w,
+/static/10017646ebce886bf8c51f7c4264dff1/44c61/blog_instanteyedropper_3.png 485w&quot;
+        sizes=&quot;(max-width: 485px) 100vw, 485px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Easy, peezy, lemon squeezy.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I know that there are a million or so of these kinds of apps out there. My favourite being the one built into the Internet Explorer F12 developer tools. But, this one lets you go outside of the browser window easily, and does exactly what I need it to do. Also, it&apos;s out of the way, but always readily accessible.&lt;/p&gt;
@@ -3464,7 +4269,35 @@ Old versions of IE lingering around the machines in a big enterprise has been a 
 &lt;p&gt;~ DW&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Author&apos;s Note: I&apos;m trying to pick between two major players right now: Unity3D and pure HTML5/JavaScript, which provide the features I care about in different capacities. I&apos;ll write about this again as I&apos;m constantly jumping back and forth on it.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Difference between Apps and Games]]></title><description><![CDATA[No, really. Are they actually that different? A lot of us are app developers and look at video games like they are some kind of foreign…]]></description><link>https://www.davidwesst.com/blog/the-difference-between-apps-and-games/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/the-difference-between-apps-and-games/</guid><pubDate>Tue, 30 Jul 2013 04:27:00 GMT</pubDate><content:encoded>&lt;p&gt;No, really. Are they actually that different?&lt;/p&gt;
 &lt;p&gt;A lot of us are app developers and look at video games like they are some kind of foreign entity that we just cannot understand. They are art, not science. They are entertainment, not business. Games are a whole other beast. I&apos;m sure there are a number of other explanations that I have been told over the past many years, but as I have attempted to look behind the curtain of video game development, being the producer on one for the past year, I don&apos;t think they are that different, although there are some differences. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;blog_appsvsgames.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 638px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f256828795e81d63493839763960cf53/41be6/blog_appsvsgames.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.852760736196316%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAACJElEQVQoz42SXUhTYRjHz023XQZddRVR9gVBt3lRF0JF3aR9zWiCqc0NYalpYYYphjhdmHlR6CQLURMvNL2oTMhFuE133NwUD1HQarrNnJutc36dc9bEwqA/vLzv8/wffrzP+7yCkkyQGHEQs54ifHIHyxf2Enc0oElRlD+WJvmHjGOoldoHJbTZGrnZbKTv5RO1WLcR1vrbiJRkEyk4yvLFLEJ7BP2cAcqyvLE0LfjnqGs1UdaRg9WWyzVbNrfqivgsfUwDvx4RWJ8c0YPkmxeE9gssX8raAG5WPL7Kw6Z6xvoHGHhfS++0AXtPERWFxXS03k8Dwye2I0fDepAY7iK0TwUaDv1GKEiSxPx8UI984jQNFZXYOyvpe1fFottJ+7ARkzWPe+XlRCNhhG/HtvHz08JfwIOZJ8Hr9eJyufSz6HZjKblCTecZuh/XY7tTR3OTCXPLcZru3uZ7NKLe8PROlORauuVXfYQOqMD8w1u2HFuKYa44j8V6jupSMzdMBViuGrluPUtXT3O65eT4IInRpyQnhlh9VMWXXQJLubv/OZS342OYjQaK8/MoNV6m2lKMo93OojSXBiqKTEryEX/eQrQsh5XGQtado3rLmrf5y2R2aT7AUG8Pg8+6+TDxmtWV6IYv8J/KwFKp1Ja+lteBvtlZPB43HtcUfp8PcWYG77SHKXUQgUAAURRV34Pf72dWrdWG5HRO6vlgMKjnM772LL8A4RCaixowWrsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;blog appsvsgames&quot;
+        title=&quot;blog appsvsgames&quot;
+        src=&quot;/static/f256828795e81d63493839763960cf53/41be6/blog_appsvsgames.png&quot;
+        srcset=&quot;/static/f256828795e81d63493839763960cf53/222b7/blog_appsvsgames.png 163w,
+/static/f256828795e81d63493839763960cf53/ff46a/blog_appsvsgames.png 325w,
+/static/f256828795e81d63493839763960cf53/41be6/blog_appsvsgames.png 638w&quot;
+        sizes=&quot;(max-width: 638px) 100vw, 638px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;In video games, having a clear understanding of the vision is key. This is why you end up with someone that is responsible for knowing that vision inside and out. Why? Well, you need to know what sort of experience you are trying to deliver to your player. &lt;/p&gt;
 &lt;p&gt;Apps have the same sort of thing. We call them requirements and they act as the foundation for the software we are trying to build. But think about it: in a game your director has requirements too. Requirements like, &quot;Tell my story&quot; or &quot;Have the player build a city&quot; or &quot;Make the player battle the evil octopus on the stage at the Opera House before the girl is rescued by the gambler with the airship&quot;. How is that any different that, &quot;Once the user logs in, they should see a welcome message immediately&quot;. You can test both requirements. You can build both requirements. The difference, is that one of them must be delivered in a way that makes it fun. I&apos;ll call it the fun factor. &lt;/p&gt;
 &lt;p&gt;Can you test the fun factor of game requirement like you can a regular requirement in an app? Of course you can. It&apos;s called playing the game. Play any game, video game, card game, board game, or whatever, and you will immediately know if it is fun or not. Sure, you can&apos;t measure fun using TDD or BDD. But you can definitely test it. &lt;/p&gt;
@@ -3520,7 +4353,35 @@ Old versions of IE lingering around the machines in a big enterprise has been a 
 &lt;p&gt;In this post, I ask the IE complainers to put their big boy/girl pants on by being &lt;em&gt;a strategist&lt;/em&gt; when it comes to being a web professional.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3&gt;Be a Strategist&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;window8_heart_html5.png&quot; alt=&quot;HTML5 and Windows 8. All powered by Internet Explorer 10.&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 492px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/80b73d1311573d3033874d4c13f6c823/5c6e9/window8_heart_html5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 93.25153374233128%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAA7CAAAOwgEVKEqAAAADXklEQVQ4y3WUf2iVVRjHv++Pu6u7mbuLdjcz5/yVcWtuTndFgl2ZLlObRuJ0Rpu7GrYhKYb4R1gxhOoSFWOjIBJHMDURZQukdoeWv1LrryCsMdC2cRGngra7dHtP3+fe83q32zzw4XnOeZ7zfd9zznMOFGAQOEAtiZEWso9ESTfZo+PC5oycT3TOXskZRTqxgPxAviBLSB4Jkg/IefI8eVLntGTkvE/OkcWihVEDJp0fxwxsla9kMgYsZ/wsuUB/izMxlrQPgBDHL5GADDTR+ezBdIk+nUxIthmW+B7p/wvs5uTWYfo9gDcK2PWA2QhYjGfdSAk3Uudz+UoHOyXxEMpOb0QQG4J2qQ0PDHinAL6o1hdxpGAo3RooTPNEgtvGnOOS2B6bUlTafbA29u3Jiviq5sCrTHjJsvEG7WZmV9CWkRD9atoSspQUi6V4iHbvc0A+tQ6L4KG2/PCa+o7ur2/2LLuqOlHAhBW2hRra7WQTJ9UayZ9J9mW8Sftv8SMraSPcgoXyc3LCbXQ23CrcicFtCHSyk1tqyqqyCrM91rjVQTUUG1NNwyerZoLE7CqAOwOTB7OMU4+I4GrSIaf3nT6+JaXTUgLfyKpRznxug7mWflFJrg/q3VXweUwUpdKt3pRtpUbErcMTUrTJAjbgWbd8Fq6sC6KrcoG/6dmpB7b58eFWP6Jvz8p+Tx2s9qpjEYSr5uCWrgIW9Cu6Rh8V9jPkMimRfmLGNO9gOA+DK/IW34lUDN9v3n5HtTTeTbwTHvqzPCfYG/JjON/n1XMXkqtkvito6YCI/Sa3QL7aswi4Ph3z+z/anYjHTql/ur5Ut/evHbpWgJkHGlIFPW5OSGtYbsDWA8XkVy57zQh3fQCYObCv9u94+6fOyJmj6u7HO679DjyVSG1NpRYr07fHVhh3jcaJyvIvKpj1qrAO/fUV8fhXzWr4WFQN7arsUyuroCxLHolfyGw9x3Z14EwiynudLa8Ix/b8VTPv5YHXX+y6uSXY2ffmnDDH6hj7meRkijlufWWIWk7a/542MjI3gNEXkvd8PcfOEPdArP+JuW0sfeJpUcOUvfrJMY3XHNtcSl9O0+dMPMzk3Enb6CSixK/fuz/IPGfifj9ezG33Joq6Eyv1i/5oz8R/OMn8/wBfXpXl+VoprAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;HTML5 and Windows 8. All powered by Internet Explorer 10.&quot;
+        title=&quot;HTML5 and Windows 8. All powered by Internet Explorer 10.&quot;
+        src=&quot;/static/80b73d1311573d3033874d4c13f6c823/5c6e9/window8_heart_html5.png&quot;
+        srcset=&quot;/static/80b73d1311573d3033874d4c13f6c823/222b7/window8_heart_html5.png 163w,
+/static/80b73d1311573d3033874d4c13f6c823/ff46a/window8_heart_html5.png 325w,
+/static/80b73d1311573d3033874d4c13f6c823/5c6e9/window8_heart_html5.png 492w&quot;
+        sizes=&quot;(max-width: 492px) 100vw, 492px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;If you work around a Microsoft platform you know that Windows 8 support native HTML5 applications, those being the Windows Store apps. What is the powerhouse behind these new apps? Is it some kind of special .NET complier?&lt;/p&gt;
 &lt;p&gt;No. It’s IE10.&lt;/p&gt;
 &lt;p&gt;Every Windows 8 desktop and new Microsoft Surface is loaded with IE10 because it is the engine for all the new Windows Apps, which means that any Windows 8 or Windows RT user is going to be using Internet Explorer whether they know it or now.  &lt;/p&gt;
@@ -3535,7 +4396,36 @@ Old versions of IE lingering around the machines in a big enterprise has been a 
 &lt;p&gt;In this post, I ask the IE complainers to put their big boy/girl pants on by being a realist when it comes to being a web professional.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;A trending complaint about not supporting IE is that their user base count is dropping. It really depends on where you get get your &lt;a href=&quot;http://en.wikipedia.org/wiki/Usage_share_of_web_browsers&quot;&gt;stats&lt;/a&gt;. From my source, it is safe to say even with the numbers dropping, Internet Explorer represents at least 30% of the desktop browsers connecting to the web worldwide. That is about 750 million people, or potential users for your application (based on &lt;a href=&quot;http://www.internetworldstats.com/stats.htm&quot;&gt;this&lt;/a&gt;). &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;statcounter-browser-ww-monthly-201112-201212.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e7b70316326f3b21ff010134e31ece21/8c557/statcounter-browser-ww-monthly-201112-201212.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.05521472392638%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABhElEQVQoz1WS6W7bMBCE9f4P1kAIICNN0h9F7cCNLcoSxUsklze7ku3UWXwczOoYrCg2HiuEmHKtJXhg83Q6ffbnnhDS9/1ABjFzMFBrzTmlHOtDNdo4Jh1bkjJF22JdzaViUq4l1aKz5UFxL3mQs+fUsVzy/5ctWI3J0Q2GkYWdF/pnHj44PbBpz6a/TPRcnbk6cTkKYDKEkOJWKaVGaT7QYz/9Fuwk+VmyT8MHJ6jjk5ezU8LrxRuNOKuV5N3Pl1/v713XHY/HxjsXAGqKX5QYcvQrwWVvMqhsZbISjVP0Zff8+vrWtu3hcGgAwAKEGL+T7pp8iFfQG226tt3tuqcfT/v9vnEAi9baWmOtfmBtjUEF7zdwwoDthRDGGKV0WZYGjNGcWyFACCvlVVeDKGU4N4xZ1O0ZI0TJD7sdMBtvXC4wTXYcYWM10wSUoteEmGG4MY74s8u9Glx4SBac0zm9qQHQuBHer+b6Cc5dW5z82yHBVZBS6hZW76m1ftnb9RsP9Q83UnWGqcRw5AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;statcounter browser ww monthly 201112 201212&quot;
+        title=&quot;statcounter browser ww monthly 201112 201212&quot;
+        src=&quot;/static/e7b70316326f3b21ff010134e31ece21/a6d36/statcounter-browser-ww-monthly-201112-201212.png&quot;
+        srcset=&quot;/static/e7b70316326f3b21ff010134e31ece21/222b7/statcounter-browser-ww-monthly-201112-201212.png 163w,
+/static/e7b70316326f3b21ff010134e31ece21/ff46a/statcounter-browser-ww-monthly-201112-201212.png 325w,
+/static/e7b70316326f3b21ff010134e31ece21/a6d36/statcounter-browser-ww-monthly-201112-201212.png 650w,
+/static/e7b70316326f3b21ff010134e31ece21/8c557/statcounter-browser-ww-monthly-201112-201212.png 700w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;750 million is &lt;em&gt;a lot&lt;/em&gt; of people. I would be amazed to hear a stakeholder in your project say that we want to ignore 30% of the world &lt;/p&gt;
 &lt;p&gt;when it comes to your app. If you really think that you can ignore that many people for your application, by all means go ahead, but I promise &lt;/p&gt;
 &lt;p&gt;you that any business decision maker focusing on making money with your web app is going to disagree with you.&lt;/p&gt;
