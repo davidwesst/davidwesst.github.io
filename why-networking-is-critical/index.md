@@ -8,7 +8,8 @@ categories:
 excerpt: "With my new gig as an Application Developer, I started back into technology podcasts. I'm not sure how I came across MSDevShow, but I did notice that Lori Lalonde, the wizard of mobile development in Microsoft-land, was in an episode and decided: Why not?."
 ---
 
-<!-- more -->
+[1]: network.png
+
 With my new gig as an Application Developer, I started back into technology podcasts. I'm not sure how I came across [MSDevShow](http://msdevshow.com/), but I did notice that [Lori Lalonde](https://twitter.com/loriblalonde), the wizard of mobile development in Microsoft-land, was in [an episode](http://msdevshow.com/2015/03/cross-platform-voice-and-women-in-tech-with-lori-lalonde/) and decided "Why not?".
 
 After the episode I tweeted them my approval for the episode, Lori (who've I've met in real life) tweeted back, and I thought that was that....then I listened to [the News-a-Palooza episode](http://msdevshow.com/2015/04/news-a-palooza/)
@@ -16,7 +17,9 @@ After the episode I tweeted them my approval for the episode, Lori (who've I've 
 Bam! They give me a shoutout on the episode at 2:15! That was an awesome and unexpected surprise, but it made me realize how important it is to reach out and _have_ conversations, even if they are 155 characters or less.
 
 ## It's Not Just What You Know...
-{% asset_img network.png %}
+
+![1]
+
 It's also who you know.
 
 As cliché as that saying is, I really do believe it. A long time ago, in a casino bar far, far, away another Microsoft MVP told me: "You're only as good as your network you bring to the table. You're not going to know everything. But if you know people that know the other stuff, you're still the hero."
