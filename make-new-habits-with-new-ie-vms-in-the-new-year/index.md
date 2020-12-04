@@ -1,11 +1,13 @@
+---
 title: Make New Habits with New IE VMs in the New Year
 tags:
   - Spartan
   - Testing
-date: 2015-01-07 18:32:00
+date: "2015-01-07T18:32:00"
+excerpt: "Happy New Year! Time to start working on self improvement and developing new habits."
 ---
-Happy New Year! Time to start working on self improvement and developing new habits.
-<!-- more -->
+
+[1]: netmarketshare_dec.PNG
 
 Happy New Year! Time to start working on self improvement and developing new habits.
 
@@ -19,7 +21,7 @@ Who knows. Maybe they are, maybe they aren't. The important thing to note though
 
 Check out [NetMarketShare](http://www.netmarketshare.com/browser-market-share.aspx?qprid=0&amp;qpcustomd=0)
 
-{% asset_img netmarketshare_dec.PNG %}
+![1]
 
 As you can see, IE8+ has quite the presence. Sure, you can argue and throw [other](http://stats.wikimedia.org/wikimedia/squids/SquidReportClients.htm) [stats](http://gs.statcounter.com/#browser-ww-monthly-201411-201412) [sites](http://www.w3counter.com/globalstats.php?year=2014&amp;month=12) back at me, but all of the major players say IE represents a big chunk of the internet. 
 

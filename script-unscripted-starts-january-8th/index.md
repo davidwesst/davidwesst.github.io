@@ -1,3 +1,4 @@
+---
 title: Script Unscripted Starts January 8th
 tags:
   - javascript
@@ -7,10 +8,11 @@ tags:
   - YouTube
   - phonegap
   - bonus level
-date: 2015-01-06 16:06:06
+date: T2015-01-06T16:06:06"
+excerpt: "Last week I launched my first YouTube video with Get to the Point."
 ---
-Last week I launched my first YouTube video with Get to the Point.
-<!-- more -->
+
+[1]: cordova_256.png
 
 Last week I launched [my first YouTube video](https://www.davidwesst.com/get-to-the-point-video-is-up/) with Get to the Point.
 
@@ -20,7 +22,7 @@ Starting January 8th at 8pm CST, I will be kicking off my new YouTube livestream
 
 ## Pilot Series: Playing with Cordova
 
-{% asset_img cordova_256.png "Script Unscripted Starts January 8th" %}
+![1]
 
 Each Thursday for the month of January, I'll be getting familiar with [Apache Cordova](http://cordova.apache.org/), in preparation for my presentation at [Prarie Dev Con](http://prariedevcon.com) in March.
 

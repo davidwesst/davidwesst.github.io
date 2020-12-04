@@ -1,13 +1,13 @@
+---
 title: My Top 5 Sessions Picks - MVP Virtual Conference 2015
 tags:
   - mvp
   - Conference
-date: 2015-05-13 14:36:03
+date: "2015-05-13T14:36:03"
 ---
-{% asset_img VCon_Hero.jpg %}
-<!-- more -->
+[1]: VCon_Hero.jpg
 
-{% asset_img VCon_Hero.jpg %}
+![1]
 
 Tomorrow marks day one of the first ever [Microsoft MVP Virtual Conference](http://mvp.microsoft.com/en-us/virtualconference.aspx). This is awesome, because it's a conference that I can attend that:
 

@@ -1,13 +1,15 @@
+---
 title: MSDevShow...A Dev Podcast Review
 tags:
   - podcast
   - review
-date: 2015-04-30 14:47:01
+date: "2015-04-30T14:47:01"
+excerpt: "I like podcasts. Especially the technical kind, but I find it's challenging to find quality dev podcasts in the sea of options out there. MSDevShow is one that a discovered, and it did not disappoint."
 ---
-{% asset_img msdevshow-logo-1.png &quot;MS Dev Show Logo&quot; %}
-<!-- more -->
 
-{% asset_img msdevshow-logo-1.png "MS Dev Show Logo" %}
+[1]: msdevshow-logo-1.png
+
+![1]
 
 I like podcasts. Especially the technical kind, but I find it's challenging to find quality dev podcasts in the sea of options out there.
 

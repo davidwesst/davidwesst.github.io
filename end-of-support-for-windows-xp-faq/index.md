@@ -1,11 +1,11 @@
+---
 title: End of Support for Windows XP FAQ
 tags: []
-date: 2014-04-09 21:16:41
+date: "2014-04-09T21:16:41"
 ---
-{% asset_img Microsoft_Windows_XP_logo_and_wordmark.svg %}
-<!-- more -->
+[1]: Microsoft_Windows_XP_logo_and_wordmark.svg
 
-{% asset_img Microsoft_Windows_XP_logo_and_wordmark.svg %}
+![1]
 
 If you are still holding on to Windows XP even though Microsoft has officially ended support for it as of yesterday read [this](http://www.microsoft.com/en-ca/trending/smb/FAQ-for-Windows-XP-End-of-Support-on-April-8-2014).
 

@@ -1,13 +1,15 @@
+---
 title: NetFront-- the Unknown Browser Everyone Owns
 tags:
   - games
   - NetFront
-date: 2015-01-14 18:55:55
+date: "2015-01-14T18:55:55"
+excerpt: "Netfront is a web browser that I hadn't heard of before, but I have installed on six of my devices."
 ---
-{% asset_img PSP_Browser.jpg &quot;NetFront running on the PSP&quot; %}
-<!-- more -->
 
-{% asset_img PSP_Browser.jpg "NetFront running on the PSP" %}
+[1]: PSP_Browser.jpg
+
+![1]
 <small>[Image Source: Wikimedia](http://upload.wikimedia.org/wikipedia/commons/6/60/PSP_Browser.jpg)</small>
 
 [NetFront](http://gl.access-company.com/products/browser/netfrontbrowsernx-2/) is a web browser that I hadn't heard of before, but I have installed on six of my devices.

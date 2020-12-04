@@ -1,12 +1,12 @@
+---
 title: Zany Video Game Quotes - Live and in the Cloud
 tags:
   - azure websites
   - ZVGQ
   - Windows Azure
-date: 2015-04-28 05:15:58
+date: "2015-04-28T05:15:58"
+excerpt: "I've been working on a side project for roughly 5 years now, and this past week I managed to finally launch it. Zany Video Game Quotes, is a site worked on acquired by a very close friend of mine. He worked on the content and enlisted me as the lead developer."
 ---
-I&#39;ve been working on a side project for roughly 5 years now, and this past week I managed to finally launch it. Zany Video Game Quotes, is a site worked on acquired by a very close friend of mine. He worked on the content and enlisted me as the lead developer.
-<!-- more -->
 
 I've been working on a side project for roughly 5 years now, and this past week I managed to finally launch it. [Zany Video Game Quotes](https://new.zanyvideogamequotes.com/), is a site worked on acquired by a very close friend of mine. He worked on the content and enlisted me as the lead developer.
 

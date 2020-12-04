@@ -1,13 +1,19 @@
+---
 title: 'Think Before You Tweet: A Lesson in Humility'
 tags:
   - thoughts
   - npm
   - chocolatey
   - nuget
-date: 2014-11-17 17:40:10
+date: "2014-11-17T17:40:10"
+excerpt: "Over the weekend I tripped over brain and sounded like a goof on Twitter while trying to engage a number of technology experts."
 ---
-Over the weekend I tripped over brain and sounded like a goof on Twitter while trying to engage a number of technology experts.
-<!-- more -->
+
+[1]: chocolateytwitter.png
+[2]: chocolateytwitter-dw.png
+[3]: chocolateytwitter-stimms.png
+[4]: thinkingchimp.jpg
+
 
 Over the weekend I tripped over brain and [sounded like a goof on Twitter](https://twitter.com/ferventcoder/status/533804756477939712) while trying to engage a number of technology experts.
 
@@ -15,17 +21,13 @@ This ended up being a lesson in humility, and a reminder to think before you spe
 
 I wanted to share this simple reminder too those people out there who rush to reply and share an opinion rather than taking a moment to reflect before they speak.
 
-{% asset_img chocolateytwitter.png "Think Before You Tweet: A Lesson in Humility" %}
+![1]
 
 ### Long Story Short
 
 In my conversation with the creator of [Chocolatey](https://chocolatey.org/), [Rob Reynolds](https://twitter.com/ferventcoder), I managed confuse its machine package manager functionality with that of langugage-specific package managers like [Nuget](https://www.nuget.org/) and [NPM](https://www.npmjs.org/). Silly to most, but kind of embarassing considering [I'm the one that brought Chocolatey into it](https://twitter.com/davidwesst/status/533798992270745601).
 
-{% asset_img chocolateytwitter-dw.png %}
-
 At the end of the day, I tried to correct the situation by acknowledging my confusion and [replying via Twitter](https://twitter.com/davidwesst/status/533848025375195136), but it was too late and [Simon Timms caught it](http://) and mocked me (rightfully so, might I add).
-
-{% asset_img chocolateytwitter-stimms.png %}
 
 ## Lesson Learned
 
@@ -40,8 +42,6 @@ If you think you know what you're talking about, that's great. But take a moment
 In my case, I should have done a quick review of Chocolatey before I mentioned it in the conversation considering I have been living in my own platform agnostic paradise called JavaScript/HTML for the past year or two.
 
 It turns out that technology evolves over time, and quickly for that matter.
-
-{% asset_img thinkingchimp.jpg %}
 
 ### Engage with Purpose
 

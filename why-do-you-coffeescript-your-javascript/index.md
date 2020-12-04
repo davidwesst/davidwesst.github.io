@@ -1,16 +1,19 @@
+---
 title: Why do you CoffeeScript your JavaScript?
 tags:
   - code
   - javascript
   - coffeescript
-date: 2014-09-30 18:26:07
+date: "2014-09-30T18:26:07"
+excerpt: "I was asked this the other day: Why don't you just write your code in JavaScript directly? As in, why would you use a langugage that abstracts JavaScript, which  doesn't require compiliation?"
 ---
-I was asked this the other day: Why don&#39;t you just write your code in JavaScript directly? As in, why would you use a langugage that abstracts JavaScript, which  doesn&#39;t require compiliation?
-<!-- more -->
+
+[1]: coffeescript-logo.png
+[2]: ielogo-blue.png
 
 I was asked this the other day: Why don't you just write your code in JavaScript directly? As in, why would you use a langugage that abstracts JavaScript, which  doesn't require compiliation?
 
-{% asset_img coffeescript-logo.png %}
+![1]
 
 That second question is also the answer: I _want_ a compiler, because a compiler can optimize my code.
 
@@ -54,7 +57,7 @@ The IE team [recently announced the support](http://blogs.msdn.com/b/ie/archive/
 
 Internet Explorer is something of a major player on the web, so I probably want to support those users too.
 
-{% asset_img ielogo-blue.png %}
+![2]
 
 ### The Point
 

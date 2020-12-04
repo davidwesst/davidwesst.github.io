@@ -1,11 +1,14 @@
+---
 title: What is Bower?
 tags:
   - code
   - bower
-date: 2014-10-16 18:03:40
+date: "2014-10-16T18:03:40"
+excerpt: "I mentioned Bower last time when talking about npm."
 ---
-I mentioned Bower last time when talking about npm.
-<!-- more -->
+
+[1]: bower-logo.png
+[2]: bower-screen.PNG
 
 I mentioned [Bower](http://bower.io/) [last time](http://davidwesst.com/always-use-node/) when talking about [npm](https://www.npmjs.org/).
 
@@ -15,7 +18,7 @@ So, I'm going to fix that now.
 
 * * *
 
-{% asset_img bower-logo.png %}
+![1]
 
 Bower is an open-source client-side HTML package manager from the people that brought you Twitter Bootstrap and..well, Twitter I suppose. If you're a Ruby or Rails person, it's like [Gems](https://rubygems.org/). If you're a .NET person, it's like [Nuget](https://www.nuget.org/). If you're a NodeJS person, it's like the [npm](https://www.npmjs.org/).
 
@@ -41,7 +44,7 @@ Now it's all configured. Next time you pull your code from source control into a
 
 Don't want the devDependencies? Then use `bower install --production` and you're good to go.
 
-{% asset_img bower-screen.PNG %}
+![2]
 
 You can even define a different installation directory with a `.bowerrc` file in your project. There are other options too [you can configure](http://bower.io/docs/config/) too, but that one is the only one I use for my projects.
 

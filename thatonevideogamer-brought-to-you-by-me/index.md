@@ -1,17 +1,17 @@
+---
 title: 'ThatOneVideoGamer Brought To You By: Me'
 tags:
   - cool-stuff
   - thoughts
   - games
   - fun
-date: 2014-10-22 00:48:00
+date: "2014-10-22T00:48:00"
+excerpt: "Yep, that's me. It's all me. It's awesome!!!!"
 ---
-{% asset_img meOnThatOneVideoGamer.PNG %}
-<!-- more -->
 
-{% asset_img meOnThatOneVideoGamer.PNG %}
+[1]: meOnThatOneVideoGamer.PNG
 
-Yep, that's me. It's all me. It's awesome!!!!
+![1]
 
 Let me explain.
 

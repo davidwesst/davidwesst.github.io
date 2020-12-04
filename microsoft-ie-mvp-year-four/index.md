@@ -1,11 +1,13 @@
+---
 title: Microsoft IE MVP - Year Four
 tags: []
-date: 2014-04-05 05:43:17
+date: "2014-04-05T05:43:17"
+excerpt: "That's right everyone, I've been awarded the the Microsoft MVP award in the area of Internet Explorer again for 2014."
 ---
-{% asset_img MVP_Horizontal_FullColor.png %}
-<!-- more -->
 
-{% asset_img MVP_Horizontal_FullColor.png %}
+[1]: MVP_Horizontal_FullColor.png
+
+![1]
 
 That's right everyone, I've been awarded the the Microsoft MVP award in the area of Internet Explorer again for 2014.
 

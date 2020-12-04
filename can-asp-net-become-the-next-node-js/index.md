@@ -1,17 +1,19 @@
+---
 title: Can ASP.NET Become the Next Node.JS?
 tags:
   - javascript
   - thoughts
   - nodejs
   - asp.net
-date: 2014-11-14 17:49:49
+date: "2014-11-14T17:49:49"
+excerpt: "I realize how crazy that sounds, but after yesterday's keynote from Microsoft at the VS Connect event in New York, I'm wondering if my goal to find a true cross-platform technology is sitting back at base camp just...leveling up."
 ---
-I realize how crazy that sounds, but after yesterday&#39;s keynote from Microsoft at the VS Connect event in New York, I&#39;m wondering if my goal to find a true cross-platform technology is sitting back at base camp just...leveling up.
-<!-- more -->
+
+[1]: aspnetthenewnodejs.png
 
 I realize how crazy that sounds, but after yesterday's keynote from Microsoft at the VS Connect event in New York, I'm wondering if my goal to find a true cross-platform technology is sitting back at base camp just...leveling up.
 
-{% asset_img aspnetthenewnodejs.png "Can ASP.NET Become the Next Node.JS?" %}
+![1]
 
 ## ASP.NET and the KVM
 

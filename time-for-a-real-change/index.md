@@ -1,9 +1,9 @@
+---
 title: Time for a Real Change
 tags: []
-date: 2013-07-07 18:42:00
+date: "2013-07-07T18:42:00"
+excerpt: "I know I seem to change my blog once a year saying 'this time it's different'. The message this time around isn't different than that, except the change is leading to a completely different direction. "
 ---
-I know I seem to change my blog once a year saying &quot;this time it&#39;s different&quot;. The message this time around isn&#39;t different than that, except the change is leading to a completely different direction. 
-<!-- more -->
 
 I know I seem to change my blog once a year saying "this time it's different". The message this time around isn't different than that, except the change is leading to a completely different direction. 
 

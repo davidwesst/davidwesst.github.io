@@ -1,11 +1,11 @@
+---
 title: Why do I JavaScript?
 tags:
   - code
   - javascript
-date: 2014-09-25 20:36:55
+date: "2014-09-25T20:36:55"
+excerpt: "The answer is simple: I don't want to limit about my platform options on day one."
 ---
-The answer is simple: I don&#39;t want to limit about my platform options on day one.
-<!-- more -->
 
 The answer is simple: I don't want to limit about my platform options on day one.
 

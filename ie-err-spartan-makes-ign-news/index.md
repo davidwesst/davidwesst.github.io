@@ -1,13 +1,16 @@
+---
 title: IE...err...Spartan Makes IGN News
-date: 2015-01-02 22:48:27
+date: "2015-01-02T22:48:27"
 tags:
 	- Internet Explorer
 	- Windows 10
 	- Spartan
 ---
-{% asset_img Logo-of-the-New-Microsoft-Browser-Spartan---Imgur.jpg %}
-<!-- more -->
-{% asset_img Logo-of-the-New-Microsoft-Browser-Spartan---Imgur.jpg %}
+
+[1]: Logo-of-the-New-Microsoft-Browser-Spartan---Imgur.jpg
+
+![1]
+
 <small>[Image Source - Imgur](http://i.imgur.com/Bsgqvsp.jpg?1)</small>
 
 Watching my YouTube based video game news on IGN News, I came across this report that blends the two worlds.

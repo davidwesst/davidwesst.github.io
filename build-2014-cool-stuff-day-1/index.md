@@ -1,11 +1,13 @@
+---
 title: BUILD 2014 Cool Stuff - Day 1
 tags: []
-date: 2014-04-03 05:26:56
+date: "2014-04-03T05:26:56"
+excerpt: "I haven't been to BUILD, but I always follow it as Microsoft makes a bunch of really cool announcements throughout that pump me up."
 ---
-{% asset_img microsoft-build.jpg) %}I haven&#39;t been to BUILD, but I always follow it as Microsoft makes a bunch of really cool announcements throughout that pump me up.
-<!-- more -->
 
-{% asset_img microsoft-build.jpg) %}I haven't been to BUILD, but I always follow it as Microsoft makes a bunch of really cool announcements throughout that pump me up.
+[1]: microsoft-build.jpg
+
+![1] I haven't been to BUILD, but I always follow it as Microsoft makes a bunch of really cool announcements throughout that pump me up.
 
 I know there are plenty of people talking about BUILD, but I thought I'd take a moment to share my favourite bits that came out of day one.
 

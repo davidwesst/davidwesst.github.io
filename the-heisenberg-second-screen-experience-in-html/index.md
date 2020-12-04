@@ -1,13 +1,15 @@
+---
 title: The Heisenberg Second Screen Experience in HTML
 tags: []
-date: 2013-09-27 03:37:00
+date: "2013-09-27T03:37:00"
+excerpt: "Breaking Bad is coming to an end."
 ---
-{% asset_img breakingbadhtml5.png %}
-<!-- more -->
 
-{% asset_img breakingbadhtml5.png %}
+[1]: breakingbadhtml5.png
 
-Breaking Bad is coming to an end. We actually signed up for cable because we wanted AMC to watch the final season live and PVR it in case we were running late, and if we record it, then 
+![1]
+
+Breaking Bad is coming to an end. We actually signed up for cable because we wanted AMC to watch the final season live and PVR it in case we were running late, and if we record it, then
 
 Here's the interesting thing though: we haven't been late for a specific reason. That reason is the Breaking Bad Story Sync app. 
 

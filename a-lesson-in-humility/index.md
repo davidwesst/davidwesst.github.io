@@ -1,17 +1,21 @@
+---
 title: A Lesson in Humility
 tags:
 - twitch
 - other-test
-date: 2014-08-05 06:38:31
+date: "2014-08-05T06:38:31"
+excerpt: "This long weekend I changed up the formula in stream and did some stuff off the cuff with respect to setup and playing consoles I hadn't streamed before."
 ---
-This long weekend I changed up the formula in stream and did some stuff off the cuff with respect to setup and playing consoles I hadn&#39;t streamed before.
+
+[1]: game-fail_315x256.jpg
+
 <!-- more -->
 
 This long weekend I changed up the formula in stream and did some stuff off the cuff with respect to setup and playing consoles I hadn't streamed before.
 
 It didn't go well.
 
-{% asset_img game-fail_315x256.jpg %}
+![1]
 
 ### Devistation
 
