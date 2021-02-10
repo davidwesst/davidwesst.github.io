@@ -93,6 +93,38 @@ module.exports = {
             `,
             output: "/blog/rss.xml",
             match: "^/blog/"
+          },
+          {
+            serialize: ({ query: { allYoutubeVideo } }) => {
+              return allYoutubeVideo.edges.map(edge => {
+                return Object.assign({}, {
+                  title: edge.node.title,
+                  date: edge.node.publishedAt,
+                  url: `https://www.youtube.com/watch?v=${edge.node.videoId}`,
+                });
+              });
+            },
+            query: `
+            {
+              allYoutubeVideo(sort: {fields: publishedAt, order:DESC}) {
+                edges {
+                  node {
+                    title
+                    description
+                    publishedAt
+                    thumbnail {
+                      url
+                      width
+                      height
+                    }
+                    videoId
+                  }
+                }
+              }
+            }
+            `,
+            output: "/videos/rss.xml",
+            match: "^/videos/"
           }
         ]
       }
