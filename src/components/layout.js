@@ -22,6 +22,7 @@ export default function Layout({ children }) {
             <nav class={styles.navList} >
                 <Link to="/">Home</Link>
                 <Link to="/blog">Blog</Link>
+                <Link to="/videos">Videos</Link>
             </nav>
         </header>
         {children}

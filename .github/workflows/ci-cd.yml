@@ -8,6 +8,8 @@ jobs:
   build:
     name: Build Website
     runs-on: ubuntu-latest
+    env:
+      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
     steps:
     - uses: actions/checkout@v2
     - run: |

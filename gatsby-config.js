@@ -4,6 +4,12 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+const activeEnv = process.env.NODE_ENV || "development"
+require("dotenv").config({
+  path: `.env.${activeEnv}`,
+})
+console.log(`the node process environment is ${activeEnv}`)
+
 module.exports = {
   flags: {
     PRESERVE_WEBPACK_CACHE: true,
@@ -89,6 +95,14 @@ module.exports = {
             match: "^/blog/"
           }
         ]
+      }
+    },
+    {
+      resolve: `gatsby-source-youtube-v2`,
+      options: {
+        channelId: ['UCjygutS5FiTM_4Nhlg0dA5w'],
+        apiKey: process.env.YOUTUBE_API_KEY,
+        maxVideos: 50
       }
     }
   ],
