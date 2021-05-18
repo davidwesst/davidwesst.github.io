@@ -1,1 +1,1 @@
-import "./src/styles/global.css"
+require('./src/components/prism-coldark-dark.css');
