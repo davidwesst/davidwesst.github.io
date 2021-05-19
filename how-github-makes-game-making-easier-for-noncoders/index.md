@@ -5,12 +5,12 @@ layout: post
 authorId: david_wesst
 originalurl: http://www.davidwesst.com/blog/how-github-makes-game-making-easier-for-noncoders/
 categories:
-    - Game Design
+    - development
+    - video
 tags:
     - Game Design
     - Game Development
     - GitHub
-    - Video
 ---
 
 In this video, DW goes through five things he's been using in Github while designing his latest prototype that require zero coding skills. 

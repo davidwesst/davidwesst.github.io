@@ -1,6 +1,13 @@
 ---
 title: Picking The Technology for my Game
-tags: []
+tags:
+- game development
+- unity3d
+- javascript
+categories:
+- projects
+- development
+- technology
 date: "2013-08-01T18:02:00"
 excerpt: "I want to develop a game, and not just produce it."
 ---

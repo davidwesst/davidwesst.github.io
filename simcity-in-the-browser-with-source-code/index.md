@@ -4,6 +4,9 @@ tags:
   - javascript
   - games
   - html
+categories:
+  - development
+  - video games
 date: "2014-10-31T17:50:42"
 excerpt: "If you haven't played the classic SimCity, I mean Micropolis then you missed out."
 ---

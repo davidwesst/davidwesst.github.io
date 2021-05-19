@@ -4,6 +4,10 @@ tags:
   - cool-stuff
   - javascript
   - games
+categories:
+  - technology
+  - video games
+social_image: play.PNG
 date: "2014-10-24T16:20:41"
 excerpt: "I bought the Humble Mozilla Bundle earlier this week and I wanted to take a moment to show people what it looks like to install a JavaScript game in the browser."
 ---

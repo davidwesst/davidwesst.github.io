@@ -2,7 +2,7 @@
 title: NVS, the Node Version Manger for Everyone
 date: "2017-08-15T12:35:00"
 category:
-    - javascript
+    - development
 tags:
     - javascript
     - node

@@ -1,7 +1,9 @@
 ---
 title: 'Back to Basics: The Text Editor'
 tags:
-  - back-to-basics
+  - vim
+  - sublime text
+  - notepad++
 date: "2014-04-24T03:38:50"
 ---
 

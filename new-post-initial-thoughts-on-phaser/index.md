@@ -2,8 +2,7 @@
 layout: post
 title: Initial Thoughts on Using Phaser
 categories:
-  - javascript
-  - typescript
+  - development
 date: "2017-03-07T06:00:00"
 updated: "2017-03-07T06:00:00"
 tags:

@@ -5,7 +5,9 @@ layout: post
 authorId: david_wesst
 originalurl: http://www.davidwesst.com/blog/jan-2020-devlog
 categories:
-    - Devlog
+    - development
+    - projects
+    - video games
 tags:
     - Devlog
     - Game Development

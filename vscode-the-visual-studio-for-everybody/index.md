@@ -2,6 +2,11 @@
 layout: post
 title: "Code - The Visual Studio for Everybody"
 categories:
+- development
+- technology
+tags:
+- vscode
+- visual studio code
 comments: true
 authorId: david_wesst
 date: "2015-12-07T12:13:06"

@@ -1,6 +1,11 @@
 ---
 title: JavaScript Coding is Gameplay in Screeps
-tags: []
+tags:
+    - screeps
+    - javascript
+categories:
+    - video games
+    - technology
 date: "2014-11-19T17:53:49"
 excerpt: "I found this on reddit last week. It's called Screeps and it comes out tomorrow (November 20th)."
 ---

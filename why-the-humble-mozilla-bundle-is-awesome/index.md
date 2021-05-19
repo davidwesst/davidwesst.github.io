@@ -4,6 +4,9 @@ tags:
   - cool-stuff
   - javascript
   - cordova
+categories:
+  - technology
+  - video games
 date: "2014-10-29T15:35:00"
 excerpt: "Last week, I saw my worlds collide in this Humble Bundle my mind was blown."
 ---

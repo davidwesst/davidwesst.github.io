@@ -7,7 +7,7 @@ tags:
   - alm
   - hexo
 categories:
-  - alm
+  - development
 excerpt: I wanted to understand how to use Visual Studio Team Services (VSTS) for a "real" project. Being a noob, I decided to move my blog to VSTS to understand how _any_ project can benefit from ALM practices using VSTS. In part 3 of 5, we start to make plans and _Work_ on our blog.
 authorId: david_wesst
 date: "2016-11-14T07:30:00"

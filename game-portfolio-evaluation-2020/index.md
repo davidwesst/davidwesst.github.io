@@ -2,7 +2,7 @@
 title: "Game Portfolio Self Evaluation (in prep for Ludum Dare 47)"
 date: "2020-09-18T09:00:00"
 categories:
-    - Game Development
+    - development
 tags:
     - Game Jam
     - Game Development

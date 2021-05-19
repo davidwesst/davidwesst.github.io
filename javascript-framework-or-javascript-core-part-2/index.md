@@ -2,7 +2,7 @@
 layout: post
 title: JavaScript Framework or JavaScript Core (Part 2)
 categories:
-  - JavaScript
+  - development
 date: "2016-02-22T15:34:46"
 tags:
   - JavaScript

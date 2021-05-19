@@ -2,7 +2,7 @@
 layout: post
 title: How to Blog with VSTS (Part 1)
 categories:
-  - alm
+  - development
 date: "2016-10-31T08:43:31"
 tags:
   - visual studio team services

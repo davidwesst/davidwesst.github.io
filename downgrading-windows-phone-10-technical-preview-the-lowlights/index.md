@@ -3,9 +3,13 @@ layout: post
 title:  "Downgrading Windows Phone 10 Technical Preview - The Lowlights"
 date: "2015-09-22T10:56:02"
 categories:
+- technology
 comments: true
 authorId: david_wesst
 originalurl: http://blog.davidwesst.com/2015/09/Downgrading-Windows-Phone-10-Technical-Preview-The-Lowlights/
+tags:
+- windows phone
+- windows 10
 ---
 
 {% img pull-left "http://blog.davidwesst.com/2015/09/Downgrading-Windows-Phone-10-Technical-Preview-The-Lowlights/windows-10-device-screen.jpg" %}

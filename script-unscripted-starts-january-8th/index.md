@@ -8,6 +8,9 @@ tags:
   - YouTube
   - phonegap
   - bonus level
+categories:
+- development
+- video
 date: "2015-01-06T16:06:06"
 excerpt: "Last week I launched my first YouTube video with Get to the Point."
 ---

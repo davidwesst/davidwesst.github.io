@@ -2,8 +2,7 @@
 layout: post
 title: Exploring JavaScript Game Frameworks
 categories:
-    - JavaScript
-    - Game
+    - development
 date: "2016-02-08T16:11:44"
 tags:
     - JavaScript

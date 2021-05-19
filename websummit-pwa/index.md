@@ -2,7 +2,7 @@
 title: Service Workers and PWAs are Super Cool
 date: "2017-09-18T13:35:00"
 categories: 
-    - web
+    - development
 tags:
     - microsoft-edge
     - service-workers

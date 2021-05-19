@@ -2,7 +2,10 @@
 title: IE on Reddit - Highlight Reel
 tags:
   - ie
-  - cool-stuff
+  - internet explorer
+categories:
+  - technology
+social_image: bvbik2tccaawex1.jpg
 date: "2014-08-15T06:43:19"
 excerpt: "To me, this is IamA (I am a something ask me anything) is historic with web platforms."
 ---
