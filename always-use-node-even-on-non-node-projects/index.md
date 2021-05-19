@@ -5,6 +5,7 @@ tags:
   - npm
   - nodejs
 date: "2014-10-09T22:09:12"
+social_image: node-logo.png
 excerpt: "That's right. I said it: Always use Node, no matter what! Even if your server isn't going to be a Node server, just have it installed because you'll use it."
 ---
 
