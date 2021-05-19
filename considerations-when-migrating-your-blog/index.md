@@ -6,6 +6,11 @@ categories:
 comments: true
 authorId: david_wesst
 originalurl: http://blog.davidwesst.com/2015/07/Considerations-When-Migrating-Your-Blog/
+tags:
+- hexo
+- javascript
+- blogging
+- self-hosted
 ---
 
 I'm talking about small-scale, personal blogs or projects.

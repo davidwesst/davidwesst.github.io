@@ -1,6 +1,9 @@
 ---
 title: BUILD 2014 Cool Stuff - Day 1
-tags: []
+tags:
+    - build
+    - build conference
+social_image: microsoft-build.jpg
 date: "2014-04-03T05:26:56"
 excerpt: "I haven't been to BUILD, but I always follow it as Microsoft makes a bunch of really cool announcements throughout that pump me up."
 ---

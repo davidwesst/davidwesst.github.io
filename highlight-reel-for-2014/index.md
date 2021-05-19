@@ -5,6 +5,9 @@ tags:
   - Get to the Point
   - Prairie Dev Con
   - ZVGQ
+social_image: "newzvgqtitle.PNG"
+categories:
+- inner monologue
 date: "2015-01-01T19:34:29"
 excerpt: "This past year has been a rough one for me personally, but professionally, not so bad."
 ---

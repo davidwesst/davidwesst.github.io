@@ -2,6 +2,8 @@
 layout: post
 title: Keeping Your Edge on an Extended Break
 date: "2016-07-18T10:30:33"
+categories:
+  - inner monologue
 tags:
   - parenting
 excerpt: A few quick tips on how I kept up-to-date in the professional world while taking a four month hiatus for parental leave _without_ giving up time with my daughter.

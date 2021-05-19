@@ -1,6 +1,11 @@
 ---
 title: The Difference between Apps and Games
-tags: []
+tags:
+- video games
+categories:
+- inner monologue
+- video games
+- development
 date: "2013-07-30T04:27:00"
 excerpt: "No, really. Are they actually that different?"
 ---

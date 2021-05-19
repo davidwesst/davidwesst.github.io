@@ -3,6 +3,15 @@ layout: post
 title: My Favourite Online Dev Tools
 date: "2015-10-28T08:44:09"
 categories:
+- development
+- technology
+tags:
+- cloud ide
+- cloud9
+- json
+- javascript
+- agile
+- kanban
 comments: true
 authorId: david_wesst
 originalurl: http://blog.davidwesst.com/2015/10/My-Favourite-Online-Dev-Tools/

@@ -2,7 +2,7 @@
 layout: post
 title: How to Fix node-gyp Error on Windows
 categories:
-  - JavaScript 
+  - development 
 date: "2016-09-26T14:51:56"
 tags:
   - NodeJS

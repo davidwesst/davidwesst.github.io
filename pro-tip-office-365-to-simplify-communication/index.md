@@ -1,6 +1,10 @@
 ---
 title: 'Pro Tip: Office 365 to Simplify Communication'
-tags: []
+tags:
+- office 365
+- microsoft 365
+categories:
+- technology
 date: "2013-11-05T18:59:00"
 excerpt: "I believe the key to being professional is communication."
 ---

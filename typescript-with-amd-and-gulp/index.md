@@ -8,6 +8,8 @@ tags:
   - amd
   - requirejs
   - gulp
+categories:
+- development
 excerpt: The lessons I learned and the steps I took to compile TypeScript modules into a single file with AMD modules using Gulp, along with how I consumed those compiled modules in my HTML application.  
 authorId: david_wesst
 originalurl: https://blog.davidwesst.com/2016/09/How-to-Compile-Typescript-into-a-Single-File-with-AMD-Modules/

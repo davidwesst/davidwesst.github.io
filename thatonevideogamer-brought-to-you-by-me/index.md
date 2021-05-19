@@ -5,6 +5,9 @@ tags:
   - thoughts
   - games
   - fun
+categories:
+- video games
+- inner monologue
 date: "2014-10-22T00:48:00"
 excerpt: "Yep, that's me. It's all me. It's awesome!!!!"
 ---

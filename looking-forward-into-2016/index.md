@@ -2,7 +2,10 @@
 layout: post
 title: Looking Forward into 2016
 categories:
-  - retrospective
+  - inner monologue
+tags:
+  - blog
+  - game development
 date: "2016-01-01T13:39:12"
 excerpt: DW documents and shares his planning session for 2016 based on what he's learned from 2015.
 authorId: david_wesst

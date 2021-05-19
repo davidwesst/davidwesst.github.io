@@ -2,7 +2,7 @@
 title: Windows Subsystem for Linux is Cool. No really, it is.
 date: "2017-09-20T12:35:00"
 categories: 
-    - web
+    - development
 tags:
     - microsoft-edge
     - f12

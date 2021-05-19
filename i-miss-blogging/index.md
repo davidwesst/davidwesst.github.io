@@ -1,6 +1,10 @@
 ---
 title: "I Miss Blogging"
 date: "2020-06-24T17:40:00"
+tags:
+    - blog
+categories:
+    - inner monologue
 ---
 
 [1]: https://youtube.com/davidwesst

@@ -2,7 +2,7 @@
 layout: post
 title: How to Build ReactJS with Gulp
 categories:
-  - JavaScript 
+  - development 
 date: "2016-09-19T19:55:48"
 tags:
   - ReactJS
