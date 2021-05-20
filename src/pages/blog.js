@@ -1,40 +1,90 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
-import Layout from "../components/layout"
-import Header from "../components/header"
+import React from 'react';
+import { graphql, Link } from 'gatsby';
+import Layout from '../components/layout';
+import PostList from '../components/post-list';
+import styled from 'styled-components';
 
-export default function Blog({ data }) {
+const Blog = ({ data }) => {
+  const posts = data.allMarkdownRemark.nodes;
+
   return (
-    <Layout>
-      <Header headerText="Blog" />
-      <p>I've been blogging for longer than what is posted here, but hopefully I dig up a backup of my content prior to 2015. Until then, take a peek.</p>
-      <hr />
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <Link to={`/blog${node.fields.slug}`}>
-          <h3>{node.frontmatter.title}</h3>
-          <em>{node.frontmatter.date}</em>
-          <p>{node.excerpt}</p>
-        </Link>
-      ))}
-    </Layout>
-  )
-}
+    <Layout title="Blog">
+      <HeaderWrapper>
+        <h1>Blog</h1>
 
-export const query = graphql`
-  query allPostsQuery {
-    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
-      edges {
-        node {
-          frontmatter {
-            date(formatString: "MMMM DD YYYY")
-            title
-          }
-          fields {
-            slug
-          }
-          excerpt
+        <StyledMetaLinks>
+          <Link
+            css={`
+              margin-top: var(--size-400);
+              margin-right: 1rem;
+              color: inherit;
+              text-transform: uppercase;
+            `}
+            to="/tags"
+          >
+            view all tags
+          </Link>
+          <Link
+            css={`
+              margin-top: var(--size-400);
+              color: inherit;
+              text-transform: uppercase;
+            `}
+            to="/categories"
+          >
+            view all categories
+          </Link>
+        </StyledMetaLinks>
+      </HeaderWrapper>
+
+      <PostList posts={posts} />
+    </Layout>
+  );
+};
+
+export default Blog;
+
+const HeaderWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--size-900);
+  margin-bottom: var(--size-700);
+
+  h1 {
+    max-width: none;
+  }
+`;
+
+const StyledMetaLinks = styled.div`
+  display: flex;
+  flex-direction: row;
+`
+
+export const homePageQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    allMarkdownRemark(
+      filter: { fields: { contentType: { eq: "posts" } } }
+      sort: { order: DESC, fields: frontmatter___date }
+    ) {
+      nodes {
+        fields {
+          slug
+        }
+        excerpt
+        timeToRead
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          description
+          title
+          tags
+          categories
         }
       }
     }
   }
-`
+`;
