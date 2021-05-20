@@ -1,4 +1,4 @@
 [submodule "content/blog"]
 	path = content/blog
 	url = https://github.com/davidwesst/blog.git
-	branch = ft/new-theme
+	branch = main
