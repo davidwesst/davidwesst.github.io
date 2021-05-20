@@ -2,7 +2,7 @@
 layout: post
 title: How to Blog with VSTS (Part 4)
 categories:
-  - alm
+  - development
 tags:
   - visual studio team services
   - vsts

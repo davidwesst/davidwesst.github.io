@@ -5,7 +5,8 @@ layout: post
 authorId: david_wesst
 originalurl: http://www.davidwesst.com/blog/no-cost-game-design-toolbox/
 categories:
-    - Game Design
+    - development
+    - video games
 tags:
     - Game Design
     - Game Development

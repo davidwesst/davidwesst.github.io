@@ -7,7 +7,7 @@ tags:
   - web extensions
   - office add-in
 categories:
-  - Development
+  - development
 authorId: david_wesst
 date: "2018-03-28T13:10:00"
 

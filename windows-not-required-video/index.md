@@ -2,7 +2,8 @@
 layout: post
 title: Windows Not Required - The New Microsoft Development Story (Video)
 categories:
-  - Video 
+  - development
+  - video 
 date: "2016-10-03T10:47:31"
 tags:
   - .NET Core

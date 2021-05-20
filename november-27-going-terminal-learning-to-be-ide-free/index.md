@@ -1,6 +1,11 @@
 ---
 title: "November 27 - Going Terminal: Learning to be IDE Free"
-tags: []
+tags:
+- talks
+- ide
+- terminal
+categories:
+- talks
 date: "2014-11-13T19:27:16"
 excerpt: "I'm making my public speaking comeback after nearly a full year off with a new original presentation called Going Terminal: Learning to be IDE Free."
 ---

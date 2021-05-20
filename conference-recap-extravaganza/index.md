@@ -5,7 +5,13 @@ date: "2015-06-11T20:09:05"
 authorId: david_wesst
 originalurl: http://www.davidwesst.com/conference-recap-extravaganza/
 categories:
+- development
 comments: true
+tags:
+- conference
+- prdc
+- prairie dev con
+- healthcare
 ---
 
 I've been head down preparing and delivering presentations all over the place for the past few weeks, and wanted to share the latest happenings, along with where you can get your hands on the material if you weren't able to attend.

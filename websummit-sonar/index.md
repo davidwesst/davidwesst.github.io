@@ -2,7 +2,7 @@
 title: Sonar, the Linter I Never Knew I Wanted
 date: "2017-09-19T12:35:00"
 categories: 
-    - web
+    - development
 tags:
     - microsoft-edge
     - sonar

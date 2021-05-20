@@ -2,7 +2,7 @@
 layout: post
 title: How to Compile TypeScript into a Single File with SystemJS Modules with Gulp
 categories:
-  - javascript
+  - development
 date: "2017-03-14T09:47:22"
 tags:
   - javascript

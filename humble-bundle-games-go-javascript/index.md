@@ -5,6 +5,9 @@ tags:
   - javascript
   - games
   - fun
+categories:
+  - technology
+  - video games
 date: "2014-10-23T16:12:28"
 excerpt: "Last week, I noticed a playable game on the Firefox start page."
 ---

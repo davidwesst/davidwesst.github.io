@@ -5,7 +5,7 @@ tags:
   - javascript
   - typescript
 categories:
-  - Development
+  - development
 authorId: david_wesst
 date: "2018-03-15T11:40:00"
 ---

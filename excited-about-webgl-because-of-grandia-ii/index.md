@@ -1,6 +1,12 @@
 ---
 title: Excited about WebGL because of Grandia II
-tags: []
+tags:
+- grandia
+- dreamcast
+- html5
+- webgl
+categories:
+- technology
 date: "2013-07-18T12:16:00"
 excerpt: "Last week, I was asking my partner for some advice on what game I should play. This is a regular occurrence for both of us, as we are both video game lovers and tend to lean towards single player games, and only have one television to share between us. Ultimately, we enjoy watching each other play through video games, but want to make sure that the non-player is at least going to enjoy themselves to a certain degree as we go through some kind of virtual adventure over the next few days."
 ---

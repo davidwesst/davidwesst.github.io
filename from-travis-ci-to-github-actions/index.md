@@ -5,7 +5,7 @@ layout: post
 authorId: david_wesst
 originalurl: https://www.davidwesst.com/blog/from-travis-ci-to-github-actions
 categories:
-    - devops
+    - development
 tags:
     - github actions
     - github workflow

@@ -1,6 +1,10 @@
 ---
 title: Stop Hating IE and Be a Professional (Part 2)
-tags: []
+tags:
+- ie
+- internet explorer
+categories:
+- technology
 date: "2013-01-17T07:16:00"
 excerpt: "This post is part two of three. Part 1 (Be a Realist) and Part 3 (Be a Leader) are also available."
 ---

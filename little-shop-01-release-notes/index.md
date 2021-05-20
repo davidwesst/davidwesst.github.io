@@ -3,8 +3,9 @@ title: "Release Notes for Little Shop of Wall Street 0.1.0-beta"
 date: "2020-07-02T11:13:00"
 description: "Little Shop of Wall Street has a 0.1-beta release!"
 categories:
-- devlog
-- little shop of wall street
+- development
+- projects
+- video games
 tags:
 - gamedev
 - game development

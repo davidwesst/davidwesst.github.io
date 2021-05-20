@@ -7,6 +7,8 @@ excerpt: "This month I started livestreaming game code and gameplay every Thursd
 tags:
 - mixer
 - livestream
+categories:
+- projects
 ---
 
 <iframe allowfullscreen="true" src="https://mixer.com/embed/player/davidwesst" width="620" height="349"> </iframe>

@@ -8,7 +8,7 @@ tags:
   - itch.io
   - javascript
 categories:
-  - devblog
+  - development
 date: "2017-05-02T08:31:41"
 updated: "2017-05-02T08:31:41"
 authorId: david_wesst

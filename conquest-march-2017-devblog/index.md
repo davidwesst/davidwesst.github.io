@@ -7,7 +7,7 @@ tags:
   - vsts
   - phaser
 categories:
-  - devblog
+  - development
 date: "2017-04-03T06:00:00"
 updated: "2017-04-03T06:00:00"
 originalurl: "https://blog.davidwesst.com/2017/04/Conquest-March-2017-Devblog/"

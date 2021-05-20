@@ -5,8 +5,8 @@ layout: post
 authorId: david_wesst
 originalurl: https://www.davidwesst.com/blog/out-the-door-post-jam-update
 categories:
-    - devlog
-    - out the door
+    - projects
+    - video games
 tags:
     - ludum dare
     - ludum dare 47

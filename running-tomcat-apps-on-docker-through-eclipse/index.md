@@ -3,6 +3,12 @@ layout: post
 title: "Running Tomcat Apps on Docker through Eclipse"
 date: "2015-08-07T12:55:40"
 categories:
+- development
+tags:
+- java
+- eclipse
+- docker
+- tomcat
 comments: true
 authorId: david_wesst
 originalurl: http://blog.davidwesst.com/2015/08/Running-Tomcat-Apps-on-Docker-through-Eclipse/
