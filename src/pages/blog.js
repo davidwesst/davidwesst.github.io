@@ -64,6 +64,7 @@ export const homePageQuery = graphql`
           description
           title
           tags
+          categories
         }
       }
     }

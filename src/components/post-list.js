@@ -2,16 +2,18 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 import Tags from './tags';
+import Categories from './categories';
 
 const PostList = ({ posts }) => {
   const PostList = posts.map(({ frontmatter, fields, excerpt, timeToRead }) => {
-    const { title, tags, date, description } = frontmatter;
+    const { title, tags, categories, date, description } = frontmatter;
     const { slug } = fields;
 
     return (
       <PostListItem
         key={slug}
         tags={tags}
+        categories={categories}
         title={title}
         date={date}
         slug={slug}
@@ -32,13 +34,14 @@ const PostListItem = ({
   date,
   timeToRead,
   tags,
+  categories,
   excerpt,
   description,
   slug,
 }) => {
   return (
     <StyledPostListItem>
-      <Tags tags={tags} />
+      <Categories categories={categories} />
 
       <PostListTitle>
         <Link to={slug}>{title}</Link>

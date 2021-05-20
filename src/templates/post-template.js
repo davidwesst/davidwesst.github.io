@@ -182,6 +182,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         tags
+        categories
         date(formatString: "MMMM DD, YYYY")
         description
         social_image {
