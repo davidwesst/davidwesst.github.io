@@ -36,6 +36,14 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             fieldValue
           }
         }
+        categoriesGroup: allMarkdownRemark(
+          limit: 2000
+          filter: { fields: { contentType: { eq: "posts" } } }
+        ) {
+          group(field: frontmatter___categories) {
+            fieldValue
+          }
+        }
       }
     `
   );
@@ -49,6 +57,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 
   const tags = result.data.tagsGroup.group;
+  const categories = result.data.categoriesGroup.group;
   const allMarkdownNodes = result.data.allMarkdownRemark.nodes;
 
   const blogMarkdownNodes = allMarkdownNodes.filter(
@@ -106,6 +115,16 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       component: path.resolve(`./src/templates/tags-template.js`),
       context: {
         tag: tag.fieldValue,
+      },
+    });
+  });
+
+  categories.forEach((category) => {
+    createPage({
+      path: `/categories/${toKebabCase(category.fieldValue)}/`,
+      component: path.resolve(`./src/templates/categories-template.js`),
+      context: {
+        category: category.fieldValue,
       },
     });
   });
