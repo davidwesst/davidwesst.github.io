@@ -1,12 +1,15 @@
 ---
 title: 'About Me'
-profile_image: '/media/profile-image.jpg'
+profile_image: /media/profile-image.jpg
 template: 'about-template'
 ---
 
-# Hi, I'm John Doe
+# Hey Friendo, it's DW.
 
-This website is a live example of a Gatsby Starter — it's not a real blog.
-People using this starter may want to add some information to this page about them or their business.
+You might know me as Wessty, or David Wesst, or that guy from that conference that one time. Either way, if you're here we should be friends.
+
+I'm a professional technologist by day and an amateur creative by night, focusing mostly on video games, video game development, and searching for inspiration for the next thing. In a previous life, I was a Microsoft MVP (Most Valuable Professional) that focused on front-end web dev technology, but left that behind to focus more on family (I have children and I like being quite involved in their lives) and my passion for video games.
+
+
 
 

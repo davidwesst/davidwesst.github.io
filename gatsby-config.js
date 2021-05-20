@@ -12,29 +12,41 @@ console.log(`the node process environment is ${activeEnv}`)
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Glass`,
+    title: `David Wesst`,
     author: {
-      name: `Yinka Adedire`,
-      summary: `Self-taught front-end web dev. JAMStack.`,
+      name: `David Wesst`,
+      summary: `Technology by Day. Creativity by Night.`,
     },
-    description: `A minimal & beautiful gatsby personal blog starter with a nice glassmorphism UI.`,
-    siteUrl: `https://gatsbyglass.netlify.app`,
+    description: `The personal and somewhat professional website for David Wesst, a.k.a. DW, a.k.a. Wessty.`,
+    siteUrl: `https://www.davidwesst.com`,
     social: {
-      twitter: `yinkakun`,
+      twitter: `davidwesst`,
     },
     socialLinks: [
       {
+        name: 'youtube',
+        url: 'https://youtube.com/davidwesst'
+      },
+      {
         name: 'github',
-        url: 'https://github.com',
+        url: 'https://github.com/davidwesst',
       },
       {
         name: 'twitter',
-        url: 'https://twitter.com',
+        url: 'https://twitter.com/davidwesst',
       },
       {
         name: 'instagram',
-        url: 'https://instagram.com',
+        url: 'https://instagram.com/davidwesst',
       },
+      {
+        name: 'facebook',
+        url: 'https://facebook.com/davidwesst'
+      },
+      {
+        name: 'linkedin',
+        url: 'https://ca.linkedin.com/in/davidwesst'
+      }
     ],
   },
   plugins: [
@@ -165,135 +177,3 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
   ],
 };
-
-
-// module.exports = {
-//   flags: {
-//     PRESERVE_WEBPACK_CACHE: true,
-//   },
-//   siteMetadata: {
-//     title: `davidwesst.com`,
-//     siteUrl: `https://www.davidwesst.com`,
-//     description: `Amateur Gamedev Done Professionally`,
-//     tagline: `Amateur Gamedev Done Professionally`,
-//     author: {
-//       name: `David Wesst`,
-//       shortname: `DW`,
-//     },
-//     social: {
-//       twitter: `https://twitter.com/davidwesst`,
-//       youtube: `https://youtube.com/davidwesst`,
-//       github: `https://github.com/davidwesst`
-//     }
-//   },
-//   plugins: [
-//     `gatsby-plugin-react-helmet`,
-//     `gatsby-plugin-sharp`,
-//     `gatsby-transformer-sharp`,
-//     {
-//       resolve: `gatsby-transformer-remark`,
-//       options: {
-//         plugins: [
-//           {
-//             resolve: `gatsby-remark-images`,
-//             maxWidth: 800,
-//           }
-//         ]
-//       }
-//     },
-//     {
-//       resolve: `gatsby-plugin-typography`,
-//       options: {
-//         pathToConfigModule: `src/utils/typography`
-//       }
-//     },
-//     {
-//       resolve: `gatsby-source-filesystem`,
-//       options: {
-//         name: `blog`,
-//         path: `${__dirname}/content/blog`
-//       }
-//     },
-//     {
-//       resolve: `gatsby-plugin-feed`,
-//       options: {
-//         feeds: [
-//           {
-//             serialize: ({ query: { site, allMarkdownRemark } }) => {
-//               return allMarkdownRemark.edges.map(edge => {
-//                 return Object.assign({}, edge.node.frontmatter, {
-//                   description: edge.node.excerpt,
-//                   date: edge.node.frontmatter.date,
-//                   url: `${site.siteMetadata.siteUrl}/blog${edge.node.fields.slug}`,
-//                   guid: `${site.siteMetadata.siteUrl}/blog${edge.node.fields.slug}`,
-//                   custom_elements: [{ "content:encoded": edge.node.html }]
-//                 });
-//               });
-//             },
-//             query: `
-//               {
-//                 allMarkdownRemark(
-//                   sort: { order: DESC, fields: [frontmatter___date] },
-//                 ) {
-//                   edges {
-//                     node {
-//                       excerpt
-//                       html
-//                       fields { slug }
-//                       frontmatter {
-//                         title
-//                         date
-//                       }
-//                     }
-//                   }
-//                 }
-//               }
-//             `,
-//             output: "/blog/rss.xml",
-//             match: "^/blog/"
-//           },
-//           {
-//             serialize: ({ query: { allYoutubeVideo } }) => {
-//               return allYoutubeVideo.edges.map(edge => {
-//                 return Object.assign({}, {
-//                   title: edge.node.title,
-//                   date: edge.node.publishedAt,
-//                   url: `https://www.youtube.com/watch?v=${edge.node.videoId}`,
-//                 });
-//               });
-//             },
-//             query: `
-//             {
-//               allYoutubeVideo(sort: {fields: publishedAt, order:DESC}) {
-//                 edges {
-//                   node {
-//                     title
-//                     description
-//                     publishedAt
-//                     thumbnail {
-//                       url
-//                       width
-//                       height
-//                     }
-//                     videoId
-//                   }
-//                 }
-//               }
-//             }
-//             `,
-//             output: "/videos/rss.xml",
-//             match: "^/videos/"
-//           }
-//         ]
-//       }
-//     },
-//     {
-//       resolve: `gatsby-source-youtube-v2`,
-//       options: {
-//         channelId: ['UCjygutS5FiTM_4Nhlg0dA5w'],
-//         apiKey: process.env.YOUTUBE_API_KEY,
-//         maxVideos: 50
-//       }
-//     }
-//   ],
-// }
