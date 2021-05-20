@@ -54,31 +54,3 @@ const Title = styled.h1`
   font-size: var(--size-700);
 `;
 
-export const pageQuery = graphql`
-  query($tag: String) {
-    allMarkdownRemark(
-      limit: 2000
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: {
-        frontmatter: { tags: { in: [$tag] } }
-        fields: { contentType: { eq: "posts" } }
-      }
-    ) {
-      totalCount
-      nodes {
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          description
-          tags
-          categories
-          title
-        }
-        timeToRead
-        excerpt
-      }
-    }
-  }
-`;

@@ -12,16 +12,29 @@ const Blog = ({ data }) => {
       <HeaderWrapper>
         <h1>Blog</h1>
 
-        <Link
-          css={`
-            margin-top: var(--size-400);
-            color: inherit;
-            text-transform: uppercase;
-          `}
-          to="/tags"
-        >
-          view all tags
-        </Link>
+        <StyledMetaLinks>
+          <Link
+            css={`
+              margin-top: var(--size-400);
+              margin-right: 1rem;
+              color: inherit;
+              text-transform: uppercase;
+            `}
+            to="/tags"
+          >
+            view all tags
+          </Link>
+          <Link
+            css={`
+              margin-top: var(--size-400);
+              color: inherit;
+              text-transform: uppercase;
+            `}
+            to="/categories"
+          >
+            view all categories
+          </Link>
+        </StyledMetaLinks>
       </HeaderWrapper>
 
       <PostList posts={posts} />
@@ -41,6 +54,11 @@ const HeaderWrapper = styled.div`
     max-width: none;
   }
 `;
+
+const StyledMetaLinks = styled.div`
+  display: flex;
+  flex-direction: row;
+`
 
 export const homePageQuery = graphql`
   query {

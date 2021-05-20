@@ -14,7 +14,7 @@ const Categories = ({ data }) => {
 
   return (
     <Layout title="All Categories">
-      <h1>All Tags</h1>
+      <h1>All Categories</h1>
 
       <ul>
         {categories.map((category) => (
@@ -34,7 +34,7 @@ export default Categories;
 export const pageQuery = graphql`
   query {
     allMarkdownRemark(limit: 2000) {
-      group(field: frontmatter___tags) {
+      group(field: frontmatter___categories) {
         fieldValue
         totalCount
       }
