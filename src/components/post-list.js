@@ -51,9 +51,10 @@ const PostListItem = ({
           __html: description || excerpt,
         }}
       />
+
+      <Tags tags={tags} />
       <PostListMeta>
         <span>{date}</span>
-
         <span>{timeToRead} mins</span>
       </PostListMeta>
     </StyledPostListItem>

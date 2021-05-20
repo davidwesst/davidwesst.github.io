@@ -11,7 +11,7 @@ const toKebabCase = (str) => {
 
 const Tags = ({ tags }) => {
   return (
-    <div>
+    <StyledTags>
       {tags &&
         tags.map((tag) => {
           return (
@@ -20,25 +20,25 @@ const Tags = ({ tags }) => {
             </Tag>
           );
         })}
-    </div>
+    </StyledTags>
   );
 };
 
 export default Tags;
 
 const Tag = styled.span`
-  margin-right: 0.6rem;
-  margin-bottom: 0.6rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
   text-transform: uppercase;
   font-size: var(--size-300);
 
   & a {
     position: relative;
     z-index: 2;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(68, 100, 173, 0.4);
     text-decoration: none;
+    padding: 0.2rem 0.2rem;
     color: inherit;
-    padding: 0.2rem 0.6rem;
     border: 1px solid rgba(255, 255, 255, 1);
     border-radius: 4px;
   }
@@ -47,3 +47,11 @@ const Tag = styled.span`
     background-color: rgba(255, 255, 255, 0.9);
   }
 `;
+
+const StyledTags = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom; 2rem;
+`
