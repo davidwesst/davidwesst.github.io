@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Trigger Website Publish
-      uses: peter-evans/repository-dispatch@v1.1.1
+      uses: peter-evans/repository-dispatch@v1
       with:
         repository: davidwesst/website
-        token: ${{ secrets.WEBSITE_PUBLISH_TOKEN }}
+        token: ${{ secrets.WEBSITE_ACCESS_TOKEN }}
         event-type: blog-update
         client-payload: '{ "sha": "${{ github.sha }}" }'

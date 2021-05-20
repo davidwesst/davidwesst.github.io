@@ -5,11 +5,11 @@ layout: post
 authorId: david_wesst
 originalurl: http://www.davidwesst.com/blog/a-solo-gamejam-experience/
 categories:
-    - devlog
+    - projects
+    - video games
 tags:
     - ludum dare
-    - ludum dare 47
-    - game developmend    
+    - game development
     - game design
     - gamejam
 social_image: New_Ludum_Dare_Logo.png
