@@ -8,11 +8,10 @@ tags:
 - blog
 - website
 - graphql
-excerpt: I fixed up my blog website again. I'm calling this v7, although I'm pretty sure there are a few incarnations of the site that were lost early on in my years. In any case-- I thought I'd share the "why" around the new website revamp and how I think a project like this is just what I need.
-
+excerpt: I fixed up my blog-website-thingy again. I'm calling this v7, although I'm pretty sure there are a few incarnations of the site that were lost early on in my years, but v7 seems about right for the content I'm sharing here. In any case-- I thought I'd share the "why" around the new website revamp and how I think a project like this is just what I need.
 ---
 
-I fixed up my blog website again. I'm calling this v7, although I'm pretty sure there are a few incarnations of the site that were lost early on in my years. In any case-- I thought I'd share the "why" around the new website revamp and how I think a project like this is just what I need.
+I fixed up my blog-website-thingy again. I'm calling this v7, although I'm pretty sure there are a few incarnations of the site that were lost early on in my years, but v7 seems about right for the content I'm sharing here. In any case-- I thought I'd share the "why" around the new website revamp and how I think a project like this is just what I need.
 
 # Why did you stop blogging, anyway?
 I've been thinking a lot about that lately, and the reason I stopped was that I didn't have a reason to do it anymore. 
