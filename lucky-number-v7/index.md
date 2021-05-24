@@ -1,6 +1,7 @@
 ---
+
 title: "Lucky Number v7"
-date: "2021-05-21T12:00:00"
+date: "2021-05-24T12:00:00"
 categories:
 - technology
 - inner monologue
@@ -9,6 +10,8 @@ tags:
 - website
 - graphql
 excerpt: I fixed up my blog-website-thingy again. I'm calling this v7, although I'm pretty sure there are a few incarnations of the site that were lost early on in my years, but v7 seems about right for the content I'm sharing here. In any case-- I thought I'd share the "why" around the new website revamp and how I think a project like this is just what I need.
+social_image: "./lucky_number_v7.png"
+
 ---
 
 I fixed up my blog-website-thingy again. I'm calling this v7, although I'm pretty sure there are a few incarnations of the site that were lost early on in my years, but v7 seems about right for the content I'm sharing here. In any case-- I thought I'd share the "why" around the new website revamp and how I think a project like this is just what I need.
@@ -45,7 +48,7 @@ Plus, there are these weird "little problems" I've always had in my years of cre
 Ultimately, there is a lot to unpack here-- but assuming I keep this going, I'll continue to share what I learn, which will lead to more sharing and then more learning and...you see how this is good thing? :)
 
 ## The Point
-Scott Hanselman [link](https://www.hanselman.com/blog/do-they-deserve-the-gift-of-your-keystrokes) shared this idea of valuing your effort in helping through your keystrokes (I'm greatly paraphrasing the idea). I spend time helping others one-on-one, but it's usually the same stories, ideas, thought patterns, and so on that people find helpful. This website and blog is my chance to share new things and old with a fresh perspective, one that is owned and driven by my values and ideas and not those of my employer or community.
+Scott Hanselman shared this idea [(reference)](https://www.hanselman.com/blog/do-they-deserve-the-gift-of-your-keystrokes) of valuing your effort in helping through your keystrokes (I'm greatly paraphrasing the idea). I spend time helping others one-on-one, but it's usually the same stories, ideas, thought patterns, and so on that people find helpful. This website and blog is my chance to share new things and old with a fresh perspective, one that is owned and driven by my values and ideas and not those of my employer or community.
 
 Maybe its selfish to think this is a good idea, but that's fine because it's my website, my blog, and my idea that I think is good. 
 
