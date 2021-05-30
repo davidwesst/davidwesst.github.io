@@ -62,7 +62,7 @@ In my case, my blog is a one man show that doesn't really get a lot of people re
 If you're still interested in using the code tab, then keep calm and carry on. If not, you can jump ahead to the [Work][3], [Builds][4], or [Releases][5] posts.
 
 ## The "Code" Tab
-![Code is front and center in VSTS](http://i.imgur.com/LgqbXYyl.png)
+![Code is front and center in VSTS](LgqbXYyl.png)
 
 When you open up your project in VSTS, you'll see the "Code" link in the header. This is where we'll be living for the duration of this post. I am also assuming that did as I did in [part 1][1] and selected Git as the type of source control you want to use for your project.
 
@@ -73,7 +73,7 @@ You could use this to store the source code of your blog, but I tend to use this
 
 If you delete it and go back to the Welcome page you get this message:
 
-![When You Don't Have a Default Repository](http://i.imgur.com/NaI2INbl.png)
+![When You Don't Have a Default Repository](NaI2INbl.png)
 
 Since VSTS has a decicated spot for it anyway, I figure it makes sense to use it for cross-repository documentation. 
 
@@ -82,7 +82,7 @@ Click on the repository dropdown menu and select _New Repository_. Name it and y
 
 If you already have your blog published somewhere else like GitHub, you can use the _Import Repository_ feature and clone the source and the history into VSTS.
 
-![Repo Dropdown Menu](http://i.imgur.com/XC8Oqnpl.png)
+![Repo Dropdown Menu](XC8Oqnpl.png)
 
 #### For Those Using Hexo
 If you're using Hexo as your static site generator, you can follow [these instructions](https://hexo.io/docs/setup.html) to get setup.
@@ -118,7 +118,7 @@ You may have noticed the Pull Requests link in the header earlier, which is a ni
 
 With Pull Requests, I can do the merge from any web browser, and it forces me to give myself a code review. I look over the spelling and grammar and make sure everything looks good. When I'm done, I click "Complete" and it's merged into my master branch, which is what is used to generate the site content and published to my web host.
 
-![A Pull Request](http://i.imgur.com/ZXtAeaHl.png)
+![A Pull Request](ZXtAeaHl.png)
 
 ## But Wait, There's More!
 Absolultely. 

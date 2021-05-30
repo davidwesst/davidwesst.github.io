@@ -129,7 +129,7 @@ I'm not going to go into the details here, but my `paths` object in the `require
 
 When we run the application, we see the following in the JavaScript console.
 
-![What the console window should look like](http://i.imgur.com/38ngK52.png)
+![What the console window should look like](38ngK52.png)
 
 ## Details on Compilation
 I skipped that part on purpose, because I don't use the TSC compiler directly. Rather, I use [`gulp-typescript`](https://github.com/ivogabe/gulp-typescript) with a `tsconfig` file to compile my TypeScript and create sourcemaps for them. All of this is detailed on the [package page](https://www.npmjs.com/package/gulp-typescript), but I'll include my gulp task to make sure you have all the details in one place. 

@@ -55,7 +55,7 @@ Normally, you would use the [`@types`](https://www.npmjs.com/search?q=%40types) 
 
 The definition file for Moment is found in the library itself. Since I use NPM to handle all my dependencies, you just set this up in your `tsconfig.json` file.
 
-![](http://i.imgur.com/TyAgU0N.png)
+![](TyAgU0N.png)
 
 Then, in code, we import it.
 
@@ -84,7 +84,7 @@ Making a bundle is easy. Consuming the bundle is something different.
 ### Making a Bundle
 If you're interested in bundling your code into a single file with the compiler, you're limited to AMD or SystemJS modules. This is configured in the `tsconfig.json` file included in [the sample project](https://github.com/davidwesst/ts-systemjs) with the module property. You can read more about it [here in the TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/modules.html).
 
-![](http://i.imgur.com/gUGeHfI.png)
+![](gUGeHfI.png)
 
 ### Consuming the Bundle
 This is where I got stuck.

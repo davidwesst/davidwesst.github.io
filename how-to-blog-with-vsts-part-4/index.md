@@ -38,12 +38,12 @@ In this post we are we going to create a build script in VSTS so we can generate
 First, we need to navigate over to the _Build_ section of VSTS, which you can find in the navigation menu at the top of the page.
 
 <!-- image of build menu item -->
-![Build and Releases Menu](http://i.imgur.com/7S55XWDl.png)
+![Build and Releases Menu](7S55XWDl.png)
 
 This is where we're going to create our build script by hitting the "Create New Build" button.
 
 <!-- image of new build button -->
-![New Build Button](http://i.imgur.com/6uCoEEFl.png)
+![New Build Button](6uCoEEFl.png)
 
 ## Adding Build Tasks (Hexo Edition)
 VSTS provides plenty of build tasks. Statically generated sites will have different build tasks, so I'm going to walk you through the build tasks I setup for [Hexo](https://hexo.io/).
@@ -64,7 +64,7 @@ In this case, I only have one which is `hexo-cli` so that I can run the `hexo ge
 You could add it's own npm task here, by adding a new task and setting the parameters of the task accordingly.
 
 <!-- npm install -g task -->
-![npm task](http://i.imgur.com/h1HFRAJl.png)
+![npm task](h1HFRAJl.png)
 
 Personally, I don't have a separate task. I use my project's `package.json` and set a [_preinstall_ script](https://docs.npmjs.com/misc/scripts) which gets run before the `npm install` command.
 
@@ -77,7 +77,7 @@ Just like the previous, except this time we're using the default parameters. We 
 Every project is a unique snowflake, and sometimes you have some extra tasks you need accomplished. In my case, I have a custom theme that I build every time. To accomplish this, I have a PowerShell script in the `\tools` directory of my source code that gets run every time.
 
 <!-- powershell task with parameters -->
-![PowerShell Task with Parameters](http://i.imgur.com/aXmLKcml.png)
+![PowerShell Task with Parameters](aXmLKcml.png)
 
 #### CMD, Powershell, and Bash Tasks
 You're not limited to just PowerShell, but you can have CMD or even bash shell scripts executed. The only caveat of running these is making sure that the build server being used to run your build has these capabilities.
@@ -97,7 +97,7 @@ Again, another script task. But this one is easier, as we're just running `hexo 
 You could write a whole script file for this too, but I opted to make it simple and just configure the build task itself.
 
 <!-- hexo generate build task -->
-![hexo generate build task](http://i.imgur.com/dGWjUTNl.png)
+![hexo generate build task](dGWjUTNl.png)
 
 ### Save and Publish Site Content
 We'll discuss this further when we get to [releases][5] but we need to save our content assets so we can publish them later. For hexo, this is usually the contents of the `public` folder.
@@ -105,7 +105,7 @@ We'll discuss this further when we get to [releases][5] but we need to save our 
 To handle this, I use the _Copy and Publish Build Assets_ task and configure it to save the contents of the `public` folder so that it persists after the build is complete.
 
 <!-- publish assets task -->
-![Copy and Publish Build Assets](http://i.imgur.com/LJTk1wKl.png)
+![Copy and Publish Build Assets](LJTk1wKl.png)
 
 #### ...or Deploy!
 Another option is to just deploy it directly from the build script and skip the whole [release management][5] component. This would allow you do a deployment everytime you build, making sure the latest source code is live.
@@ -118,7 +118,7 @@ I have two build scripts that are almost identical. One that I use for developme
 VSTS accomodates both of these options, which you can see in the _Triggers_ tab of the build script.
 
 <!-- image of the triggers tab -->
-![Triggers Tab](http://i.imgur.com/YHlzH7Cl.png)
+![Triggers Tab](YHlzH7Cl.png)
 
 For my development build script, I trigger the build on pushes to the `master` branch of my repository. I have also configured this build script to run on a private build agent that I have setup.
 

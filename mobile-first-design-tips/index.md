@@ -35,7 +35,7 @@ This doesn't replace testing on an real small-screen device, but it definitely g
 
 Using the built-in emulators from the get-go enforces the mobile-first approach by ensuring that you start with the minimal amount of screen real-estate when building your application. As I learned, it is easy to get caught up in adding extra content because you think you'll have the space, which brings me to the next tip. 
 
-![Responsive Tools in Internet Explorer](http://i.imgur.com/5JsR2Icl.png)
+![Responsive Tools in Internet Explorer](5JsR2Icl.png)
 
 ### Start without CSS
 
@@ -47,7 +47,7 @@ For example, if you have a lot of icons that are just there for asthetic purpose
 
 Not using any CSS also helps with the next tip.
 
-![My site without CSS](http://i.imgur.com/TCDTcPGl.png)
+![My site without CSS](TCDTcPGl.png)
 
 ### Show _ONLY_ The Bare Minimum
 As you work on a page or a view, make sure you know what the bare minimum amount of content can go on the page to make sure it is still usable. Being more of a usability problem, it might be up to your designer or user experience expert to solve this problem, but it'll be up to you to develop and you'll be responsible for "fixing" the page when it's too cluttered if you don't have this information up front.
