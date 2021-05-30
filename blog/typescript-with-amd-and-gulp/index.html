@@ -167,7 +167,35 @@ requirejs<span class="token punctuation">.</span><span class="token function">co
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
 <p>I’m not going to go into the details here, but my <code class="language-text">paths</code> object in the <code class="language-text">requirejs.config</code> is pointing <code class="language-text">App</code> to our outputted file. We use this in our main function and point our compiled modules to the <code class="language-text">MyApp</code> object. We then call the <code class="language-text">start()</code> function on our exported class and we are off to the races. </p>
 <p>When we run the application, we see the following in the JavaScript console.</p>
-<p><img src="http://i.imgur.com/38ngK52.png" alt="What the console window should look like"></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 565px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/66d1c9c12ec4dd5ea1960f02f433b1c2/07eba/38ngK52.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.65822784810127%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAByUlEQVQ4y52S224SURSG5y08tCCth6SJlsqE4w1qSEr7Yuqb2Ecw4cYre2FSe1GKgKBQmBlm79kM58PAZ7INnlJ1dCVf9tp75V9Z6882zFSWvUcHPIwniJtJEskMB2YKM53TPE5m2IrucHP7DrciMW5sRbkdiel8O3ZXs/tgj+jufSI79zDMhEn+6TMOi0ek0mmev3jJ6dtTSqUSJyevyGWzHB8fYSYSZDMZCoUCyVxav8f390mnUzzJ53W9WDzEOHvzjmr1gnqlwuuqy5k9xlLQ68+YTye4QtDv9/UppYcQgstKhUajyUW5TLl8yfvzcxrNJj3XxaiJOU2NR1VYdHxBRwnasstkNua6WK/XmtVqpVkug281oyt9mpZHw5K0bJfJeEgQLFmtg59EP7JpuAG+50bLllzZgrYtUX0f3/dZLJZaGATBtQ3+hGEJheUq2j1FTypmsynD4YDBwNd+LRbzzaKECaPedqi1bD58tvnUcRCewhEejiu5smzUYMR4Omc0mTGa/h2j3pV87HrUOpKW4+kGQg0Q/QGOUPruj6f4o3AYYdb4Jw+/CsI6FMLD332N8PwyofJ8pPw/PM/HdRWtrkXLtrEtwRczQpgZeArL9wAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="What the console window should look like"
+        title="What the console window should look like"
+        src="/static/66d1c9c12ec4dd5ea1960f02f433b1c2/07eba/38ngK52.png"
+        srcset="/static/66d1c9c12ec4dd5ea1960f02f433b1c2/c26ae/38ngK52.png 158w,
+/static/66d1c9c12ec4dd5ea1960f02f433b1c2/6bdcf/38ngK52.png 315w,
+/static/66d1c9c12ec4dd5ea1960f02f433b1c2/07eba/38ngK52.png 565w"
+        sizes="(max-width: 565px) 100vw, 565px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
 <h2>Details on Compilation</h2>
 <p>I skipped that part on purpose, because I don’t use the TSC compiler directly. Rather, I use <a href="https://github.com/ivogabe/gulp-typescript"><code class="language-text">gulp-typescript</code></a> with a <code class="language-text">tsconfig</code> file to compile my TypeScript and create sourcemaps for them. All of this is detailed on the <a href="https://www.npmjs.com/package/gulp-typescript">package page</a>, but I’ll include my gulp task to make sure you have all the details in one place. </p>
 <p>You’re welcome. ;)</p>
