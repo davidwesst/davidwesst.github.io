@@ -185,7 +185,6 @@ module.exports = {
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
         gtagConfig: {
-          optimize_id: process.env.GA_MEASUREMENT_ID,
           anonymize_ip: true,
           cookie_expires: 0,
         },
