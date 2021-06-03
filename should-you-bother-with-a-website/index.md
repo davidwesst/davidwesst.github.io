@@ -33,7 +33,7 @@ I pay for my domain and the tooling for my website, but I don't pay for the host
 
 # Website is your Universal Digital Home Base
 
-![Universal Studios Globe][1]
+![Universal Studios Globe][./darshan-patel-IMyqcG3N1iE-unsplash.jpg]
 
 Social media platforms are walled gardens or trash fires (depending on how you look at it). The keyword there is "walled", such that a person trying to view your content has to climb to see it. Usually that wall is having an account, which doesn't seem like a big ask, but _why should they have to do anything_ to read what you're sharing.
 
@@ -85,7 +85,4 @@ It's a win-win, even if it's not what everyone is talking about when it comes ho
 Photo Credit
 
 - [Social Image Photo by Sara Kurfeß]("https://unsplash.com/@stereophototyp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText") on [Unsplash]("https://unsplash.com/s/photos/social-media?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText")
-- [Universal Photo by Darshan Patel][1] on [Unsplash](https://unsplash.com/@darshanp9?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-
-[1]: https://unsplash.com/s/photos/universal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+- [Universal Photo by Darshan Patel][https://unsplash.com/s/photos/universal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText] on [Unsplash](https://unsplash.com/@darshanp9?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
