@@ -9,9 +9,16 @@ const toKebabCase = (str) => {
     .join('-');
 };
 
-const Categories = ({ categories }) => {
+const getLabel = () => {
+  return (
+    <CategoriesLabel>Categorized under </CategoriesLabel>
+  )
+}
+
+const Categories = ({ categories, showLabel }) => {
   return (
     <div>
+      {showLabel ? getLabel() : '' }
       {categories &&
         categories.map((category) => {
           return (
@@ -47,3 +54,8 @@ const Category = styled.span`
     background-color: rgba(255, 255, 255, 0.9);
   }
 `;
+
+const CategoriesLabel = styled.span`
+  margin-right: 0.25rem;
+  vertical-align: middle;
+`

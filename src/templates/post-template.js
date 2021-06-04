@@ -4,13 +4,16 @@ import Img from 'gatsby-image';
 import Layout from '../components/layout';
 import styled from 'styled-components';
 import Tags from '../components/tags';
+import Categories from '../components/categories';
 
 const PostTemplate = ({ data }) => {
   const { frontmatter, excerpt, html } = data.markdownRemark;
   const prev = data.prev;
   const next = data.next;
   const headerImage = frontmatter.social_image ? (
-    <Img fluid={frontmatter.social_image.childImageSharp.fluid} />
+    <PostImage>
+      <Img fluid={frontmatter.social_image.childImageSharp.fluid} />
+    </PostImage>
   ) : '';
 
   return (
@@ -26,6 +29,7 @@ const PostTemplate = ({ data }) => {
         <article>
           <PostTitle>{frontmatter.title}</PostTitle>
           <PostDate>{frontmatter.date}</PostDate>
+          <Categories categories={frontmatter.categories} showLabel={true} />
 
           {headerImage}
 
@@ -73,6 +77,11 @@ const PostDate = styled.span`
   padding-top: 1rem;
   text-transform: uppercase;
 `;
+
+const PostImage = styled.div`
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+`
 
 const PostContent = styled.section`
   padding-top: var(--size-800);

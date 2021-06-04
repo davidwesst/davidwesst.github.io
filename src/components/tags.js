@@ -9,9 +9,16 @@ const toKebabCase = (str) => {
     .join('-');
 };
 
-const Tags = ({ tags }) => {
+const getLabel = () => {
   return (
-    <StyledTags>
+    <TagsLabel>Tagged with</TagsLabel>
+  )
+}
+
+const Tags = ({ tags, showLabel }) => {
+  return (
+    <StyledTags> 
+      {showLabel ? getLabel() : ''}
       {tags &&
         tags.map((tag) => {
           return (
@@ -53,5 +60,9 @@ const StyledTags = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 2rem;
-  margin-bottom; 2rem;
+  margin-bottom: 2rem;
+`
+const TagsLabel = styled.span`
+  margin-right: 0.25rem;
+  vertical-align: middle;
 `
