@@ -33,7 +33,7 @@ I pay for my domain and the tooling for my website, but I don't pay for the host
 
 # Website is your Universal Digital Home Base
 
-![Universal Studios Globe][./darshan-patel-IMyqcG3N1iE-unsplash.jpg]
+![Universal Studios Globe](./darshan-patel-IMyqcG3N1iE-unsplash.jpg)
 
 Social media platforms are walled gardens or trash fires (depending on how you look at it). The keyword there is "walled", such that a person trying to view your content has to climb to see it. Usually that wall is having an account, which doesn't seem like a big ask, but _why should they have to do anything_ to read what you're sharing.
 
