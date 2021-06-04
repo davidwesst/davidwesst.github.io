@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 import Layout from '../components/layout';
 import styled from 'styled-components';
 import Tags from '../components/tags';
@@ -8,6 +9,9 @@ const PostTemplate = ({ data }) => {
   const { frontmatter, excerpt, html } = data.markdownRemark;
   const prev = data.prev;
   const next = data.next;
+  const headerImage = frontmatter.social_image ? (
+    <Img fluid={frontmatter.social_image.childImageSharp.fluid} />
+  ) : '';
 
   return (
     <Layout
@@ -17,10 +21,13 @@ const PostTemplate = ({ data }) => {
         frontmatter.social_image ? frontmatter.social_image.absolutePath : ''
       }
     >
+      
       <PostWrapper>
         <article>
           <PostTitle>{frontmatter.title}</PostTitle>
           <PostDate>{frontmatter.date}</PostDate>
+
+          {headerImage}
 
           <PostContent dangerouslySetInnerHTML={{ __html: html }} />
         </article>
@@ -187,6 +194,11 @@ export const pageQuery = graphql`
         description
         social_image {
           absolutePath
+          childImageSharp {
+            fluid(maxWidth: 630) {
+              ...GatsbyImageSharpFluid
+            }
+          }
         }
       }
     }
