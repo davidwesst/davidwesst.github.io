@@ -85,4 +85,4 @@ It's a win-win, even if it's not what everyone is talking about when it comes ho
 Photo Credit
 
 - [Social Image Photo by Sara Kurfeß]("https://unsplash.com/@stereophototyp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText") on [Unsplash]("https://unsplash.com/s/photos/social-media?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText")
-- [Universal Photo by Darshan Patel][https://unsplash.com/s/photos/universal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText] on [Unsplash](https://unsplash.com/@darshanp9?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- [Universal Photo by Darshan Patel](https://unsplash.com/s/photos/universal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/@darshanp9?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
