@@ -125,8 +125,8 @@ module.exports = {
                 return Object.assign({}, node.frontmatter, {
                   description: node.excerpt,
                   date: node.frontmatter.date,
-                  url: site.siteMetadata.siteUrl + node.fields.slug,
-                  guid: site.siteMetadata.siteUrl + node.fields.slug,
+                  url: `${site.siteMetadata.siteUrl}${node.fields.slug}`,
+                  guid: `${site.siteMetadata.siteUrl}${node.fields.slug}`,
                   custom_elements: [{ 'content:encoded': node.html }],
                 });
               });
@@ -135,6 +135,7 @@ module.exports = {
               {
                 allMarkdownRemark(
                   sort: { order: DESC, fields: [frontmatter___date] },
+                  filter: {fields: {contentType: {eq: "posts"}}}
                 ) {
                   nodes {
                     excerpt
@@ -150,7 +151,8 @@ module.exports = {
                 }
               }
             `,
-            output: '/rss.xml',
+            output: '/blog/rss.xml',
+            match: "^/blog/"
           },
         ],
       },
