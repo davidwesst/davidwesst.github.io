@@ -1,5 +1,5 @@
 ---
-title: "I can Teach your Dog Quantum Physics"
+title: "I Can Teach Your Dog Quantum Physics"
 date: "2021-06-28T12:00:00"
 categories:
 - finding inspiration
