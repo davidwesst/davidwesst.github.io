@@ -1,4 +1,21 @@
-I finished _How to teach physics to your dog_ by Chad Orzel as I continue to dive deeper into my quest in understanding in quantum computing. This book was recommended by Mark Russonovich at the end of his Microsoft Ignite 2019 talked called _Quantum computing: Computing with a probabilistic universe with Mark Russinovich_ at Microsoft Ignite 2019. You can watch at this link at the Microsoft Ignite site: [LINK](https://myignite.microsoft.com/archives/IG19-BRK4011).
+---
+title: "I can Teach your Dog Quantum Physics"
+date: "2021-06-28T12:00:00"
+categories:
+- finding inspiration
+tags:
+- quantum computing
+- quantum physics
+- finding inspiration
+- book
+- Mark Russinovich
+excerpt: "It's true! I read a book about it and everything. Let me breakdown the highlights of this book that does a pretty good job of explaining the physics behind quantum computing."
+social_image: "./physics_dog_resized.jpg"
+---
+
+Okay fine. Maybe I can't teach your dog quantum physics, but this book taught _me_ something about quantum so that's something, right?
+
+I finished _How to Teach Physics to your Dog_ by Chad Orzel as I continue to dive deeper into my quest in understanding in quantum computing. This book was recommended by Mark Russonovich at the end of his Microsoft Ignite 2019 talked called _Quantum computing: Computing with a probabilistic universe with Mark Russinovich_ at Microsoft Ignite 2019. You can watch at this link at the Microsoft Ignite site: [LINK](https://myignite.microsoft.com/archives/IG19-BRK4011).
 
 In short, it's pretty good.
 
