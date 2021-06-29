@@ -52,6 +52,8 @@ const AboutCopy = styled.div`
 
   & p {
     font-size: var(--size-400);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 `;
 
