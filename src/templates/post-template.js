@@ -21,7 +21,7 @@ const PostTemplate = ({ data }) => {
       title={frontmatter.title}
       description={frontmatter.description || excerpt}
       socialImage={
-        frontmatter.social_image ? frontmatter.social_image.absolutePath : ''
+        frontmatter.social_image ? frontmatter.social_image.publicURL : ''
       }
     >
       
