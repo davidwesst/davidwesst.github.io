@@ -6,7 +6,7 @@ import Categories from './categories';
 
 const PostList = ({ posts }) => {
   const PostList = posts.map(({ frontmatter, fields, excerpt, timeToRead }) => {
-    const { title, tags, categories, date, description } = frontmatter;
+    const { title, tags, categories, date } = frontmatter;
     const { slug } = fields;
 
     return (
@@ -18,7 +18,7 @@ const PostList = ({ posts }) => {
         date={date}
         slug={slug}
         timeToRead={timeToRead}
-        description={description}
+        description={frontmatter.excerpt}
         excerpt={excerpt}
       />
     );
