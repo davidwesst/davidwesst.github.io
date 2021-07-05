@@ -23,7 +23,6 @@ But why do I miss it? It's time consuming, it takes away from gamedev and other 
 Let's unpack that by asking the [important questions I asked about content creation before](https://www.davidwesst.com/blog/what-value-does-making-content-bring-to-me/): _What value does making videos and livestreams being me_ and _what values does it bring you_? 
 
 # What value does it bring me? 
-
 For pre-recorded video content, I like the challenge that comes with filming and editing a video. There's a kind of "visual thinking" that is required to make videos and I like how it forces me to practice that type of thinking and communication style. 
 
 For livestreams, I really like keeping my live speaking skills up, and adding the extra video production challenges with it. Keeps me thinking on my toes and forcing myself to engage with my audience (whether they are present or not). 
@@ -31,19 +30,16 @@ For livestreams, I really like keeping my live speaking skills up, and adding th
 In short, I like the challenge and appreciate the skills required to deliver the content. 
 
 # What value does it bring you? 
-
 This has been the question that I've struggled with the past while looking back through my videos. 
 
 I think my YouTube content has some value by sharing my experiences, but they were missing something: my truth and my passion for video games. 
 
 ## My Truth: I'm not trying to be a gamedev
-
 My truth is that I'm not trying to become a professional game developer, rather I'm trying to make a video game because I love the medium. When I'm not trying to make my own game, I'm learning about the industry, subculture, and history about video games. 
 
 I mean I'm watching SGDQ 2021 in bed right now while I write this post because speed running is amazing and I find the speed running community truly inspiring. 
 
 # Cool cool. So now what? 
-
 Well, a couple of things. 
 
 ## Operation: Play My Collection
@@ -70,3 +66,8 @@ If you prefer the blog, keep it up, as I'll keep posting here as things develop.
 Thanks for playing. 
 
 ~ DW 
+
+---
+##### Photo Credit
+Photo by <a href="https://unsplash.com/@casparrubin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Caspar Camille Rubin</a> on <a href="https://unsplash.com/s/photos/twitch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
