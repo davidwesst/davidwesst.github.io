@@ -4,6 +4,7 @@ date: "2021-07-05T15:53"
 categories:
 - video
 - livestream
+- video games
 tags:
 - youtube
 - twitch
