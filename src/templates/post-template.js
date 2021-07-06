@@ -7,7 +7,7 @@ import Tags from '../components/tags';
 import Categories from '../components/categories';
 
 const PostTemplate = ({ data }) => {
-  const { frontmatter, excerpt, html } = data.markdownRemark;
+  const { frontmatter, html } = data.markdownRemark;
   const prev = data.prev;
   const next = data.next;
   const headerImage = frontmatter.social_image ? (
@@ -19,9 +19,9 @@ const PostTemplate = ({ data }) => {
   return (
     <Layout
       title={frontmatter.title}
-      description={frontmatter.description || excerpt}
+      description={frontmatter.excerpt || frontmatter.description }
       socialImage={
-        frontmatter.social_image ? frontmatter.social_image.absolutePath : ''
+        frontmatter.social_image ? frontmatter.social_image.publicURL : ''
       }
     >
       

@@ -80,6 +80,7 @@ export const homePageQuery = graphql`
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           description
+          excerpt
           title
           tags
           categories
