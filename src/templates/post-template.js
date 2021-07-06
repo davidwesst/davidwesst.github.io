@@ -19,7 +19,7 @@ const PostTemplate = ({ data }) => {
   return (
     <Layout
       title={frontmatter.title}
-      description={frontmatter.excerpt || frontmatter.description }
+      description={frontmatter.excerpt || frontmatter.description}
       socialImage={
         frontmatter.social_image ? frontmatter.social_image.publicURL : ''
       }
@@ -201,8 +201,9 @@ export const pageQuery = graphql`
         categories
         date(formatString: "MMMM DD, YYYY")
         description
+        excerpt
         social_image {
-          absolutePath
+          publicURL
           childImageSharp {
             fluid(maxWidth: 630) {
               ...GatsbyImageSharpFluid
