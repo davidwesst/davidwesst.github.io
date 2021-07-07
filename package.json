@@ -2,8 +2,8 @@
   "name": "dw-website",
   "private": true,
   "description": "The personal and somewhat professional website for David Wesst, a.k.a. DW, a.k.a. Wessty.",
-  "version": "7.0.3",
-  "author": "David Wesst <dw@davidwesst.com>",
+  "version": "7.1.0-beta",
+  "author": "David Wesst <david@cocobokostudios.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^3.0.1",
@@ -31,6 +31,7 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-hook-form": "^6.15.4",
+    "react-inline-script": "^1.2.0",
     "react-kawaii": "^0.17.0",
     "react-netlify-forms": "^1.2.0",
     "styled-components": "^5.2.1"
