@@ -1,13 +1,15 @@
 import React from 'react';
 import Script from 'react-inline-script';
 
+const commentId = 'davidwesst-com';
+
 const Comments = ({ slug }) => {
     return (
     <Script>
     {`   /* - - - CONFIGURATION VARIABLES - - - */
 
         var __semio__params = {
-        graphcommentId: "${process.env.GRAPHCOMMENT_ID}", // make sure the id is yours
+        graphcommentId: "${commentId}", // make sure the id is yours
 
         behaviour: {
             // HIGHLY RECOMMENDED
