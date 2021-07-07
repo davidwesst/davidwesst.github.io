@@ -5,9 +5,10 @@ import Layout from '../components/layout';
 import styled from 'styled-components';
 import Tags from '../components/tags';
 import Categories from '../components/categories';
+import Comments from '../components/comments';
 
 const PostTemplate = ({ data }) => {
-  const { frontmatter, html } = data.markdownRemark;
+  const { frontmatter, html, fields } = data.markdownRemark;
   const prev = data.prev;
   const next = data.next;
   const headerImage = frontmatter.social_image ? (
@@ -34,6 +35,7 @@ const PostTemplate = ({ data }) => {
           {headerImage}
 
           <PostContent dangerouslySetInnerHTML={{ __html: html }} />
+          <Tags tags={frontmatter.tags} />
         </article>
 
         <PostPagination>
@@ -51,7 +53,24 @@ const PostTemplate = ({ data }) => {
             </div>
           )}
         </PostPagination>
-        <Tags tags={frontmatter.tags} />
+
+        <Comments slug={fields.slug} />
+        
+        <PostPagination>
+          {prev && (
+            <div>
+              <span>previous</span>
+              <Link to={prev.fields.slug}> {prev.frontmatter.title}</Link>
+            </div>
+          )}
+
+          {next && (
+            <div>
+              <span>next</span>
+              <Link to={next.fields.slug}> {next.frontmatter.title}</Link>
+            </div>
+          )}
+        </PostPagination>
       </PostWrapper>
     </Layout>
   );
@@ -195,6 +214,9 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       excerpt(pruneLength: 160)
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         tags
