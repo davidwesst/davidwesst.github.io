@@ -2,7 +2,7 @@
   "name": "dw-website",
   "private": true,
   "description": "The personal and somewhat professional website for David Wesst, a.k.a. DW, a.k.a. Wessty.",
-  "version": "7.1.0-beta",
+  "version": "7.1.0",
   "author": "David Wesst <david@cocobokostudios.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.12.0",

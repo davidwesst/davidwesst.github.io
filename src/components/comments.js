@@ -1,43 +1,31 @@
-import React from 'react';
-import Script from 'react-inline-script';
+import React, { useEffect } from 'react';
 
-const commentId = 'davidwesst-com';
+const COMMENTS_ID = 'graphcomment';
 
-const Comments = ({ slug }) => {
-    return (
-    <section>
-        <div id="graphcomment"></div>
-        <Script>
-        {`   /* - - - CONFIGURATION VARIABLES - - - */
+const Comments = () => {
+    // provided by https://www.emgoto.com/gatsby-comments/
+    useEffect(() => {
+        window.gc_params = {
+            graphcomment_id: 'davidwesst-com',
+            fixed_header_height: 0,
+          };
 
-            var __semio__params = {
-            graphcommentId: "${commentId}", // make sure the id is yours
+        const script = document.createElement('script');
+        script.src = 'https://graphcomment.com/js/integration.js?' + Date.now();
+        script.async = true;
 
-            behaviour: {
-                // HIGHLY RECOMMENDED
-                uid: "${slug}", // uniq identifer for the comments thread on your page (ex: your page id)
-            },
+        const comments = document.getElementById(COMMENTS_ID);
+        if (comments) comments.appendChild(script);
 
-            // configure your variables here
+        // This function will get called when the component unmounts
+        // To make sure we don't end up with multiple instances of the comments component
+        return () => {
+            const comments = document.getElementById(COMMENTS_ID);
+            if (comments) comments.innerHTML = '';
+        };
+    }, []);
 
-            }
-
-            /* - - - DON'T EDIT BELOW THIS LINE - - - */
-
-            function __semio__onload() {
-            __semio__gc_graphlogin(__semio__params)
-            }
-
-
-            (function() {
-            var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-            gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-            })();
-        `}
-        </Script>
-    </section>
-    );
+    return <div id={COMMENTS_ID} />
 };
 
 export default Comments;

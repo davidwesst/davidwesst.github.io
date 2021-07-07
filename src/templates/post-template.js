@@ -38,22 +38,6 @@ const PostTemplate = ({ data }) => {
           <Tags tags={frontmatter.tags} />
         </article>
 
-        <PostPagination>
-          {prev && (
-            <div>
-              <span>previous</span>
-              <Link to={prev.fields.slug}> {prev.frontmatter.title}</Link>
-            </div>
-          )}
-
-          {next && (
-            <div>
-              <span>next</span>
-              <Link to={next.fields.slug}> {next.frontmatter.title}</Link>
-            </div>
-          )}
-        </PostPagination>
-
         <Comments slug={fields.slug} />
         
         <PostPagination>
