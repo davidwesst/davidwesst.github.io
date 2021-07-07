@@ -7,7 +7,7 @@ const Comments = ({ slug }) => {
     return (
     <section>
         <div id="graphcomment"></div>
-    `    <Script>
+        <Script>
         {`   /* - - - CONFIGURATION VARIABLES - - - */
 
             var __semio__params = {
@@ -35,7 +35,7 @@ const Comments = ({ slug }) => {
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
             })();
         `}
-        </Script>`
+        </Script>
     </section>
     );
 };
