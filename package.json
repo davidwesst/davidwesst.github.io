@@ -2,7 +2,7 @@
   "name": "dw-website",
   "private": true,
   "description": "The personal and somewhat professional website for David Wesst, a.k.a. DW, a.k.a. Wessty.",
-  "version": "7.1.0",
+  "version": "7.2.0",
   "author": "David Wesst <david@cocobokostudios.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.12.0",
@@ -24,6 +24,7 @@
     "gatsby-remark-responsive-iframe": "^3.0.0",
     "gatsby-remark-smartypants": "^3.0.0",
     "gatsby-source-filesystem": "^3.0.0",
+    "gatsby-transformer-csv": "^3.12.0",
     "gatsby-transformer-remark": "^3.0.0",
     "gatsby-transformer-sharp": "^3.0.0",
     "prismjs": "^1.23.0",

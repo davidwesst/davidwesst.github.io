@@ -76,6 +76,13 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'games',
+        path: `${__dirname}/content/play`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -103,6 +110,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-transformer-csv`,
     {
       resolve: `gatsby-plugin-feed`,
       options: {
