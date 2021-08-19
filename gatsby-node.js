@@ -1,5 +1,6 @@
 const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
+const { report } = require("process");
 
 const toKebabCase = (str) => {
   return str
@@ -9,6 +10,104 @@ const toKebabCase = (str) => {
 };
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
+  await createBlogPostPages({ graphql, actions, reporter });
+  await createGamePages({ graphql, actions, reporter });
+};
+
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions;
+
+  // for markdown files
+  if (node.internal.type === `MarkdownRemark`) {
+    const relativeFilePath = createFilePath({
+      node,
+      getNode,
+    });
+
+    const fileNode = getNode(node.parent);
+
+    createNodeField({
+      node,
+      name: `contentType`,
+      value: fileNode.sourceInstanceName,
+    });
+
+    if (fileNode.sourceInstanceName === 'posts') {
+      createNodeField({
+        name: `slug`,
+        node,
+        value: `/blog${relativeFilePath}`,
+      });
+    }
+
+    if (fileNode.sourceInstanceName === 'pages') {
+      createNodeField({
+        name: `slug`,
+        node,
+        value: relativeFilePath,
+      });
+    }
+  }
+
+  // for PlayMyCollection games
+  if(node.internal.type === `PlayMyCollectionCsv`)
+  {
+    const relativeFilePath = createFilePath({
+      node,
+      getNode
+    });
+
+    const fileNode = getNode(node.parent);
+
+    createNodeField({
+      node,
+      name: `slug`,
+      value: generateGameNodePath(node)
+    })
+  }
+};
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+
+  createTypes(`
+    type SiteSiteMetadata {
+      author: Author
+      siteUrl: String
+      social: Social
+    }
+
+    type Author {
+      name: String
+      summary: String
+    }
+
+    type Social {
+      twitter: String
+    }
+
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter
+      fields: Fields
+    }
+
+    type Frontmatter {
+      title: String
+      description: String
+      date: Date @dateformat
+      template: String
+      tags: [String!]
+    }
+
+    type Fields {
+      slug: String
+      contentType: String
+    }
+  `);
+};
+
+// create page functions
+const createBlogPostPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
 
   const result = await graphql(
@@ -128,78 +227,70 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       },
     });
   });
-};
+}
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions;
+const createGamePages = async ({ graphql, actions, reporter }) => {
+  const { createPage } = actions;
 
-  if (node.internal.type === `MarkdownRemark`) {
-    const relativeFilePath = createFilePath({
-      node,
-      getNode,
-    });
-
-    const fileNode = getNode(node.parent);
-
-    createNodeField({
-      node,
-      name: `contentType`,
-      value: fileNode.sourceInstanceName,
-    });
-
-    if (fileNode.sourceInstanceName === 'posts') {
-      createNodeField({
-        name: `slug`,
-        node,
-        value: `/blog${relativeFilePath}`,
-      });
+  const result = await graphql(
+    `
+    {
+      allPlayMyCollectionCsv {
+        nodes {
+          id
+          Co_op_Notes
+          Co_op_Preference
+          Controls
+          Controls_Comment
+          Date_Added
+          Gameplay
+          Gameplay_Comment
+          Platform
+          Price_Complete
+          Price_GameOnly
+          Puzzles
+          Puzzles_Comment
+          Stream_Date
+          Stream_URL
+          The_Fun
+          The_Hook
+          The_Less_Fun
+          Title
+          WTF_URL
+          Web_URL
+          Worth_It
+        }
+      }
     }
+    `
+  );
 
-    if (fileNode.sourceInstanceName === 'pages') {
-      createNodeField({
-        name: `slug`,
-        node,
-        value: relativeFilePath,
-      });
-    }
+  if(result.errors) {
+    reporter.panicOnBuild(
+      `There was an error loading your game list from CSV`,
+      result.errors
+    );
+    return;
   }
-};
 
-exports.createSchemaCustomization = ({ actions }) => {
-  const { createTypes } = actions;
+  const gameNodes = result.data.allPlayMyCollectionCsv.nodes;
+  if(gameNodes.length > 0) {
+    gameNodes.forEach((node) => {
+      createPage({
+        path: generateGameNodePath(node),
+        component: path.resolve(`./src/templates/game-template.js`),
+      });
+    });
+  }
+  else {
+    reporter.panicOnBuild(`There is no game data!`);
+  }
+}
 
-  createTypes(`
-    type SiteSiteMetadata {
-      author: Author
-      siteUrl: String
-      social: Social
-    }
+const toNormalizedSlug = (title) => {
+  return title.toLowerCase().replace(/[\:\?\!\@\#\$\%\^\&\*\(\)]/g,"").replace(/\s/g,"-");
+}
 
-    type Author {
-      name: String
-      summary: String
-    }
-
-    type Social {
-      twitter: String
-    }
-
-    type MarkdownRemark implements Node {
-      frontmatter: Frontmatter
-      fields: Fields
-    }
-
-    type Frontmatter {
-      title: String
-      description: String
-      date: Date @dateformat
-      template: String
-      tags: [String!]
-    }
-
-    type Fields {
-      slug: String
-      contentType: String
-    }
-  `);
-};
+const generateGameNodePath = (node) => {
+  return `/play/${toNormalizedSlug(node.Title)}`;
+}

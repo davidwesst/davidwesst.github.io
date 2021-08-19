@@ -7,7 +7,6 @@ import GlobalStyle from './global-styles';
 import styled from 'styled-components';
 
 const Layout = ({ children, title, description, socialImage = '' }) => {
-  console.log(socialImage);
   return (
     <Fragment>
       <GlobalStyle />
