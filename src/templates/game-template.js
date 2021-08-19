@@ -4,9 +4,11 @@ import Layout from '../components/layout';
 import styled from 'styled-components';
 import StyledLink from '../components/styled-link';
 
-const GameTemplate = ({ data }) => {
+const GameTemplate = ({ pageContext }) => {
     return (
-        <h1>This is a game</h1>
+        <div>
+            <h1>{pageContext.Title}</h1>
+        </div>
     )
 }
 

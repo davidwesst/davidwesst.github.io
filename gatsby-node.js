@@ -237,7 +237,6 @@ const createGamePages = async ({ graphql, actions, reporter }) => {
     {
       allPlayMyCollectionCsv {
         nodes {
-          id
           Co_op_Notes
           Co_op_Preference
           Controls
@@ -279,6 +278,29 @@ const createGamePages = async ({ graphql, actions, reporter }) => {
       createPage({
         path: generateGameNodePath(node),
         component: path.resolve(`./src/templates/game-template.js`),
+        context: {
+          Co_op_Notes: node.Co_op_Notes,
+          Co_op_Preference: node.Co_op_Preference,
+          Controls: node.Controls,
+          Controls_Comment: node.Controls_Comment,
+          Date_Added: node.Date_Added,
+          Gameplay: node.Gameplay, 
+          Gameplay_Comment: node.Gameplay_Comment,
+          Platform: node.Platform,
+          Price_Complete: node.Price_Complete, 
+          Price_GameOnly: node.Price_GameOnly, 
+          Puzzles: node.Puzzles, 
+          Puzzles_Comment: node.Puzzles_Comment,
+          Stream_Date: node.Stream_Date, 
+          Stream_URL: node.Stream_URL, 
+          The_Fun: node.The_Fun, 
+          The_Hook: node.The_Hook, 
+          The_Less_Fun: node.The_Less_Fun,
+          Title: node.Title,
+          WTF_URL: node.WTF_URL,
+          Web_URL: node.Web_URL, 
+          Worth_It: node.Worth_It
+        }
       });
     });
   }
