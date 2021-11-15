@@ -1,90 +1,84 @@
 import React from 'react';
-import Layout from '../components/layout';
 import { graphql } from 'gatsby';
+import Layout from '../components/layout';
 import styled from 'styled-components';
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
-const AboutTemplate = ({ data }) => {
-  const { html, frontmatter } = data.markdownRemark;
-  const profileImage = getImage(frontmatter.profile_image);
-  const logoImage = getImage(frontmatter.logo_image);
+const HomePage = ({ data }) => {
+  const intro = data.markdownRemark.html;
+  const title = `About David Wesst`;
 
   return (
-    <Layout title={frontmatter.title}>
-      <AboutWrapper>
-
-        <AboutImageGroup>
-          <AboutImageWrapper image={profileImage} alt="" />
-          <AboutImageWrapper image={logoImage} alt="" />
-        </AboutImageGroup>
-
-        <AboutCopy dangerouslySetInnerHTML={{ __html: html }} />
-      </AboutWrapper>
+    <Layout title={title}>
+      <Intro
+        dangerouslySetInnerHTML={{
+          __html: intro,
+        }}
+      />
     </Layout>
   );
 };
 
-export default AboutTemplate;
+export default HomePage;
 
-const AboutWrapper = styled.div`
+const Intro = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 100%;
-
-  @media screen and (max-width: 1000px) {
-    & {
-      flex-direction: column;
-    }
-
-    & > * {
-      margin-top: 2rem;
-      width: 100%;
-      text-align: center;
-    }
-  }
-`;
-
-const AboutImageGroup = styled.div`
-  display: flex;
-  flex-direction: column
-`
-
-const AboutImageWrapper = styled(GatsbyImage)`
-  display: block;
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  margin-top: 0.5rem;
-  margin-bottom:  0.5rem;
-`;
-
-const AboutCopy = styled.div`
+  flex-direction: column;
   max-width: 60ch;
+  align-items: left;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: var(--size-800);
+  margin-bottom: var(--size-900);
+  text-align: left;
 
   & p {
+    text-transform: capitalize;
     font-size: var(--size-400);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  }
+
+  & h1, & h2 {
+    margin: 0.25em 0;
+  }
+
+  @media screen and (max-width: 700px) {
+    & h1 {
+      font-size: var(--size-700);
+    }
   }
 `;
 
 export const pageQuery = graphql`
   query($slug: String!) {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    allMarkdownRemark(
+      filter: { fields: { contentType: { eq: "posts" } } }
+      sort: { order: DESC, fields: frontmatter___date }
+      limit: 9
+    ) {
+      nodes {
+        fields {
+          slug
+        }
+        excerpt
+        timeToRead
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          description
+          excerpt
+          title
+          tags
+          categories
+        }
+      }
+    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
         title
-        profile_image {
-          childImageSharp {
-            gatsbyImageData(placeholder: BLURRED, formats: PNG, height: 400)
-          }
-        }
-        logo_image {
-          childImageSharp {
-            gatsbyImageData(placeholder: BLURRED, formats: PNG, height: 400)
-          }
-        }
       }
     }
   }

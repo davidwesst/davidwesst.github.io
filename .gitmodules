@@ -2,3 +2,6 @@
 	path = content/blog
 	url = https://github.com/davidwesst/blog.git
 	branch = main
+[submodule "content/pages/about"]
+	path = content/pages/about
+	url = https://github.com/davidwesst/davidwesst.git
