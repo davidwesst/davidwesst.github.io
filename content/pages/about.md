@@ -1,7 +1,7 @@
 ---
 title: 'About Me'
-profile_image: '/media/profile-image.jpg'
-logo_image: '/media/site-image.png'
+profile_image: /media/profile-image.jpg
+logo_image: /media/site-image.png
 template: 'about-template'
 ---
 
