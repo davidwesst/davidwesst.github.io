@@ -1,19 +1,13 @@
-import styled from 'styled-components';
+import React from 'react';
 
-const Container = styled.div`
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1300px;
-  padding-left: var(--size-700);
-  padding-right: var(--size-700);
-  height: 100%;
+import * as styles from '../styles/container.module.css';
 
-  @media screen and (max-width: 1000px) {
-    & {
-      padding-left: var(--size-400);
-      padding-right: var(--size-400);
-    }
-  }
-`;
+const Container = ({children}) => {
+  return (
+    <div className={styles.Container}>
+      {children}
+    </div>
+  )
+}
 
 export default Container;

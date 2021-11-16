@@ -1,0 +1,34 @@
+.Tag {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+  font-size: var(--size-300);
+}
+
+.Tag a {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(68, 100, 173, 0.4);
+    text-decoration: none;
+    padding: 0.2rem 0.2rem;
+    color: inherit;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+}
+
+.Tag a:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+.StyledTags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.TagsLabel {
+  margin-right: 0.25rem;
+  vertical-align: middle;
+}

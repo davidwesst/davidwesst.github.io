@@ -1,0 +1,59 @@
+.StyledHeader {
+  padding-top: var(--size-300);
+}
+
+.HeaderWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.HeaderTitle a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: var(--size-400);
+    color: inherit;
+}
+
+.StyledNav {
+  position: static;
+  padding: 0;
+  background: transparent;
+  backdrop-filter: unset;
+}
+
+.StyledNavList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 0;
+  list-style-type: none;
+}
+
+.StyledNavListItem {
+  @media screen and (max-width: 700px) {
+    .StyledNavListItem:not(:last-of-type) {
+      margin-right: 1rem;
+    }
+  }
+}
+
+.StyledNavListItem:not(:last-of-type) {
+    margin-right: 2rem;
+}
+
+.StyledNavListItem a {
+    color: inherit;
+    text-transform: uppercase;
+    font-size: var(--size-300);
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+
+  @media screen and (max-width: 700px) {
+    .StyledNavListItem a {
+      font-size: 0.7rem;
+    }
+  }
+}
