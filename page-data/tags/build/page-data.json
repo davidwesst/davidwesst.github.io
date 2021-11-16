@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/build/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/build-2014-cool-stuff-day-1/"},"frontmatter":{"date":"April 03, 2014","description":null,"tags":["build","build conference"],"title":"BUILD 2014 Cool Stuff - Day 1"},"timeToRead":3,"excerpt":"I haven’t been to BUILD, but I always follow it as Microsoft makes a bunch of really cool announcements throughout that pump me up. I know…"}]}},"pageContext":{"tag":"build"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/build/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/build-2014-cool-stuff-day-1/"},"frontmatter":{"date":"April 03, 2014","description":null,"tags":["build","build conference"],"title":"BUILD 2014 Cool Stuff - Day 1"},"timeToRead":3,"excerpt":"I haven’t been to BUILD, but I always follow it as Microsoft makes a bunch of really cool announcements throughout that pump me up. I know…"}]}},"pageContext":{"tag":"build"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

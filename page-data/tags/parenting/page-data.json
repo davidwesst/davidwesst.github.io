@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/parenting/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/keeping-your-edge/"},"frontmatter":{"date":"July 18, 2016","description":null,"tags":["parenting"],"title":"Keeping Your Edge on an Extended Break"},"timeToRead":3,"excerpt":"I recently came off of four months of parental leave where I had a fantastic time bonding with my new daughter. Although four months doesn’t…"}]}},"pageContext":{"tag":"parenting"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/parenting/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/keeping-your-edge/"},"frontmatter":{"date":"July 18, 2016","description":null,"tags":["parenting"],"title":"Keeping Your Edge on an Extended Break"},"timeToRead":3,"excerpt":"I recently came off of four months of parental leave where I had a fantastic time bonding with my new daughter. Although four months doesn’t…"}]}},"pageContext":{"tag":"parenting"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

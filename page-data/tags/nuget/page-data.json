@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/nuget/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/think-before-you-tweet-a-lesson-in-humility/"},"frontmatter":{"date":"November 17, 2014","description":null,"tags":["thoughts","npm","chocolatey","nuget"],"title":"Think Before You Tweet: A Lesson in Humility"},"timeToRead":2,"excerpt":"Over the weekend I tripped over brain and sounded like a goof on Twitter while trying to engage a number of technology experts. This ended…"}]}},"pageContext":{"tag":"nuget"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/nuget/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/think-before-you-tweet-a-lesson-in-humility/"},"frontmatter":{"date":"November 17, 2014","description":null,"tags":["thoughts","npm","chocolatey","nuget"],"title":"Think Before You Tweet: A Lesson in Humility"},"timeToRead":2,"excerpt":"Over the weekend I tripped over brain and sounded like a goof on Twitter while trying to engage a number of technology experts. This ended…"}]}},"pageContext":{"tag":"nuget"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

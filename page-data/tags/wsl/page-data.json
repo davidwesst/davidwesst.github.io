@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/wsl/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/websummit-wsl/"},"frontmatter":{"date":"September 20, 2017","description":null,"tags":["microsoft-edge","f12","linux","windows subsystem for linux","wsl"],"title":"Windows Subsystem for Linux is Cool. No really, it is."},"timeToRead":3,"excerpt":"This is part of a series of posts capturing the highlights from my experience at the Microsoft Edge Web Summit 2017  With the Fall Creators…"}]}},"pageContext":{"tag":"wsl"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/wsl/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/websummit-wsl/"},"frontmatter":{"date":"September 20, 2017","description":null,"tags":["microsoft-edge","f12","linux","windows subsystem for linux","wsl"],"title":"Windows Subsystem for Linux is Cool. No really, it is."},"timeToRead":3,"excerpt":"This is part of a series of posts capturing the highlights from my experience at the Microsoft Edge Web Summit 2017  With the Fall Creators…"}]}},"pageContext":{"tag":"wsl"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

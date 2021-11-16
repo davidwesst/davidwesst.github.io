@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/one-note/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/no-cost-game-design-toolbox/"},"frontmatter":{"date":"August 15, 2017","description":null,"tags":["Game Design","Game Development","Toolbox","OneNote","Excel","Video"],"title":"No Cost Game Design Toolbox"},"timeToRead":1,"excerpt":"In 2020, I have been focusing my energy into game design. In this video, I share my game design toolbox and process and how it literally…"}]}},"pageContext":{"tag":"OneNote"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/one-note/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/no-cost-game-design-toolbox/"},"frontmatter":{"date":"August 15, 2017","description":null,"tags":["Game Design","Game Development","Toolbox","OneNote","Excel","Video"],"title":"No Cost Game Design Toolbox"},"timeToRead":1,"excerpt":"In 2020, I have been focusing my energy into game design. In this video, I share my game design toolbox and process and how it literally…"}]}},"pageContext":{"tag":"OneNote"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

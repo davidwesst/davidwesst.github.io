@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/documentation/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/crowdsourcing-docs-is-cool/"},"frontmatter":{"date":"March 13, 2018","description":null,"tags":["javascript","documentation"],"title":"Crowdsourcing Documentation is Cool"},"timeToRead":3,"excerpt":"The idea of these large enterprises crowdsourcing their technical documentation is pretty cool. More cool than I had originally realized…"}]}},"pageContext":{"tag":"documentation"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/documentation/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/crowdsourcing-docs-is-cool/"},"frontmatter":{"date":"March 13, 2018","description":null,"tags":["javascript","documentation"],"title":"Crowdsourcing Documentation is Cool"},"timeToRead":3,"excerpt":"The idea of these large enterprises crowdsourcing their technical documentation is pretty cool. More cool than I had originally realized…"}]}},"pageContext":{"tag":"documentation"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

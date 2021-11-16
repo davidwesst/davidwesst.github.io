@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/podcast/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/msdevshow-a-dev-podcast-review/"},"frontmatter":{"date":"April 30, 2015","description":null,"tags":["podcast","review"],"title":"MSDevShow...A Dev Podcast Review"},"timeToRead":2,"excerpt":"I like podcasts. Especially the technical kind, but I find it’s challenging to find quality dev podcasts in the sea of options out there…"}]}},"pageContext":{"tag":"podcast"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/podcast/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/msdevshow-a-dev-podcast-review/"},"frontmatter":{"date":"April 30, 2015","description":null,"tags":["podcast","review"],"title":"MSDevShow...A Dev Podcast Review"},"timeToRead":2,"excerpt":"I like podcasts. Especially the technical kind, but I find it’s challenging to find quality dev podcasts in the sea of options out there…"}]}},"pageContext":{"tag":"podcast"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

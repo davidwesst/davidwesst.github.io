@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/flexbox/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/using-overflow-ellipsis-in-inline-flex/"},"frontmatter":{"date":"February 29, 2016","description":null,"tags":["html","css","flexbox"],"title":"Using text-overflow:ellipsis with Inline Flex"},"timeToRead":4,"excerpt":"Dave Paquette, a fellow Western Dev, hit a strange CSS snag the other day. He wanted to use the  on a flexbox item that displayed text…"}]}},"pageContext":{"tag":"flexbox"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/flexbox/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/using-overflow-ellipsis-in-inline-flex/"},"frontmatter":{"date":"February 29, 2016","description":null,"tags":["html","css","flexbox"],"title":"Using text-overflow:ellipsis with Inline Flex"},"timeToRead":4,"excerpt":"Dave Paquette, a fellow Western Dev, hit a strange CSS snag the other day. He wanted to use the  on a flexbox item that displayed text…"}]}},"pageContext":{"tag":"flexbox"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

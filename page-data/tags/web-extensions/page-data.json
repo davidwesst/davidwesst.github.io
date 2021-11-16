@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/web-extensions/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/f12-chooser-is-dev-tool-thing/"},"frontmatter":{"date":"March 28, 2018","description":null,"tags":["javascript","typescript","web extensions","office add-in"],"title":"F12 Chooser is a Dev Tool Thing"},"timeToRead":2,"excerpt":"The F12 Chooser is a development tool thing that I like and you should know about if you want your web application or web extension to…"}]}},"pageContext":{"tag":"web extensions"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/web-extensions/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/f12-chooser-is-dev-tool-thing/"},"frontmatter":{"date":"March 28, 2018","description":null,"tags":["javascript","typescript","web extensions","office add-in"],"title":"F12 Chooser is a Dev Tool Thing"},"timeToRead":2,"excerpt":"The F12 Chooser is a development tool thing that I like and you should know about if you want your web application or web extension to…"}]}},"pageContext":{"tag":"web extensions"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

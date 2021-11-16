@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/git-hub/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/how-github-makes-game-making-easier-for-noncoders/"},"frontmatter":{"date":"February 19, 2020","description":null,"tags":["Game Design","Game Development","GitHub"],"title":"How Github Makes Game Making Easier for Noncoders"},"timeToRead":1,"excerpt":"In this video, DW goes through five things he’s been using in Github while designing his latest prototype that require zero coding skills…"}]}},"pageContext":{"tag":"GitHub"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/git-hub/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/how-github-makes-game-making-easier-for-noncoders/"},"frontmatter":{"date":"February 19, 2020","description":null,"tags":["Game Design","Game Development","GitHub"],"title":"How Github Makes Game Making Easier for Noncoders"},"timeToRead":1,"excerpt":"In this video, DW goes through five things he’s been using in Github while designing his latest prototype that require zero coding skills…"}]}},"pageContext":{"tag":"GitHub"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

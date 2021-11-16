@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/itch-io/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/conquest-april-2017-devblog/"},"frontmatter":{"date":"May 02, 2017","description":null,"tags":["conquest","ink","vsts","itch.io","javascript"],"title":"Conquest April 2017 Devblog"},"timeToRead":4,"excerpt":"This is the April 2017 update for my video game project I call “Conquest”. This month, I have continued to make progress on my game project…"}]}},"pageContext":{"tag":"itch.io"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/itch-io/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/conquest-april-2017-devblog/"},"frontmatter":{"date":"May 02, 2017","description":null,"tags":["conquest","ink","vsts","itch.io","javascript"],"title":"Conquest April 2017 Devblog"},"timeToRead":4,"excerpt":"This is the April 2017 update for my video game project I call “Conquest”. This month, I have continued to make progress on my game project…"}]}},"pageContext":{"tag":"itch.io"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/office-mix/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/get-to-the-point-my-pilot-video/"},"frontmatter":{"date":"December 30, 2014","description":null,"tags":["Get to the Point","Office Mix"],"title":"Get to the Point: My Pilot Video"},"timeToRead":1,"excerpt":"To close out the year, I’m kicking off a new project that I’ve wanted to do for a long time now. I bring you the pilot episode of my…"}]}},"pageContext":{"tag":"Office Mix"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/office-mix/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/get-to-the-point-my-pilot-video/"},"frontmatter":{"date":"December 30, 2014","description":null,"tags":["Get to the Point","Office Mix"],"title":"Get to the Point: My Pilot Video"},"timeToRead":1,"excerpt":"To close out the year, I’m kicking off a new project that I’ve wanted to do for a long time now. I bring you the pilot episode of my…"}]}},"pageContext":{"tag":"Office Mix"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

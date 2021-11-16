@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/windows-azure/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/zany-video-game-quotes-live-and-in-the-cloud/"},"frontmatter":{"date":"April 28, 2015","description":null,"tags":["azure websites","ZVGQ","Windows Azure"],"title":"Zany Video Game Quotes - Live and in the Cloud"},"timeToRead":1,"excerpt":"I’ve been working on a side project for roughly 5 years now, and this past week I managed to finally launch it. Zany Video Game Quotes, is a…"}]}},"pageContext":{"tag":"Windows Azure"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/windows-azure/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/zany-video-game-quotes-live-and-in-the-cloud/"},"frontmatter":{"date":"April 28, 2015","description":null,"tags":["azure websites","ZVGQ","Windows Azure"],"title":"Zany Video Game Quotes - Live and in the Cloud"},"timeToRead":1,"excerpt":"I’ve been working on a side project for roughly 5 years now, and this past week I managed to finally launch it. Zany Video Game Quotes, is a…"}]}},"pageContext":{"tag":"Windows Azure"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

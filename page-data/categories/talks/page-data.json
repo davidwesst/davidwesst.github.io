@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-categories-template-js","path":"/categories/talks/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/highlight-reel-for-2015/"},"frontmatter":{"date":"January 01, 2016","description":null,"tags":null,"categories":["inner monologue"],"title":"Highlight Reel for 2015"},"timeToRead":3,"excerpt":"{% img http://blog.davidwesst.com/2016/01/Highlight-Reel-for-2015/thinker.png %} I just finished reading my post about 2014. If I were to…"}]}},"pageContext":{"category":"talks"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-categories-template-js",
+    "path": "/categories/talks/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/highlight-reel-for-2015/"},"frontmatter":{"date":"January 01, 2016","description":null,"tags":null,"categories":["inner monologue"],"title":"Highlight Reel for 2015"},"timeToRead":3,"excerpt":"{% img http://blog.davidwesst.com/2016/01/Highlight-Reel-for-2015/thinker.png %} I just finished reading my post about 2014. If I were to…"}]}},"pageContext":{"category":"talks"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

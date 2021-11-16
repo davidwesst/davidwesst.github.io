@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/western-devs/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/western-devs-found-my-spirit-animal/"},"frontmatter":{"date":"August 12, 2015","description":null,"tags":["western devs","friends","lobster"],"title":"Western Devs (and MVP) Found My Spirit Animal"},"timeToRead":2,"excerpt":"What you’re looking at is a lobster, in a ditch, drinking scotch, whose mouth is on fire. That is my spirit animal that was created on the…"}]}},"pageContext":{"tag":"western devs"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/western-devs/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/western-devs-found-my-spirit-animal/"},"frontmatter":{"date":"August 12, 2015","description":null,"tags":["western devs","friends","lobster"],"title":"Western Devs (and MVP) Found My Spirit Animal"},"timeToRead":2,"excerpt":"What you’re looking at is a lobster, in a ditch, drinking scotch, whose mouth is on fire. That is my spirit animal that was created on the…"}]}},"pageContext":{"tag":"western devs"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

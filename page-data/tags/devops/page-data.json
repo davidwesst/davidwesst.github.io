@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/devops/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/websummit-sonar/"},"frontmatter":{"date":"September 19, 2017","description":null,"tags":["microsoft-edge","sonar","accessibility","devops"],"title":"Sonar, the Linter I Never Knew I Wanted"},"timeToRead":2,"excerpt":"This is part of a series of posts capturing the highlights from my experience at the Microsoft Edge Web Summit 2017  Meet Nellie the Narwhal…"}]}},"pageContext":{"tag":"devops"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/devops/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/websummit-sonar/"},"frontmatter":{"date":"September 19, 2017","description":null,"tags":["microsoft-edge","sonar","accessibility","devops"],"title":"Sonar, the Linter I Never Knew I Wanted"},"timeToRead":2,"excerpt":"This is part of a series of posts capturing the highlights from my experience at the Microsoft Edge Web Summit 2017  Meet Nellie the Narwhal…"}]}},"pageContext":{"tag":"devops"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

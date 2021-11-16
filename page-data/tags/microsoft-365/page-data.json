@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/microsoft-365/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/pro-tip-office-365-to-simplify-communication/"},"frontmatter":{"date":"November 05, 2013","description":null,"tags":["office 365","microsoft 365"],"title":"Pro Tip: Office 365 to Simplify Communication"},"timeToRead":3,"excerpt":"I believe the key to being professional is communication.  I wanted to share a pro tip with everyone on how I facilitate and ensure high…"}]}},"pageContext":{"tag":"microsoft 365"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/microsoft-365/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/pro-tip-office-365-to-simplify-communication/"},"frontmatter":{"date":"November 05, 2013","description":null,"tags":["office 365","microsoft 365"],"title":"Pro Tip: Office 365 to Simplify Communication"},"timeToRead":3,"excerpt":"I believe the key to being professional is communication. I wanted to share a pro tip with everyone on how I facilitate and ensure high…"}]}},"pageContext":{"tag":"microsoft 365"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

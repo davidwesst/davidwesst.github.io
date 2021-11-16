@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/tomcat/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/running-tomcat-apps-on-docker-through-eclipse/"},"frontmatter":{"date":"August 07, 2015","description":null,"tags":["java","eclipse","docker","tomcat"],"title":"Running Tomcat Apps on Docker through Eclipse"},"timeToRead":4,"excerpt":"If you didn’t already know, Docker is pretty cool. Not sure what it is? My fellow Western Dev Kyle Baley explains it really well and…"}]}},"pageContext":{"tag":"tomcat"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/tomcat/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/running-tomcat-apps-on-docker-through-eclipse/"},"frontmatter":{"date":"August 07, 2015","description":null,"tags":["java","eclipse","docker","tomcat"],"title":"Running Tomcat Apps on Docker through Eclipse"},"timeToRead":4,"excerpt":"If you didn’t already know, Docker is pretty cool. Not sure what it is? My fellow Western Dev Kyle Baley explains it really well and…"}]}},"pageContext":{"tag":"tomcat"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
