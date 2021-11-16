@@ -66,6 +66,7 @@ module.exports = {
       options: {
         name: 'pages',
         path: `${__dirname}/content/pages`,
+        ignore: [`**/\.*`],
       },
     },
     {
@@ -152,7 +153,8 @@ module.exports = {
               }
             `,
             output: '/blog/rss.xml',
-            match: "^/blog/"
+            match: "^/blog/",
+            title: "davidwesst.com RSS"
           },
         ],
       },

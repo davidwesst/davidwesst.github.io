@@ -95,12 +95,22 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   if (pageMarkdownNodes.length > 0) {
     pageMarkdownNodes.forEach((node) => {
-      if (node.frontmatter.template) {
-        const templateFile = `${String(node.frontmatter.template)}.js`;
+      // set unique slug for about page
+      const slug = `${node.fields.slug}`;
 
+      if(slug.includes('about/README')) {
+        createPage({
+          path: `/about`,
+          component: path.resolve(`src/templates/about-template.js`),
+          context: {
+            slug: `${node.fields.slug}`,
+          },
+        });
+      }
+      else {
         createPage({
           path: `${node.fields.slug}`,
-          component: path.resolve(`src/templates/${templateFile}`),
+          component: path.resolve(`src/templates/index-template.js`),
           context: {
             slug: `${node.fields.slug}`,
           },

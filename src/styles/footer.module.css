@@ -1,0 +1,19 @@
+.StyledFooter {
+  padding-top: var(--size-300);
+  padding-bottom: var(--size-300);
+}
+
+.FooterAttribution {
+  font-size: var(--size-300);
+}
+
+.FooterAttribution a {
+    color: inherit;
+}
+
+.FooterWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}

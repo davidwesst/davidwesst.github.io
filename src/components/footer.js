@@ -1,41 +1,22 @@
 import React from 'react';
 import Container from './container';
-import styled from 'styled-components';
 import SocialLinks from './social-links';
+
+import * as styles from '../styles/footer.module.css';
 
 const Footer = () => {
   return (
-    <StyledFooter>
-      <FooterWrapper>
+    <footer className={styles.StyledFooter}>
+      <div className={styles.FooterWrapper}>
         <SocialLinks />
 
-        <FooterAttribution>
+        <Container className={styles.FooterAttribution}>
           Hand-crafted with love by{' '}
           <a href="https://twitter.com/yinkakun">Yinka Adedire</a>
-        </FooterAttribution>
-      </FooterWrapper>
-    </StyledFooter>
+        </Container>
+      </div>
+    </footer>
   );
 };
 
 export default Footer;
-
-const StyledFooter = styled.footer`
-  padding-top: var(--size-300);
-  padding-bottom: var(--size-300);
-`;
-
-const FooterAttribution = styled.p`
-  font-size: var(--size-300);
-
-  & a {
-    color: inherit;
-  }
-`;
-
-const FooterWrapper = styled(Container)`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-`;

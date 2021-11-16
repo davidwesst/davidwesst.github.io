@@ -1,6 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 import { Link } from 'gatsby';
+
+import * as styles from "../styles/tags.module.css";
 
 const toKebabCase = (str) => {
   return str
@@ -11,58 +12,24 @@ const toKebabCase = (str) => {
 
 const getLabel = () => {
   return (
-    <TagsLabel>Tagged with</TagsLabel>
+    <span className={styles.TagsLabel}>Tagged with</span>
   )
 }
 
 const Tags = ({ tags, showLabel }) => {
   return (
-    <StyledTags> 
+    <div className={styles.StyledTags} > 
       {showLabel ? getLabel() : ''}
       {tags &&
         tags.map((tag) => {
           return (
-            <Tag key={tag}>
+            <span className={styles.Tag} key={tag}>
               <Link to={`/tags/${toKebabCase(tag)}`}>{tag}</Link>
-            </Tag>
+            </span>
           );
         })}
-    </StyledTags>
+    </div>
   );
 };
 
 export default Tags;
-
-const Tag = styled.span`
-  margin-top: 0.3rem;
-  margin-bottom: 0.3rem;
-  text-transform: uppercase;
-  font-size: var(--size-300);
-
-  & a {
-    position: relative;
-    z-index: 2;
-    background-color: rgba(68, 100, 173, 0.4);
-    text-decoration: none;
-    padding: 0.2rem 0.2rem;
-    color: inherit;
-    border: 1px solid rgba(255, 255, 255, 1);
-    border-radius: 4px;
-  }
-
-  & a:hover {
-    background-color: rgba(255, 255, 255, 0.9);
-  }
-`;
-
-const StyledTags = styled.div`
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-`
-const TagsLabel = styled.span`
-  margin-right: 0.25rem;
-  vertical-align: middle;
-`

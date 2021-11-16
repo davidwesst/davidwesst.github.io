@@ -1,8 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
 import { Link } from 'gatsby';
-import Container from './container';
 import { useStaticQuery, graphql } from 'gatsby';
+
+import * as styles from '../styles/header.module.css';
 
 const Header = () => {
   const { site } = useStaticQuery(
@@ -18,98 +18,23 @@ const Header = () => {
   );
 
   return (
-    <StyledHeader>
-      <HeaderWrapper>
-        <HeaderTitle>
+    <header className={`${styles.StyledHeader} ${styles.HeaderWrapper}`}>
+        <div className={styles.HeaderTitle}>
           <Link to="/">{site.siteMetadata.title}</Link>
-        </HeaderTitle>
+        </div>
 
-        <HeaderNavList>
-          <HeaderNavListItem>
+        <ul className={styles.StyledNavList}>
+          <li className={styles.StyledNavListItem}>
             <Link to="/blog">Blog</Link>
-          </HeaderNavListItem>
+          </li>
 
-          <HeaderNavListItem>
+          <li className={styles.StyledNavListItem}>
             <Link to="/about">About</Link>
-          </HeaderNavListItem>
+          </li>
 
-          {/* <HeaderNavListItem>
-            <Link to="/contact">Contact</Link>
-          </HeaderNavListItem> */}
-        </HeaderNavList>
-      </HeaderWrapper>
-    </StyledHeader>
+        </ul>
+    </header>
   );
 };
 
 export default Header;
-
-const HeaderNavList = ({ children }) => {
-  return (
-    <StyledNav>
-      <StyledNavList>{children}</StyledNavList>
-    </StyledNav>
-  );
-};
-
-const HeaderNavListItem = ({ children }) => {
-  return <StyledNavListItem>{children}</StyledNavListItem>;
-};
-
-const StyledHeader = styled.header`
-  padding-top: var(--size-300);
-`;
-
-const HeaderWrapper = styled(Container)`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-`;
-
-const HeaderTitle = styled.div`
-  & a {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: var(--size-400);
-    color: inherit;
-  }
-`;
-
-const StyledNav = styled.nav`
-  position: static;
-  padding: 0;
-  background: transparent;
-  backdrop-filter: unset;
-`;
-
-const StyledNavList = styled.ul`
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 0;
-  list-style-type: none;
-`;
-
-const StyledNavListItem = styled.li`
-  &:not(:last-of-type) {
-    margin-right: 2rem;
-  }
-  @media screen and (max-width: 700px) {
-    &:not(:last-of-type) {
-      margin-right: 1rem;
-    }
-  }
-  & a {
-    color: inherit;
-    text-transform: uppercase;
-    font-size: var(--size-300);
-    text-decoration: none;
-    letter-spacing: 0.1rem;
-  }
-  @media screen and (max-width: 700px) {
-    & a {
-      font-size: 0.7rem;
-    }
-  }
-`;
