@@ -32,6 +32,10 @@ const Header = () => {
             <Link to="/about">About</Link>
           </li>
 
+          <li className={styles.StyledNavListItem}>
+            <Link to="/play-my-collection">Play My Collection</Link>
+          </li>
+
         </ul>
     </header>
   );
