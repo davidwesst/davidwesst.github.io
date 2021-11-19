@@ -76,6 +76,14 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'data',
+        path: `${__dirname}/content/data`
+      }
+    },
+    `gatsby-transformer-csv`,
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [

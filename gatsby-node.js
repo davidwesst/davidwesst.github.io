@@ -44,6 +44,18 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             fieldValue
           }
         }
+        csvGroup: allFile(
+          limit: 2000
+          filter: { sourceInstanceName: {eq: "data"} }
+        ) {
+          group(field: extension) {
+            nodes {
+              sourceInstanceName
+              name
+              extension
+            }
+          }
+        }
       }
     `
   );
@@ -59,6 +71,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const tags = result.data.tagsGroup.group;
   const categories = result.data.categoriesGroup.group;
   const allMarkdownNodes = result.data.allMarkdownRemark.nodes;
+  const allCsvNodes = result.data.csvGroup.group;
 
   const blogMarkdownNodes = allMarkdownNodes.filter(
     (node) => node.fields.contentType === `posts`
