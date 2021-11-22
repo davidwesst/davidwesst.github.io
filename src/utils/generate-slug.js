@@ -4,4 +4,5 @@ const generateSlug = (str) => {
 
     return slug;
 };
+
 export default generateSlug;

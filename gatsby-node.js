@@ -1,12 +1,18 @@
 const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
-const { default: generateSlug } = require("./src/utils/generate-slug");
 
 const toKebabCase = (str) => {
   return str
     .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
     .map((x) => x.toLowerCase())
     .join('-');
+};
+
+// TODO: figure out why you can't import this from the utils file
+const generateSlug = (str) => {
+  const safeCharacterList = /[^\w-]/gi;
+  const slug = str.toLowerCase().replace(/\s/gi, '-').replace(safeCharacterList, '');
+  return slug;
 };
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
