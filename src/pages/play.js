@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
-import StreamGameList from '../components/stream-game-list';
+import GameList from '../components/game-list';
 
 const PlayMyCollection = ({ data }) => {
     const pmcGames = data.allPlayMyCollectionCsv.nodes;
@@ -13,7 +13,7 @@ const PlayMyCollection = ({ data }) => {
                 <h2>This is the page where all the games that I stream on Twitch go.</h2>
             </header>
             <section>
-                <StreamGameList games={pmcGames} />
+                <GameList games={pmcGames} />
             </section>
         </Layout>
     );

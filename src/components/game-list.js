@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "gatsby";
+import generateSlug from "../utils/generate-slug";
 
 import * as style from "../styles/stream-game-list.module.css";
 
-const StreamGameList = ({ games }) => {
+const GameList = ({ games }) => {
     const gameListItems = games.map( (game) => {
         return (
-            <Link to="#">{game.Title}</Link>
+            <Link to={generateSlug(game.Title)}>{game.Title}</Link>
         );
     });
 
@@ -17,4 +18,4 @@ const StreamGameList = ({ games }) => {
     );
 }
 
-export default StreamGameList;
+export default GameList;

@@ -1,5 +1,6 @@
 const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
+const { default: generateSlug } = require("./src/utils/generate-slug");
 
 const toKebabCase = (str) => {
   return str
@@ -44,16 +45,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             fieldValue
           }
         }
-        csvGroup: allFile(
-          limit: 2000
-          filter: { sourceInstanceName: {eq: "data"} }
+        allPlayMyCollectionCsv(
+          limit: 1000
         ) {
-          group(field: extension) {
-            nodes {
-              sourceInstanceName
-              name
-              extension
-            }
+          nodes {
+            Title
+            Gameplay
+            Gameplay_Comment
           }
         }
       }
@@ -71,7 +69,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const tags = result.data.tagsGroup.group;
   const categories = result.data.categoriesGroup.group;
   const allMarkdownNodes = result.data.allMarkdownRemark.nodes;
-  const allCsvNodes = result.data.csvGroup.group;
+  const allGameNodes = result.data.allPlayMyCollectionCsv.nodes;
 
   const blogMarkdownNodes = allMarkdownNodes.filter(
     (node) => node.fields.contentType === `posts`
@@ -130,6 +128,22 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         });
       }
     });
+  }
+
+  if (allGameNodes.length > 0) {
+    allGameNodes.forEach((game) => {
+      const slug = generateSlug(game.Title);
+      
+      createPage({
+        path: `/play/${slug}`,
+        component: path.resolve(`src/templates/game-template.js`),
+        context: {
+          slug: `${slug}`,
+          title: `${game.Title}`
+        }
+      });
+    });
+
   }
 
   tags.forEach((tag) => {

@@ -29,11 +29,11 @@ const Header = () => {
           </li>
 
           <li className={styles.StyledNavListItem}>
-            <Link to="/about">About</Link>
+            <Link to="/play">Play</Link>
           </li>
 
           <li className={styles.StyledNavListItem}>
-            <Link to="/play-my-collection">Play My Collection</Link>
+            <Link to="/about">About</Link>
           </li>
 
         </ul>
