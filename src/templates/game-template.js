@@ -41,10 +41,6 @@ const GameTemplate = ({ data }) => {
                     <li>Streamed On: {Stream_Date}</li>
                     <li>Time Played: {Time_Played} hours</li>
                 </ul>
-                <ul>
-                    <li>Price: {Price_GameOnly} - {Price_Complete} (from {Price_Source})</li>
-                    <li>Worth It: {Worth_It}</li>
-                </ul>
             </header>
 
             <aside>
@@ -56,29 +52,17 @@ const GameTemplate = ({ data }) => {
                     <li>Puzzles: {Puzzles}</li>
                     <li>Co-Op: {Co_op_Style}</li>
                 </ul>
+                <ul>
+                    <li>Price: {Price_GameOnly} - {Price_Complete} (from {Price_Source})</li>
+                    <li>Worth It: {Worth_It}</li>
+                </ul>
                 <article>
                     <p>{TLDR}</p>
                 </article>
             </aside>
 
             <section>
-                <h2>The Breakdown</h2>
-                <article>
-                    <h3>The Hook</h3>
-                    <p>{The_Hook}</p>
-                </article>
-                <article>
-                    <h3>The Fun</h3>
-                    <p>{The_Fun}</p>
-                </article>
-                <article>
-                    <h3>The Less Fun</h3>
-                    <p>{The_Less_Fun}</p>
-                </article>
-            </section>
-
-            <section>
-                <h2>The Experience</h2>
+                <h2>The Details</h2>
                 <article>
                     <h3>Gameplay: {Gameplay}</h3>
                     <p>{Gameplay_Comment}</p>
@@ -98,6 +82,18 @@ const GameTemplate = ({ data }) => {
                 <article>
                     <h3>Co-op Style: {Co_op_Style}</h3>
                     <p>{Co_op_Comment}</p>
+                </article>
+                <article>
+                    <h3>The Hook</h3>
+                    <p>{The_Hook}</p>
+                </article>
+                <article>
+                    <h3>The Fun</h3>
+                    <p>{The_Fun}</p>
+                </article>
+                <article>
+                    <h3>The Less Fun</h3>
+                    <p>{The_Less_Fun}</p>
                 </article>
             </section>
 
