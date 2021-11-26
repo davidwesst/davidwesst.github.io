@@ -7,4 +7,12 @@
   --size-700: 2.36rem;
   --size-800: 3.15rem;
   --size-900: 4.2rem;
+
+  --colour-light: rgb(250, 250, 250);
+  --colour-dark: rgb(20, 20, 20);
+}
+
+html, body {
+  background-color: var(--colour-light);
+  color: var(--colour-dark);
 }
