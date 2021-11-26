@@ -19,13 +19,15 @@ const SocialLinks = () => {
 
   const socialLinks = data.site.siteMetadata.socialLinks.map((link) => {
     return (
-      <li className={styles.SocialLinkItem} key={link.name}>
-        <a href={link.url}>{link.name}</a>
-      </li>
+      <a href={link.url} key={link.name}>{link.name}</a>
     );
   });
 
-  return <ul className={styles.SocialLinkList}>{socialLinks}</ul>;
+  return (
+    <nav>
+      {socialLinks}
+    </nav>
+  )
 };
 
 export default SocialLinks;

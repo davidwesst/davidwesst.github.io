@@ -5,38 +5,26 @@ import { useStaticQuery, graphql } from 'gatsby';
 import * as styles from '../styles/header.module.css';
 
 const Header = () => {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
+  const data = useStaticQuery(graphql`
+      query HeaderQuery {
         site {
           siteMetadata {
             title
           }
         }
       }
-    `
-  );
+    `);
+  const siteTitle = data.site.siteMetadata.title;
 
   return (
-    <header className={`${styles.StyledHeader} ${styles.HeaderWrapper}`}>
-        <div className={styles.HeaderTitle}>
-          <Link to="/">{site.siteMetadata.title}</Link>
-        </div>
-
-        <ul className={styles.StyledNavList}>
-          <li className={styles.StyledNavListItem}>
-            <Link to="/blog">Blog</Link>
-          </li>
-
-          <li className={styles.StyledNavListItem}>
-            <Link to="/play">Play</Link>
-          </li>
-
-          <li className={styles.StyledNavListItem}>
-            <Link to="/about">About</Link>
-          </li>
-
-        </ul>
+    <header>
+      <img src="https://plchldr.co/i/100x100?&bg=ff0000&fc=fff&text=logo" />
+      <h1><Link to="/">{siteTitle}</Link></h1>
+      <nav>
+          <Link to="/about">[A]bout</Link>
+          <Link to="/blog">[B]log</Link>
+          <Link to="/play">[G]amelog</Link>
+      </nav>
     </header>
   );
 };
