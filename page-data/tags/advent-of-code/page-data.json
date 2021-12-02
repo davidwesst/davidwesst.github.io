@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/advent-of-code/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/advent-of-code-2021-day-01/"},"frontmatter":{"date":"December 02, 2021","description":"My initial thoughts after completing the first day of my first journey into the Advent of Code","tags":["advent of code","javascript","nodejs"],"title":"Advent of Code 2021: Day 1"},"timeToRead":2,"excerpt":"I decided to try and participate in the Advent of Code this year. This is my experience for Day 1. If you’re looking for the repo, I have…"}]}},"pageContext":{"tag":"advent of code"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[davidwesst.com RSS]]></title><description><![CDATA[The personal and somewhat professional website for David Wesst, a.k.a. DW, a.k.a. Wessty.]]></description><link>https://www.davidwesst.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 16 Nov 2021 19:01:21 GMT</lastBuildDate><item><title><![CDATA[I am NOT trying to be a Game Developer]]></title><description><![CDATA[Hey friendos, it’s me DW. It’s been a while since I’ve posted a video and you should know that I’m still working on making my game, Out the…]]></description><link>https://www.davidwesst.com/blog/i-am-not-trying-to-be-a-game-developer/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/i-am-not-trying-to-be-a-game-developer/</guid><pubDate>Thu, 22 Jul 2021 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hey friendos, it’s me DW.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[davidwesst.com RSS]]></title><description><![CDATA[The personal and somewhat professional website for David Wesst, a.k.a. DW, a.k.a. Wessty.]]></description><link>https://www.davidwesst.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 02 Dec 2021 06:47:10 GMT</lastBuildDate><item><title><![CDATA[Advent of Code 2021: Day 1]]></title><description><![CDATA[I decided to try and participate in the Advent of Code this year. This is my experience for Day 1. If you’re looking for the repo, I have…]]></description><link>https://www.davidwesst.com/blog/advent-of-code-2021-day-01/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/advent-of-code-2021-day-01/</guid><pubDate>Thu, 02 Dec 2021 05:59:00 GMT</pubDate><content:encoded>&lt;p&gt;I decided to try and participate in the &lt;a href=&quot;https://adventofcode.com/&quot;&gt;Advent of Code&lt;/a&gt; this year. This is my experience for Day 1.&lt;/p&gt;
+&lt;p&gt;If you’re looking for the repo, I have setup an Advent of Code repository on GitHub &lt;a href=&quot;https://github.com/davidwesst/advent-of-code&quot; title=&quot;David Wesst&amp;#x27;s Advent of Code GitHub repository&quot;&gt;here on my profile&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Simple enough, but fun!&lt;/h2&gt;
+&lt;p&gt;When you read through &lt;a href=&quot;https://adventofcode.com/2021/day/1&quot;&gt;the first problem&lt;/a&gt; it has this little story about retrieving the keys to, what I assume is, Santa’s sleigh.&lt;/p&gt;
+&lt;p&gt;To do that, you need to get a bunch of stars by solving coding problems, two per day. Once you solve the first one, you get a star and you unlock an extension of the first problem for a second star.&lt;/p&gt;
+&lt;p&gt;Get all the stars, then a winner is you!&lt;/p&gt;
+&lt;h2&gt;Initial Impressions&lt;/h2&gt;
+&lt;p&gt;As advised by &lt;a href=&quot;https://github.com/chrinkus&quot;&gt;Chrinkus&lt;/a&gt;, day 1 is a warm up day. It gets you thinking and lets you get setup.&lt;/p&gt;
+&lt;p&gt;So, I did just that and accomplished the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup the &lt;a href=&quot;https://github.com/davidwesst/advent-of-code&quot; title=&quot;David Wesst&amp;#x27;s Advent of Code GitHub repository&quot;&gt;repository&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Setup a basic project structure.&lt;/li&gt;
+&lt;li&gt;Re-learn some JavaScript/Node fundamentals and some of the newer features (i.e. ES Module support).&lt;/li&gt;
+&lt;li&gt;Solve the problem, like a boss.&lt;/li&gt;
+&lt;li&gt;Attempt and fail at setting up a &lt;a href=&quot;https://code.visualstudio.com/docs/remote/containers-tutorial&quot;&gt;dev container&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I did most of this over an hour or two, and it was a pretty satisfying experience overall.&lt;/p&gt;
+&lt;h2&gt;Reflections&lt;/h2&gt;
+&lt;p&gt;Looking at the day, I think I did a really good job to get myself started. Not only did I manage to complete the problem in Node v16, with ES Modules and the &lt;code class=&quot;language-text&quot;&gt;fs/promises&lt;/code&gt; API (which was all new to me), but I also managed to drop the dev container environment and not get hung up on silly things that don’t produce code, like the project folder structure.&lt;/p&gt;
+&lt;p&gt;These are things that I can improve as I go. Normally I’d do the “backlog” thing and create issues and get myself thinking about how I can improve things..but I’m breaking that distraction and disabled issues in the repo. Any feature, problem, or whatever need to be backed wth code, and I’ll do that with pull requests.&lt;/p&gt;
+&lt;h2&gt;Conclusions&lt;/h2&gt;
+&lt;p&gt;Today exceeded my expectations. &lt;a href=&quot;https://adventofcode.com/2021/day/2&quot;&gt;Day 2&lt;/a&gt; is already up. I’m not going to look at it right now as I need to get some sleep…but I’m pretty eager to take a peek and keep earning my stars.&lt;/p&gt;
+&lt;p&gt;Thanks for playing.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6b92c45cb16242d1208ad3375ed41f49/72e01/a-winner-is-you.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwb/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABz8xxWMr/xAAXEAEBAQEAAAAAAAAAAAAAAAABABIi/9oACAEBAAEFApOYS1N//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGRAAAgMBAAAAAAAAAAAAAAAAABABETEy/9oACAEBAAY/AiFzZi//xAAaEAEAAwADAAAAAAAAAAAAAAABABExEFGB/9oACAEBAAE/IYQprvA9HpiGjJhcQthR1P/aAAwDAQACAAMAAAAQLA//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxAZ/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QZ//EAB4QAQADAAAHAAAAAAAAAAAAAAEAETEQQVFhgZGx/9oACAEBAAE/EJZNS66NcO05pfGGoL9FBzPMQjbArXuf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Screenshot from the NES game Pro Wrestling that shows a wrestler with his shirt off and arms up with the title &amp;#39;A Winner is You&amp;#39; beneath him&quot;
+        title=&quot;Screenshot from the NES game Pro Wrestling that shows a wrestler with his shirt off and arms up with the title &amp;#39;A Winner is You&amp;#39; beneath him&quot;
+        src=&quot;/static/6b92c45cb16242d1208ad3375ed41f49/828fb/a-winner-is-you.jpg&quot;
+        srcset=&quot;/static/6b92c45cb16242d1208ad3375ed41f49/ff44c/a-winner-is-you.jpg 158w,
+/static/6b92c45cb16242d1208ad3375ed41f49/a6688/a-winner-is-you.jpg 315w,
+/static/6b92c45cb16242d1208ad3375ed41f49/828fb/a-winner-is-you.jpg 630w,
+/static/6b92c45cb16242d1208ad3375ed41f49/0ede0/a-winner-is-you.jpg 945w,
+/static/6b92c45cb16242d1208ad3375ed41f49/72e01/a-winner-is-you.jpg 1024w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[I am NOT trying to be a Game Developer]]></title><description><![CDATA[Hey friendos, it’s me DW. It’s been a while since I’ve posted a video and you should know that I’m still working on making my game, Out the…]]></description><link>https://www.davidwesst.com/blog/i-am-not-trying-to-be-a-game-developer/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/i-am-not-trying-to-be-a-game-developer/</guid><pubDate>Thu, 22 Jul 2021 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hey friendos, it’s me DW.&lt;/p&gt;
 &lt;p&gt;It’s been a while since I’ve posted a video and you should know that I’m still working on making my game, Out the Door.&lt;/p&gt;
 &lt;p&gt;It’s been a journey, both on the tech side and for myself, but this post isn’t about the game directly.&lt;/p&gt;
 &lt;p&gt;This one is about me, and the truth that I’ve come up realize since my last video:
