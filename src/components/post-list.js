@@ -5,9 +5,9 @@ import Categories from './categories';
 
 import * as postListStyles from '../styles/post-list.module.css';
 
-const PostList = ({ posts }) => {
+const PostList = ({ posts, max }) => {
   const PostList = posts.map(({ frontmatter, fields, excerpt, timeToRead }) => {
-    const { title, tags, categories, date } = frontmatter;
+    const { title, tags, categories, date, description } = frontmatter;
     const { slug } = fields;
 
     return (
@@ -19,7 +19,7 @@ const PostList = ({ posts }) => {
         date={date}
         slug={slug}
         timeToRead={timeToRead}
-        description={frontmatter.excerpt}
+        description={description}
         excerpt={excerpt}
       />
     );

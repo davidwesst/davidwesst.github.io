@@ -6,7 +6,7 @@ import Container from './container';
 
 import '../styles/global.css';
 
-const Layout = ({ children, title, description, socialImage = '' }) => {
+const Layout = ({ children, title, description, socialImage = ''}) => {
   return (
     <Fragment>
       <Seo title={title} description={description} image={socialImage} />
