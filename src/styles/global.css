@@ -15,4 +15,6 @@
 html, body {
   background-color: var(--colour-light);
   color: var(--colour-dark);
+  margin: 0;
+  padding: 0;
 }

@@ -8,16 +8,14 @@ import '../styles/global.css';
 
 const Layout = ({ children, title, description, socialImage = ''}) => {
   return (
-    <Fragment>
+    <>
       <Seo title={title} description={description} image={socialImage} />
-      <>
-        <Header />
+      <Header />
         <main>
           <Container>{children}</Container>
         </main>
-        <Footer />
-      </>
-    </Fragment>
+      <Footer />
+    </>
   );
 };
 

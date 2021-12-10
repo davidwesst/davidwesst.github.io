@@ -9,7 +9,7 @@ const Index = ({ data }) => {
     const blogPosts = data.allMarkdownRemark.nodes;
 
     return (
-        <Layout title="davidwesst.com">
+        <Layout title="Home">
             <section className={style.splash}>
                 <article>
                   <p>Hey friendo, it's DW.</p>
@@ -19,10 +19,6 @@ const Index = ({ data }) => {
                   <p>I <a href="https://twitch.tv/davidwesst">livestream at 9pm (UTC-6)</a> on Twitch every Tuesday (Play) and Thursday (Code). See the <a href="https://twitch.tv/davidwesst/schedule"> schedule</a> for details and changes, just in case.</p>
                   <p>I tend to share non-live content about tech stuff I like and do on <a href="https://youtube.com/davidwesst">YouTube</a> and on my <Link to="/blog">Blog</Link>.</p>
                   <p>Oh, and sometimes I like to throw random thoughts, links, and updates on <a href="https://twitter.com/davidwesst">Twitter</a>.</p>
-                </article>
-                <article>
-                  <p>Source code for things I build can be found on <a href="https://github.com/davidwesst">GitHub</a></p>
-                  <p>Games I've made are hosted (usually with a web version over on <a href="https://davidwesst.itch.io/">Itch.io</a></p>
                 </article>
                 <article>
                   <p>Thanks for playing.</p>

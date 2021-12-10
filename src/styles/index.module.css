@@ -4,5 +4,5 @@
     justify-content: space-evenly;
     margin: 1em 0;
 
-    height: 70vh;
+    min-height: 50vh;
 }

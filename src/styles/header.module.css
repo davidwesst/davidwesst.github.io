@@ -1,1 +1,40 @@
 /* .StyledNavListItem:not(:last-of-type) { */
+
+.siteHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.siteHeader h1 {
+    margin: auto 0;
+}
+
+.siteHeader nav {
+    width: 100vw;
+    background-color: var(--colour-dark);
+    color: var(--colour-light);
+    text-decoration: none;
+    padding: 1em 0;
+}
+
+.siteHeader nav a {
+    text-decoration: none;
+    color: var(--colour-light);
+    margin-right: 0.5em;
+}
+
+.siteHeader nav a:last-child {
+    margin-right: 0;
+}
+
+.siteHeader nav a:hover {
+    text-decoration: underline;
+    color: var(--colour-light);
+}
+
+.siteHeader img {
+    align-self: center
+}
