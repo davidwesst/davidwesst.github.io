@@ -1,0 +1,8 @@
+.splash {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1em 0;
+
+    height: 70vh;
+}

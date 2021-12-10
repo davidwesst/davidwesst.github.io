@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Tags from './tags';
-import Categories from './categories';
 
-import * as postListStyles from '../styles/post-list.module.css';
+import * as styles from '../styles/post-list.module.css';
 
-const PostList = ({ posts, max }) => {
-  const PostList = posts.map(({ frontmatter, fields, excerpt, timeToRead }) => {
+const PostList = ({ posts, maxCount = 0, listTitle = 'Posts' }) => {
+  const allPostListItems = posts.map(({ frontmatter, fields, excerpt, timeToRead }) => {
     const { title, tags, categories, date, description } = frontmatter;
     const { slug } = fields;
 
@@ -24,13 +23,29 @@ const PostList = ({ posts, max }) => {
       />
     );
   });
-
-  return <ul className={postListStyles.StyledPostList}>{PostList}</ul>;
+  
+  const postListItemsToDisplay = (maxCount > 0) ? allPostListItems.slice(0, maxCount) : allPostListItems;
+  return (
+    <section className={styles.postList} >
+      <h2>{listTitle}</h2>
+      {postListItemsToDisplay}
+      {MoreLink(maxCount)}
+    </section>
+  );
 };
+
+const MoreLink = function(maxCount) {
+  if(maxCount > 0) {
+    return <Link to="/blog">More...</Link>;
+  }
+  else {
+    return;
+  }
+}
 
 export default PostList;
 
-const PostListItem = ({
+const PostListItem = ({  
   title,
   date,
   timeToRead,
@@ -41,23 +56,19 @@ const PostListItem = ({
   slug,
 }) => {
   return (
-    <li className={postListStyles.StyledPostListItem}>
-      <Categories categories={categories} />
-
-      <h2 className={postListStyles.PostListTitle}>
-        <Link to={slug}>{title}</Link>
-      </h2>
-      <p className={postListStyles.PostListExcerpt}
-        dangerouslySetInnerHTML={{
-          __html: description || excerpt,
-        }}
-      />
-
-      <Tags tags={tags} />
-      <div className={postListStyles.PostListMeta}>
-        <span>{date}</span>
-        <span>{timeToRead} mins</span>
-      </div>
-    </li>
+      <article className={styles.item}>
+        <Link to={slug}>
+          <header>
+            <h3>{title}</h3>
+            <span>{date} // {timeToRead} min read</span>
+          </header>
+          <p
+            dangerouslySetInnerHTML={{
+              __html: description || excerpt,
+            }}
+          />
+          <Tags tags={tags} />
+        </Link>
+      </article>
   );
 };
