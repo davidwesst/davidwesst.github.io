@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import { useStaticQuery, graphql } from 'gatsby';
 
 import * as style from '../styles/header.module.css';
@@ -17,10 +18,22 @@ const Header = () => {
     `);
   const siteTitle = data.site.siteMetadata.title;
 
+  function Logo() {
+    return <StaticImage 
+              src="../images/logo-ROUND.png" 
+              alt="DW Logo" 
+              width={100}
+              height={100}
+              layout="fixed"
+              />;
+  }
+
   return (
     <header className={style.siteHeader}>
-      <h1><Link to="/">{siteTitle}</Link></h1>
-      <img className={style.logo} src="https://plchldr.co/i/100x100?&bg=ff0000&fc=fff&text=logo" />
+      <section className={style.top}>
+        <h1><Link to="/">{siteTitle}</Link></h1>
+        {Logo()}
+      </section>
       <nav>
           <Link to="/about">[A]bout</Link>
           <Link to="/blog">[B]log</Link>

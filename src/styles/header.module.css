@@ -8,6 +8,15 @@
     align-items: baseline;
 }
 
+.siteHeader .top {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0.5em 0;
+}
+
 .siteHeader h1 {
     margin: auto 0;
 }
@@ -36,5 +45,5 @@
 }
 
 .siteHeader img {
-    align-self: center
+    align-self: center;
 }
