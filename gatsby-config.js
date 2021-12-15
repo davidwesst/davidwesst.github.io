@@ -169,7 +169,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Source Sans Pro`, `Poppins\:400,400i,700`],
+        fonts: [`Source Sans Pro`, 
+                `Poppins\:400,400i,700`, 
+                `raleway\:400,400,700,700i`,
+                `open sans\:400,400i,700,700i`
+              ],
         display: 'swap',
       },
     },
