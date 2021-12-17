@@ -26,7 +26,8 @@
     background-color: var(--colour-dark);
     color: var(--colour-light);
     text-decoration: none;
-    padding: 1em 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .siteHeader nav a {

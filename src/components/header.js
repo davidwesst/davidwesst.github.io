@@ -29,12 +29,12 @@ const Header = () => {
   }
 
   return (
-    <header className={style.siteHeader}>
-      <section className={style.top}>
+    <header className={`${style.siteHeader}`}>
+      <section className={`content ${style.top}`}>
         <h1><Link to="/">{siteTitle}</Link></h1>
         {Logo()}
       </section>
-      <nav>
+      <nav className={`content`}>
           <Link to="/about">[A]bout</Link>
           <Link to="/blog">[B]log</Link>
           <Link to="/play">[G]amelog</Link>

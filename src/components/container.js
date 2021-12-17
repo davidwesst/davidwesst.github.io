@@ -1,10 +1,10 @@
 import React from 'react';
 
-import * as styles from '../styles/container.module.css';
+import * as style from '../styles/container.module.css';
 
 const Container = ({children}) => {
   return (
-    <div className={styles.Container}>
+    <div className={style.content}>
       {children}
     </div>
   )
