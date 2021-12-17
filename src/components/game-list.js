@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import generateSlug from "../utils/generate-slug";
 
-import * as style from "../styles/stream-game-list.module.css";
+import * as style from "../styles/game-list.module.css";
 
 const GameList = ({ games }) => {
     const gameListItems = games.map( (game) => {

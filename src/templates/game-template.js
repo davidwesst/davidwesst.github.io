@@ -36,11 +36,11 @@ const GameTemplate = ({ data }) => {
         >
             <header>
                 <h1>{Title} ({Platform})</h1>
-                <ul>
-                    <li>Date Added: {Date_Added}</li>
-                    <li>Streamed On: {Stream_Date}</li>
-                    <li>Time Played: {Time_Played} hours</li>
-                </ul>
+                <article>
+                    {DateDisplay(Date_Added, 'Date Added')}
+                    {DateDisplay(Stream_Date, 'Streamed On')}
+                    {TimeDisplay(Time_Played)}
+                </article>
             </header>
 
             <aside>
@@ -102,6 +102,27 @@ const GameTemplate = ({ data }) => {
     );
 }
 export default GameTemplate;
+
+const DateDisplay = function(dateValue, label) {
+    
+    if(dateValue) {
+        const theDate = new Date(dateValue);
+        return (
+            <span>{`${label}: ${theDate.toLocaleDateString()}`}</span>
+        );
+    }
+    else {
+        return;
+    }
+}
+
+const TimeDisplay = function(timeValue) {
+    if(timeValue) {
+        return (
+            <span>{`Hours played: ${timeValue}`}</span>
+        );
+    }
+}
 
 export const query = graphql`
     query GameBySlug($title: String!) {
