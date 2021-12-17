@@ -10,7 +10,7 @@ const PlayMyCollection = ({ data }) => {
         <Layout title="Play">
             <header>
                 <h1>Play</h1>
-                <h2>I play cool stuff, both <a href="https://twitch.tv/davidwesst">on stream</a> and off. This is a sort of "play-log" of everything I've played since 2021 when I started tracking it.</h2>
+                <h2>I play cool stuff, both <a href="https://twitch.tv/davidwesst">on stream</a> and off. This is a sort of "play-log" of video games I've played starting in 2021 when I started tracking it.</h2>
             </header>
             <section>
                 <GameList games={pmcGames} />

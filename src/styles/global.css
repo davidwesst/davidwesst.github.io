@@ -23,11 +23,18 @@ html, body {
   font-family: var(--font-base);
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
 .content {
   padding-left: 0.25em;
   padding-right: 0.25em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-display);
+@media all and (min-width: 800px) {
+  .content {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 }

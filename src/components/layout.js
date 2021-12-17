@@ -12,7 +12,7 @@ const Layout = ({ children, title, description, socialImage = ''}) => {
       <Seo title={title} description={description} image={socialImage} />
       <Header />
       <main className={`content`}>
-        <Container>{children}</Container>
+        {children}
       </main>
       <Footer />
     </>

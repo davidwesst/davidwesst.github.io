@@ -1,0 +1,33 @@
+.contentLayout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+@media all and (min-width: 800px) {
+    .contentLayout {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .contentLayout header, .contentLayout footer {
+        flex-basis: 100%;
+    }
+
+    .contentLayout footer {
+        order: 4;
+    }
+
+    .contentLayout aside {
+        order: 3;
+        flex-basis: auto;
+        flex-shrink: 3;
+    }
+
+    .contentLayout .details {
+        order: 2;
+        max-width: 66vh;
+        flex-basis: auto;
+        flex-shrink: 1;
+    }
+}
