@@ -2,11 +2,11 @@ import React from 'react';
 import Container from './container';
 import SocialLinks from './social-links';
 
-import * as styles from '../styles/footer.module.css';
+import * as style from '../styles/footer.module.css';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className={style.siteFooter}>
       <SocialLinks />
     </footer>
 

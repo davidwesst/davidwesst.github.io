@@ -33,7 +33,7 @@
 .siteHeader nav a {
     text-decoration: none;
     color: var(--colour-light);
-    margin-right: 0.5em;
+    margin-right: 2em;
 }
 
 .siteHeader nav a:last-child {
