@@ -48,19 +48,13 @@ const GameTemplate = ({ data }) => {
 
                 <aside>
                     <h2>TL;DR;</h2>
-                    <ul>
-                        <li>Gameplay: {Gameplay}</li>
-                        <li>Controls: {Controls}</li>
-                        <li>Story: {Story}</li>
-                        <li>Puzzles: {Puzzles}</li>
-                        <li>Co-Op: {Co_op_Style}</li>
-                    </ul>
-                    <ul>
-                        <li>Price: {Price_GameOnly} - {Price_Complete} (from {Price_Source})</li>
-                        <li>Worth It: {Worth_It}</li>
-                    </ul>
                     <article>
-                        <p>{TLDR}</p>
+                        <span>Gameplay: {Gameplay}</span>
+                        <span>Controls: {Controls}</span>
+                        <span>Story: {Story}</span>
+                        <span>Puzzles: {Puzzles}</span>
+                        <span>Co-Op: {Co_op_Style}</span>
+                        <span>Worth it? {Worth_It} ({Price_GameOnly} - {Price_Complete} USD)</span>
                     </article>
                 </aside>
 
