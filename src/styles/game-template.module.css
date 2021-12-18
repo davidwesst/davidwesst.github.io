@@ -8,6 +8,10 @@
     order: 1;
 }
 
+.contentLayout .metadata > * {
+    margin-right: 2em;
+}
+
 .contentLayout aside {
     order: 2;
 }

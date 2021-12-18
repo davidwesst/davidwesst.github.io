@@ -39,7 +39,7 @@ const GameTemplate = ({ data }) => {
             <div className={style.contentLayout}>
                 <header>
                     <h1>{Title} ({Platform})</h1>
-                    <article>
+                    <article className={style.metadata}>
                         {DateDisplay(Date_Added, 'Date Added')}
                         {DateDisplay(Stream_Date, 'Streamed On')}
                         {TimeDisplay(Time_Played)}
