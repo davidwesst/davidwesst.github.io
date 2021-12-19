@@ -24,7 +24,9 @@ const Index = ({ data }) => {
                   <p>Thanks for playing.</p>
                 </article>
             </section>
-            <PostList listTitle = "Latest Posts" posts={blogPosts} maxCount={3} />
+            <hr />
+            <h2>Latest Blog Posts</h2>
+            <PostList listTitle = "Latest Posts" posts={blogPosts} maxCount={5} />
         </Layout>
     );
 };

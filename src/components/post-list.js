@@ -26,11 +26,10 @@ const PostList = ({ posts, maxCount = 0, listTitle = 'Posts' }) => {
   
   const postListItemsToDisplay = (maxCount > 0) ? allPostListItems.slice(0, maxCount) : allPostListItems;
   return (
-    <section className={styles.postList} >
-      <h2>{listTitle}</h2>
+    <>
       {postListItemsToDisplay}
       {MoreLink(maxCount)}
-    </section>
+    </>
   );
 };
 
@@ -57,18 +56,15 @@ const PostListItem = ({
 }) => {
   return (
       <article className={styles.item}>
-        <Link to={slug}>
-          <header>
-            <h3>{title}</h3>
-            <span>{date} // {timeToRead} min read</span>
-          </header>
-          <p
-            dangerouslySetInnerHTML={{
-              __html: description || excerpt,
-            }}
-          />
-          <Tags tags={tags} />
-        </Link>
+        <header>
+          <Link to={slug}><h3>{title}</h3></Link>
+          <span>{date} // {timeToRead} min read</span> // <Tags tags={tags} />
+        </header>
+        <p
+          dangerouslySetInnerHTML={{
+            __html: description || excerpt,
+          }}
+        />
       </article>
   );
 };

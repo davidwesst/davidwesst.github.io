@@ -18,7 +18,7 @@ const getLabel = () => {
 
 const Tags = ({ tags, showLabel }) => {
   return (
-    <div className={styles.StyledTags} > 
+    <>
       {showLabel ? getLabel() : ''}
       {tags &&
         tags.map((tag) => {
@@ -28,7 +28,7 @@ const Tags = ({ tags, showLabel }) => {
             </span>
           );
         })}
-    </div>
+    </>
   );
 };
 

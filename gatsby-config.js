@@ -175,10 +175,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Source Sans Pro`, 
-                `Poppins\:400,400i,700`, 
-                `raleway\:300,400,400i,700,700i`,
-                `open sans\:400,400i,700,700i`
+        fonts: [`raleway\:300,400,400i,700,700i`,
+                `open sans\:400,400i,700,700i`,
+                `source code pro\:400,400i,700`,
               ],
         display: 'swap',
       },

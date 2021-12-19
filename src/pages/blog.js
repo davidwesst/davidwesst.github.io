@@ -9,35 +9,14 @@ const Blog = ({ data }) => {
 
   return (
     <Layout title="Blog">
-      <HeaderWrapper>
+      <header>
         <h1>Blog</h1>
-
-        <StyledMetaLinks>
-          <Link
-            css={`
-              margin-top: var(--size-400);
-              margin-right: 1rem;
-              color: inherit;
-              text-transform: uppercase;
-            `}
-            to="/tags"
-          >
-            view all tags
-          </Link>
-          <Link
-            css={`
-              margin-top: var(--size-400);
-              color: inherit;
-              text-transform: uppercase;
-            `}
-            to="/categories"
-          >
-            view all categories
-          </Link>
-        </StyledMetaLinks>
-      </HeaderWrapper>
-
-      <PostList posts={posts} />
+        <h2>These are my thoughts and experiences with technology, game development, and whatever else I come across in my day-to-day adventures.</h2>
+      </header>
+      <hr />
+      <section>
+        <PostList posts={posts} />
+      </section>
     </Layout>
   );
 };
