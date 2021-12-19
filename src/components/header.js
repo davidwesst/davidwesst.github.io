@@ -1,38 +1,44 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import * as styles from '../styles/header.module.css';
+import * as style from '../styles/header.module.css';
+import SocialLinks from './social-links';
 
 const Header = () => {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
+  const data = useStaticQuery(graphql`
+      query HeaderQuery {
         site {
           siteMetadata {
             title
           }
         }
       }
-    `
-  );
+    `);
+  const siteTitle = data.site.siteMetadata.title;
+
+  function Logo() {
+    return <StaticImage 
+              src="../images/logo-ROUND.png" 
+              alt="DW Logo" 
+              width={100}
+              height={100}
+              layout="fixed"
+              />;
+  }
 
   return (
-    <header className={`${styles.StyledHeader} ${styles.HeaderWrapper}`}>
-        <div className={styles.HeaderTitle}>
-          <Link to="/">{site.siteMetadata.title}</Link>
-        </div>
-
-        <ul className={styles.StyledNavList}>
-          <li className={styles.StyledNavListItem}>
-            <Link to="/blog">Blog</Link>
-          </li>
-
-          <li className={styles.StyledNavListItem}>
-            <Link to="/about">About</Link>
-          </li>
-
-        </ul>
+    <header className={`${style.siteHeader}`}>
+      <section className={`content ${style.top}`}>
+        <h1 className={`siteTitle`}><Link to="/">{siteTitle}</Link></h1>
+        {Logo()}
+      </section>
+      <nav className={`content`}>
+          <Link to="/about">[A]bout</Link>
+          <Link to="/blog">[B]log</Link>
+          <Link to="/play">[P]lay</Link>
+      </nav>
     </header>
   );
 };

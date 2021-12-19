@@ -25,26 +25,32 @@ module.exports = {
     socialLinks: [
       {
         name: 'youtube',
+        displayName: '[Y]ouTube',
         url: 'https://youtube.com/davidwesst'
       },
       {
         name: 'github',
+        displayName: '[G]itHub',
         url: 'https://github.com/davidwesst',
       },
       {
         name: 'twitter',
+        displayName: '[T]witter',
         url: 'https://twitter.com/davidwesst',
       },
       {
         name: 'instagram',
+        displayName: '[I]nstagram',
         url: 'https://instagram.com/davidwesst',
       },
       {
         name: 'facebook',
+        displayName: '[F]acebook',
         url: 'https://facebook.com/davidwesst'
       },
       {
         name: 'linkedin',
+        displayName: '[L]inkedIn',
         url: 'https://ca.linkedin.com/in/davidwesst'
       }
     ],
@@ -75,6 +81,14 @@ module.exports = {
         path: `${__dirname}/content/blog`,
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'data',
+        path: `${__dirname}/content/data`
+      }
+    },
+    `gatsby-transformer-csv`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -161,7 +175,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Source Sans Pro`, `Poppins\:400,400i,700`],
+        fonts: [`raleway\:300,400,400i,700,700i`,
+                `open sans\:400,400i,700,700i`,
+                `source code pro\:400,400i,700`,
+              ],
         display: 'swap',
       },
     },

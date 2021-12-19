@@ -1,19 +1,23 @@
-.StyledFooter {
-  padding-top: var(--size-300);
-  padding-bottom: var(--size-300);
+.siteFooter {
+    color: var(--colour-light);
+    background-color: var(--colour-dark);
 }
 
-.FooterAttribution {
-  font-size: var(--size-300);
+.siteFooter nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 2em;
+    margin-top: 4em;
 }
 
-.FooterAttribution a {
-    color: inherit;
+.siteFooter nav a {
+    text-decoration: none;
+    color: var(--colour-light);
+    margin-right: 2em;
 }
 
-.FooterWrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+.siteFooter nav a:hover {
+    text-decoration: underline;
 }

@@ -8,6 +8,13 @@ const toKebabCase = (str) => {
     .join('-');
 };
 
+// TODO: figure out why you can't import this from the utils file
+const generateSlug = (str) => {
+  const safeCharacterList = /[^\w-]/gi;
+  const slug = str.toLowerCase().replace(/\s/gi, '-').replace(safeCharacterList, '');
+  return slug;
+};
+
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
 
@@ -44,6 +51,15 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             fieldValue
           }
         }
+        allPlayMyCollectionCsv(
+          limit: 1000
+        ) {
+          nodes {
+            Title
+            Gameplay
+            Gameplay_Comment
+          }
+        }
       }
     `
   );
@@ -59,6 +75,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const tags = result.data.tagsGroup.group;
   const categories = result.data.categoriesGroup.group;
   const allMarkdownNodes = result.data.allMarkdownRemark.nodes;
+  const allGameNodes = result.data.allPlayMyCollectionCsv.nodes;
 
   const blogMarkdownNodes = allMarkdownNodes.filter(
     (node) => node.fields.contentType === `posts`
@@ -108,15 +125,31 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         });
       }
       else {
-        createPage({
-          path: `${node.fields.slug}`,
-          component: path.resolve(`src/templates/index-template.js`),
-          context: {
-            slug: `${node.fields.slug}`,
-          },
-        });
+        // createPage({
+        //   path: `${node.fields.slug}`,
+        //   component: path.resolve(`src/templates/index-template.js`),
+        //   context: {
+        //     slug: `${node.fields.slug}`,
+        //   },
+        // });
       }
     });
+  }
+
+  if (allGameNodes.length > 0) {
+    allGameNodes.forEach((game) => {
+      const slug = generateSlug(game.Title);
+      
+      createPage({
+        path: `/play/${slug}`,
+        component: path.resolve(`src/templates/game-template.js`),
+        context: {
+          slug: `${slug}`,
+          title: `${game.Title}`
+        }
+      });
+    });
+
   }
 
   tags.forEach((tag) => {

@@ -1,59 +1,60 @@
-.StyledHeader {
-  padding-top: var(--size-300);
+/* .StyledNavListItem:not(:last-of-type) { */
+
+.siteHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
 }
 
-.HeaderWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 2rem;
+.siteHeader .top {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0.5em 0;
 }
 
-.HeaderTitle a {
-    text-transform: uppercase;
+.siteHeader h1 {
+    margin: auto 0;
+}
+
+.siteHeader h1 a {
+    color: var(--colour-dark);
     text-decoration: none;
-    font-size: var(--size-400);
-    color: inherit;
 }
 
-.StyledNav {
-  position: static;
-  padding: 0;
-  background: transparent;
-  backdrop-filter: unset;
+.siteHeader h1 a:hover {
+    color: var(--colour-dark);
+    text-decoration: underline;
 }
 
-.StyledNavList {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  padding: 0;
-  list-style-type: none;
-}
-
-.StyledNavListItem {
-  @media screen and (max-width: 700px) {
-    .StyledNavListItem:not(:last-of-type) {
-      margin-right: 1rem;
-    }
-  }
-}
-
-.StyledNavListItem:not(:last-of-type) {
-    margin-right: 2rem;
-}
-
-.StyledNavListItem a {
-    color: inherit;
-    text-transform: uppercase;
-    font-size: var(--size-300);
+.siteHeader nav {
+    width: 100vw;
+    background-color: var(--colour-dark);
+    color: var(--colour-light);
     text-decoration: none;
-    letter-spacing: 0.1rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 
-  @media screen and (max-width: 700px) {
-    .StyledNavListItem a {
-      font-size: 0.7rem;
-    }
-  }
+.siteHeader nav a {
+    text-decoration: none;
+    color: var(--colour-light);
+    margin-right: 2em;
+}
+
+.siteHeader nav a:last-child {
+    margin-right: 0;
+}
+
+.siteHeader nav a:hover {
+    text-decoration: underline;
+    color: var(--colour-light);
+}
+
+.siteHeader img {
+    align-self: center;
 }
