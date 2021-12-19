@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/professional-development/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":2,"nodes":[{"fields":{"slug":"/blog/where-to-find-your-gamedev-community/"},"frontmatter":{"date":"January 18, 2020","description":null,"tags":["Game Development","Gamedev","Game Design","Community","Professional Development","Video"],"title":"Where to Find Your Gamedev Community"},"timeToRead":1,"excerpt":"Four places to find your new game development and/or design and/or technology community and figure out if it’s even good! Did you know there…"},{"fields":{"slug":"/blog/why-networking-is-critical/"},"frontmatter":{"date":"July 09, 2015","description":null,"tags":["Professional Development"],"title":"Why Networking is Critical"},"timeToRead":2,"excerpt":"With my new gig as an Application Developer, I started back into technology podcasts. I’m not sure how I came across MSDevShow, but I did…"}]}},"pageContext":{"tag":"Professional Development"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

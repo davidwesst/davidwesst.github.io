@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/bower/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":2,"nodes":[{"fields":{"slug":"/blog/how-to-use-highlight-js-with-bower-and-gulp/"},"frontmatter":{"date":"August 29, 2016","description":null,"tags":["gulp","bower","highlight.js","javascript"],"title":"How to Use Highlight.Js with Bower and Gulp"},"timeToRead":5,"excerpt":"One of the challenges I faced when getting my new blog theme up and running was getting highlight.js working as I wanted it to. The library…"},{"fields":{"slug":"/blog/what-is-bower/"},"frontmatter":{"date":"October 16, 2014","description":null,"tags":["code","bower"],"title":"What is Bower?"},"timeToRead":2,"excerpt":"I mentioned Bower last time when talking about npm. If you haven’t heard of it, neither of many people. So, I’m going to fix that now…"}]}},"pageContext":{"tag":"bower"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

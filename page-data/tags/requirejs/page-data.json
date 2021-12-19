@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/requirejs/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":2,"nodes":[{"fields":{"slug":"/blog/typescript-with-amd-and-gulp/"},"frontmatter":{"date":"September 12, 2016","description":null,"tags":["typescript","javascript","amd","requirejs","gulp"],"title":"How to Compile Typescript into a Single File with AMD Modules with Gulp"},"timeToRead":4,"excerpt":"I’ve been tinkering with TypeScript lately and was trying to setup my project to compile all of my modules into a single file, which would…"},{"fields":{"slug":"/blog/why-do-you-requirejs/"},"frontmatter":{"date":"October 07, 2014","description":null,"tags":["code","requirejs"],"title":"Why do you RequireJS?"},"timeToRead":2,"excerpt":"Get it? RequireJS is a dependency management framework I use in JavaScript to manage…well my dependencies. But, the title is a play on words…"}]}},"pageContext":{"tag":"requirejs"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

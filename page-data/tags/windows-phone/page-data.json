@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/windows-phone/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/downgrading-windows-phone-10-technical-preview-the-lowlights/"},"frontmatter":{"date":"September 22, 2015","description":null,"tags":["windows phone","windows 10"],"title":"Downgrading Windows Phone 10 Technical Preview - The Lowlights"},"timeToRead":3,"excerpt":"{% img pull-left ”http://blog.davidwesst.com/2015/09/Downgrading-Windows-Phone-10-Technical-Preview-The-Lowlights/windows-10-device-screen…"}]}},"pageContext":{"tag":"windows phone"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

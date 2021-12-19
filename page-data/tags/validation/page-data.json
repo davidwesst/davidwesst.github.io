@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/validation/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/what-value-does-making-content-bring-to-me/"},"frontmatter":{"date":"June 14, 2021","description":null,"tags":["blog","defining value","content creation","self-retrospective","validation"],"title":"What Value Does Making Content Bring to Me? (not a typo)"},"timeToRead":3,"excerpt":"That’s not to say the content should provide value to the reader, also known as you, but it’s still a very important question to answer…"}]}},"pageContext":{"tag":"validation"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

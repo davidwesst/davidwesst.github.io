@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/jabba/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/jabba/"},"frontmatter":{"date":"August 16, 2017","description":null,"tags":["java","powershell","version manager","jabba"],"title":"Jabba, the Java Version Manager for Everyone"},"timeToRead":3,"excerpt":"Here’s another dev thing I use: Jabba, a cross-platform Java version manager that works for Windows. Over the the past few years, I’ve been…"}]}},"pageContext":{"tag":"jabba"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

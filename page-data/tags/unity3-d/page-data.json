@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/unity3-d/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/picking-the-technology-for-my-game/"},"frontmatter":{"date":"August 01, 2013","description":null,"tags":["game development","unity3d","javascript"],"title":"Picking The Technology for my Game"},"timeToRead":3,"excerpt":"I want to develop a game, and not just produce it. That’s not to say that I don’t like producing, but I would like to get my hands dirty at…"}]}},"pageContext":{"tag":"unity3d"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

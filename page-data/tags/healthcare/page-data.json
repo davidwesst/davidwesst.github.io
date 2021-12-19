@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/healthcare/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/conference-recap-extravaganza/"},"frontmatter":{"date":"June 11, 2015","description":null,"tags":["conference","prdc","prairie dev con","healthcare"],"title":"Conference recap extravaganza!"},"timeToRead":2,"excerpt":"I’ve been head down preparing and delivering presentations all over the place for the past few weeks, and wanted to share the latest…"}]}},"pageContext":{"tag":"healthcare"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

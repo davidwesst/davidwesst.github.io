@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/video/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/youtube-and-twitch-my-revengence/"},"frontmatter":{"date":"July 05, 2021","description":null,"tags":["youtube","twitch","video","livestream"],"title":"YouTube and Twitch: My Revengence"},"timeToRead":3,"excerpt":"I like making video content. More specifically, my YouTube content on my adventures with gamedev, and my various attempts at livestreams. I…"}]}},"pageContext":{"tag":"video"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

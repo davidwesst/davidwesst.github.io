@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/zvgq/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":2,"nodes":[{"fields":{"slug":"/blog/zany-video-game-quotes-live-and-in-the-cloud/"},"frontmatter":{"date":"April 28, 2015","description":null,"tags":["azure websites","ZVGQ","Windows Azure"],"title":"Zany Video Game Quotes - Live and in the Cloud"},"timeToRead":1,"excerpt":"I’ve been working on a side project for roughly 5 years now, and this past week I managed to finally launch it. Zany Video Game Quotes, is a…"},{"fields":{"slug":"/blog/highlight-reel-for-2014/"},"frontmatter":{"date":"January 01, 2015","description":null,"tags":["thoughts","Get to the Point","Prairie Dev Con","ZVGQ"],"title":"Highlight Reel for 2014"},"timeToRead":3,"excerpt":"This past year has been a rough one for me personally, but professionally, not so bad. I spent a good amount of time doing self reflection…"}]}},"pageContext":{"tag":"ZVGQ"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/social-media/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/my-secret-addiction-to-likes/"},"frontmatter":{"date":"May 31, 2021","description":null,"tags":["social media","twitter","youtube","analytics","acceptance"],"title":"My Secret Addiction to Likes"},"timeToRead":5,"excerpt":"I decided to take a month off of contributing to social media. More specifically Twitter and YouTube, but Facebook and Instagram as well…"}]}},"pageContext":{"tag":"social media"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

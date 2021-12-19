@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/gulp/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":2,"nodes":[{"fields":{"slug":"/blog/typescript-with-amd-and-gulp/"},"frontmatter":{"date":"September 12, 2016","description":null,"tags":["typescript","javascript","amd","requirejs","gulp"],"title":"How to Compile Typescript into a Single File with AMD Modules with Gulp"},"timeToRead":4,"excerpt":"I’ve been tinkering with TypeScript lately and was trying to setup my project to compile all of my modules into a single file, which would…"},{"fields":{"slug":"/blog/how-to-use-highlight-js-with-bower-and-gulp/"},"frontmatter":{"date":"August 29, 2016","description":null,"tags":["gulp","bower","highlight.js","javascript"],"title":"How to Use Highlight.Js with Bower and Gulp"},"timeToRead":5,"excerpt":"One of the challenges I faced when getting my new blog theme up and running was getting highlight.js working as I wanted it to. The library…"}]}},"pageContext":{"tag":"gulp"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

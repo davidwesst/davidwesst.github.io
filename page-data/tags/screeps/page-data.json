@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/screeps/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/javascript-coding-is-gameplay-in-screeps/"},"frontmatter":{"date":"November 19, 2014","description":null,"tags":["screeps","javascript"],"title":"JavaScript Coding is Gameplay in Screeps"},"timeToRead":1,"excerpt":"I found this on reddit last week. It’s called Screeps and it comes out tomorrow (November 20th). {% asset_img screeps.png “JavaScript Coding…"}]}},"pageContext":{"tag":"screeps"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

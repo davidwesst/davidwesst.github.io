@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/grails/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/posh-gvm/"},"frontmatter":{"date":"August 17, 2017","description":null,"tags":["grails","groovy","gradle","powershell","version manager"],"title":"Posh-GVM, the Groovy Version Manager for Powershell"},"timeToRead":3,"excerpt":"Here’s another dev thing I use: Posh-GVM, a Groovy version manager that works for Windows. You remember Groovy right? The language that was…"}]}},"pageContext":{"tag":"grails"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

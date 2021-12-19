@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/breaking-bad/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/the-heisenberg-second-screen-experience-in-html/"},"frontmatter":{"date":"September 27, 2013","description":null,"tags":["html5","breaking bad"],"title":"The Heisenberg Second Screen Experience in HTML"},"timeToRead":3,"excerpt":"Breaking Bad is coming to an end. We actually signed up for cable because we wanted AMC to watch the final season live and PVR it in case we…"}]}},"pageContext":{"tag":"breaking bad"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/coffeescript/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/why-do-you-coffeescript-your-javascript/"},"frontmatter":{"date":"September 30, 2014","description":null,"tags":["code","javascript","coffeescript"],"title":"Why do you CoffeeScript your JavaScript?"},"timeToRead":3,"excerpt":"I was asked this the other day: Why don’t you just write your code in JavaScript directly? As in, why would you use a langugage that…"}]}},"pageContext":{"tag":"coffeescript"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

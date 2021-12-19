@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/dreamcast/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/excited-about-webgl-because-of-grandia-ii/"},"frontmatter":{"date":"July 18, 2013","description":null,"tags":["grandia","dreamcast","html5","webgl"],"title":"Excited about WebGL because of Grandia II"},"timeToRead":3,"excerpt":"Last week, I was asking my partner for some advice on what game I should play. This is a regular occurrence for both of us, as we are both…"}]}},"pageContext":{"tag":"dreamcast"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

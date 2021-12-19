@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/nyc/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/istanbuljs-in-vsts/"},"frontmatter":{"date":"August 03, 2017","description":null,"tags":["javascript","visual studio team services","istanbuljs","nyc","testing"],"title":"IstanbulJS Code Coverage Reports in VSTS"},"timeToRead":4,"excerpt":"Here’s another dev thing I use: IstanbulJS in Visual Studio Team Services (VSTS) builds and display the test reports as part of the build…"}]}},"pageContext":{"tag":"nyc"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

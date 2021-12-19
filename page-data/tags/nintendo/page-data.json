@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/nintendo/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/finding-inspriation-in-princess-tomato-and-the-salad-kingdom/"},"frontmatter":{"date":"July 20, 2021","description":null,"tags":["nintendo","nes","text-based adventure"],"title":"Finding Inspiration in Princess Tomato and the Salad Kingdom [NES]"},"timeToRead":1,"excerpt":"Weird first pick, I realize. I was surprised too, but it’s been a game I’ve wanted to really play for a long time and it just jumped out at…"}]}},"pageContext":{"tag":"nintendo"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

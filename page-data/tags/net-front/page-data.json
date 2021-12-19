@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/net-front/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/netfront-the-unknown-browser-everyone-owns/"},"frontmatter":{"date":"January 14, 2015","description":null,"tags":["games","NetFront"],"title":"NetFront-- the Unknown Browser Everyone Owns"},"timeToRead":3,"excerpt":"Image Source: Wikimedia NetFront is a web browser that I hadn’t heard of before, but I have installed on six of my devices. It is a WebKit…"}]}},"pageContext":{"tag":"NetFront"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

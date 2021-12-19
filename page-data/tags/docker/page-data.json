@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/docker/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":2,"nodes":[{"fields":{"slug":"/blog/docker-on-windows-10-problems/"},"frontmatter":{"date":"August 10, 2015","description":null,"tags":["docker","windows 10"],"title":"Docker on Windows 10 Problems"},"timeToRead":1,"excerpt":"UPDATE — Solution Found Another Western Dev that goes by the name of Dave White found a solution and I confirmed that it works. The solution…"},{"fields":{"slug":"/blog/running-tomcat-apps-on-docker-through-eclipse/"},"frontmatter":{"date":"August 07, 2015","description":null,"tags":["java","eclipse","docker","tomcat"],"title":"Running Tomcat Apps on Docker through Eclipse"},"timeToRead":4,"excerpt":"If you didn’t already know, Docker is pretty cool. Not sure what it is? My fellow Western Dev Kyle Baley explains it really well and…"}]}},"pageContext":{"tag":"docker"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

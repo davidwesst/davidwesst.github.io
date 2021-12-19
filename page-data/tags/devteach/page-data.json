@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/devteach/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/dw-on-tour/"},"frontmatter":{"date":"October 29, 2013","description":null,"tags":["devteach","prdc"],"title":"DW on Tour"},"timeToRead":3,"excerpt":"That’s right, I’m heading out on a small tour out west in November and December to do some talking about HTML and JavaScript. I suggest you…"}]}},"pageContext":{"tag":"devteach"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

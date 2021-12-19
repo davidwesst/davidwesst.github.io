@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/windows-xp/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/end-of-support-for-windows-xp-faq/"},"frontmatter":{"date":"April 09, 2014","description":null,"tags":["windows xp"],"title":"End of Support for Windows XP FAQ"},"timeToRead":1,"excerpt":"If you are still holding on to Windows XP even though Microsoft has officially ended support for it as of yesterday read this. Brian Bourne…"}]}},"pageContext":{"tag":"windows xp"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

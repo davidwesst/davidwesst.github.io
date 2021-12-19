@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tags-template-js",
     "path": "/tags/mvp-summit/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/inspiration-from-mvp-summit-2015/"},"frontmatter":{"date":"November 20, 2015","description":null,"tags":["microsoft mvp","mvp","mvp summit","internet explorer"],"title":"Inspiration From MVP Summit 2015"},"timeToRead":3,"excerpt":"I’m back from the summit and have had a week to digest everything I saw. And now I will share with the top three topics that really stuck…"}]}},"pageContext":{"tag":"mvp summit"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}
