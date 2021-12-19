@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <header className={`${style.siteHeader}`}>
       <section className={`content ${style.top}`}>
-        <h1><Link to="/">{siteTitle}</Link></h1>
+        <h1 className={`siteTitle`}><Link to="/">{siteTitle}</Link></h1>
         {Logo()}
       </section>
       <nav className={`content`}>

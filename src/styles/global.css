@@ -10,6 +10,8 @@
 
   --colour-light: rgb(250, 250, 250);
   --colour-dark: rgb(20, 20, 20);
+  --colour-one: rgb(0, 170, 170);
+  --colour-two: rgb(170, 0, 170);
 
   --font-base: 'Open Sans', sans-serif;
   --font-display: 'Raleway', sans-serif;
@@ -23,8 +25,38 @@ html, body {
   font-family: var(--font-base);
 }
 
+a {
+  color: var(--colour-two); 
+}
+
+a:hover {
+  filter: brightness(50%);
+}
+
+a:visited {
+  color: var(--colour-one);
+  filter: brightness(50%);
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
+  font-weight: 300;
+}
+
+h1 {
+  font-size: var(--size-800);
+}
+
+h1.siteTitle {
+  font-size: var(--size-600);
+}
+
+h2 {
+  font-size: var(--size-600);
+}
+
+h3 {
+  font-size: var(--size-500);
 }
 
 .content {

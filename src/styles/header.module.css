@@ -21,6 +21,16 @@
     margin: auto 0;
 }
 
+.siteHeader h1 a {
+    color: var(--colour-dark);
+    text-decoration: none;
+}
+
+.siteHeader h1 a:hover {
+    color: var(--colour-dark);
+    text-decoration: underline;
+}
+
 .siteHeader nav {
     width: 100vw;
     background-color: var(--colour-dark);
