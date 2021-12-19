@@ -35,7 +35,7 @@ const PostList = ({ posts, maxCount = 0, listTitle = 'Posts' }) => {
 
 const MoreLink = function(maxCount) {
   if(maxCount > 0) {
-    return <Link to="/blog">More...</Link>;
+    return <Link to="/blog">More Posts...</Link>;
   }
   else {
     return;
@@ -58,7 +58,7 @@ const PostListItem = ({
       <article className={styles.item}>
         <header>
           <Link to={slug}><h3>{title}</h3></Link>
-          <span>{date} // {timeToRead} min read</span> // <Tags tags={tags} />
+          <span>{date} | {timeToRead} min read</span> | <Tags tags={tags} />
         </header>
         <p
           dangerouslySetInnerHTML={{

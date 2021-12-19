@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 
 const HomePage = ({ data }) => {
   const intro = data.markdownRemark.html;
-  const title = `About David Wesst`;
+  const title = `About`;
 
   return (
     <Layout title={title}>

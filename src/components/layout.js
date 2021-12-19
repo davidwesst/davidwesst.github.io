@@ -2,7 +2,6 @@ import React, { Fragment } from 'react';
 import Seo from './seo';
 import Header from './header';
 import Footer from './footer';
-import Container from './container';
 
 import '../styles/global.css';
 
