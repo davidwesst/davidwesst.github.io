@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/family/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/fulfillment-through-cake-and-ice-cream/"},"frontmatter":{"date":"January 12, 2022","description":"I made a cake and two kinds of ice cream, from scratch, for my daughter's birthday. The process of making a plan, adapting, executing, delivering, and being validated highlighted how important it is to feel fulfilled, both personally and professionally.","tags":["accomplishment","fulfillment","family","food"],"title":"Personal and Professional Fulfillment through Cake and Ice Cream"},"timeToRead":2,"excerpt":"I daughter turned four at the beginning of this year, and I made her a cake and two kinds of ice cream. From scratch. I’m no kitchen wizard…"}]}},"pageContext":{"tag":"family"}},
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

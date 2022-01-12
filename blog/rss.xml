@@ -1,4 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[davidwesst.com RSS]]></title><description><![CDATA[The personal and somewhat professional website for David Wesst, a.k.a. DW, a.k.a. Wessty.]]></description><link>https://www.davidwesst.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 19 Dec 2021 21:45:49 GMT</lastBuildDate><item><title><![CDATA[Advent of Code 2021: Day 1]]></title><description><![CDATA[I decided to try and participate in the Advent of Code this year. This is my experience for Day 1. If you’re looking for the repo, I have…]]></description><link>https://www.davidwesst.com/blog/advent-of-code-2021-day-01/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/advent-of-code-2021-day-01/</guid><pubDate>Thu, 02 Dec 2021 05:59:00 GMT</pubDate><content:encoded>&lt;p&gt;I decided to try and participate in the &lt;a href=&quot;https://adventofcode.com/&quot;&gt;Advent of Code&lt;/a&gt; this year. This is my experience for Day 1.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[davidwesst.com RSS]]></title><description><![CDATA[The personal and somewhat professional website for David Wesst, a.k.a. DW, a.k.a. Wessty.]]></description><link>https://www.davidwesst.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 12 Jan 2022 20:52:07 GMT</lastBuildDate><item><title><![CDATA[Personal and Professional Fulfillment through Cake and Ice Cream]]></title><description><![CDATA[I daughter turned four at the beginning of this year, and I made her a cake and two kinds of ice cream. From scratch. I’m no kitchen wizard…]]></description><link>https://www.davidwesst.com/blog/fulfillment-through-cake-and-ice-cream/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/fulfillment-through-cake-and-ice-cream/</guid><pubDate>Wed, 12 Jan 2022 20:41:00 GMT</pubDate><content:encoded>&lt;p&gt;I daughter turned four at the beginning of this year, and I made her a cake and two kinds of ice cream. From scratch.&lt;/p&gt;
+&lt;p&gt;I’m no kitchen wizard, but I wanted her birthday to have something special considering we couldn’t throw her a big party in the middle of a pandemic. So, I thought it would be special to let her take control and have me deliver as close to it as possible.&lt;/p&gt;
+&lt;p&gt;And so, it the request was: vanilla ice cream, chocolate ice cream, and a vanilla cake with icing.&lt;/p&gt;
+&lt;p&gt;I worked on this for a couple of days, found the recipes, snagged ingredients and eventually spent time making two different ice creams and then a cake, and finally some buttercream icing.&lt;/p&gt;
+&lt;p&gt;As you can see from the picture, it turned out alright— I’m happy with the result, considering I’ve never made icing (and clealy didn’t make enough) and it’s only my second ACTUAL cake.&lt;/p&gt;
+&lt;p&gt;The important part is that my four year old when asked how her day was, it was: “This has been the best birthday I’ve ever had”.&lt;/p&gt;
+&lt;p&gt;Mission Accomplished.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e3663588137ee1a12f684bea6304c2a8/d2602/ice-cream-butt.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.32911392405063%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAeorFFNNLP/EABwQAAEDBQAAAAAAAAAAAAAAAAIBAyEAERIjMf/aAAgBAQABBQJ4tTcEVsui2KUEp//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAQACAgMAAAAAAAAAAAAAAAEAAhARIUFh/9oACAEBAAY/AqlePYG8Ixe8f//EABkQAQADAQEAAAAAAAAAAAAAAAEAESFBcf/aAAgBAQABPyFLjTsNMTbSXPZANAQqBjsFi7s//9oADAMBAAIAAwAAABAD/wD/xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8Q0Cf/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxCH/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARMSFBUf/aAAgBAQABPxC4TEHcwi2M02s+whCFAhoUrQ+QWuBpIQW1+s//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Chcolate Ice Cream churning in a counter-top ice cream maker, which resembles the shape of a human&amp;#39;s butt.&quot;
+        title=&quot;Chcolate Ice Cream churning in a counter-top ice cream maker, which resembles the shape of a human&amp;#39;s butt.&quot;
+        src=&quot;/static/e3663588137ee1a12f684bea6304c2a8/828fb/ice-cream-butt.jpg&quot;
+        srcset=&quot;/static/e3663588137ee1a12f684bea6304c2a8/ff44c/ice-cream-butt.jpg 158w,
+/static/e3663588137ee1a12f684bea6304c2a8/a6688/ice-cream-butt.jpg 315w,
+/static/e3663588137ee1a12f684bea6304c2a8/828fb/ice-cream-butt.jpg 630w,
+/static/e3663588137ee1a12f684bea6304c2a8/0ede0/ice-cream-butt.jpg 945w,
+/static/e3663588137ee1a12f684bea6304c2a8/3ac88/ice-cream-butt.jpg 1260w,
+/static/e3663588137ee1a12f684bea6304c2a8/d2602/ice-cream-butt.jpg 4032w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;The Feeling of Fulfillment&lt;/h2&gt;
+&lt;p&gt;I share this story, because I was recently asked about a time this week where I did something that made me feel happy. I was definitely happy that my daughter had a great birthday, which was the whole point and is the most important part.&lt;/p&gt;
+&lt;p&gt;But looking beyond that, what made &lt;em&gt;me&lt;/em&gt; feel happy was the planning, execution, delivery, and validation that came from making the birthday celebration happen.&lt;/p&gt;
+&lt;h2&gt;What’s the Point?&lt;/h2&gt;
+&lt;p&gt;I think knowing &lt;em&gt;that&lt;/em&gt; is what made me happy is an important realization, as maybe I can take this and apply it to my own work, or my career path, and increase my overall happiness and satisfaction with my day job by leveraging this realization.&lt;/p&gt;
+&lt;p&gt;In fact, thinking about it further, I remembered another time where I felt a similar feeling of happiness and overall satisfaction.&lt;/p&gt;
+&lt;h3&gt;Example: Out The Door&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1b3bbd2c2638a3256e6008021c79ab73/1bba8/out-the-door.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.32911392405063%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACTElEQVQoz42RS09TURSFz7193Hu5La1Qmr5oG7WJPFKR2mixLRXFouVVMCoQEyfGiYYQo4lBJkpIDCpQgnHAQCciE3wl/gEUUWHgzJF/w+Fn7oGaGBwwWNl7nZy99tp7C9M0CQaDKIqCpmm43W5isRgejwchBE6nk0gkgq7rkquqis1mk/9V9V9YbyKRSFDq7SWdTlMsFgkEAmQyGYaHhykPDREOh+nr76dUKtFTLJLP52lpbpbi/4VhGNKhVRiORHC5XNKdJWzBcuPz+fB4vfiDIbz19dg1HdMmyMZ1Codr6EqYtAed2CxBa0yrMBQO4/f75XixeFyKW+uodlaEQBcC3y5PhjTWH2XYeJrl+2KeldtJvA6BcDgccm+Ws2p0ud3U1tbKnUpBRaHZLriTy1C5fg2PaudoROfbQo4v83m2lgq8mUxRp8lmgv2g1anya+0Vn1ZeoNqctIU1NudybMzl2F4q8PZ+igNO2VzZGUlR9uCv4G4+e2uC1SfPZN7eqEvBzYU8G/N5Xk4kqdeV/Tu02/2oyhDdJ8Y5ffIUrQG7FNxazLP2MMvk1SR+QyDsDge6YaLrNXtgGCaqzYEqBKXOAaIts4xdnuHd3DRdTQ2sP+6QO/xa6eT13TbqdIEIheOcO1vmQs9FygOjlAfGGOwfkbz7zCCBQFQ6PH9zlRvLv+m795nMSIXjUYOtys6Ffzwv8GEqtXNlr7eOaPQQjY0HZayiyq3La4aLKw+2OdIxSqwpy6WZnxTSbbydSvF+OsfHmRzL48doMJ38AUxLSO/IBbRXAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Out the Door title screen from the Ludum Dare 47 gamejam&quot;
+        title=&quot;Out the Door title screen from the Ludum Dare 47 gamejam&quot;
+        src=&quot;/static/1b3bbd2c2638a3256e6008021c79ab73/f058b/out-the-door.png&quot;
+        srcset=&quot;/static/1b3bbd2c2638a3256e6008021c79ab73/c26ae/out-the-door.png 158w,
+/static/1b3bbd2c2638a3256e6008021c79ab73/6bdcf/out-the-door.png 315w,
+/static/1b3bbd2c2638a3256e6008021c79ab73/f058b/out-the-door.png 630w,
+/static/1b3bbd2c2638a3256e6008021c79ab73/1bba8/out-the-door.png 642w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Back in 2020, I took part in Ludum Dare 47 and although I started with some prepared tech and tools, I spent the weekend creating an original game experience I called &lt;a href=&quot;https://davidwesst.itch.io/out-the-door&quot;&gt;Out the Door&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The goal was to solo develop a “complete” game, which includes original graphics, music, gameplay, story, and a complete game loop that can be “beaten”.&lt;/p&gt;
+&lt;h2&gt;Validation is the Icing, But You Need Both For Fulfillment&lt;/h2&gt;
+&lt;p&gt;Although the planning, execution, and delivery are critical in that feeling of fulfillment, the validation is what puts it over the top for me to make that memorable feeling of fulfillment.&lt;/p&gt;
+&lt;p&gt;Hearing &lt;em&gt;“ya done good”&lt;/em&gt; in any capacity from the target audience for whatever you planned means that you &lt;em&gt;know&lt;/em&gt; your feeling of accomplishment was right. In conclusion:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Accomplishment + Validation = Fulfillment&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Seems simple, but I wanted to write it down for myself and share it with you. Feeling accomplished isn’t half bad, it’s just not the same as feeling fulfilled.&lt;/p&gt;
+&lt;p&gt;Thanks for playing.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Advent of Code 2021: Day 1]]></title><description><![CDATA[I decided to try and participate in the Advent of Code this year. This is my experience for Day 1. If you’re looking for the repo, I have…]]></description><link>https://www.davidwesst.com/blog/advent-of-code-2021-day-01/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/advent-of-code-2021-day-01/</guid><pubDate>Thu, 02 Dec 2021 05:59:00 GMT</pubDate><content:encoded>&lt;p&gt;I decided to try and participate in the &lt;a href=&quot;https://adventofcode.com/&quot;&gt;Advent of Code&lt;/a&gt; this year. This is my experience for Day 1.&lt;/p&gt;
 &lt;p&gt;If you’re looking for the repo, I have setup an Advent of Code repository on GitHub &lt;a href=&quot;https://github.com/davidwesst/advent-of-code&quot; title=&quot;David Wesst&amp;#x27;s Advent of Code GitHub repository&quot;&gt;here on my profile&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Simple enough, but fun!&lt;/h2&gt;
 &lt;p&gt;When you read through &lt;a href=&quot;https://adventofcode.com/2021/day/1&quot;&gt;the first problem&lt;/a&gt; it has this little story about retrieving the keys to, what I assume is, Santa’s sleigh.&lt;/p&gt;
