@@ -1,20 +1,17 @@
 ---
 title: "Personal and Professional Fulfillment through Cake and Ice Cream"
-date: "2022-01-10T12:00:00-06:00"
+date: "2022-01-12T14:41:00-06:00"
 categories:
 - introspection
 tags:
+- accomplishment
 - fulfillment
 - family
 - food
 description: "I made a cake and two kinds of ice cream, from scratch, for my daughter's birthday. The process of making a plan, adapting, executing, delivering, and being validated highlighted how important it is to feel fulfilled, both personally and professionally."
+social_image: "cake.jpg"
+social_image_alt: "A picture of a homemade vanilla layer cake with white buttercream frosting between layers and on top, but not around the sides exposing the layers. The cake is resting on a wooden cutting board sitting on a kitchen counter."
 ---
-
-<!--
-TODO:
-- Cake and ice cream picture
-- OTD Screenshot
--->
 
 I daughter turned four at the beginning of this year, and I made her a cake and two kinds of ice cream. From scratch. 
 
@@ -30,6 +27,8 @@ The important part is that my four year old when asked how her day was, it was: 
 
 Mission Accomplished.
 
+![Chcolate Ice Cream churning in a counter-top ice cream maker, which resembles the shape of a human's butt.][3]
+
 ## The Feeling of Fulfillment
 
 I share this story, because I was recently asked about a time this week where I did something that made me feel happy. I was definitely happy that my daughter had a great birthday, which was the whole point and is the most important part. 
@@ -44,16 +43,27 @@ In fact, thinking about it further, I remembered another time where I felt a sim
 
 ### Example: Out The Door
  
-<!-- OTD Screenshot -->
+![Out the Door title screen from the Ludum Dare 47 gamejam][1]
 
-Back in 2020, I took part in Ludum Dare 47 and although I started with some prepared tech and tools, I spent the weekend creating an original game experience I called [Out the Door](https://davidwesst.itch.io/out-the-door). 
+Back in 2020, I took part in Ludum Dare 47 and although I started with some prepared tech and tools, I spent the weekend creating an original game experience I called [Out the Door][2]. 
 
 The goal was to solo develop a "complete" game, which includes original graphics, music, gameplay, story, and a complete game loop that can be "beaten". 
 
-## Validation is the Icing
+## Validation is the Icing, But You Need Both For Fulfillment
 
-Although the planning, execution, and delivery are critical in that feeling of fulfillment, the validation is what puts it over the top for me.
+Although the planning, execution, and delivery are critical in that feeling of fulfillment, the validation is what puts it over the top for me to make that memorable feeling of fulfillment. 
+
+Hearing _"ya done good"_ in any capacity from the target audience for whatever you planned means that you _know_ your feeling of accomplishment was right. In conclusion:
+
+> Accomplishment + Validation = Fulfillment
+
+Seems simple, but I wanted to write it down for myself and share it with you. Feeling accomplished isn't half bad, it's just not the same as feeling fulfilled. 
+
+Thanks for playing.
 
 
 
+[1]: out-the-door.png
+[2]: https://davidwesst.itch.io/out-the-door
+[3]: ice-cream-butt.jpg
 
