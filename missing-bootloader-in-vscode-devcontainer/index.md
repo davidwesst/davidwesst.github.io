@@ -1,8 +1,8 @@
 ---
 title: "Cannot Find Module Bootloader.js in VSCode DevContainer"
-date: "December 27, 2021"
+date: "2022-11-17T14:51:00-06:00"
 categories:
-- build-cool-stuff
+- code
 tags:
 - devcontainer
 - nodejs
