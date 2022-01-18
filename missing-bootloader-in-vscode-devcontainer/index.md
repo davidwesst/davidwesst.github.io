@@ -1,6 +1,6 @@
 ---
 title: "Cannot Find Module Bootloader.js in VSCode DevContainer"
-date: "2022-11-17T14:51:00-06:00"
+date: "2022-11-17T20:42:00-06:00"
 categories:
 - code
 tags:
@@ -8,12 +8,15 @@ tags:
 - nodejs
 - vscode
 description: "Problem: When running node commands from within a DevContainer, you receive the error 'Cannot find module bootloader.js'. This post contains the solution."
+social_image: "./error-message-tty.png"
+social_image_alt: "Windows terminal with a Linux penguin in the background of the terminal. The text on the terminal reads: 'Error: Cannot find module '/some/path/with/ahashvalue/vscode-js-debug-bootloader.js'"
 ---
+
 When working with NodeJS inside a DevContainer using VSCode, sometimes an error comes up whenever you try to run a node application or npm command (i.e. npm install). The error looks something like this:
 
 > Error: Cannot find module '/some/path/with/ahashvalue/vscode-js-debug-bootloader.js'
 
-It happened to me [on stream the other day](https://www.twitch.tv/videos/1241089586) and thought I'd take a moment to document the fix.
+It happened to me [on stream a while back](https://www.twitch.tv/videos/1241089586) and I've been meaning to share the fix for a while now.
 
 After some searching, this [GitHub Issue](200~https://github.com/microsoft/vscode-js-debug/issues/374) comes up with the [the following](https://github.com/microsoft/vscode-js-debug/issues/374#issuecomment-622239998) answer to resolve it:
 
@@ -23,15 +26,14 @@ After some searching, this [GitHub Issue](200~https://github.com/microsoft/vscod
 > 2) Setting it back to on or off, as you prefer
 > 3) Using thewarning icon on the top right to relaunch terminals as desired (or just reopen/reload VS Code)
 
-Follow the steps in the VSCode settings for the DevContainer (i.e. workspaace) and it works. Here's an example of me doing it on stream. **Note:** The fix happens right away, but it takes a minute for me to test and confirm it.
+Follow the steps in the VSCode settings for the DevContainer (i.e. workspace) and it works. Here's an example of me doing it on stream. **Note:** The fix happens right away, but it takes a minute for me to test and confirm it.
 
-<div id="twitch-embed"></div>
-<script src="https://player.twitch.tv/js/embed/v1.js"></script>
-<script type="text/javascript">
-  new Twitch.Player("twitch-embed", {
-    video: "1241089585"
-  });
-</script>
+<iframe
+    src="https://player.twitch.tv/?video=1241089585&parent=localhost&parent=davidwesst.com"
+    height="360"
+    width="640"
+    allowfullscreen="true">
+</iframe>
 
 Here's hoping this helps someone else out there looking for this solution.
 
