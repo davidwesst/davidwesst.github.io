@@ -29,7 +29,7 @@ After some searching, this [GitHub Issue](200~https://github.com/microsoft/vscod
 Follow the steps in the VSCode settings for the DevContainer (i.e. workspace) and it works. Here's an example of me doing it on stream. **Note:** The fix happens right away, but it takes a minute for me to test and confirm it.
 
 <iframe
-    src="https://player.twitch.tv/?video=1241089585&parent=localhost&parent=davidwesst.com"
+    src="https://player.twitch.tv/?video=1241089585&parent=localhost&parent=www.davidwesst.com"
     height="360"
     width="640"
     allowfullscreen="true">
