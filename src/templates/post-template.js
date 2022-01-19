@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import { GatsbyImage } from "gatsby-plugin-image"
 import Layout from '../components/layout';
 import styled from 'styled-components';
 import Tags from '../components/tags';
@@ -13,7 +13,10 @@ const PostTemplate = ({ data }) => {
   const next = data.next;
   const headerImage = frontmatter.social_image ? (
     <PostImage>
-      <Img fluid={frontmatter.social_image.childImageSharp.fluid} />
+      <GatsbyImage 
+        alt=''
+        image={frontmatter.social_image.childImageSharp.gatsbyImageData}
+        />
     </PostImage>
   ) : '';
 
@@ -211,9 +214,7 @@ export const pageQuery = graphql`
         social_image {
           publicURL
           childImageSharp {
-            fluid(maxWidth: 630) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData (layout: CONSTRAINED)
           }
         }
       }
