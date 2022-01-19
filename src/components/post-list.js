@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Tags from './tags';
+import { format } from 'date-fns';
 
 import * as styles from '../styles/post-list.module.css';
 
@@ -58,7 +59,7 @@ const PostListItem = ({
       <article className={styles.item}>
         <header>
           <Link to={slug}><h3>{title}</h3></Link>
-          <span>{date} | {timeToRead} min read</span> | <Tags tags={tags} />
+          <span> {format(new Date(date), 'yyyy MMM dd')} | {timeToRead} min read</span> | <Tags tags={tags} />
         </header>
         <p
           dangerouslySetInnerHTML={{
