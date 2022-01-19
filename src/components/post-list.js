@@ -55,8 +55,6 @@ const PostListItem = ({
   description,
   slug,
 }) => {
-  const convertedDate = new Date(date);
-
   return (
       <article className={styles.item}>
         <header>
