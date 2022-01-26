@@ -10,7 +10,7 @@ tags:
 - twitch
 - bug
 description: "With me doing more livecoding sessions on Twitch, I wanted to embed some clips into my blog posts and hit some weird issues. I managed to get it working and wanted to document the workaround so I don't forget it."
-social_image: "./twitch-player-refuse to connect.png"
+social_image: "./twitch-player-refuse-to-connect.png"
 ---
 
 ## The First Problem
