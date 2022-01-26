@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdw_website=self.webpackChunkdw_website||[]).push([[381],{1699:function(e,t,a){a.r(t);var n=a(7294),r=a(3229);t.default=function(e){var t=e.data.markdownRemark.html;return n.createElement(r.Z,{title:"About"},n.createElement("article",{dangerouslySetInnerHTML:{__html:t}}))}}}]);
+//# sourceMappingURL=component---src-templates-about-template-js-4fd2a2a107fc692df8ac.js.map
