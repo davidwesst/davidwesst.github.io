@@ -1,6 +1,6 @@
 ---
 title: "Working around 'Refuses to Connect' Issues with IFrame Embedded Twitch Players"
-date: 2022-01-18T12:00:00-06:00
+date: 2022-01-26T12:28:00-06:00
 categories:
 - code
 tags:
