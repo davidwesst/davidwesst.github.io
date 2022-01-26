@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/bug/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/fixing-twitch-embed-refuses-to-connect/"},"frontmatter":{"date":"January 26, 2022","description":"With me doing more livecoding sessions on Twitch, I wanted to embed some clips into my blog posts and hit some weird issues. I managed to get it working and wanted to document the workaround so I don't forget it.","tags":["livestream","markdown","html","twitch","bug"],"title":"Working around 'Refuses to Connect' Issues with IFrame Embedded Twitch Players"},"timeToRead":2,"excerpt":"The First Problem After following along with the Twitch developer documentation about embedding the non-interactive inline frames I hit the…"}]}},"pageContext":{"tag":"bug"}},
+    "staticQueryHashes": ["1308755293","2841359383","4224293195"]}

@@ -1,4 +1,99 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[davidwesst.com RSS]]></title><description><![CDATA[The personal and somewhat professional website for David Wesst, a.k.a. DW, a.k.a. Wessty.]]></description><link>https://www.davidwesst.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 26 Jan 2022 04:53:42 GMT</lastBuildDate><item><title><![CDATA[Cannot Find Module Bootloader.js in VSCode DevContainer]]></title><description><![CDATA[When working with NodeJS inside a DevContainer using VSCode, sometimes an error comes up whenever you try to run a node application or npm…]]></description><link>https://www.davidwesst.com/blog/missing-bootloader-in-vscode-devcontainer/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/missing-bootloader-in-vscode-devcontainer/</guid><pubDate>Tue, 18 Jan 2022 02:42:00 GMT</pubDate><content:encoded>&lt;p&gt;When working with NodeJS inside a DevContainer using VSCode, sometimes an error comes up whenever you try to run a node application or npm command (i.e. npm install). The error looks something like this:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[davidwesst.com RSS]]></title><description><![CDATA[The personal and somewhat professional website for David Wesst, a.k.a. DW, a.k.a. Wessty.]]></description><link>https://www.davidwesst.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 26 Jan 2022 18:32:04 GMT</lastBuildDate><item><title><![CDATA[Working around 'Refuses to Connect' Issues with IFrame Embedded Twitch Players]]></title><description><![CDATA[The First Problem After following along with the Twitch developer documentation about embedding the non-interactive inline frames I hit the…]]></description><link>https://www.davidwesst.com/blog/fixing-twitch-embed-refuses-to-connect/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/fixing-twitch-embed-refuses-to-connect/</guid><pubDate>Wed, 26 Jan 2022 18:28:00 GMT</pubDate><content:encoded>&lt;h2&gt;The First Problem&lt;/h2&gt;
+&lt;p&gt;After following along with the &lt;a href=&quot;https://dev.twitch.tv/docs/embed/video-and-clips#non-interactive-inline-frames-for-live-streams-and-vods&quot;&gt;Twitch developer documentation about embedding the non-interactive inline frames&lt;/a&gt; I hit the following error:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Failed to load resource: the server responded with a status of 403 ()&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Which looked something like this:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f6acaa70bee3afefd78a36977e71c900/ec3e2/twitch-player-misconfigured.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.9620253164557%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABU0lEQVQoz61SvU4CQRjc+989InLrnXdR5ChQS8FIYUKhDblIceESk3sFKkLojAVPQEUCgQYewAfgAc7SxCcas2tOC8HgTzHZ/Xa+md3ZfCSKIhBC/gW9Xg+k2+3KwjAMqKr6BYqifAg28QJCK/jBYAASx7EsNE3benOSpIjj+618ru33+9sN85c5JY7V6gnj8Qymaf3eMAelDK3WLer1KyhE2d1Q/IWu62CMwTRNHPo+TiplcHcfJb6HYqkAP3ARVkNwzmUPpVRqNFXdbGjbNnw/AOcHcD0Xx0GIWvkC59VLnIUNnFYaOApCONyRPZ7ngdlManeKXHNuMLp7xUOU4bHzjFHnBdXi9feRkySRhYggCBlB0+Xe0E1QqwAmQN9XcSa4vEfAsqzPsWm3238aZmGWpimazSaGwyHIer3GZDLBYrHAfD7/MYRuuVxiOp0iyzK8ASYoLrZ/klamAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Twitch embedded iframe stating: Failed to load resource: the server responded with a status of 403&quot;
+        title=&quot;Twitch embedded iframe stating: Failed to load resource: the server responded with a status of 403&quot;
+        src=&quot;/static/f6acaa70bee3afefd78a36977e71c900/f058b/twitch-player-misconfigured.png&quot;
+        srcset=&quot;/static/f6acaa70bee3afefd78a36977e71c900/c26ae/twitch-player-misconfigured.png 158w,
+/static/f6acaa70bee3afefd78a36977e71c900/6bdcf/twitch-player-misconfigured.png 315w,
+/static/f6acaa70bee3afefd78a36977e71c900/f058b/twitch-player-misconfigured.png 630w,
+/static/f6acaa70bee3afefd78a36977e71c900/40601/twitch-player-misconfigured.png 945w,
+/static/f6acaa70bee3afefd78a36977e71c900/ec3e2/twitch-player-misconfigured.png 997w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;First Solution&lt;/h3&gt;
+&lt;p&gt;This one was on me, and I didn’t read the documentation correctly. Turns out I formatted the query string wrong in the &lt;code class=&quot;language-text&quot;&gt;src&lt;/code&gt; property and solved it by add &lt;code class=&quot;language-text&quot;&gt;?video=&amp;lt;the-id-goes-here&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Which bring us to…&lt;/p&gt;
+&lt;h2&gt;The Second Problem&lt;/h2&gt;
+&lt;p&gt;Although the other issue is solved, we now see this “player refuses to connect” error message that looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4ab1b4da026f545e1e7ba31c63695bb5/84a90/twitch-player-refuse-to-connect.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.59493670886076%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAhElEQVQoz72TywqAIBRE+/+PFAXlhi9QcT2hEURlD5QWgyPIuaOMk7UWxpguFYbWGiEETN57jJBzDjHGFVg2PboEtqYe/d3ZE3C/7qe3oMeBlwlbCe7Sf0r49G6vgDMRGGPgnEMIASkllFIgoupLVf698tAe9nZwU/ktFZhSqmaEcs5YAHwQi39GkxKdAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Twitch embedded iframe stating: player.twitch.tv refused to connect&quot;
+        title=&quot;Twitch embedded iframe stating: player.twitch.tv refused to connect&quot;
+        src=&quot;/static/4ab1b4da026f545e1e7ba31c63695bb5/f058b/twitch-player-refuse-to-connect.png&quot;
+        srcset=&quot;/static/4ab1b4da026f545e1e7ba31c63695bb5/c26ae/twitch-player-refuse-to-connect.png 158w,
+/static/4ab1b4da026f545e1e7ba31c63695bb5/6bdcf/twitch-player-refuse-to-connect.png 315w,
+/static/4ab1b4da026f545e1e7ba31c63695bb5/f058b/twitch-player-refuse-to-connect.png 630w,
+/static/4ab1b4da026f545e1e7ba31c63695bb5/40601/twitch-player-refuse-to-connect.png 945w,
+/static/4ab1b4da026f545e1e7ba31c63695bb5/84a90/twitch-player-refuse-to-connect.png 982w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This happened both in local development environment and my published post on davidwesst.com. Opening up the browser console gave me a bit of a clue though. It read:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Refused to frame ’&lt;a href=&quot;https://player.twitch.tv/&quot;&gt;https://player.twitch.tv/&lt;/a&gt;’ because an ancestor violates the following Content Security Policy directive: “frame-ancestors  &lt;a href=&quot;https://www.davidwesst.com&quot;&gt;https://www.davidwesst.com&lt;/a&gt;“.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Again— read the documentation closer and realize that if you don’t include the base url of wheverever you’re hosting from, such as &lt;code class=&quot;language-text&quot;&gt;localhost&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;127.0.0.1&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;www.davidwesst.com&lt;/code&gt; in my case, the Twitch player is going to refuse the connection.&lt;/p&gt;
+&lt;h3&gt;Second Solution&lt;/h3&gt;
+&lt;p&gt;All I ended up doing was adding some &lt;code class=&quot;language-text&quot;&gt;parent&lt;/code&gt; values to my query string on the &lt;code class=&quot;language-text&quot;&gt;src&lt;/code&gt; property and TA-DA! it worked. My iframe embed look like this now:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;iframe
+    src=&quot;https://player.twitch.tv/?video=1241089585&amp;amp;parent=127.0.0.1&amp;amp;parent=www.davidwesst.com&quot;
+    height=&quot;360&quot;
+    width=&quot;640&quot;
+    allowfullscreen=&quot;true&quot;&gt;
+&amp;lt;/iframe&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;A Better Solution&lt;/h2&gt;
+&lt;p&gt;Although this works, I don’t like that I have to put all my development URLs in the query string to get this working in development and in production. I &lt;em&gt;could&lt;/em&gt; do something around changing the strings on build (depending on where it’s hosted) but I need to digest it a bit more to decide the best option.&lt;/p&gt;
+&lt;p&gt;I’ve created an &lt;a href=&quot;https://github.com/davidwesst/website/issues/86&quot;&gt;issue on GitHub&lt;/a&gt; and if you have ideas or thoughts, I’d love to hear them in the issue (or the comments of this post).&lt;/p&gt;
+&lt;h2&gt;Lessons Learned&lt;/h2&gt;
+&lt;p&gt;First, read the developer documentation thuroughly.&lt;/p&gt;
+&lt;p&gt;Second, although this isn’t the prettiest solution, it delivers value immediately and unblocks my content creator role (i.e. writing blog posts). It’s important to remember to assess an issue and sometimes you need to use some duct tape to keep things moving while you wait for the “best fix” to be ready.&lt;/p&gt;
+&lt;p&gt;Thanks for playing.&lt;/p&gt;
+&lt;p&gt;~ DW&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cannot Find Module Bootloader.js in VSCode DevContainer]]></title><description><![CDATA[When working with NodeJS inside a DevContainer using VSCode, sometimes an error comes up whenever you try to run a node application or npm…]]></description><link>https://www.davidwesst.com/blog/missing-bootloader-in-vscode-devcontainer/</link><guid isPermaLink="false">https://www.davidwesst.com/blog/missing-bootloader-in-vscode-devcontainer/</guid><pubDate>Tue, 18 Jan 2022 02:42:00 GMT</pubDate><content:encoded>&lt;p&gt;When working with NodeJS inside a DevContainer using VSCode, sometimes an error comes up whenever you try to run a node application or npm command (i.e. npm install). The error looks something like this:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Error: Cannot find module ‘/some/path/with/ahashvalue/vscode-js-debug-bootloader.js’&lt;/p&gt;
 &lt;/blockquote&gt;
