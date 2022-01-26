@@ -217,5 +217,7 @@ module.exports = {
         },
       }
     },
+    `gatsby-plugin-typescript`,
+    `gatsby-plugin-dts-css-modules`
   ],
 };
