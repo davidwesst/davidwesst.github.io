@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import Tags from '../components/tags';
 import Categories from '../components/categories';
 import Comments from '../components/comments';
+import ShareButtons from '../components/share-buttons';
 
 const PostTemplate = ({ data }) => {
   const { frontmatter, html, fields } = data.markdownRemark;
@@ -34,12 +35,14 @@ const PostTemplate = ({ data }) => {
           <PostTitle>{frontmatter.title}</PostTitle>
           <PostDate>{frontmatter.date}</PostDate>
           <Categories categories={frontmatter.categories} showLabel={true} />
+          <Tags tags={frontmatter.tags} />
 
           {headerImage}
 
           <PostContent dangerouslySetInnerHTML={{ __html: html }} />
-          <Tags tags={frontmatter.tags} />
         </article>
+
+        <ShareButtons url={`https://www.davidwesst.com${fields.slug}`} />
 
         <Comments slug={fields.slug} />
         
