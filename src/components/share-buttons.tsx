@@ -11,11 +11,12 @@ import {
 } from "react-share";
 import * as styles from '../styles/share-buttons.module.css';
 
-const ShareButtons = ({url}) => {
+const ShareButtons = ({url, shareMessage} : {url: string, shareMessage: string}) => {
+    const shareTitleMessage = (!shareMessage) ? `Like the what you read? Share it! (Every bit helps 😊)` : shareMessage;
     return (
         <>
         <hr />
-        <h3 className={styles.shareMessage}>Like the article? Share it (every bit helps)!</h3>
+        <h3 className={styles.shareMessage}>{shareTitleMessage}</h3>
         <article className={styles.shareButtons}>
             <LinkedinShareButton url={url}>
                 <LinkedinIcon round={true}  />

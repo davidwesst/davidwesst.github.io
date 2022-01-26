@@ -42,7 +42,10 @@ const PostTemplate = ({ data }) => {
           <PostContent dangerouslySetInnerHTML={{ __html: html }} />
         </article>
 
-        <ShareButtons url={`https://www.davidwesst.com${fields.slug}`} />
+        <ShareButtons 
+          url={`https://www.davidwesst.com${fields.slug}`} 
+          shareMessage={`Like the post? Share it! Every little bit helps. 😺`}
+          />
 
         <Comments slug={fields.slug} />
         
