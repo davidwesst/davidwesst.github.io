@@ -7,14 +7,14 @@ import '../styles/global.css';
 
 const Layout = ({ children, title, description, socialImage = ''}) => {
   return (
-    <>
+    <section className="display">
       <Seo title={title} description={description} image={socialImage} />
       <Header />
       <main className={`content`}>
         {children}
       </main>
       <Footer />
-    </>
+    </section>
   );
 };
 
