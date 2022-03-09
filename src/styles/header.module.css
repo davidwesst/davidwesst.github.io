@@ -38,12 +38,15 @@
     text-decoration: none;
     padding-top: 1em;
     padding-bottom: 1em;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .siteHeader nav a {
     text-decoration: none;
     color: var(--colour-light);
     margin-right: 2em;
+    padding: 0.25em 0;
 }
 
 .siteHeader nav a:last-child {
