@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-pages-play-js",
-    "path": "/play/",
+    "componentChunkName": "component---src-pages-gamelog-js",
+    "path": "/gamelog/",
     "result": {"data":{"allPlayMyCollectionCsv":{"nodes":[{"Title":"Princess Tomato and the Salad Kingdom","Stream_Date":"20-Jul-21","Platform":"NES"},{"Title":"Maniac Mansion","Stream_Date":"27-Jul-21","Platform":"NES"},{"Title":"Mission: Impossible","Stream_Date":"10-Aug-21","Platform":"NES"},{"Title":"Metal Gear","Stream_Date":"24-Aug-21","Platform":"NES"},{"Title":"Metal Gear Solid (Greatest Hits)","Stream_Date":"31-Aug-21","Platform":"PS1"},{"Title":"Castlevania II: Simon's Quest","Stream_Date":"14-Sep-21","Platform":"NES"},{"Title":"Castlevania: Symphony of the Night","Stream_Date":"21-Sep-21","Platform":"PS1"},{"Title":"Elemental Gearbolt","Stream_Date":"28-Sep-21","Platform":"PS1"},{"Title":"Wizardry V: Heart of the Maelstrom","Stream_Date":"12-Oct-21","Platform":"SNES"},{"Title":"River King: A Wonderful Journey","Stream_Date":"02-Nov-21","Platform":"PS2"},{"Title":"Ultima VI: The False Prophet","Stream_Date":"09-Nov-21","Platform":"SNES"},{"Title":"The Elder Scrolls III: Morrowind","Stream_Date":"16-Nov-21","Platform":"XB"},{"Title":"SimEarth","Stream_Date":"14-Dec-21","Platform":"SNES"}]}},"pageContext":{}},
     "staticQueryHashes": ["1308755293","2841359383","4224293195"]}
