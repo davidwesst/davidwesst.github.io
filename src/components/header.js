@@ -37,7 +37,8 @@ const Header = () => {
       <nav className={`content`}>
           <Link to="/about">[A]bout</Link>
           <Link to="/blog">[B]log</Link>
-          <Link to="/play">[P]lay</Link>
+          <Link to="/cocobokostudios">[C]ocoboko Studios</Link>
+          <Link to="/gamelog">[G]amelog</Link>
       </nav>
     </header>
   );

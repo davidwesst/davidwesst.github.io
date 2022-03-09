@@ -63,6 +63,13 @@ h3 {
 .content {
   padding-left: 0.25em;
   padding-right: 0.25em;
+  flex-grow: 1;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 @media all and (min-width: 800px) {
