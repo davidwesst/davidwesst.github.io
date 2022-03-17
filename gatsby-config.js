@@ -96,7 +96,6 @@ module.exports = {
       }
     },
     `gatsby-transformer-csv`,
-    `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {

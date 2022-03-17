@@ -17,22 +17,22 @@ const RenderLink = (hrefValue: string) => {
     }
 }
 
-const data = useStaticQuery(graphql`
-  query AllProjectsQuery {
-    allProjectsYaml {
-      nodes {
-        name
-        link
-        type
-        description
-        image
-      }
-    }
-  }
-`);
+// const data = useStaticQuery(graphql`
+//   query AllProjectsQuery {
+//     allProjectsYaml {
+//       nodes {
+//         name
+//         link
+//         type
+//         description
+//         image
+//       }
+//     }
+//   }
+// `);
 
 const ProjectList : React.FunctionComponent<ProjectListProps> = (({ projectData }) => {
-    console.log(data.AllProjectsQuery.nodes);
+    //console.log(data.AllProjectsQuery.nodes);
     return (
         <>
         {projectData.map((projectItem) => (
