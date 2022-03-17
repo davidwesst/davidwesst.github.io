@@ -17,28 +17,29 @@ const RenderLink = (hrefValue: string) => {
     }
 }
 
-// const data = useStaticQuery(graphql`
-//   query AllProjectsQuery {
-//     allProjectsYaml {
-//       nodes {
-//         name
-//         link
-//         type
-//         description
-//         image
-//       }
-//     }
-//   }
-// `);
-
-const ProjectList : React.FunctionComponent<ProjectListProps> = (({ projectData }) => {
-    //console.log(data.AllProjectsQuery.nodes);
+const ProjectList : React.FunctionComponent = ( () => {
+        const data = useStaticQuery(graphql`
+            query ProjectListQuery {
+                allProjectsYaml {
+                nodes {
+                    id
+                    name
+                    link
+                    image
+                    tech
+                    type
+                    description
+                }
+                }
+            }  
+        `);
+        console.dir(data);
     return (
         <>
-        {projectData.map((projectItem) => (
-            <article>
+        {data.allProjectsYaml.nodes.map((projectItem) => (
+            <article key={projectItem.id} >
                 <h3>{projectItem.title}</h3>
-                {/* <StaticImage src={projectItem.image} alt="project image" /> */}
+                <StaticImage src={`/projects/${projectItem.image}`} alt="project image" />
                 <p>{projectItem.description}</p>
                 {RenderLink(projectItem.link)}
             </article>

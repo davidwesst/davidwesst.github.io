@@ -18,6 +18,7 @@ const CocobokoStudiosPage = ({ data }) => {
             <h3>Dreams-In-Progress</h3>
             <p>This list will change over time, but these projects are the ones I think I will turn into something.</p>
           </article>
+          <ProjectList />
         </Layout>
     );
 };
