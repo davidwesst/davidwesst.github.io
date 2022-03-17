@@ -88,7 +88,15 @@ module.exports = {
         path: `${__dirname}/content/data`
       }
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'projects',
+        path: `${__dirname}/content/projects`
+      }
+    },
     `gatsby-transformer-csv`,
+    `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {

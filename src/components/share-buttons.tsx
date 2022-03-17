@@ -11,7 +11,12 @@ import {
 } from "react-share";
 import * as styles from '../styles/share-buttons.module.css';
 
-const ShareButtons = ({url, shareMessage} : {url: string, shareMessage: string}) => {
+interface ShareButtonProps {
+    url?: string;
+    shareMessage?: string;
+}
+
+const ShareButtons = ({url, shareMessage} : ShareButtonProps) => {
     const shareTitleMessage = (!shareMessage) ? `Like the what you read? Share it! (Every bit helps 😊)` : shareMessage;
     return (
         <>

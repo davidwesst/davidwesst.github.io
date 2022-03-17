@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
+import ProjectList from '../components/project-list';
 
 //import * as style from '../styles/index.module.css';
 
@@ -16,13 +17,9 @@ const CocobokoStudiosPage = ({ data }) => {
           <article>
             <h3>Dreams-In-Progress</h3>
             <p>This list will change over time, but these projects are the ones I think I will turn into something.</p>
-            <ul>
-              <li>Video Game Library (App)</li>
-              <li><Link to="https://davidwesst.itch.io/out-the-door">Out the Door (Game)</Link></li>
-              <li>Unshared Ink Game</li>
-            </ul>
           </article>
         </Layout>
     );
 };
 export default CocobokoStudiosPage;
+

@@ -1,0 +1,32 @@
+- name: Quantum Pet Control
+  type: game
+  link: 
+  image: /data/fat-cat.gif
+  description: >
+    Welcome to Quantum Pet Control-- the first line of defense for keeping the qWeb open and available to all of humanity. Take your time (but not too much time) applying the 3 C's (Comfort, Cleanliness, and Care) to all the quantum pets out there making sure they and their owners/sponsors are kept happy.
+    Or else we all will suffer the concequences again.
+  tech:
+    - React
+    - TypeScript
+    - Azure Static Sites
+- name: Out the Door
+  type: game
+  link: https://davidwesst.itch.io/out-the-door
+  image: /data/out-the-door_title.gif
+  description: >
+    Today is your first day at your new job! It's an early start, but you don't mind because YOU can get ready for a great in 30 minutes or less...
+    ...OR CAN YOU
+  tech:
+    - Godot
+    - C#
+    - Ink
+- name: Video Game Library (VGL)
+  type: app
+  link: 
+  image: /data/vgl-screenshot.jpg
+  description: >
+    Why is keeping an inventory of your video games and hardware such a chore? With VGL, it doens't have to be. This web-enabled mobile and desktop application works right from the browser and DOES NOT require an account to get it working. Your inventory data is, and always will be YOUR DATA. The VGL just makes it easier to manage.
+  tech:
+    - React
+    - TypeScript
+    - Azure Static Sites

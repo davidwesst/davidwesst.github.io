@@ -42,6 +42,7 @@
     "@types/react-dom": "^17.0.11",
     "gatsby-plugin-dts-css-modules": "^2.2.0",
     "gatsby-plugin-typescript": "^4.6.0",
+    "gatsby-transformer-yaml": "^4.10.0",
     "prettier": "^2.4.1"
   },
   "homepage": "https://github.com/davidwesst/website#readme",
