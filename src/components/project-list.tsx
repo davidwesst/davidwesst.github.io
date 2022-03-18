@@ -1,5 +1,5 @@
 import { useStaticQuery, graphql } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
+import { getImage, GatsbyImage } from "gatsby-plugin-image";
 import React from "react";
 
 import ProjectListItem, { IProjectItemProps } from './project-list-item';
@@ -21,26 +21,31 @@ const ProjectList : React.FunctionComponent = ( () => {
         const data = useStaticQuery(graphql`
             query ProjectListQuery {
                 allProjectsYaml {
-                nodes {
-                    id
-                    name
-                    link
-                    image
-                    tech
-                    type
-                    description
-                }
+                    nodes {
+                        id
+                        name
+                        link
+                        thumbnail {
+                            childImageSharp {
+                                ...fluid
+                            }
+                        }
+                        thumbnailAlt
+                        tech
+                        type
+                        description
+                    }
                 }
             }  
         `);
-        console.dir(data);
+
     return (
         <>
         {data.allProjectsYaml.nodes.map((projectItem) => (
             <article key={projectItem.id} >
                 <h3>{projectItem.title}</h3>
-                <StaticImage src={`/projects/${projectItem.image}`} alt="project image" />
                 <p>{projectItem.description}</p>
+                <img src={projectItem.thumbnail.publicURL} alt={projectItem.thumbnailAlt} />
                 {RenderLink(projectItem.link)}
             </article>
         ))}
