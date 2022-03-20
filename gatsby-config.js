@@ -95,8 +95,8 @@ module.exports = {
         path: `${__dirname}/content/projects`
       }
     },
-    `gatsby-transformer-csv`,
     `gatsby-transformer-yaml`,
+    `gatsby-transformer-csv`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
