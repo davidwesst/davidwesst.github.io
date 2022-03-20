@@ -10,15 +10,13 @@ const CocobokoStudiosPage = ({ data }) => {
         <Layout title="Cocoboko Studios">
           <h2>Cocoboko Studios is a dream-in-progress</h2>
           <article>
-            <p>It's true.</p>
-            <p>This is a dream of mine <Link to="about">(David Wesst)</Link> to code cool stuff and share it with the world. I say it's a "dream-in-progress" because, as you can see, I've never managed to get anything released even though I've had the dream for many, many years.</p>
-            <p>Named after an inside joke I had with my daughter when she was still a toddler, I will continue to work to release things here when "they are done" as it is said.</p>
+            <p>It might sound cheesy, but it's true.</p>
+            <p>Named after an inside joke I had with my daughter when she was still a toddler, Cocoboko Studios is a dream of mine to build cool stuff with code and share it with the world. I say it's a "dream-in-progress" because it is. It's something I dream about constantly, and work on it whenever I have the time and the focus.</p>
           </article>
           <article>
             <h3>Dreams-In-Progress</h3>
-            <p>This list will change over time, but these projects are the ones I think I will turn into something.</p>
+            <ProjectList />
           </article>
-          <ProjectList />
         </Layout>
     );
 };
