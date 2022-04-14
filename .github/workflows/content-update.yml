@@ -15,8 +15,9 @@ jobs:
     - uses: actions/setup-node@v2
       with:
         node-version: 16
-    - run: npm install
-    - run: npm run build
+    - run: npm install -g yarn
+    - run: yarn install --legacy-peer-deps
+    - run: yarn run build
     - uses: actions/upload-artifact@v2
       with:
         name: website
