@@ -11,6 +11,9 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addFilter("cssmin", (code)=> {
         return new CleanCSS({}).minify(code).styles;
     });
+
+    // Alias
+    eleventyConfig.addLayoutAlias("base", "base.njk");
     
     return {
         dir: {
