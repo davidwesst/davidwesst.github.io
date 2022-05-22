@@ -1,5 +1,5 @@
 ---
 title: "Index Page"
-layout: base.njk
+layout: base
 ---
 Hello!
