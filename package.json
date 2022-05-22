@@ -1,0 +1,18 @@
+{
+  "name": "dwww",
+  "version": "9.0.0-alpha",
+  "description": "Another incarnation of davidwesst.com",
+  "main": "index.js",
+  "repository": "https://github.com/davidwesst/website.git",
+  "author": "David Wesst <david@cocobokostudios.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf public/",
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
