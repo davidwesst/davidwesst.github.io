@@ -12,7 +12,7 @@ categories:
 - development
 excerpt: The lessons I learned and the steps I took to compile TypeScript modules into a single file with AMD modules using Gulp, along with how I consumed those compiled modules in my HTML application.  
 authorId: david_wesst
-originalurl: https://blog.davidwesst.com/2016/09/How-to-Compile-Typescript-into-a-Single-File-with-AMD-Modules/
+
 ---
 I've been tinkering with TypeScript lately and was trying to setup my project to compile all of my modules into a single file, which would then be used in an HTML page. Maybe this is obvious to the more experienced TypeScript developer, but I had made a number of false assumptions while trying to get this to work.
 

@@ -6,7 +6,7 @@ categories:
 - technology
 comments: true
 authorId: david_wesst
-originalurl: http://blog.davidwesst.com/2015/09/Downgrading-Windows-Phone-10-Technical-Preview-The-Lowlights/
+
 tags:
 - windows phone
 - windows 10

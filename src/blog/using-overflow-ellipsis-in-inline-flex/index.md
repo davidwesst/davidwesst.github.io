@@ -10,7 +10,7 @@ tags:
   - flexbox
 excerpt: Two out of three Dave's hit this obscure CSS problem that turned out to be expected behaviour. David Wesst walks us through the reason why and how to fix it.
 authorId: david_wesst
-originalurl: http://www.webnotwar.ca/opensource/using-text-overflowellipsis-with-inline-flex/
+
 ---
 
 [Dave Paquette][1], a fellow Western Dev, hit a strange CSS snag the other day. He wanted to use the `text-overflow: ellipsis` on a flexbox item that displayed text, where the ellipsis would show up if the text was too long.

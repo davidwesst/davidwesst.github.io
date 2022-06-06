@@ -9,7 +9,7 @@ tags:
     - Game Development
 excerpt: David reviews a handful of JavaScript-based game frameworks he went through before selecting one for his new game.
 authorId: david_wesst
-originalurl: http://www.webnotwar.ca/opensource/exploring-javascript-game-frameworks
+
 ---
 Last month I explored a number of JavaScript-based game frameworks in an attempt to pick the perfect one for my first game.
 

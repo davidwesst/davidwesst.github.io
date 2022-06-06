@@ -11,7 +11,7 @@ tags:
   - Babel
 excerpt: I started to tinker with React last week and needed to do some digging on how to transpile the React JSX files using Gulp. In this post, we walkthrough my newly updated Gulp task that transpiles JSX and JavaScript files.
 authorId: david_wesst
-originalurl: https://blog.davidwesst.com/2016/09/How-to-Build-ReactJS-with-Gulp/
+
 ---
 
 I wanted to play with ReactJS last week and figured I would just add another gulp talk to my build process, being that it's all the rage right now.

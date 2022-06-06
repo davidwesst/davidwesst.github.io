@@ -10,7 +10,7 @@ tags:
 - visual studio code
 comments: true
 authorId: david_wesst
-originalurl: http://blog.davidwesst.com/2015/10/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/
+
 ---
 
 I [previously shared](http://www.westerndevs.com/custom-tasks-for-java-in-visual-studio-code/) how I setup a custom problem matching in Visual Studio Code for compiling Java  and displaying the errors inline with a custom problem matcher.
@@ -56,7 +56,7 @@ If you haven't already seen it, you have intellisense while you're editing your 
 
 We define, what I call a subtask, just like we do a regular task, except the JSON schema is a little different. After adding a task for ```getSword``` and , my tasks file now looks like:
 
-{% codeblock lang:javascript %}
+{% codeblock javascript %}
 {
 	"version": "0.1.0",
 	"command": "gradle",
@@ -81,7 +81,7 @@ Just like we did with the ```javac``` command, we need to add a problem matcher 
 
 Our tasks file now looks like:
 
-{% codeblock lang:javascript %}
+{% codeblock javascript %}
 {
 	"version": "0.1.0",
 	"command": "gradle",

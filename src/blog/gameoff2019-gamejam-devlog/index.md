@@ -3,7 +3,7 @@ layout: post
 title:  "GitHub Game Off 2019 Game Jam featuring DW"
 date: "2019-11-26T09:57:00"
 authorId: david_wesst
-originalurl: http://www.davidwesst.com/blog/gameoff2019-gamejam-devlog/
+
 categories:
     - development
 tags:

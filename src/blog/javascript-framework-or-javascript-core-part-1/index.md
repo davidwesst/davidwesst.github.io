@@ -8,7 +8,7 @@ tags:
   - JavaScript
 excerpt: Is it always better to use JavaScript Frameworks? David analyzes the pros and cons of using JavaScript frameworks versus only using core JavaScript.
 authorId: david_wesst
-originalurl: http://www.webnotwar.ca/opensource/13996/
+
 ---
 ![js-framework-or-pure-js][1]
 

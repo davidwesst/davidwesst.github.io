@@ -11,7 +11,7 @@ tags:
 - tomcat
 comments: true
 authorId: david_wesst
-originalurl: http://blog.davidwesst.com/2015/08/Running-Tomcat-Apps-on-Docker-through-Eclipse/
+
 ---
 If you didn't already know, [Docker](https://www.docker.com) is pretty cool. Not sure what it is? My fellow Western Dev [Kyle Baley](http://www.westerndevs.com/docker-is-coming-whether-you-like-it-or-not/) explains it really well and provides some great cases about why Docker is fantastic.
 
@@ -48,7 +48,7 @@ The first script I created just packages things up, makes sure boot2docker is ru
 
 Being that I run the script from the project root, it looks like this:
 
-{% codeblock lang:bash %}
+{% codeblock bash %}
 #!/bin/bash
 
 # package the WAR file
@@ -64,7 +64,7 @@ docker run --rm -p 8080:8080 -v //./target/mywebapp:/usr/local/tomcat/webapps/my
 ### The Stop Script
 Thanks to the power of Bingoogle, I was able to find [this](https://coderwall.com/p/ewk0mq/stop-remove-all-docker-containers).
 
-{% codeblock lang:bash %}
+{% codeblock bash %}
 docker stop $(docker ps -a -q)
 {% endcodeblock %}
 
@@ -88,7 +88,7 @@ That being said, we could also customize our docker image to include files right
 
 Here's an example, but you can get the full scoop on dockerfiles [here](https://docs.docker.com/articles/dockerfile_best-practices/):
 
-{% codeblock lang:bash %}
+{% codeblock bash %}
 FROM tomcat:6.0
 MAINTAINER David Wesst <questions@davidwesst.com>
 
@@ -98,7 +98,7 @@ ADD target/\*.war /usr/local/tomcat/webapps/
 
 Then we need to update our ```start-docker.sh``` file from above to build the new image so we can run it.
 
-{% codeblock lang:bash %}
+{% codeblock bash %}
 #!/bin/bash
 
 # package the WAR file

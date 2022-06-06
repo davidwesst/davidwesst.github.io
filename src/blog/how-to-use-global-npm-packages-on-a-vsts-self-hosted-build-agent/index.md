@@ -11,7 +11,7 @@ categories:
   - development
 excerpt: I setup a self-hosted build agent in Visual Studio Team Services. My build installed global NPM packages, but the tasks that used them later on in the script would fail because they were unable to use them. This post describes what I did to get them working.
 authorId: david_wesst
-originalurl: https://blog.davidwesst.com/2016/10/How-to-Use-Global-NPM-Packages-on-a-VSTS-Self-Hosted-Build-Agent/
+
 ---
 
 I took a couple of weeks off of blogging to focus on a building my presentation for [Deliver](http://www.prdcdeliver.com/). In my spare time, I started tinkering with Visual Studio Team Services, where decided to start by automating the build and release of this blog.

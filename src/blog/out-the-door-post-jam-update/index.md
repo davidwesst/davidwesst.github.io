@@ -3,7 +3,7 @@ title: "New Artwork and a Complete Rewrite...ish | Out the Door Devlog"
 date: "2020-11-09T09:00:00"
 layout: post
 authorId: david_wesst
-originalurl: https://www.davidwesst.com/blog/out-the-door-post-jam-update
+
 categories:
     - projects
     - video games

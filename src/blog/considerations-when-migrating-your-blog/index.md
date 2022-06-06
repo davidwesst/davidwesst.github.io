@@ -5,7 +5,7 @@ date: "2015-08-01T16:15:22"
 categories:
 comments: true
 authorId: david_wesst
-originalurl: http://blog.davidwesst.com/2015/07/Considerations-When-Migrating-Your-Blog/
+
 tags:
 - hexo
 - javascript

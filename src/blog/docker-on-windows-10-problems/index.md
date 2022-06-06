@@ -5,7 +5,7 @@ date: "2015-08-10T09:20:40"
 categories:
 comments: true
 authorId: david_wesst
-originalurl: http://blog.davidwesst.com/2015/08/Docker-on-Windows-10-Problems/
+
 tags:
 - docker
 - windows 10

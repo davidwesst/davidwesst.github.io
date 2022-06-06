@@ -5,7 +5,7 @@ date: "2015-10-14T08:25:50"
 categories:
 comments: true
 authorId: david_wesst
-originalurl: http://blog.davidwesst.com/2015/10/Custom-Tasks-for-Java-in-Visual-Studio-Code/
+
 tags:
 - java
 - vscode
@@ -39,7 +39,7 @@ To see if we have any errors, we want to run our Java compiler on our code to ge
 1. First, clear out the other tasks in the file. We only want the one we're going to use which is our javac command.
 2. Add the task to run the Java compiler
 
-{% codeblock lang:javascript %}
+{% codeblock javascript %}
 {
 	"version": "0.1.0",
 	"command": "javac",
@@ -64,7 +64,7 @@ Now that we have a task running, we need to tell Code how to process the output.
 
 Here's what my task looks like now:
 
-{% codeblock lang:javascript %}
+{% codeblock javascript %}
 {
 	"version": "0.1.0",
 	"command": "javac",
