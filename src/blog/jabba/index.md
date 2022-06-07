@@ -9,7 +9,7 @@ tags:
     - version manager
     - jabba
 excerpt: "Here's another dev thing I use: Jabba, a cross-platform Java version manager that works for Windows."
-layout: post
+
 authorId: david_wesst
 ---
 

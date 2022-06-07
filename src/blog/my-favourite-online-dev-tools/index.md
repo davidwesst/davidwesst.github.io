@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: My Favourite Online Dev Tools
 date: "2015-10-28T08:44:09"
 categories:

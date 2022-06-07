@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Docker on Windows 10 Problems"
 date: "2015-08-10T09:20:40"
 categories:

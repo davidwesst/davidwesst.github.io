@@ -1,7 +1,7 @@
 ---
 title: "From Travis CI to GitHub Actions (and GitHub Pages)"
 date: "2020-11-10T18:36:00"
-layout: post
+
 authorId: david_wesst
 
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: How to Use Global NPM Packages on a VSTS Self-Hosted Build Agent
 date: "2016-10-24T08:33:01"
 tags:

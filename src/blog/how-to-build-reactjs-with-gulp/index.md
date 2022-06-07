@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: How to Build ReactJS with Gulp
 categories:
   - development 

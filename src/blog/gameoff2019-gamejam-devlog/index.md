@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title:  "GitHub Game Off 2019 Game Jam featuring DW"
 date: "2019-11-26T09:57:00"
 authorId: david_wesst

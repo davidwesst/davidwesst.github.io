@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Considerations When Migrating Your Blog"
 date: "2015-08-01T16:15:22"
 categories:

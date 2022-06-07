@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Exploring JavaScript Game Frameworks
 categories:
     - development

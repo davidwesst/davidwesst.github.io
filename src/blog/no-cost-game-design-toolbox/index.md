@@ -1,7 +1,7 @@
 ---
 title: "No Cost Game Design Toolbox"
 date: "2017-08-15T12:35:00"
-layout: post
+
 authorId: david_wesst
 
 categories:

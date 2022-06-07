@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Looking Forward into 2016
 categories:
   - inner monologue

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Conquest April 2017 Devblog
 tags:
   - conquest

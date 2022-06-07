@@ -1,7 +1,7 @@
 ---
 title: "New Artwork and a Complete Rewrite...ish | Out the Door Devlog"
 date: "2020-11-09T09:00:00"
-layout: post
+
 authorId: david_wesst
 
 categories:

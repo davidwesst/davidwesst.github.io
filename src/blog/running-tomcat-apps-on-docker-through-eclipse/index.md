@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Running Tomcat Apps on Docker through Eclipse"
 date: "2015-08-07T12:55:40"
 categories:
@@ -11,7 +11,6 @@ tags:
 - tomcat
 comments: true
 authorId: david_wesst
-
 ---
 If you didn't already know, [Docker](https://www.docker.com) is pretty cool. Not sure what it is? My fellow Western Dev [Kyle Baley](http://www.westerndevs.com/docker-is-coming-whether-you-like-it-or-not/) explains it really well and provides some great cases about why Docker is fantastic.
 

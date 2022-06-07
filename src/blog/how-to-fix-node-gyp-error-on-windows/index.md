@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: How to Fix node-gyp Error on Windows
 categories:
   - development 

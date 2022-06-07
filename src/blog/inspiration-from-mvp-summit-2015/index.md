@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title:  Inspiration From MVP Summit 2015
 date: "2015-11-20T09:09:44"
 categories:

@@ -1,7 +1,7 @@
 ---
 title: "How Github Makes Game Making Easier for Noncoders"
 date: "2020-02-19T09:48:36"
-layout: post
+
 authorId: david_wesst
 
 categories:

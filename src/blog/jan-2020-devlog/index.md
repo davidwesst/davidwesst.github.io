@@ -1,7 +1,7 @@
 ---
 title: "Jan 2020 Devlog"
 date: "2020-02-04T10:03:24"
-layout: post
+
 authorId: david_wesst
 
 categories:

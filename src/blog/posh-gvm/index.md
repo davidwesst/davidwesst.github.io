@@ -10,7 +10,7 @@ tags:
     - powershell
     - version manager
 excerpt: "Here's another dev thing I use: Posh-GVM, a Groovy version manager that works for Windows."
-layout: post
+
 authorId: david_wesst
 ---
 

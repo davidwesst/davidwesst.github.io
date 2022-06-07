@@ -11,7 +11,7 @@ tags:
     - wsl
 excerpt: "With the Fall Creators update of Windows 10, you can go to the Windows Store and install Linux. Yeah, that's a thing now and it's pretty cool."
 authorId: david_wesst
-layout: post
+
 ---
 
 [1]: https://summit.microsoftedge.com/

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Why ChakraCore OSS is Important
 tags:
   - javascript

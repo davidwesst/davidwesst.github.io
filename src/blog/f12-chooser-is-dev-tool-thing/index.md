@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "F12 Chooser is a Dev Tool Thing"
 tags:
   - javascript

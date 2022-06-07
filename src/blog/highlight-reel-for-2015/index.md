@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Highlight Reel for 2015
 categories:
   - inner monologue

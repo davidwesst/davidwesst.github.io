@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Using Java Build Script Tasks in Visual Studio Code
 date: "2015-10-21T08:18:19"
 categories:

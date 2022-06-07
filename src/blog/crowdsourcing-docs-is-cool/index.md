@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Crowdsourcing Documentation is Cool
 tags:
   - javascript

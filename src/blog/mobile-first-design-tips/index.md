@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Mobile First Design Tips
 date: "2016-08-16T08:55:17"
 tags:

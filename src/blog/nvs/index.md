@@ -11,7 +11,7 @@ tags:
     - version manager
 excerpt: "Here's another dev thing I use: NVS, or the Node Version Switcher. It works on Windows and it's great."
 authorId: david_wesst
-layout: post
+
 ---
 
 [1]: https://davidwesst.blob.core.windows.net/blog/nvs/nvs-menu.gif "NVS Consle Menu in Action"

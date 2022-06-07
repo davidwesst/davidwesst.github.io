@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Using text-overflow:ellipsis with Inline Flex"
 categories:
   - development

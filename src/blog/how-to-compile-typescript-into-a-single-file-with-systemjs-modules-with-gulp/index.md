@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: How to Compile TypeScript into a Single File with SystemJS Modules with Gulp
 categories:
   - development

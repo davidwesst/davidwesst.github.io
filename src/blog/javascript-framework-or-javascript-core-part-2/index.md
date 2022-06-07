@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: JavaScript Framework or JavaScript Core (Part 2)
 categories:
   - development

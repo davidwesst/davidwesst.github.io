@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: How to Blog with VSTS (Part 3)
 tags:
   - visual studio team services

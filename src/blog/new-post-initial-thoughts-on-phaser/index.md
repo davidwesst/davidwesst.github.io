@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Initial Thoughts on Using Phaser
 categories:
   - development

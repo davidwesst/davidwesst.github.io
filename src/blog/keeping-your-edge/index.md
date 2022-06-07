@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Keeping Your Edge on an Extended Break
 date: "2016-07-18T10:30:33"
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Western Devs (and MVP) Found My Spirit Animal"
 date: "2015-08-12T11:27:05"
 authorId: david_wesst

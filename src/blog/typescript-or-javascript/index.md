@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Picking between TypeScript and JavaScript"
 tags:
   - javascript

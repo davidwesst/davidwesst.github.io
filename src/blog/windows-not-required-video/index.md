@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Windows Not Required - The New Microsoft Development Story (Video)
 categories:
   - development

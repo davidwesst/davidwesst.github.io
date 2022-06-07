@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: How to Use Highlight.Js with Bower and Gulp
 date: "2016-08-29T10:07:11"
 categories:

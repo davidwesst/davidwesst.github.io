@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Streaming Code and Play on Mixer every Thursday and Sunday"
 authorId: david_wesst
 date: "2018-09-27T08:55:42"
