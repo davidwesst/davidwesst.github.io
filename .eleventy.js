@@ -1,4 +1,5 @@
 const directoryOutputPlugin = require("@11ty/eleventy-plugin-directory-output");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 const CleanCSS = require("clean-css");
 
@@ -6,10 +7,20 @@ module.exports = (eleventyConfig) => {
     // Plugins
     eleventyConfig.setQuietMode(true);
     eleventyConfig.addPlugin(directoryOutputPlugin);
+    eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
+    // Collections
+    eleventyConfig.addCollection("blog", (collectionApi)=> {
+        return collectionApi.getFilteredByTag("dw-blog");
+    });
 
     // Filters
     eleventyConfig.addFilter("cssmin", (code)=> {
         return new CleanCSS({}).minify(code).styles;
+    });
+    eleventyConfig.addFilter("debugger", (...args) => {
+        console.dir(...args)
+        debugger;
     });
 
     // Shortcodes
@@ -33,15 +44,14 @@ module.exports = (eleventyConfig) => {
     });
 
     // Alias
-    eleventyConfig.addLayoutAlias("base", "base.njk");
-    eleventyConfig.addLayoutAlias("post", "post.njk");
+    eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
+    eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
     
     return {
         dir: {
             input: "src/",
             output: "public/",
-            includes: "_includes",
-            layouts: "_layouts"
+            includes: "_includes"
         }
     }
 }
