@@ -1,9 +1,11 @@
 name: CI/CD
 on:
+  push:
+    branches:
+      - rc/**
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
-      - rc/**
       - main
 
 env:
