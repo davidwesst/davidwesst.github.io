@@ -1,10 +1,23 @@
 import "./index.css";
 
-function helloComponent() {
-    const element = document.createElement("h1");
-    element.innerHTML = "Hello from Webpack and DW and others!!";
+import React from "react"
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-    return element;
-}
+import App from "./app/App.jsx";
+import Blog from "./blog/Blog.jsx";
+import Home from "./home/Home.jsx";
 
-document.getElementsByTagName("main")[0].appendChild(helloComponent());
+const root = ReactDOM.createRoot(
+    document.getElementById("root")
+);
+root.render(
+    <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<App />}>
+                <Route path="/" element={<Home />} />
+                <Route path="/blog" element={<Blog />} /> 
+            </Route>
+        </Routes>
+    </BrowserRouter>
+);
