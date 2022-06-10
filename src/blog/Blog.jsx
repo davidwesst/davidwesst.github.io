@@ -1,5 +1,5 @@
 import React from "react";
-import { greet, add } from "./blogo/pkg/"
+import { greet, add, get_post } from "./blogo/pkg/"
 
 const runAdd = () => {
     const numA = Number.parseInt(document.getElementById("a").value);
@@ -11,6 +11,18 @@ const runAdd = () => {
         document.getElementById("answer").value = add(numA, numB).toString();
     }
 };
+
+const runGetPost = () => {
+    const postSlugInput = document.getElementById("postSlug").value?.trim();
+    const postHtml = get_post(postSlugInput);
+    if(postHtml.trim()) {
+        document.getElementById("result").innerHTML = postHtml;
+    }
+    else {
+        document.getElementById("result").innerHTML = "didn't work!";
+    }
+
+}
 
 export default function Blog() {
     greet("WASM in REACT!!!!");
@@ -24,6 +36,14 @@ export default function Blog() {
                 <input type="button" onClick={runAdd} value="ADD EM UP IN WASM" />
                 <article>
                     <input id="answer" name="answer" type="text" readOnly></input>
+                </article>
+            </section>
+            <hr />
+            <section>
+                <h3>Get Post HTML using WASM</h3>
+                <label>Slug: </label><input id="postSlug" onChange={runGetPost} />
+                <article id="result">
+
                 </article>
             </section>
         </main>
