@@ -24,9 +24,8 @@ module.exports = {
             template: "src/index.html",
         }),
         new WasmPackPlugin({
-            crateDirectory: "src/blog/blogo",
-            extraArgs: "--no-typescript",
-            outDir: "./src/blog/blogo/pkg"
+            crateDirectory: path.resolve(__dirname, "src/blog/blogo"),
+            extraArgs: "--no-typescript"
         })
     ],
     module: {
