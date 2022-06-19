@@ -24,14 +24,17 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"golang.Go"
+		"golang.Go",
+		"ms-azuretools.vscode-azurestaticwebapps",
+		"GitHub.vscode-pull-request-github",
+		"DavidAnson.vscode-markdownlint"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [8080],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "cargo install wasm-pack",
+	"postCreateCommand": ". ./tools/devenv/install-dev-tools.sh",
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",

@@ -18,10 +18,12 @@
     "dev": "webpack serve --open"
   },
   "devDependencies": {
+    "@azure/static-web-apps-cli": "^1.0.1",
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
     "@babel/preset-react": "^7.17.12",
     "@wasm-tool/wasm-pack-plugin": "^1.6.0",
+    "azure-functions-core-tools": "4",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
