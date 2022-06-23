@@ -5,7 +5,7 @@ const { truncate } = require("fs");
 
 module.exports = {
     mode: "development",
-    entry: "./src/index.js",
+    entry: "./src/app/index.js",
     devtool: 'source-map',
     devServer: {
         static: "./dist"
@@ -21,10 +21,10 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'davidwesst.com',
-            template: "src/index.html",
+            template: "src/app/index.html",
         }),
         new WasmPackPlugin({
-            crateDirectory: path.resolve(__dirname, "src/blog/blogo"),
+            crateDirectory: path.resolve(__dirname, "src/app/blog/blogo"),
             extraArgs: "--no-typescript"
         })
     ],

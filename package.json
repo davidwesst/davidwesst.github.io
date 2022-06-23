@@ -11,11 +11,15 @@
     "url": "git+https://github.com/davidwesst/website.git"
   },
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "clean": "yarn run clean:rust && yarn run clean:web",
-    "clean:rust": "rimraf ./src/blog/blogo/pkg ./src/blog/blogo/target",
-    "clean:web": "rimraf ./dist",
-    "dev": "webpack serve --open"
+    "build": "concurrently \"yarn run build:api\" \"yarn run build:app\"",
+    "build:api": "dotnet build ./src/api/api.csproj",
+    "build:app": "webpack --config webpack.config.js",
+    "clean": "concurrently \"yarn run clean:api\" \"yarn run clean:app\"",
+    "clean:api": "dotnet clean ./src/api/api.csproj",
+    "clean:app": "rimraf ./dist",
+    "dev": "concurrently --kill-others \"yarn dev:api\" \"yarn dev:app\"",
+    "dev:app": "webpack serve --open",
+    "dev:api": "func start --prefix .//src//api//"
   },
   "devDependencies": {
     "@azure/static-web-apps-cli": "^1.0.1",
@@ -25,6 +29,7 @@
     "@wasm-tool/wasm-pack-plugin": "^1.6.0",
     "azure-functions-core-tools": "4",
     "babel-loader": "^8.2.5",
+    "concurrently": "^7.2.2",
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
     "rimraf": "^3.0.2",

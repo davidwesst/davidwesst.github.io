@@ -8,13 +8,20 @@ FROM mcr.microsoft.com/vscode/devcontainers/go:0-${VARIANT}
 ARG NODE_VERSION="none"
 RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSION} 2>&1"; fi
 
-# [Optional] Uncomment this section to install additional OS packages.
-# RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-#     && apt-get -y install --no-install-recommends <your-package-list-here>
+# Setup .NET SDK repository
+RUN wget https://packages.microsoft.com/config/debian/11/packages-microsoft-prod.deb -O packages-microsoft-prod.deb \
+    && dpkg -i packages-microsoft-prod.deb \
+    && rm packages-microsoft-prod.deb
+
+# Install .NET 6.0 SDK
+RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
+    && apt-get -y install apt-transport-https \
+    && apt-get update && apt-get -y install dotnet-sdk-6.0
+    
 
 # [Optional] Uncomment the next lines to use go get to install anything else you need
 # USER vscode
 # RUN go get -x <your-dependency-or-tool>
 
 # [Optional] Uncomment this line to install global node packages.
-RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g npm yarn" 2>&1
+RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g npm yarn @azure/static-web-apps-cli azure-functions-core-tools@4" 2>&1

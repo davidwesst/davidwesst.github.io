@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.234.0/containers/go
 {
-	"name": "Go",
+	"name": "Donogo",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": {
@@ -26,8 +26,10 @@
 	"extensions": [
 		"golang.Go",
 		"ms-azuretools.vscode-azurestaticwebapps",
+		"ms-azuretools.vscode-azurefunctions",
 		"GitHub.vscode-pull-request-github",
-		"DavidAnson.vscode-markdownlint"
+		"DavidAnson.vscode-markdownlint",
+		"ms-dotnettools.csharp"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -42,7 +44,6 @@
 		"azure-cli": "latest",
 		"git-lfs": "latest",
 		"github-cli": "latest",
-		"rust": "latest",
 		"sshd": "latest"
 	}
 }

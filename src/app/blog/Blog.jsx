@@ -41,7 +41,7 @@ export default function Blog() {
             <hr />
             <section>
                 <h3>Get Post HTML using WASM</h3>
-                <label>Slug: </label><input id="postSlug" onChange={runGetPost} />
+                <label htmlFor="postSlug">Slug: </label><input id="postSlug" name="postSlug" onChange={runGetPost} />
                 <article id="result">
 
                 </article>
