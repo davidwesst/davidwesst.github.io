@@ -23,10 +23,8 @@ namespace DW.Website.Functions
             [HttpTrigger(AuthorizationLevel.Anonymous, "get")]
             HttpRequestData req)
         {
-            // parse query string
-
             // generate file
-            var rssFeed = new Feed("David Wesst | Blog", "https://www.davidwesst.com/blog", "A blog");
+            var rssFeed = new Feed("David Wesst | Blog", "https://www.davidwesst.com/blog", "A blog", new List<FeedItem>(), _logger);
             var rssContent = rssFeed.GenerateRss();
             
             // build response
