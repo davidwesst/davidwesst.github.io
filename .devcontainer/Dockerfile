@@ -17,7 +17,6 @@ RUN wget https://packages.microsoft.com/config/debian/11/packages-microsoft-prod
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install apt-transport-https \
     && apt-get update && apt-get -y install dotnet-sdk-6.0
-    
 
 # [Optional] Uncomment the next lines to use go get to install anything else you need
 # USER vscode
