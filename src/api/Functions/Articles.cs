@@ -8,19 +8,19 @@ using System.Net;
 
 namespace DW.Website.Functions
 {
-    public class GetArticles
+    public class Articles
     {
         private readonly ILogger _logger;
         private List<Article> _articles;
 
-        public GetArticles(ILoggerFactory loggerFactory)
+        public Articles(ILoggerFactory loggerFactory)
         {
-            _logger = loggerFactory.CreateLogger<GetArticles>();
+            _logger = loggerFactory.CreateLogger<Articles>();
             _articles = new List<Article>();
         }
 
         [Function("articles")]
-        public async Task<HttpResponseData> Run(
+        public async Task<HttpResponseData> List(
             [HttpTrigger(AuthorizationLevel.Anonymous, "GET")]
             HttpRequestData req)
         {   
@@ -29,7 +29,7 @@ namespace DW.Website.Functions
 
             // create response
             var response = req.CreateResponse();
-            await req.CreateResponse().WriteAsJsonAsync(_articles);
+            await response.WriteAsJsonAsync(_articles);
 
             // return
             return response;
