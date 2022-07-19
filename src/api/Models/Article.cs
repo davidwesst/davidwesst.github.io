@@ -42,14 +42,22 @@ namespace DW.Website.Models
             this.ID = blob.Metadata[METADATA_SLUG];
             this.Title = blob.Metadata[METADATA_TITLE];
             this.Description = blob.Metadata[METADATA_DESCRIPTION];
-            this.PublishDate = DateTime.Now;    // TODO: Fix datetime upload in blog metadata and then parse it here
             this.Tags = new List<string>(blob.Metadata[METADATA_TAGS].Split(","));
+
+            // parse the date
+            DateTime publishDate = DateTime.MinValue;
+            DateTime.TryParse(blob.Metadata[METADATA_PUBLISH_DATE], out publishDate);
+            this.PublishDate = publishDate;
         }
 
-        public string ToJSON()
+        public bool IsMetadataComplete()
         {
-            return JsonSerializer.Serialize(this);
+            return (
+                !String.IsNullOrEmpty(this.ID)
+                && !String.IsNullOrEmpty(this.Title)
+                && !this.PublishDate.Equals(DateTime.MinValue)
+                && this.Tags.Count > 0
+            );
         }
     }
-
 }

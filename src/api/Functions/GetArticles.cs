@@ -20,7 +20,7 @@ namespace DW.Website.Functions
         }
 
         [Function("articles")]
-        public HttpResponseData Run(
+        public async Task<HttpResponseData> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "GET")]
             HttpRequestData req)
         {   
@@ -28,8 +28,8 @@ namespace DW.Website.Functions
             _articles = RetrieveArticles();
 
             // create response
-            var response = req.CreateResponse(HttpStatusCode.Accepted);
-            _articles.ForEach(a => response.WriteString(a.ToJSON() + "\n"));
+            var response = req.CreateResponse();
+            await req.CreateResponse().WriteAsJsonAsync(_articles);
 
             // return
             return response;
@@ -41,10 +41,22 @@ namespace DW.Website.Functions
             string? containerName = System.Environment.GetEnvironmentVariable("ARTICLES_CONTAINER_NAME");
 
             BlobContainerClient blogFileClient = new BlobContainerClient(connectionString, containerName);
+
             var blobs = blogFileClient.GetBlobs(Azure.Storage.Blobs.Models.BlobTraits.Metadata)
                             .Where(b => b.Name.EndsWith("index.md"))
                             .ToList();
-            return blobs.ConvertAll(b => new Article(b));
+
+            // log articles with incomplete metadata
+            blobs.ConvertAll(b => new Article(b))
+                .Where(a => a.IsMetadataComplete() == false)
+                .ToList()
+                .ForEach(b => _logger.LogWarning($"Problem with metadata with {b.ID}. Excluding from article list."));
+
+            return blobs.ConvertAll(b => new Article(b))
+                        .Where(a => a.IsMetadataComplete() == true)
+                        .OrderBy(a => a.PublishDate)
+                        .Reverse()
+                        .ToList();
         }
     }      
 }
