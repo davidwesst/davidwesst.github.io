@@ -12,6 +12,7 @@ namespace DW.Website.Models
         public DateTime PublishDate { get; set; }
         public string Description { get; set; }
         public List<string> Tags { get; set; }
+        public string FileUri { get; set; }
 
         public const string METADATA_SLUG = "slug";
         public const string METADATA_TITLE = "title";
