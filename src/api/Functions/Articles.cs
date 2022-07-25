@@ -14,16 +14,21 @@ namespace DW.Website.Functions
         private readonly ILogger logger;
         private List<Article> articles;
 
-        private string? connectionString;
-        private string? containerName;
+        private string connectionString;
+        private string containerName;
 
         public Articles(ILoggerFactory loggerFactory)
         {
-            connectionString = System.Environment.GetEnvironmentVariable("ARTICLES_CONNECTION_STRING");
-            containerName = System.Environment.GetEnvironmentVariable("ARTICLES_CONTAINER_NAME");
+            connectionString = this.GetEnvironmentVariable("ARTICLES_CONNECTION_STRING");
+            containerName = this.GetEnvironmentVariable("ARTICLES_CONTAINER_NAME");
             
             logger = loggerFactory.CreateLogger<Articles>();
             articles = RetrieveArticles();
+
+            if(String.IsNullOrEmpty(connectionString) || String.IsNullOrEmpty(containerName))
+            {
+                logger.LogError($"Invalid connectionString or containerName value. connectionString: {connectionString}, containerName: {containerName} ");
+            }
         }
 
         [Function("articles")]
@@ -51,17 +56,8 @@ namespace DW.Website.Functions
             HttpResponseData res = req.CreateResponse(HttpStatusCode.NotFound);
             if(article != null)
             {
-                // set article content as body
-                BlobClient client = new BlobClient(connectionString, containerName, article.ID + "/index.md");
-                try {
-                    var fileContent = await client.DownloadContentAsync();
-                    res = req.CreateResponse(HttpStatusCode.OK);
-                    res.WriteString(fileContent.Value.Content.ToString());
-                } catch (RequestFailedException ex) {
-                    // if request fails, return error code
-                    logger.LogError($"Request to download {article.ID} failed. Exception: {ex.Message}.");
-                    res = req.CreateResponse(HttpStatusCode.ServiceUnavailable);
-                }
+                res = req.CreateResponse();
+                await res.WriteAsJsonAsync(article);
             }
 
             // return
@@ -77,17 +73,28 @@ namespace DW.Website.Functions
                             .ToList();
 
             // log articles with incomplete metadata
-            blobs.ConvertAll(b => new Article(b))
+            blobs.ConvertAll(b => new Article(b, connectionString, containerName))
                 .Where(a => a.IsMetadataComplete() == false)
                 .ToList()
                 .ForEach(b => logger.LogWarning($"Problem with metadata with {b.ID}. Excluding from article list."));
 
             // return complete articles only, incompletes ones are not parsed correctly
-            return blobs.ConvertAll(b => new Article(b))
+            return blobs.ConvertAll(b => new Article(b, connectionString, containerName))
                         .Where(a => a.IsMetadataComplete() == true)
                         .OrderBy(a => a.PublishDate)
                         .Reverse()
                         .ToList();
+        }
+
+        private string GetEnvironmentVariable(string key)
+        {
+            string? variable = System.Environment.GetEnvironmentVariable(key);
+            if(variable == null) {
+                return String.Empty;
+            }
+            else {
+                return variable;
+            }
         }
     }      
 }

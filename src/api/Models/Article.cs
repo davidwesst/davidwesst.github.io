@@ -1,3 +1,5 @@
+
+using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
 using System.Text.Json;
 using System.Text.Json.Serialization;
@@ -12,7 +14,8 @@ namespace DW.Website.Models
         public DateTime PublishDate { get; set; }
         public string Description { get; set; }
         public List<string> Tags { get; set; }
-        public string FileUri { get; set; }
+        public string LocationUri { get; set; }
+        public string ContentUri { get; set; }
 
         public const string METADATA_SLUG = "slug";
         public const string METADATA_TITLE = "title";
@@ -27,18 +30,22 @@ namespace DW.Website.Models
             this.PublishDate = DateTime.MinValue;
             this.Description = String.Empty;
             this.Tags = new List<string>();
+            this.LocationUri = String.Empty;
+            this.ContentUri = String.Empty;
         }
 
-        public Article(string id, string title, DateTime publishDate, string description, List<string> tags)
+        public Article(string id, string title, DateTime publishDate, string description, List<string> tags, string locationUri, string contentUri)
         {
             this.ID = id;
             this.Title = title;
             this.PublishDate = publishDate;
             this.Description = description;
             this.Tags = tags;
+            this.LocationUri = locationUri;
+            this.ContentUri = contentUri;
         }
 
-        public Article(BlobItem blob)
+        public Article(BlobItem blob, string storageConnectionString, string storageContainerName)
         {
             this.ID = blob.Metadata[METADATA_SLUG];
             this.Title = blob.Metadata[METADATA_TITLE];
@@ -49,6 +56,11 @@ namespace DW.Website.Models
             DateTime publishDate = DateTime.MinValue;
             DateTime.TryParse(blob.Metadata[METADATA_PUBLISH_DATE], out publishDate);
             this.PublishDate = publishDate;
+
+            // retrieve the location and content URIs
+            BlobClient client = new BlobClient(storageConnectionString, storageContainerName, this.ID);
+            this.LocationUri = client.Uri.ToString();
+            this.ContentUri = client.Uri.ToString() + "/index.md";
         }
 
         public bool IsMetadataComplete()
