@@ -1,6 +1,5 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const WasmPackPlugin = require("@wasm-tool/wasm-pack-plugin");
 const { truncate } = require("fs");
 
 module.exports = {
@@ -15,18 +14,11 @@ module.exports = {
         path: path.resolve(__dirname, "dist"),
         clean: true
     },
-    experiments: {
-        asyncWebAssembly: true
-    },
     plugins: [
         new HtmlWebpackPlugin({
             title: 'davidwesst.com',
             template: "src/app/index.html",
         }),
-        new WasmPackPlugin({
-            crateDirectory: path.resolve(__dirname, "src/app/blog/blogo"),
-            extraArgs: "--no-typescript"
-        })
     ],
     module: {
         rules: [
