@@ -1,6 +1,5 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { truncate } = require("fs");
 
 module.exports = {
     mode: "development",
@@ -36,11 +35,6 @@ module.exports = {
                       "@babel/preset-typescript" 
                     ] 
                 }
-            },
-            {
-                test: /\.(ts|tsx)$/i,
-                exclude: /(node_modules)/,
-                loader: "ts-loader"
             },
             {
                 test: /\.css$/i,
