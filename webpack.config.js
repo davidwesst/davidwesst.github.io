@@ -20,18 +20,27 @@ module.exports = {
             template: "src/app/index.html",
         }),
     ],
+    resolve: {
+        extensions: [".tsx",".jsx",".ts",".js"]
+    },
     module: {
         rules: [
             {
-                test: /\.(js|jsx)$/i,
+                test: /\.(ts|tsx|js|jsx)$/i,
                 exclude: /(node_modules)/,
                 loader: "babel-loader",
                 options: { 
                     presets: [
                       ["@babel/preset-env", {targets: {node: "current"}}],
-                      "@babel/preset-react", 
+                      "@babel/preset-react",
+                      "@babel/preset-typescript" 
                     ] 
                 }
+            },
+            {
+                test: /\.(ts|tsx)$/i,
+                exclude: /(node_modules)/,
+                loader: "ts-loader"
             },
             {
                 test: /\.css$/i,
