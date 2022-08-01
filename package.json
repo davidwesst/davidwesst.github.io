@@ -29,6 +29,7 @@
     "@babel/preset-typescript": "^7.18.6",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
+    "@types/react-router-dom": "^5.3.3",
     "@wasm-tool/wasm-pack-plugin": "^1.6.0",
     "azure-functions-core-tools": "4",
     "babel-loader": "^8.2.5",

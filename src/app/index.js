@@ -16,7 +16,15 @@ root.render(
         <Routes>
             <Route path="/" element={<App />}>
                 <Route path="/" element={<Home />} />
-                <Route path="/blog" element={<Blog />} /> 
+                <Route path="/blog" element={<Blog />} >
+                    <Route path=":id" element={<h1>Article here!</h1>} />
+                </Route>
+                <Route
+                    path="*"
+                    element={
+                        <h1>Nothing here!</h1>      
+                    }
+                />
             </Route>
         </Routes>
     </BrowserRouter>
