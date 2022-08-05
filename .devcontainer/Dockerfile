@@ -20,7 +20,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 
 # [Optional] Uncomment the next lines to use go get to install anything else you need
 # USER vscode
-# RUN go get -x <your-dependency-or-tool>
+RUN go install github.com/mikefarah/yq/v4@latest
 
 # [Optional] Uncomment this line to install global node packages.
 RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g npm yarn @azure/static-web-apps-cli azure-functions-core-tools@4" 2>&1

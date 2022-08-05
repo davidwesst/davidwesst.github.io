@@ -1,5 +1,6 @@
 # Application Specific
 dist/
+tmp/
 
 # VS Code
 *.code-workspace
