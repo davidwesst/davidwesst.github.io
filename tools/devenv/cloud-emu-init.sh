@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# start storage emulator
+node_modules/.bin/azurite-blob --location ./tmp/azurite &
+AZURITE_PID=$!
+
 # clone blog repository
 git clone https://github.com/davidwesst/blog ./tmp/blog
 
@@ -9,3 +13,6 @@ CONNECTION_STRING="AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJP
 
 # clean up repository
 rm -rf ./tmp/blog
+
+# end storage emulator
+kill $AZURITE_PID

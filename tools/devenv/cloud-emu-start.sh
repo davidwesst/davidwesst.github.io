@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# start storage emulator 
-yarn run azurite
+# start storage emulator
+node_modules/.bin/azurite-blob --location ./tmp/azurite &
