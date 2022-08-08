@@ -1,0 +1,13 @@
+{
+    "configurations": {
+        "app": {
+            "appLocation": "src/app",
+            "apiLocation": "src/api",
+            "appBuildCommand": "yarn run build:app",
+            "apiBuildCommand": "yarn run build:api",
+            "outputLocation": "dist",
+            "run": "yarn run dev",
+            "swaConfigLocation": "src/staticwebapp.config.json"
+        }
+    }
+}
