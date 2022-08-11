@@ -1,8 +1,8 @@
-import React from "react";
+import * as React from "react";
 import { Outlet } from "react-router-dom";
-import SiteNav from "../components/SiteNav.jsx";
+import SiteNav from "./SiteNav";
 
-export default function App() {
+const App = () => {
     return (
         <>
             <SiteNav />
@@ -11,4 +11,5 @@ export default function App() {
             </main>
         </>
     );
-}
+};
+export default App;

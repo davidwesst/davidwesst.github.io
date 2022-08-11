@@ -1,6 +1,8 @@
 import * as React from "react";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import ArticleList from "../components/ArticleList";
+import RSSLink from "../components/RSSLink";
 import { IArticle } from "../models/Article";
 
 const Blog = () => {
@@ -15,7 +17,9 @@ const Blog = () => {
     
     return (
         <>
-            <h1>HELLO BLOG!</h1>
+            <h1>HELLO BLOG! Hello again!</h1>
+            <RSSLink />
+
             <section>
                 {articles.length > 0 &&
                     <>
