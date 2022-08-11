@@ -6,7 +6,8 @@ module.exports = {
     entry: "./src/app/index.js",
     devtool: 'source-map',
     devServer: {
-        static: "./dist"
+        static: "./dist",
+        historyApiFallback: true
     },
     output: {
         filename: "index.js",
