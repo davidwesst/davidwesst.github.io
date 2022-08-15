@@ -39,14 +39,20 @@ namespace DW.Website.Functions
             // create response
             HttpResponseData? response = null;
             
-            // check header for accept-type
-            IEnumerable<string>? contentTypeHeaders;
-            req.Headers.TryGetValues("Content-Type", out contentTypeHeaders);
-            if(contentTypeHeaders != null) 
+            // check header for content-type first, then accept header
+            IEnumerable<string>? typeHeader;
+            if(req.Headers.TryGetValues("Content-Type", out typeHeader) == false)
             {
+                req.Headers.TryGetValues("Accept", out typeHeader);
+            }
+
+            if(typeHeader != null) 
+            {                
                 // check if requesting xml or rss
-                foreach (var contentType in contentTypeHeaders)
+                foreach (var contentType in typeHeader)
                 {
+                    logger.LogInformation($"Processing content-type header: {contentType}");
+
                     if(contentType.Contains("application/xml") 
                         || contentType.Contains("text/xml")
                         || contentType.Contains("application/rss+xml"))
@@ -59,7 +65,8 @@ namespace DW.Website.Functions
                         // exit loop
                         break;
                     } else if (contentType.Contains("application/json")
-                                || contentType.Contains("application/javascript"))
+                                || contentType.Contains("application/javascript")
+                                || contentType.Contains("*/*"))
                     {
                         // create json response
                         response = req.CreateResponse();

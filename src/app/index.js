@@ -7,7 +7,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./components/App.tsx";
 import Blog from "./pages/Blog.tsx";
 import Home from "./pages/Home.tsx";
-import RSSLink from "./components/RSSLink";
 
 const root = ReactDOM.createRoot(
     document.getElementById("root")
@@ -19,7 +18,6 @@ root.render(
                 <Route index element={<Home />} />
                 <Route path="blog" element={<Blog />} />
                 <Route path="blog/:id" element={<h1>Article here!</h1>} />
-                <Route path="blog/rss" element={<RSSLink />} />
                 <Route
                     path="*"
                     element={

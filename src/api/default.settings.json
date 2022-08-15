@@ -7,6 +7,6 @@
         "ARTICLES_CONTAINER_NAME": "blog"
     },
     "Host": {
-        "CORS": "http://localhost:8080"
+        "CORS": "http://localhost:*"
     }
 }

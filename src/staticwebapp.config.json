@@ -1,5 +1,14 @@
 {
     "navigationFallback": {
         "rewrite": "/index.html"
-    }
+    },
+    "routes": [
+        {
+            "route": "/blog/rss",
+            "headers": {
+                "Content-Type": "application/xml"
+            },
+            "rewrite": "/api/articles"
+        }
+    ]
 }

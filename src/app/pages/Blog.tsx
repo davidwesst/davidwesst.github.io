@@ -2,15 +2,17 @@ import * as React from "react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import ArticleList from "../components/ArticleList";
-import RSSLink from "../components/RSSLink";
 import { IArticle } from "../models/Article";
 
 const Blog = () => {
     const [articles, setArticles] = useState(new Array<IArticle>());
 
     useEffect(()=> {
-        fetch("http://localhost:7071/api/articles")
-            .then(async (res)=> {
+        fetch("http://localhost:7071/api/articles", {
+            headers: {
+                "Content-Type": "application/json"
+            }
+        }).then(async (res)=> {
                 setArticles(await res.json());
             })
     }, []);
@@ -18,8 +20,7 @@ const Blog = () => {
     return (
         <>
             <h1>HELLO BLOG! Hello again!</h1>
-            <RSSLink />
-
+            <a href="/blog/rss" rel="_blank">RSS</a>
             <section>
                 {articles.length > 0 &&
                     <>
