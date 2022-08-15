@@ -21,7 +21,7 @@
     "predev": "yarn run build",
     "dev": "concurrently --kill-others \"yarn run azurite\" \"swa start http://localhost:8080 --run 'webpack serve' --api-location ./src/api\"",
     "dev:app": "webpack serve",
-    "dev:api": "func start --prefix .//src//api//",
+    "dev:api": "concurrently --kill-others \"yarn run azurite\" \"func start --prefix .//src//api//\"",
     "azurite": "tools//devenv//cloud-emu-start.sh"
   },
   "devDependencies": {

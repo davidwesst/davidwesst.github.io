@@ -35,11 +35,53 @@ namespace DW.Website.Functions
         public async Task<HttpResponseData> List(
             [HttpTrigger(AuthorizationLevel.Anonymous, "GET", Route = null)]
             HttpRequestData req)  
-        {   
+        {
             // create response
-            var response = req.CreateResponse();
-            await response.WriteAsJsonAsync(articles);
+            HttpResponseData? response = null;
+            
+            // check header for accept-type
+            IEnumerable<string>? contentTypeHeaders;
+            req.Headers.TryGetValues("Content-Type", out contentTypeHeaders);
+            if(contentTypeHeaders != null) 
+            {
+                // check if requesting xml or rss
+                foreach (var contentType in contentTypeHeaders)
+                {
+                    if(contentType.Contains("application/xml") 
+                        || contentType.Contains("text/xml")
+                        || contentType.Contains("application/rss+xml"))
+                    {
+                        // create xmlResponse
+                        response = req.CreateResponse(HttpStatusCode.OK);
+                        await response.WriteStringAsync("<rss></rss>");
 
+                        // exit loop
+                        break;
+                    } else if (contentType.Contains("application/json")
+                                || contentType.Contains("application/javascript"))
+                    {
+                        // create json response
+                        response = req.CreateResponse();
+                        await response.WriteAsJsonAsync(articles);
+
+                        // exit loop
+                        break;
+                    }
+                }
+
+                // if no support content-type found
+                if(response == null)
+                {
+                    response = req.CreateResponse(HttpStatusCode.NotAcceptable);
+                }
+            }
+            else 
+            {
+                // default to JSON response
+                response = req.CreateResponse();
+                await response.WriteAsJsonAsync(articles);
+            }
+                        
             // return
             return response;
         }
