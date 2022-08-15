@@ -16,6 +16,14 @@ namespace DW.Website.Models
             this.Description = String.Empty;
         }
 
+        public FeedItem(Article article)
+        {
+            this.Title = article.Title;
+            this.Link = $"https://www.davidwesst.com/blog/{article.ID}";
+            this.Description = article.Description;
+            this.PublishDate = article.PublishDate;
+        }
+
         public XmlElement GetRssItem(ref XmlDocument xmlDoc)
         {
             var item = xmlDoc.CreateElement("item");

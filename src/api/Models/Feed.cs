@@ -14,7 +14,7 @@ namespace DW.Website.Models
         public string Link { get; set; }
         public string Description { get; set; }
         public ILogger logger { get; set; }
-        //public List<FeedItem> Items { get; set; }
+        public IEnumerable<FeedItem> Items { get; set; }
 
         public Feed(string title, string link, string description, ILogger logger)
         {
@@ -22,12 +22,13 @@ namespace DW.Website.Models
             this.Link = link;
             this.Description = description;
             this.logger = logger;
+            this.Items = new List<FeedItem>();
         }
 
-        public Feed(string title, string link, string description, List<FeedItem> items, ILogger logger)
+        public Feed(string title, string link, string description, ILogger logger, IEnumerable<Article> items)
             : this(title, link, description, logger)
         {
-            //this.Items = items;
+            this.Items = items.Select(x => new FeedItem(x));
         }
 
         public string GenerateRss()
@@ -56,8 +57,7 @@ namespace DW.Website.Models
             rssRoot.AppendChild(channel);
 
             // TODO: add items
-            var feedSource = new FeedSource(logger);
-            foreach (var item in feedSource.feedItems)
+            foreach (var item in this.Items)
             {
                 channel.AppendChild(item.GetRssItem(ref rssDocument));
             }

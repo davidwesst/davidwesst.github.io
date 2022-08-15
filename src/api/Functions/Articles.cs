@@ -53,7 +53,8 @@ namespace DW.Website.Functions
                     {
                         // create xmlResponse
                         response = req.CreateResponse(HttpStatusCode.OK);
-                        await response.WriteStringAsync("<rss></rss>");
+                        var rssFeed = new Feed("Blog by David Wesst", "https://www.davidwesst.com/blog", "This is my blog", logger, articles.AsEnumerable());
+                        await response.WriteStringAsync(rssFeed.GenerateRss());
 
                         // exit loop
                         break;
