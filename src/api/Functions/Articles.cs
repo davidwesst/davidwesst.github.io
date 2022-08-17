@@ -11,6 +11,13 @@ namespace DW.Website.Functions
 {
     public class Articles
     {
+        private enum ArticleContentType
+        {
+            UNKNOWN,
+            JSON,
+            RSS_XML
+        }
+
         private readonly ILogger logger;
         private List<Article> articles;
 
@@ -38,56 +45,26 @@ namespace DW.Website.Functions
         {
             // create response
             HttpResponseData? response = null;
-            
-            // check header for content-type first, then accept header
-            IEnumerable<string>? typeHeader;
-            if(req.Headers.TryGetValues("Content-Type", out typeHeader) == false)
-            {
-                req.Headers.TryGetValues("Accept", out typeHeader);
-            }
 
-            if(typeHeader != null) 
-            {                
-                // check if requesting xml or rss
-                foreach (var contentType in typeHeader)
-                {
-                    logger.LogInformation($"Processing content-type header: {contentType}");
-
-                    if(contentType.Contains("application/xml") 
-                        || contentType.Contains("text/xml")
-                        || contentType.Contains("application/rss+xml"))
-                    {
-                        // create xmlResponse
-                        response = req.CreateResponse(HttpStatusCode.OK);
-                        var rssFeed = new Feed("Blog by David Wesst", "https://www.davidwesst.com/blog", "This is my blog", logger, articles.AsEnumerable());
-                        await response.WriteStringAsync(rssFeed.GenerateRss());
-
-                        // exit loop
-                        break;
-                    } else if (contentType.Contains("application/json")
-                                || contentType.Contains("application/javascript")
-                                || contentType.Contains("*/*"))
-                    {
-                        // create json response
-                        response = req.CreateResponse();
-                        await response.WriteAsJsonAsync(articles);
-
-                        // exit loop
-                        break;
-                    }
-                }
-
-                // if no support content-type found
-                if(response == null)
-                {
+            // determine content-type
+            switch (this.DetermineContentType(req))
+            {   
+                case ArticleContentType.JSON:
+                    // create JSON response
+                    response = req.CreateResponse();
+                    await response.WriteAsJsonAsync(articles);
+                    break;
+                case ArticleContentType.RSS_XML: 
+                    // create RSS_XML response
+                    response = req.CreateResponse(HttpStatusCode.OK);
+                    response.Headers.Add("Content-Type", "application/rss+xml; charset=UTC-8");
+                    var rssFeed = new Feed("Blog by David Wesst", "https://www.davidwesst.com/blog", "This is my blog", logger, articles.AsEnumerable());
+                    await response.WriteStringAsync(rssFeed.GenerateRss());
+                    break;
+                default:
+                    // create UNKNOWN response
                     response = req.CreateResponse(HttpStatusCode.NotAcceptable);
-                }
-            }
-            else 
-            {
-                // default to JSON response
-                response = req.CreateResponse();
-                await response.WriteAsJsonAsync(articles);
+                    break;
             }
                         
             // return
@@ -146,5 +123,44 @@ namespace DW.Website.Functions
                 return variable;
             }
         }
-    }      
+
+        private ArticleContentType DetermineContentType(HttpRequestData req)
+        {
+            ArticleContentType ct = ArticleContentType.UNKNOWN;
+
+            // process headers and then query string
+            IEnumerable<string>? contentTypeHeader;
+
+            if(req.Headers.TryGetValues("Content-Type", out contentTypeHeader) == false)
+            {
+                // check query string and process contentType value, if provided
+                if(req.Url.Query.ToLower().Contains("content-type"))
+                {
+                    var prefix = "content-type=";
+                    var index = req.Url.Query.ToLower().IndexOf(prefix);
+                    var value = req.Url.Query.Substring(index + prefix.Length);
+                    contentTypeHeader = value.Split("&").AsEnumerable();
+                }
+            }
+
+            // determine value from content-type value
+            if(contentTypeHeader != null)
+            {
+                var contentType = contentTypeHeader.First();                
+                if(contentType.Contains("application/xml") 
+                    || contentType.Contains("text/xml")
+                    || contentType.Contains("application/rss+xml"))
+                {
+                    ct = ArticleContentType.RSS_XML;
+                } 
+                else if (contentType.Contains("application/json")
+                            || contentType.Contains("application/javascript"))
+                {
+                    ct = ArticleContentType.JSON;
+                }
+            }
+
+            return ct; 
+        }
+    }     
 }

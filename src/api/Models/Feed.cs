@@ -35,6 +35,7 @@ namespace DW.Website.Models
         {
             // setup document
             var rssDocument = new XmlDocument();
+            rssDocument.CreateXmlDeclaration("1.0", "UTF-8", "no");
 
             // setup root
             var rssRoot = rssDocument.CreateElement("rss");

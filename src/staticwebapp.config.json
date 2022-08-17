@@ -4,11 +4,16 @@
     },
     "routes": [
         {
-            "route": "/blog/rss",
+            "route": "/blog/feed",
             "headers": {
-                "Content-Type": "application/xml"
+                "Content-Type": "application/rss+xml"
             },
-            "rewrite": "/api/articles"
+            "statusCode": 200,
+            "rewrite": "/api/articles?content-type=application/rss+xml"
+        },
+        {
+            "route": "/blog/rss",
+            "redirect": "/blog/feed"
         }
     ]
 }

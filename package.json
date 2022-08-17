@@ -20,7 +20,7 @@
     "clean:storage": "rimraf ./tmp && mkdir ./tmp",
     "predev": "yarn run build",
     "dev": "concurrently --kill-others \"yarn run azurite\" \"swa start http://localhost:8080 --run 'webpack serve' --api-location ./src/api\"",
-    "dev:app": "webpack serve",
+    "dev:app": "swa start http://localhost:8080 --run 'webpack serve'",
     "dev:api": "concurrently --kill-others \"yarn run azurite\" \"func start --prefix .//src//api//\"",
     "azurite": "tools//devenv//cloud-emu-start.sh"
   },
