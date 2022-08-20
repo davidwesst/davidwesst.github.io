@@ -29,11 +29,13 @@
 		"ms-azuretools.vscode-azurefunctions",
 		"GitHub.vscode-pull-request-github",
 		"DavidAnson.vscode-markdownlint",
-		"ms-dotnettools.csharp"
+		"ms-dotnettools.csharp",
+		"Azurite.azurite",
+		"ms-azuretools.vscode-azurestorage"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [ 2222, 8080 ],
+	//"forwardPorts": [ ],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "tools/devenv/cloud-emu-init.sh",

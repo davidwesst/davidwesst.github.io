@@ -7,7 +7,11 @@ module.exports = {
     devtool: 'source-map',
     devServer: {
         static: "./dist",
-        historyApiFallback: true
+        historyApiFallback: {
+            rewrites: [
+                { from: /^\/blog/, to: '/index.html' }
+            ]
+        }
     },
     output: {
         filename: "index.js",
@@ -18,6 +22,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'davidwesst.com',
             template: "src/app/index.html",
+            publicPath: "/"
         }),
     ],
     resolve: {
