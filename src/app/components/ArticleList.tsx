@@ -8,13 +8,12 @@ export interface IArticleListProps {
 
 const ArticleList = ({ items }: IArticleListProps) => {
     const articleComponents = items.map((article, index) => {
-        {console.log(article.Title)}
         return (
-            <Link 
-                to={`/blog/${article.ID}`}
-                key={`article-${index}`} >
-                {article.Title}
-            </Link>
+            <article key={article.ID}>
+                <Link to={`/blog/${article.ID}`}>
+                    {article.Title}
+                </Link>
+            </article>
         );
     });
 
