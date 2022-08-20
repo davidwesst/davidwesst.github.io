@@ -16,6 +16,7 @@ namespace DW.Website.Models
         public List<string> Tags { get; set; }
         public string LocationUri { get; set; }
         public string ContentUri { get; set; }
+        public string Content { get; set; }
 
         public const string METADATA_SLUG = "slug";
         public const string METADATA_TITLE = "title";
@@ -32,9 +33,10 @@ namespace DW.Website.Models
             this.Tags = new List<string>();
             this.LocationUri = String.Empty;
             this.ContentUri = String.Empty;
+            this.ContentUri = String.Empty;
         }
 
-        public Article(string id, string title, DateTime publishDate, string description, List<string> tags, string locationUri, string contentUri)
+        public Article(string id, string title, DateTime publishDate, string description, List<string> tags, string locationUri, string contentUri, string content)
         {
             this.ID = id;
             this.Title = title;
@@ -43,6 +45,7 @@ namespace DW.Website.Models
             this.Tags = tags;
             this.LocationUri = locationUri;
             this.ContentUri = contentUri;
+            this.Content = content;
         }
 
         public Article(BlobItem blob, string storageConnectionString, string storageContainerName)
@@ -58,9 +61,15 @@ namespace DW.Website.Models
             this.PublishDate = publishDate;
 
             // retrieve the location and content URIs
-            BlobClient client = new BlobClient(storageConnectionString, storageContainerName, this.ID);
-            this.LocationUri = client.Uri.ToString();
-            this.ContentUri = client.Uri.ToString() + "/index.md";
+            BlobClient client = new BlobClient(storageConnectionString, storageContainerName, this.ID + "/index.md");
+            this.LocationUri = client.Uri.ToString(); // TODO: fix this value
+            this.ContentUri = client.Uri.ToString();
+            
+            // retrieve content
+            using(var reader = new StreamReader(client.OpenRead())) {
+                var fileContent = reader.ReadToEnd();
+                this.Content = this.TrimFrontMatter(fileContent);
+            }
         }
 
         public bool IsMetadataComplete()
@@ -71,6 +80,12 @@ namespace DW.Website.Models
                 && !this.PublishDate.Equals(DateTime.MinValue)
                 && this.Tags.Count > 0
             );
+        }
+
+        private string TrimFrontMatter(string mdString)
+        {
+            var endIndex = mdString.IndexOf("---",3);
+            return mdString.Remove(0,endIndex+4).Trim();
         }
     }
 }

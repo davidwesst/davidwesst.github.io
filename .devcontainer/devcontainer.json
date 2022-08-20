@@ -31,7 +31,8 @@
 		"DavidAnson.vscode-markdownlint",
 		"ms-dotnettools.csharp",
 		"Azurite.azurite",
-		"ms-azuretools.vscode-azurestorage"
+		"ms-azuretools.vscode-azurestorage",
+		"rangav.vscode-thunder-client"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
