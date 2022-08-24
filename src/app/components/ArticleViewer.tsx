@@ -1,5 +1,7 @@
 import * as React from "react";
 import { useParams } from "react-router";
+import { marked } from "marked";
+import * as DOMPurify from "dompurify";
 import { IArticle } from "../models/Article";
 
 export interface IArticleViewer {
@@ -24,12 +26,27 @@ const ArticleViewer = (props: IArticleViewer) => {
             });
     },[]);
 
+    React.useEffect(()=> {
+
+    }, [article])
+
+    function parseArticle() {
+        const markedOptions : marked.MarkedOptions = {
+            baseUrl: `http://127.0.0.1:10000/devstoreaccount1/blog/${articleId}/`,
+            sanitizer: DOMPurify.sanitize,
+            smartypants: true,
+            smartLists: true
+        };
+
+        return { 
+            __html: marked.parse(article.Content, markedOptions)
+        };
+    }
+
     return (
         <>
         <h1>{article.Title || "Failed to load article"}</h1>
-        <article>
-            {article.Content}
-        </article>
+        <article dangerouslySetInnerHTML={parseArticle()} />
         </>
     )
 }

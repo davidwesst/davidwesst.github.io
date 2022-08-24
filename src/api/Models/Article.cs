@@ -33,7 +33,7 @@ namespace DW.Website.Models
             this.Tags = new List<string>();
             this.LocationUri = String.Empty;
             this.ContentUri = String.Empty;
-            this.ContentUri = String.Empty;
+            this.Content = String.Empty;
         }
 
         public Article(string id, string title, DateTime publishDate, string description, List<string> tags, string locationUri, string contentUri, string content)
