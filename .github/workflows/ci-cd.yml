@@ -16,7 +16,7 @@ jobs:
     name: Build and Deploy
     steps:
       - name: Checkout
-        uses: actions/checkout@2
+        uses: actions/checkout@v2
         with:
           submodules: true
       - name: Build and Deploy
@@ -33,7 +33,7 @@ jobs:
           api_build_location: "yarn run build:api"
           output_location: "dist"
 
-  close_pull_request_job:
+  close_pull_request:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
     name: Close PR
