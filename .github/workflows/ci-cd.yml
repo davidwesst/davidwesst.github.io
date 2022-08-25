@@ -30,7 +30,7 @@ jobs:
           app_location: "src/app"
           app_build_command: "yarn run build:app"
           api_location: "src/api"
-          api_build_location: "yarn run build:api"
+          api_build_command: "yarn run build:api"
           output_location: "dist"
 
   close_pull_request:
