@@ -8,7 +8,7 @@ const Blog = () => {
     const [articles, setArticles] = useState(new Array<IArticle>());
 
     useEffect(()=> {
-        fetch("/api/articles", {
+        fetch("/api/articles?content-type=application/json", {
             headers: {
                 "Content-Type": "application/json"
             }
