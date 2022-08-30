@@ -11,7 +11,7 @@
     "url": "git+https://github.com/davidwesst/website.git"
   },
   "engines": {
-    "yarn": "~1.22.19"
+    "node": ">=16"
   },
   "scripts": {
     "preinstall": "npm install --location=global yarn@1.22.19",
@@ -58,6 +58,6 @@
     "marked": "^4.0.19",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-router-dom": "^6.3.0"
+      "react-router-dom": "^6.3.0"
   }
 }
