@@ -14,6 +14,7 @@
     "yarn": "~1.22.19"
   },
   "scripts": {
+    "preinstall": "npm install --location=global yarn@1.22.19",
     "build": "concurrently \"yarn run build:api\" \"yarn run build:app\"",
     "build:api": "dotnet build ./src/api/api.csproj",
     "build:app": "webpack --config webpack.config.js",
