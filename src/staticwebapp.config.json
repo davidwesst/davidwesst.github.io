@@ -8,7 +8,6 @@
             "headers": {
                 "Content-Type": "application/rss+xml"
             },
-            "statusCode": 200,
             "rewrite": "/api/articles?content-type=application/rss+xml"
         },
         {
