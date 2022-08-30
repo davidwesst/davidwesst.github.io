@@ -10,7 +10,7 @@ export interface IArticleViewer {
 
 const ArticleViewer = (props: IArticleViewer) => {
     const { articleId } = useParams<IArticleViewer>();
-    const [ article, setArticle ] = React.useState<IArticle>({ ID: "loading", Title: "loading...", Content: "Loading..."});
+    const [ article, setArticle ] = React.useState<IArticle>({ ID: "loading", Title: "loading...", Content: "Loading...", ContentUri: "#"});
 
     React.useEffect(()=> {
         fetch(`/api/articles/${articleId}`)
@@ -26,27 +26,23 @@ const ArticleViewer = (props: IArticleViewer) => {
             });
     },[]);
 
-    React.useEffect(()=> {
-
-    }, [article])
-
-    function parseArticle() {
+    function parseMarkdown(mdContent: string, baseUrl: string) {
         const markedOptions : marked.MarkedOptions = {
-            baseUrl: `http://127.0.0.1:10000/devstoreaccount1/blog/${articleId}/`,
+            baseUrl: baseUrl,
             sanitizer: DOMPurify.sanitize,
             smartypants: true,
             smartLists: true
         };
 
         return { 
-            __html: marked.parse(article.Content, markedOptions)
+            __html: marked.parse(mdContent, markedOptions)
         };
     }
 
     return (
         <>
         <h1>{article.Title || "Failed to load article"}</h1>
-        <article dangerouslySetInnerHTML={parseArticle()} />
+        <article dangerouslySetInnerHTML={parseMarkdown(article.Content, article.ContentUri)} />
         </>
     )
 }
