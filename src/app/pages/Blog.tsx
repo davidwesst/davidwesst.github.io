@@ -8,7 +8,7 @@ const Blog = () => {
     const [articles, setArticles] = useState(new Array<IArticle>());
 
     useEffect(()=> {
-        fetch("http://localhost:7071/api/articles", {
+        fetch("/api/articles", {
             headers: {
                 "Content-Type": "application/json"
             }
