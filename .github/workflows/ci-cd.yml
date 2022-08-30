@@ -25,7 +25,8 @@ jobs:
           node-version: 16
           cache: 'yarn'
       - run: |
-          npm install -g yarn
+          npm install --location=global yarn
+          yarn install
           yarn run build:app
       - name: Build and Deploy
         id: builddeploy
