@@ -23,8 +23,7 @@ jobs:
         with:
           node-version: 16
           cache: 'yarn'
-      - name: Install Dependencies
-        run: |
+      - run: |
           npm install -g yarn
       - name: Build and Deploy
         id: builddeploy
