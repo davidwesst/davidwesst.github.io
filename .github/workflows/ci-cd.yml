@@ -34,7 +34,7 @@ jobs:
           action: "upload"
           app_location: "."
           app_build_command: "yarn run build:app"
-          api_location: "."
+          api_location: "./src/api"
           api_build_command: "yarn run build:api"
           output_location: "./dist"
 
