@@ -9,14 +9,15 @@ namespace DW.Website.Models
 {
     public class Article
     {
+        public readonly string DEFAULT_CONTENT_FILE_NAME = "index.md";
+
         public string ID { get; set; }
         public string Title { get; set; }
         public DateTime PublishDate { get; set; }
         public string Description { get; set; }
         public List<string> Tags { get; set; }
-        public string LocationUri { get; set; }
-        public string ContentUri { get; set; }
-        public string Content { get; set; }
+       public string ContentUri { get; set; }
+       public string ContentFileUri { get; set; }
 
         public const string METADATA_SLUG = "slug";
         public const string METADATA_TITLE = "title";
@@ -31,21 +32,19 @@ namespace DW.Website.Models
             this.PublishDate = DateTime.MinValue;
             this.Description = String.Empty;
             this.Tags = new List<string>();
-            this.LocationUri = String.Empty;
             this.ContentUri = String.Empty;
-            this.Content = String.Empty;
+            this.ContentFileUri = String.Empty;
         }
 
-        public Article(string id, string title, DateTime publishDate, string description, List<string> tags, string locationUri, string contentUri, string content)
+        public Article(string id, string title, DateTime publishDate, string description, List<string> tags, string contentUri, string contentFileUri)
         {
             this.ID = id;
             this.Title = title;
             this.PublishDate = publishDate;
             this.Description = description;
             this.Tags = tags;
-            this.LocationUri = locationUri;
             this.ContentUri = contentUri;
-            this.Content = content;
+            this.ContentFileUri = contentFileUri;
         }
 
         public Article(BlobItem blob, string storageConnectionString, string storageContainerName)
@@ -62,14 +61,14 @@ namespace DW.Website.Models
 
             // retrieve the location and content URIs
             BlobClient client = new BlobClient(storageConnectionString, storageContainerName, this.ID + "/index.md");
-            this.LocationUri = client.Uri.ToString(); // TODO: fix this value
-            this.ContentUri = client.Uri.ToString();
+            this.ContentFileUri = client.Uri.ToString();
+            this.ContentUri = this.ContentFileUri.Remove(this.ContentFileUri.LastIndexOf(DEFAULT_CONTENT_FILE_NAME));
             
             // retrieve content
-            using(var reader = new StreamReader(client.OpenRead())) {
+            /*using(var reader = new StreamReader(client.OpenRead())) {
                 var fileContent = reader.ReadToEnd();
                 this.Content = this.TrimFrontMatter(fileContent);
-            }
+            }*/
         }
 
         public bool IsMetadataComplete()
