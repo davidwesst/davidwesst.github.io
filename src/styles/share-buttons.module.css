@@ -1,9 +1,0 @@
-.shareButtons {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1em 0;
-}
-
-.shareMessage {
-    text-align: center;
-}
