@@ -10,7 +10,8 @@ export interface IArticleViewer {
 
 const ArticleViewer = (props: IArticleViewer) => {
     const { articleId } = useParams<IArticleViewer>();
-    const [ article, setArticle ] = React.useState<IArticle>({ ID: "loading", Title: "loading...", Content: "Loading...", ContentUri: "#"});
+    const [ article, setArticle ] = React.useState<IArticle>({ ID: "loading", Title: "loading...", ContentUri: "#", ContentFileUri: ""});
+    const [ content, setContent ] = React.useState<string>("");
 
     React.useEffect(()=> {
         fetch(`/api/articles/${articleId}`)
@@ -25,6 +26,19 @@ const ArticleViewer = (props: IArticleViewer) => {
                 }
             });
     },[]);
+
+    React.useEffect(()=> {
+        if(article.ContentFileUri) {
+            fetch(article.ContentFileUri)
+                .then(async (res) => {
+                    if(res.status === 200) {
+                        let fileText = await res.text();
+                        // remove the front matter and update content string
+                        setContent(fileText.replace(/---$.*^---/ms, ""));
+                    }
+                })
+        }
+    }, [article]);
 
     function parseMarkdown(mdContent: string, baseUrl: string) {
         const markedOptions : marked.MarkedOptions = {
@@ -42,7 +56,7 @@ const ArticleViewer = (props: IArticleViewer) => {
     return (
         <>
         <h1>{article.Title || "Failed to load article"}</h1>
-        <article dangerouslySetInnerHTML={parseMarkdown(article.Content, article.ContentUri)} />
+        <article dangerouslySetInnerHTML={parseMarkdown(content, article.ContentUri)} />
         </>
     )
 }
