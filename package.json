@@ -14,8 +14,8 @@
     "node": "^16"
   },
   "scripts": {
-    "build": "eleventy --input=./src --output=./dist",
-    "dev": "eleventy --input=./src --output=./dist --serve"
+    "build": "eleventy",
+    "dev": "eleventy --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
