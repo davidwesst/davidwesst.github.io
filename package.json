@@ -2,7 +2,7 @@
   "name": "dw-website",
   "private": true,
   "description": "The personal and somewhat professional website for David Wesst, a.k.a. DW, a.k.a. Wessty.",
-  "version": "8.0.0-alpha",
+  "version": "10.0.0-dev",
   "author": "David Wesst <david@cocobokostudios.com>",
   "homepage": "https://github.com/davidwesst/website#readme",
   "license": "MIT",
@@ -14,49 +14,13 @@
     "node": "^16"
   },
   "scripts": {
-    "build": "concurrently \"yarn run build:api\" \"yarn run build:app\"",
-    "build:api": "dotnet build ./src/api/api.csproj",
-    "build:app": "webpack --config webpack.config.js",
-    "clean": "concurrently \"yarn run clean:api\" \"yarn run clean:app\"",
-    "clean:api": "dotnet clean ./src/api/api.csproj",
-    "clean:app": "rimraf ./dist",
-    "clean:storage": "rimraf ./tmp && mkdir ./tmp",
-    "predev": "yarn run build",
-    "dev": "concurrently --kill-others \"yarn run azurite\" \"swa start http://localhost:8080 --run 'webpack serve' --api-location ./src/api\"",
-    "dev:app": "swa start http://localhost:8080 --run 'webpack serve'",
-    "dev:api": "concurrently --kill-others \"yarn run azurite\" \"func start --prefix .//src//api//\"",
-    "azurite": "tools//devenv//cloud-emu-start.sh"
+    "build": "eleventy --input=./src --output=./dist",
+    "dev": "eleventy --input=./src --output=./dist --serve"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
     "@azure/static-web-apps-cli": "^1.0.2",
-    "@babel/core": "^7.18.2",
-    "@babel/preset-env": "^7.18.2",
-    "@babel/preset-react": "^7.17.12",
-    "@babel/preset-typescript": "^7.18.6",
-    "@types/react": "^18.0.15",
-    "@types/react-dom": "^18.0.6",
-    "@types/react-router": "^5.1.18",
-    "@types/react-router-dom": "^5.3.3",
-    "@wasm-tool/wasm-pack-plugin": "^1.6.0",
-    "azure-functions-core-tools": "4",
-    "azurite": "^3.18.0",
-    "babel-loader": "^8.2.5",
     "concurrently": "^7.2.2",
-    "css-loader": "^6.7.1",
-    "html-webpack-plugin": "^5.5.0",
-    "rimraf": "^3.0.2",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.73.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.9.2"
-  },
-  "dependencies": {
-    "@types/dompurify": "^2.3.4",
-    "@types/marked": "^4.0.6",
-    "dompurify": "^2.3.12",
-    "marked": "^4.0.19",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-      "react-router-dom": "^6.3.0"
+    "rimraf": "^3.0.2"
   }
 }
