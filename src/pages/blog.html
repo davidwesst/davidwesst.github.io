@@ -1,0 +1,16 @@
+---
+layout: base.html
+permalink: /blog/
+title: BLOG // David Wesst
+description: My technical thoughts on technical things I've done.
+---
+<h1>
+    Blog
+</h1>
+<section>
+    {%- for post in collections.blog reversed -%}
+        <article>
+            <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+        </article>
+    {%- endfor -%}
+</section>

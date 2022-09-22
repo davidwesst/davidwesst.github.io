@@ -1,5 +1,8 @@
 # TODO
 
+## 11ty Tasks
+- Merge blog OR pull blog posts from repository on build
+
 ## Developer Experience 
     - Azurite (Storage Emulator)
     - Web Client hot reload does not work with subdirectories

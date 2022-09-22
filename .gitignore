@@ -1,6 +1,8 @@
 # Application Specific
 dist/
 tmp/
+src/blog/**
+!src/blog/blog.11tydata.json
 
 # VS Code
 *.code-workspace
