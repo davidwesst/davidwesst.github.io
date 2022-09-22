@@ -1,0 +1,12 @@
+---
+layout: base.html
+pagination:
+    data: talks
+    size: 1
+    alias: talk
+permalink: "/talks/{{ talk.id | slug }}/index.html"
+tags: presentation 
+---
+
+<h1>{{ talk.title }}</h1>
+<h2>{{ talk.description }}</h2>

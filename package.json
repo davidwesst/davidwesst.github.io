@@ -16,7 +16,10 @@
   "scripts": {
     "prebuild": "rimraf ./dist/*",
     "build": "eleventy",
-    "dev": "eleventy --serve"
+    "build:debug": "DEBUG=Eleventy* eleventy",
+    "predev": "rimraf ./dist/*",
+    "dev": "eleventy --serve",
+    "dev:DEBUG": "DEBUG=Eleventy* eleventy --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
