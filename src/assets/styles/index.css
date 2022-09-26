@@ -1,0 +1,6 @@
+@import "npm:sanitize.css/sanitize.css";
+
+body {
+    font-family: monospace, sans-serif;
+	background-color: rgb(200,200,200);
+}
