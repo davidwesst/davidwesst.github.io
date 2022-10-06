@@ -14,21 +14,27 @@
     "node": "^16"
   },
   "scripts": {
+    "prebuild": "npm run clean",
+    "build": "concurrently 'npm:build:*'",
     "build:eleventy": "eleventy",
-	"build:parcel": "parcel build src/assets/styles/index.css",
-    "build:debug": "DEBUG=Eleventy* eleventy",
-	"clean": "rimram ./dist/*",
-	"dev": "npm-run-all --parallel dev:*",
+    "build:parcel": "parcel build src/assets/styles/index.css",
+    "debug:build": "DEBUG=Eleventy* eleventy",
+    "clean": "rimraf ./dist/*",
+    "predev": "npm run clean",
+    "dev": "concurrently --kill-others 'npm:dev:*'",
     "dev:eleventy": "eleventy --serve",
-	"dev:parcel": "parcel src/assets/styles/index.css",
-    "debug":"DEBUG=Eleventy* eleventy --serve",
-	"start": "swa start"
+    "dev:parcel": "parcel src/assets/styles/index.css",
+    "debug": "DEBUG=Eleventy* eleventy --serve",
+    "start": "swa start"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@azure/static-web-apps-cli": "^1.0.2",
-    "npm-run-all": "^4.1.5",
+    "concurrently": "^7.4.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-eleventy-img": "^0.8.1",
+    "markdown-it-emoji": "^2.0.2",
     "parcel": "^2.7.0",
     "rimraf": "^3.0.2",
     "sanitize.css": "^13.0.0"

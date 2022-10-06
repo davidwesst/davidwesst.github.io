@@ -9,7 +9,7 @@ social_image: node-logo.png
 description: "That's right. I said it: Always use Node, no matter what! Even if your server isn't going to be a Node server, just have it installed because you'll use it."
 ---
 
-[1]: node-logo.png
+[1]: ./node-logo.png
 
 That's right. I said it: Always use Node, no matter what! Even if your server isn't going to be a Node server, just have it installed because you'll use it.
 
