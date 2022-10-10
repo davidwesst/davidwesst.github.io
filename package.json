@@ -25,7 +25,8 @@
     "dev:eleventy": "eleventy --serve",
     "dev:parcel": "parcel src/assets/styles/index.css --dist-dir dist/assets",
     "debug:eleventy": "DEBUG=Eleventy* eleventy",
-    "start": "swa start"
+    "prestart": "npm run build",
+    "start": "swa start --output-location ./dist --swa-config-location ./"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",

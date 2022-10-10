@@ -1,9 +1,0 @@
-{
-    "configurations": {
-        "app": {
-            "appLocation": "src/",
-            "outputLocation": "dist",
-            "swaConfigLocation": "src/staticwebapp.config.json"
-        }
-    }
-}

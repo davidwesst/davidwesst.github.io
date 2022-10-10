@@ -5,7 +5,7 @@
     "routes": [
         {
             "route": "/blog/rss",
-            "redirect": "/blog/feed"
+            "redirect": "/blog/feed.xml"
         }
     ]
 }
