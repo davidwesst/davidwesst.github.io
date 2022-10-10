@@ -17,14 +17,14 @@
     "prebuild": "npm run clean",
     "build": "concurrently 'npm:build:*'",
     "build:eleventy": "eleventy",
-    "build:parcel": "parcel build src/assets/styles/index.css",
+    "build:parcel": "parcel build src/assets/styles/index.css src/assets/images/*",
     "debug:build": "DEBUG=Eleventy* eleventy",
     "clean": "rimraf ./dist/*",
     "predev": "npm run clean",
     "dev": "concurrently --kill-others 'npm:dev:*'",
     "dev:eleventy": "eleventy --serve",
     "dev:parcel": "parcel src/assets/styles/index.css",
-    "debug": "DEBUG=Eleventy* eleventy --serve",
+    "debug:eleventy": "DEBUG=Eleventy* eleventy",
     "start": "swa start"
   },
   "devDependencies": {
@@ -33,10 +33,13 @@
     "@azure/static-web-apps-cli": "^1.0.2",
     "concurrently": "^7.4.0",
     "markdown-it": "^13.0.1",
-    "markdown-it-eleventy-img": "^0.8.1",
+    "markdown-it-eleventy-img": "git+https://github.com/davidwesst/markdown-it-eleventy-img#ft/relative-path-images",
     "markdown-it-emoji": "^2.0.2",
     "parcel": "^2.7.0",
     "rimraf": "^3.0.2",
     "sanitize.css": "^13.0.0"
+  },
+  "dependencies": {
+    "sharp": "^0.31.1"
   }
 }
