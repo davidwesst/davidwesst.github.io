@@ -29,7 +29,7 @@ This is more than just a IE version of [Chrome Status](http://chromestatus.com).
 
 Not only can you see details on HTML5 features with respect to Internet Explorer, but you can see what features the competition is has implemented.
 
-![Expanded list item for the anchor tag download attribute status.modern.ie website](status_modern_ie_expandedItem.PNG)
+![Expanded list item for the anchor tag download attribute status.modern.ie website](status_modern_ie_expandedItem.png)
 
 You can also see the state of the spec with the W3C, complete with a link. There is also a brief description of what the feature is, letting you browse and explore new HTML5 features that you can use in your next application.
 
