@@ -12,7 +12,7 @@ Tired of waiting to hear from Microsoft on whether or not IE will support the la
 
 Well wait no more with the new site direct from the Internet Explorer team: [status.modern.ie](http://status.modern.ie).
 
-![Screenshot of status.modern.ie website with list of web standards and their corresponding statuses](status_modern_ie_screenshot-2.PNG)
+![Screenshot of status.modern.ie website with list of web standards and their corresponding statuses](./status_modern_ie_screenshot-2.png)
 
 When looking up an HTML5 feature you can find...
 

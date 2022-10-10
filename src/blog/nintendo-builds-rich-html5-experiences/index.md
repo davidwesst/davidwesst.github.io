@@ -6,7 +6,7 @@ tags:
 date: "2014-10-02T15:45:21"
 description: "I need to throw a shout out to Nintendo."
 ---
-[1]: playnintendo-kirby.
+[1]: playnintendo-kirby.png
 [2]: playnintendo-mariopartystarter.PNG
 [3]: fullscreenpokemon.PNG
 
