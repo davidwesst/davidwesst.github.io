@@ -11,7 +11,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.setUseGitIgnore(false);
-  eleventyConfig.addPassthroughCopy("./src/assets/");
 
   // configure markdown templates
   const mdOptions = {
