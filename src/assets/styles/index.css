@@ -47,7 +47,21 @@ h1, h2, h3, h4, h5, h6 {
     z-index: -1;
 }
 
-.download-links {
+.download-links, .social-links {
     display: flex;
     flex-direction: column;
+}
+
+.site-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.site-nav * {
+    margin-right: 1rem;
+}
+
+.site-nav *:last-child {
+    margin-right: 0;
 }
