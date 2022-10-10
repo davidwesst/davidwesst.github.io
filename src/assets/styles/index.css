@@ -30,3 +30,8 @@ body {
     opacity: 0.2;
     z-index: -1;
 }
+
+.download-links {
+    display: flex;
+    flex-direction: column;
+}

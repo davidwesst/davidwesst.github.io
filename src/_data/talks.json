@@ -9,9 +9,40 @@
             "Terry Bunio"
         ],
         "events": [
-            "prdc2022-regina",
-            "prdc2022-winnipeg",
-            "prdc2022-calgary"
+            {
+                "id": "prdc2022-regina",
+                "title": "Prairie Dev Con 2022",
+                "url": "https://www.prairiedevcon.com",
+                "dateStart": "October 3, 2022",
+                "dateEnd": "October 4, 2022",
+                "location": "Regina, Saskatchewan",
+                "links": [
+                    { 
+                        "shortDescription": "Slides (PPTX)",
+                        "url": "https://davidwesstweb.blob.core.windows.net/talks/concensus-in-the-chaos/Consensus%20in%20the%20Chaos%20(PrDC%202022)%20%5BTerry%20Bunio%20and%20David%20Wesst%5D.pptx" 
+                    },
+                    { 
+                        "shortDescription": "Slides (PDF)",
+                        "url": "https://davidwesstweb.blob.core.windows.net/talks/concensus-in-the-chaos/Consensus%20in%20the%20Chaos%20(PrDC%202022%20Regina)%20[Terry%20Bunio%20and%20David%20Wesst].pdf"
+                    }
+                ]
+            },
+            {
+                "id": "prdc2022-winnipeg",
+                "title": "Prairie Dev Con 2022",
+                "url": "https://www.prairiedevcon.com",
+                "dateStart": "November 7, 2022",
+                "dateEnd": "November 8, 2022",
+                "location": "Winnipeg, Manitoba"
+            },
+            {
+                "id": "prdc2022-calgary",
+                "title": "Prairie Dev Con 2022",
+                "url": "https://www.prairiedevcon.com",
+                "dateStart": "November 28, 2022",
+                "dateEnd": "November 29, 2022",
+                "location": "Calgary, Alberta"
+            }
         ]
     },
     {
@@ -23,9 +54,40 @@
             "David Wesst"
         ],
         "events": [
-            "prdc2022-regina",
-            "prdc2022-winnipeg",
-            "prdc2022-calgary"
+            {
+                "id": "prdc2022-regina",
+                "title": "Prairie Dev Con 2022",
+                "url": "https://www.prairiedevcon.com",
+                "dateStart": "October 3, 2022",
+                "dateEnd": "October 4, 2022",
+                "location": "Regina, Saskatchewan",
+                "links": [
+                    {
+                        "shortDescription": "Slides (PPTX)",
+                        "url": "https://davidwesstweb.blob.core.windows.net/talks/cots-to-cloud/From%20COTS%20to%20Cloud%20(PrDC%202022)%20%5BDavid%20Wesst%5D.pptx"
+                    },
+                    { 
+                        "shortDescription": "Slides (PDF)",
+                        "url": "https://davidwesstweb.blob.core.windows.net/talks/cots-to-cloud/From%20COTS%20to%20Cloud%20(PrDC%202022%20Regina)%20%5BDavid%20Wesst%5D.pdf"
+                    } 
+                ]
+            },
+            {
+                "id": "prdc2022-winnipeg",
+                "title": "Prairie Dev Con 2022",
+                "url": "https://www.prairiedevcon.com",
+                "dateStart": "November 7, 2022",
+                "dateEnd": "November 8, 2022",
+                "location": "Winnipeg, Manitoba"
+            },
+            {
+                "id": "prdc2022-calgary",
+                "title": "Prairie Dev Con 2022",
+                "url": "https://www.prairiedevcon.com",
+                "dateStart": "November 28, 2022",
+                "dateEnd": "November 29, 2022",
+                "location": "Calgary, Alberta"
+            }
         ]
     }
 ]
