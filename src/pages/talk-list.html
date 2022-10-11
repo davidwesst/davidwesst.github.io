@@ -1,0 +1,16 @@
+---
+layout: base.html
+permalink: "/talks/"
+title: "TALKS // David Wesst"
+description: "The place where I put my conference materials"
+---
+<h1>
+    Talks
+</h1>
+<section>
+    {%- for t in talks -%}
+    <article>
+        <a href="/talks/{{t.id}}/">{{ t.title }}<a>
+    </article>
+    {%- endfor -%}
+</section>

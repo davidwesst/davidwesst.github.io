@@ -1,6 +1,11 @@
 # Application Specific
 dist/
 tmp/
+!src/blog/**
+!src/blog/blog.11tydata.json
+
+# Parcel
+.parcel-cache
 
 # VS Code
 *.code-workspace

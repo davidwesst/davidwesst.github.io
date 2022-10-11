@@ -1,51 +1,24 @@
 const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+
+const isDev = process.env.NODE_ENV !== 'production'
 
 module.exports = {
-    mode: "development",
-    entry: "./src/app/index.js",
-    devtool: 'source-map',
-    devServer: {
-        static: "./dist",
-        historyApiFallback: {
-            rewrites: [
-                { from: /^\/blog/, to: '/index.html' }
-            ]
-        }
-    },
-    output: {
-        filename: "index.js",
-        path: path.resolve(__dirname, "dist"),
-        clean: true
-    },
-    plugins: [
-        new HtmlWebpackPlugin({
-            title: 'davidwesst.com',
-            template: "src/app/index.html",
-            publicPath: "/"
-        }),
-    ],
-    resolve: {
-        extensions: [".tsx",".jsx",".ts",".js"]
-    },
-    module: {
-        rules: [
-            {
-                test: /\.(ts|tsx|js|jsx)$/i,
-                exclude: /(node_modules)/,
-                loader: "babel-loader",
-                options: { 
-                    presets: [
-                      ["@babel/preset-env", {targets: {node: "current"}}],
-                      "@babel/preset-react",
-                      "@babel/preset-typescript" 
-                    ] 
-                }
-            },
-            {
-                test: /\.css$/i,
-                use: ["style-loader", "css-loader"]
-            }
-        ]
-    }
+	mode: isDev ? 'development' : 'production',
+	entry: [ 
+		path.resolve(__dirname, "src/assets/styles/index.css")
+	],
+	output: {
+		path: path.resolve(__dirname, "dist/assets/")
+	},
+	plugins: [
+		
+	],
+	module: {
+		rules: [
+			{
+				test:/\.css$/i,
+				use: [ 'style-loader', 'css-loader' ]
+			}
+		]
+	}
 }

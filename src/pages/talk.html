@@ -1,0 +1,38 @@
+---
+layout: base.html
+pagination:
+    data: talks
+    size: 1
+    alias: talk
+permalink: "/talks/{{ talk.id | slug }}/index.html"
+tags: presentation 
+---
+
+<header>
+    <h1>{{ talk.title }}</h1>
+    <article>
+        {{ talk.description }}
+    </article>
+</header>
+<section>
+    <h2>Events</h2>
+    {%- for event in talk.events -%}
+        <article>
+            <h3>{{ event.title }} ({{ event.location }})</h3>
+            <article>
+                <span>{{ event.dateStart | date: "%B %-d, %Y" }}</span> - <span>{{ event.dateEnd | date: "%B %-d, %Y" }}</span>
+            </article>
+            {% if event.links %}
+            <section>
+                <h4>Links and Downloads</h4>
+                <article class="download-links">
+                {%- for link in event.links -%}
+                    <a class="download-link" download href={{ link.url }}>{{ link.shortDescription }}</a>
+                {%- endfor -%}
+                </article>
+            </section>
+            {% endif %}
+        </article>
+
+    {%- endfor -%}
+</section>
