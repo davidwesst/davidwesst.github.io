@@ -7,7 +7,7 @@ date: "2015-01-14T18:55:55"
 description: "Netfront is a web browser that I hadn't heard of before, but I have installed on six of my devices."
 ---
 
-[1]: PSP_Browser.jpg
+[1]: psp_browser.jpg
 
 ![][1]
 <small>[Image Source: Wikimedia](http://upload.wikimedia.org/wikipedia/commons/6/60/PSP_Browser.jpg)</small>

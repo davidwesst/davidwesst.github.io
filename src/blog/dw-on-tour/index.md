@@ -8,7 +8,7 @@ description: "That's right, I'm heading out on a small tour out west in November
 ---
 
 [1]: header_prairie_dev_con_saskatoon.jpg
-[2]: DevTeach_logo.gif
+[2]: devteach_logo.gif
 
 That's right, I'm heading out on a small tour out west in November and December to do some talking about HTML and JavaScript. I suggest you find your way to DevTeach in Vancouver or Saskatoon in November to learn some awesome tricks. 
 

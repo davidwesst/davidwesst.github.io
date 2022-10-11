@@ -7,10 +7,10 @@ social_image: Hover_Title.png
 date: "2013-10-02T15:05:00"
 ---
 
-[1]: Hover_OldSchool.png
-[2]: Hover_Title.png
-[3]: Hover_MultiplayerSetup_1.png
-[4]: Hover_MultiplayerSetup_2.png
+[1]: hover_oldschool.png
+[2]: hover_title.png
+[3]: hover_multiplayersetup_1.png
+[4]: hover_multiplayersetup_2.png
 
 ![][1]
 

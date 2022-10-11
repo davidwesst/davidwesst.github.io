@@ -5,7 +5,7 @@ tags:
   - conference
 date: "2015-05-13T14:36:03"
 ---
-[1]: VCon_Hero.jpg
+[1]: vcon_hero.jpg
 
 ![][1]
 

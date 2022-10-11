@@ -7,7 +7,7 @@ date: "2014-07-29T05:38:56"
 description: "Lot's of stuff really, but here's the big ones at 50,000 feet."
 ---
 
-[1]: GlitchIcon_purple-128x128.png
+[1]: glitchicon_purple-128x128.png
 
 Lot's of stuff really, but here's the big ones at 50,000 feet.
 

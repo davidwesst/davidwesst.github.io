@@ -7,7 +7,7 @@ date: "2014-11-03T18:21:18"
 description: "Today the IE team released Remote IE. This is awesome. Let me explain."
 ---
 
-[1]: WP_20141103_002-1-.jpg
+[1]: wp_20141103_002-1-.jpg
 [2]: banner.png
 
 Today the IE team released Remote IE. This is awesome. Let me explain.

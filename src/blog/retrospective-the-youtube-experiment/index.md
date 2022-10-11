@@ -8,7 +8,7 @@ date: "2015-02-05T18:06:47"
 description: "At the beginning of the month I announced I'd be doing a web series on YouTube called Script Unscripted. "
 ---
 
-[1]: YouTube-logo-full_color.png
+[1]: youtube-logo-full_color.png
 
 At the [beginning of the month](https://www.davidwesst.com/script-unscripted-starts-january-8th-2015/) I announced I'd be doing a web series on YouTube called Script Unscripted. 
 

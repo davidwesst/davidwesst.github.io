@@ -9,7 +9,7 @@ social_image: Logo-of-the-New-Microsoft-Browser-Spartan---Imgur.jpg
 description: "Watching my YouTube based video game news on IGN News, I came across this report that blends the two worlds."
 ---
 
-[1]: Logo-of-the-New-Microsoft-Browser-Spartan---Imgur.jpg
+[1]: logo-of-the-new-microsoft-browser-spartan---imgur.jpg
 
 ![][1]
 

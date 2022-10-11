@@ -7,8 +7,8 @@ date: "2014-09-23T17:29:54"
 description: "Over the weekend I hit a Windows Azure issue in my side project that totally blocked me. Yesterday, I reached out on Twitter, and the Canadian MVP network picked it up and helped me solve it in 30 minutes."
 ---
 
-[1]: AzureTwitter_2014-09-22.png
-[2]: MVP_Horizontal_FullColor.png
+[1]: azuretwitter_2014-09-22.png
+[2]: mvp_horizontal_fullcolor.png
 
 Over the weekend I hit a Windows Azure issue in my side project that totally blocked me. Yesterday, I reached out on Twitter, and the Canadian MVP network picked it up and helped me solve it in 30 minutes.
 

@@ -6,9 +6,9 @@ tags:
 date: "2013-11-05T18:59:00"
 description: "I believe the key to being professional is communication."
 ---
-[1]: 110513_1851_ProTipOffic1.png
-[2]: 110513_1851_ProTipOffic3.png
-[3]: 110513_1851_ProTipOffic2.png
+[1]: 110513_1851_protipoffic1.png
+[2]: 110513_1851_protipoffic3.png
+[3]: 110513_1851_protipoffic2.png
 
 I believe the key to being professional is communication. 
 

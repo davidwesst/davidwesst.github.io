@@ -5,7 +5,7 @@ tags:
 social_image: Microsoft_Windows_XP_logo_and_wordmark.svg 
 date: "2014-04-09T21:16:41"
 ---
-[1]: Microsoft_Windows_XP_logo_and_wordmark.png
+[1]: microsoft_windows_xp_logo_and_wordmark.png
 
 ![][1]
 
