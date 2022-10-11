@@ -8,7 +8,7 @@ description: "Today the IE team released Remote IE. This is awesome. Let me expl
 ---
 
 [1]: WP_20141103_002-1-.jpg
-[2]: banner.PNG
+[2]: banner.png
 
 Today the IE team released Remote IE. This is awesome. Let me explain.
 

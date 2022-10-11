@@ -5,12 +5,12 @@ tags:
   - Get to the Point
   - Prairie Dev Con
   - ZVGQ
-social_image: "newzvgqtitle.PNG"
+social_image: "newzvgqtitle.png"
 date: "2015-01-01T19:34:29"
 description: "This past year has been a rough one for me personally, but professionally, not so bad."
 ---
 
-[1]: newzvgqtitle.PNG
+[1]: newzvgqtitle.png
 [2]: html5-controller.png
 
 This past year has been a rough one for me personally, but professionally, not so bad. 

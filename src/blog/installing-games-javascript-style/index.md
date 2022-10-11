@@ -4,14 +4,14 @@ tags:
   - cool-stuff
   - javascript
   - games
-social_image: play.PNG
+social_image: play.png
 date: "2014-10-24T16:20:41"
 description: "I bought the Humble Mozilla Bundle earlier this week and I wanted to take a moment to show people what it looks like to install a JavaScript game in the browser."
 ---
 
-[1]: play.PNG
-[2]: ftl-1.PNG
-[3]: ftl.PNG
+[1]: play.png
+[2]: ftl-1.png
+[3]: ftl.png
 
 I bought the Humble Mozilla Bundle earlier this week and I wanted to take a moment to show people what it looks like to install a JavaScript game in the browser.
 

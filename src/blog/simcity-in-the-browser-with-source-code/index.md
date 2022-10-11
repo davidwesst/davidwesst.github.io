@@ -9,7 +9,7 @@ description: "If you haven't played the classic SimCity, I mean Micropolis then 
 ---
 
 [1]: micropolisjs-city.png
-[2]: micropolisjs-pullrequest.PNG
+[2]: micropolisjs-pullrequest.png
 [3]: file54531acb193b9.jpg
 
 If you haven't played the classic [SimCity](http://www.simcity.com/en_US/product/simcity-classic), I mean [Micropolis](https://code.google.com/p/micropolis/) then you missed out.

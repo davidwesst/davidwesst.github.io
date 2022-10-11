@@ -7,8 +7,8 @@ tags:
 date: "2014-04-24T03:38:50"
 ---
 
-[1]: sublimetext.PNG
-[2]: notepadpp.PNG
+[1]: sublimetext.png
+[2]: notepadpp.png
 [3]: vim.png
 
 ### Goal

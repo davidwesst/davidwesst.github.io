@@ -8,7 +8,7 @@ description: "I mentioned Bower last time when talking about npm."
 ---
 
 [1]: bower-logo.png
-[2]: bower-screen.PNG
+[2]: bower-screen.png
 
 I mentioned [Bower](http://bower.io/) [last time](http://davidwesst.com/always-use-node/) when talking about [npm](https://www.npmjs.org/).
 
