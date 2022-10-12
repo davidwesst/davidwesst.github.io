@@ -36,7 +36,7 @@ I started using SWAs for a few side projects, but the one I am going to focus on
 
 When you look at the requirements above and compare them to the [SKUs for Azure SWAs ][4], they seem to align well. The only thing that is not explicitly mentioned is the URL and request redirection rules. But, with the line "Globally distributed static content" listed, I figured that I would be able to leverage the [Azure CDN Rules Engine][5] or something like that.
 
-![Screenshot of the list of features published for both the free and premium SKUs for Azure Static Web Apps at the time of writing this post](./swa_features.jpg)
+![Screenshot of the list of features published for both the free and premium SKUs for Azure Static Web Apps at the time of writing this post](./swa_features.jpeg)
 
 But you know what they say about assumptions...in any case, let's get into it.
 
