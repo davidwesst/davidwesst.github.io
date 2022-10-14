@@ -34,12 +34,17 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@azure/static-web-apps-cli": "^1.0.2",
     "concurrently": "^7.4.0",
+    "css-loader": "^6.7.1",
     "markdown-it": "^13.0.1",
     "markdown-it-eleventy-img": "git+https://github.com/davidwesst/markdown-it-eleventy-img#ft/relative-path-images",
     "markdown-it-emoji": "^2.0.2",
+    "mini-css-extract-plugin": "^2.6.1",
     "parcel": "^2.7.0",
     "rimraf": "^3.0.2",
-    "sanitize.css": "^13.0.0"
+    "sanitize.css": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   },
   "dependencies": {
     "sharp": "^0.31.1"
