@@ -1,4 +1,4 @@
-@import "npm:sanitize.css/sanitize.css";
+@import url(~sanitize.css/sanitize.css);
 
 @font-face {
     font-family: "Open Sans";
