@@ -27,7 +27,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-      - name: Build
+	  - name: Generate DotEnv File
+		uses: iamsauravsharma/create-dotenv
+		with:
+			env-prefix: "DOTENV_"
+		env:
+			DOTENV_AI_CONNECTION_STRING: ${{ secrets.AI_CONNECTION_STRING }}
+	  - name: Build
         id: build
         run: |
           npm install
