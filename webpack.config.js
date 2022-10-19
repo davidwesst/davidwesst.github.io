@@ -1,6 +1,6 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const DotEnv = require("dotenv-webpack");
+const DotEnvPlugin = require("dotenv-webpack");
 
 const isDev = process.env.NODE_ENV !== 'production'
 
@@ -17,7 +17,7 @@ module.exports = {
 	},
 	plugins: [
 		new MiniCssExtractPlugin(),
-		new DotEnv()
+		new DotEnvPlugin()
 	],
 	resolve: { 
 		extensions: [".tsx", ".ts", ".js"]
