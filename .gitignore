@@ -4,6 +4,9 @@ tmp/
 !src/blog/**
 !src/blog/blog.11tydata.json
 
+# Installed tools
+bin/
+
 # VS Code
 *.code-workspace
 

@@ -26,7 +26,8 @@
     "dev:webpack": "webpack --watch",
     "debug:eleventy": "DEBUG=Eleventy* eleventy",
     "prestart": "npm run build",
-    "start": "swa start --output-location ./dist --swa-config-location ./"
+    "start": "swa start --output-location ./dist --swa-config-location ./",
+    "test:workflow": "./bin/act -j build_and_deploy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
