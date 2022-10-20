@@ -1,0 +1,15 @@
+---
+layout: "base.html"
+---
+<header>
+    <h1>{{ title }}</h1>
+    <span>{{ page.date | date: "%Y-%m-%d %H:%M" }}</span>
+    <section>
+    {% for t in tags %}
+        <article>{{ t }}</article>
+    {% endfor %}
+    </section>
+</header>
+<section>
+    {{ content }}
+</section>
