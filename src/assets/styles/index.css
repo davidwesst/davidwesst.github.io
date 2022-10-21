@@ -65,3 +65,38 @@ h1, h2, h3, h4, h5, h6 {
 .site-nav *:last-child {
     margin-right: 0;
 }
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em 0;
+    margin: 0;
+    list-style: none;
+    line-height: 1.5em;
+}
+
+.tags li {
+    color: var(--main-bg-colour);
+    background-color: var(--main-fg-colour);
+    font-family: var(--main-display-font);
+    font-size: 0.8em;
+    border-radius: 10px;
+    margin: 0 0.25em;
+    padding: 0 0.5em;
+}
+
+.tags li:first-child {
+    margin-left: 0;
+}
+
+.tags li:last-child {
+    margin-right: 0;
+}
+
+.publishDate {
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-left: 0.5em;
+}

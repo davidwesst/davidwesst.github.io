@@ -3,12 +3,19 @@ layout: "base.html"
 ---
 <header>
     <h1>{{ title }}</h1>
-    <span>{{ page.date | date: "%Y-%m-%d %H:%M" }}</span>
-    <section>
+    <div class="publishDate">
+        <label for="publishDate">Published On: </label>
+        <time id="publishDate"
+            datetime={{ page.date }}
+            >
+            {{ page.date | date: "%Y-%m-%d %H:%M" }}
+        </time>
+    </div>
+    <menu class="tags">
     {% for t in tags %}
-        <article>{{ t }}</article>
+        <li>{{ t }}</li>
     {% endfor %}
-    </section>
+    </menu>
 </header>
 <section>
     {{ content }}
