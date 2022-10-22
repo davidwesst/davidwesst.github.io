@@ -8,10 +8,22 @@ changefreq: weekly
 <h1>
     Blog (<a href="/blog/feed.xml">RSS/Atom</a>)
 </h1>
-<section>
+<menu class="content-list" >
     {%- for post in collections.blog reversed -%}
-        <article>
-            <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-        </article>
+    <li>
+        <date class="publishDate"
+            datetime={{ page.date  }}
+            >
+            {{ post.date | date: "%Y-%m-%d %H:%M" }}
+        </date>
+        <a href="{{ post.url | url }}">
+            <div>{{ post.data.title }}</div>
+        </a>
+        <ul class="tags">
+        {% for t in post.tags %}
+            <li>{{ t }}</li>
+        {% endfor %}
+        </ul>
+    </li>
     {%- endfor -%}
-</section>
+</menu>
