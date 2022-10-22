@@ -100,3 +100,11 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5em;
     margin-left: 0.5em;
 }
+
+.content-list {
+    list-style: none;
+}
+
+.content-list .publishDate {
+    margin-left: 0;
+}
