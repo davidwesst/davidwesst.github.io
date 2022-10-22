@@ -11,17 +11,19 @@ changefreq: weekly
 <menu class="content-list" >
     {%- for post in collections.blog reversed -%}
     <li>
-        <date class="publishDate"
-            datetime={{ page.date  }}
-            >
-            {{ post.date | date: "%Y-%m-%d %H:%M" }}
-        </date>
         <a href="{{ post.url | url }}">
             <div>{{ post.data.title }}</div>
         </a>
+        <date class="publishDate"
+            datetime={{ page.date  }}
+            >
+            {{ post.date | date: "%B %d, %Y" }}
+        </date>
         <ul class="tags">
-        {% for t in post.tags %}
+        {% for t in post.data.tags %}
+			{% if t != 'blog' %}
             <li>{{ t }}</li>
+			{% endif %}
         {% endfor %}
         </ul>
     </li>
