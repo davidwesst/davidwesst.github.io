@@ -1,15 +1,22 @@
 
 # Website (davidwesst.com)
 
-The davidwesst.com client application and API, as an Azure Static Web App.
+This is the source code used to generated [www.davidwesst.com](https://www.davidwesst.com), powered by [11ty](https://11ty.dev).
 
-## Development Notes
+## Architecture Decisions & Documentation
 
-This project is configured to use DevContainers/Codespaces.
+Architecture decisions (ADs) and other documentation can be found in the `/docs` directory. 
 
-### Getting Started
+## Getting Started with Development
 
-TODO: This needs to be fixed up
+The project requires that Node v16+ be installed on the development machine in order to build and run the project. Personally, I use [nvs](https://github.com/jasongin/nvs), but it can be installed in many other ways.
 
-1) Start the blob storage emulator using `./tools/devenv/cloud-emu-start.sh`
-2) In a different terminal window, initialize the data (if not already initialized) with `./tools/devenv/cloud-emu-init.sh`
+Once the requirements are setup:
+
+1. Clone the repository
+2. From the project root run `npm install`
+3. (_Optional_) Create an `.env` file in the project root with the appropriate values, based on `.env.example`.
+	- The project with run without this, but will throw errors when initializing Application Insights.
+4. Run `npm run dev` to build the site AND host it at [http://localhost:8080/](http://localhost:8080/).
+
+...and you should be up and running!
