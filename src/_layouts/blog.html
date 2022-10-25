@@ -1,0 +1,22 @@
+---
+layout: "base.html"
+---
+<header>
+    <h1>{{ title }}</h1>
+    <div class="publishDate">
+        <label for="publishDate">Published On: </label>
+        <time id="publishDate"
+            datetime={{ page.date }}
+            >
+            {{ page.date | date: "%B %d, %Y" }}
+        </time>
+    </div>
+    <menu class="tags">
+    {% for t in tags %}
+        <li>{{ t }}</li>
+    {% endfor %}
+    </menu>
+</header>
+<section>
+    {{ content }}
+</section>

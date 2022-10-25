@@ -4,8 +4,8 @@ tmp/
 !src/blog/**
 !src/blog/blog.11tydata.json
 
-# Parcel
-.parcel-cache
+# Installed tools
+bin/
 
 # VS Code
 *.code-workspace
@@ -65,6 +65,7 @@ typings/
 
 # dotenv environment variable files
 .env*
+!.env.example
 
 # gatsby files
 .cache/

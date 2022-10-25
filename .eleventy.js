@@ -17,6 +17,18 @@ module.exports = function (eleventyConfig) {
     break: true,
     linkify: true
   };
+  const pathResolver = (filepath, env) => {
+    let resolvedPath = filepath;
+    
+    // if path is remote, just return path
+    const isRemoteRegExp = /^https?:\/\//i;
+    if(typeof filepath === "string" && !isRemoteRegExp.test(filepath)) {
+      resolvedPath = path.join(path.dirname(env.page.inputPath), filepath);
+    }
+
+    return resolvedPath;
+  };
+
   let mdLibrary = markdownIt(mdOptions)
                   .use(markdownItEmoji)
                   .use(markdownItImages, {
@@ -29,7 +41,7 @@ module.exports = function (eleventyConfig) {
                     globalAttributes: {
                       sizes: "100vw"
                     },
-                    eleventyResolveToProjectRoot: false 
+                    resolvePath: pathResolver
                   });
   eleventyConfig.setLibrary("md", mdLibrary);
 

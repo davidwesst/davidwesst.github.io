@@ -7,10 +7,10 @@ description: "The place where I put my conference materials"
 <h1>
     Talks
 </h1>
-<section>
+<menu class="content-list">
     {%- for t in talks -%}
     <article>
-        <a href="/talks/{{t.id}}/">{{ t.title }}<a>
+        <a href="/talks/{{t.id}}/">{{ t.title }}</a>
     </article>
     {%- endfor -%}
-</section>
+</menu>

@@ -2,7 +2,7 @@
   "name": "dw-website",
   "private": true,
   "description": "The personal and somewhat professional website for David Wesst, a.k.a. DW, a.k.a. Wessty.",
-  "version": "10.0.0",
+  "version": "10.0.1",
   "author": "David Wesst <david@cocobokostudios.com>",
   "homepage": "https://github.com/davidwesst/website#readme",
   "license": "MIT",
@@ -17,16 +17,17 @@
     "prebuild": "npm run clean",
     "build": "concurrently 'npm:build:*'",
     "build:eleventy": "eleventy",
-    "build:style": "parcel build src/assets/styles/index.css --dist-dir dist/assets",
+    "build:assets": "webpack",
     "debug:build": "DEBUG=Eleventy* eleventy",
     "clean": "rimraf ./dist/*",
     "predev": "npm run clean",
     "dev": "concurrently --kill-others 'npm:dev:*'",
     "dev:eleventy": "eleventy --serve",
-    "dev:parcel": "parcel src/assets/styles/index.css --dist-dir dist/assets",
+    "dev:webpack": "webpack --watch",
     "debug:eleventy": "DEBUG=Eleventy* eleventy",
     "prestart": "npm run build",
-    "start": "swa start --output-location ./dist --swa-config-location ./"
+    "start": "swa start --output-location ./dist --swa-config-location ./",
+    "test:workflow": "./bin/act -j build_and_deploy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
@@ -34,14 +35,24 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@azure/static-web-apps-cli": "^1.0.2",
     "concurrently": "^7.4.0",
+    "css-loader": "^6.7.1",
+    "dotenv-webpack": "^8.0.1",
     "markdown-it": "^13.0.1",
-    "markdown-it-eleventy-img": "git+https://github.com/davidwesst/markdown-it-eleventy-img#ft/relative-path-images",
+    "markdown-it-eleventy-img": "git+https://github.com/solution-loisir/markdown-it-eleventy-img.git#master",
     "markdown-it-emoji": "^2.0.2",
+    "mini-css-extract-plugin": "^2.6.1",
     "parcel": "^2.7.0",
     "rimraf": "^3.0.2",
-    "sanitize.css": "^13.0.0"
+    "sanitize.css": "^13.0.0",
+    "source-map-loader": "^4.0.1",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   },
   "dependencies": {
+    "@microsoft/applicationinsights-web": "^2.8.8",
     "sharp": "^0.31.1"
   }
 }
