@@ -3,6 +3,16 @@ This a log of all the notable changes for [davidwesst.com](https://www.davidwess
 
 ## [Unreleased]
 
+## [10.0.1] - 2022-10-25
+### Added
+- Dates and tags on blog listing and blog page template ([#144](https://github.com/davidwesst/website/issues/144) [#138](https://github.com/davidwesst/website/issues/138))
+- Application Insights for performance and usage monitoring ([#139](https://github.com/davidwesst/website/issues/139))
+- Opt-In dialogue for cookie usage ([#141](https://github.com/davidwesst/website/issues/141) [#147](https://github.com/davidwesst/website/issues/147))
+- Architecture Decision Records in documentation ([#115](https://github.com/davidwesst/website/issues/115))
+
+### Changed
+- About page content includes Privacy Statement ([#140](https://github.com/davidwesst/website/issues/140))
+
 ## [10.0.0] - 2022-10-10
 ### Added
 - Moved to [11ty](https://11ty.dev) to generate site.
