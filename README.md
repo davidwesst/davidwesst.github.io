@@ -1,11 +1,14 @@
-
 # Website (davidwesst.com)
 
 This is the source code used to generated [www.davidwesst.com](https://www.davidwesst.com), powered by [11ty](https://11ty.dev).
 
 ## Architecture Decisions & Documentation
 
-Architecture decisions (ADs) and other documentation can be found in the `/docs` directory. 
+Architecture decisions (ADs) and other documentation can be found in the `/docs/decisions` directory. 
+
+1. MADR for Decision Tracking
+2. Azure for Web Hosting
+3. 11ty for Static Site Generation
 
 ## Getting Started with Development
 
