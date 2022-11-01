@@ -1,12 +1,13 @@
 ---
 
 title: "How to fork (a repo) like a boss!"
-date: 2022-10-27T12:00-05:00
+date: 2022-11-01T12:00-05:00
 tags:
 - github
 - pull requests
 - contribution
 - open source
+description: "Everyone thinks about forking. It is a natural thing, yet how do get the job done and fork? I used to ask myself the same thing, until I learned these pro-tips and forked like a boss."
 
 ---
 
