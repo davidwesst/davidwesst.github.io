@@ -1,7 +1,7 @@
 ---
 
 title: "Does GDPR Apply to Personal Websites?"
-date: "2022-11-15T12:00:00-05:00"
+date: "2022-11-16T12:00:00-05:00"
 tags:
 - gdpr
 - ldgp
