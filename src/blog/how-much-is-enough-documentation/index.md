@@ -1,7 +1,7 @@
 ---
 
 title: "How much is enough documentation? (Because I know I need it, but don't want to make it)"
-date: "2022-11-16T12:00:00-05:00"
+date: "2022-11-08T12:00:00-05:00"
 tags:
 - madr
 - c4-model
