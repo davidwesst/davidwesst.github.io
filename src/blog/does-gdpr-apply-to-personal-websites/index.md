@@ -4,10 +4,14 @@ title: "Does GDPR Apply to Personal Websites?"
 date: "2022-11-15T12:00:00-05:00"
 tags:
 - gdpr
+- ldgp
+- ccpa
 - privacy
 - cookies
-- ePrivacy
+- website 
 description: "While rebuilding my personal website in 2022, I wanted to know how or if GDPR applied to my little side project. My internet sleuthing did not bring up any clear and cut answers, but I put together some thoughts that might help others answer it for themselves."
+thumbnail: "./my-gdpr-dialogue.png"
+thumbnail_alt: "A screenshot of the davidwesst.com blog page with a dialogue docked to the bottom with the statement: 'This site uses cookies to track usage in order to help improve the user experience. By clicking 'Accept', you consent to our use of cookies.' along with gray 'Accept' and 'Decline' buttons, and a blue link with the text 'Privacy Statement'"
 
 ---
 
@@ -33,7 +37,7 @@ Still, I managed to draw some of my own conclusions on how to handle GDPR for my
 
 ## DISCLAIMER: This is not legal advice
 
-I am not a lawyer, so this is just an opinion from a developer. As a rule of thumb, I avoid taking legal advice from random folks on the internet. 
+I am not a lawyer, so this is just an opinion from a developer. As a rule of thumb, I avoid taking legal advice from random folks on the internet. If you take advice from this article, take that bit and keep it. 
 
 I hope others (like you) use this post to draw your own conclusions or how you want to proceed with your own plan for handling GDPR.
 
@@ -45,15 +49,15 @@ Yes, it does apply to your personal website **if** are tracking information abou
 
 ### Developing Your Own Website or Application
 
-I mean developing, as it coding it, publishing that code, and hosting it somewhere like Microsoft Azure or GitHub Pages. If you are publishing your own code, GDPR may apply to you.
+I mean developing as it coding it, publishing that code, and hosting it somewhere like Microsoft Azure or GitHub Pages. If you are publishing your own code, GDPR may apply to you.
 
 If you are using a third party tool or platform, like Facebook or LinkedIn to host your blog posts-- you appear to be in the clear. When you use a third-party platform, the _platform_, not you, is responsible for GDPR compliance.
 
-Even if you are clear of responsibility, make sure that you trust your chosen platform to comply to GDPR and other regulatory bodies out there, as your site depends on it. 
+Even if you think you are clear of GDPR responsibility, make sure that you trust your chosen platform to comply to GDPR and other regulatory bodies out there, as your site depends on it. 
 
 ### Tracking Information
 
-The GDPR is all about protecting personal information and giving control back to people navigating the internet. GDPR is not the only set of laws in play, as [California][4], [Brazil][5], and [Canada][6] have their own versions of similar legislation, but many of these laws seem to have been inspired by GDPR.
+The GDPR is all about protecting personal information and giving control back to people navigating the internet. GDPR is not the only set of laws in play, as [California][4], [Brazil][5], and [Canada][6] have their own versions of similar legislation, but many of these laws seem to have been inspired by GDPR and why I tend to focus on it.
 
 At the personal website level, you need to consider whether or not you are collecting personal information from your users. This includes things like [IP addresses or cookie identifiers][7].
 
@@ -61,7 +65,11 @@ If you are NOT collecting information like that, you are good to go! Just rememb
 
 ## My Solution Highlights
 
-I concluded the GDPR-like rules would apply to website if I wanted to do any kind of usage tracking. 
+I concluded the GDPR-like laws apply to my personal website if I want to do any kind of usage tracking and understand how users are using my site.. This means it needs to be an opt-in policy that gives the user the option to do just that, _opt-in_.
+
+![A screenshot of the davidwesst.com blog page with a dialogue docked to the bottom with the statement: 'This site uses cookies to track usage in order to help improve the user experience. By clicking "Accept", you consent to our use of cookies.' along with gray 'Accept' and 'Decline' buttons, and a blue link with the text 'Privacy Statement'](./my-gdpr-dialogue.png)
+
+The dialogue above is the only real visual evidence on the site now. As simple as that looks, a lot of thought went into it prior to implementation. Rather than doing a complete code review, I figured I would share the highlights.
 
 ### Understanding My Tools
 
