@@ -1,6 +1,6 @@
 ---
 
-title: "How much is enough documentation? (Because I know I need it, but don't want to make it)"
+title: "How much is enough documentation?"
 date: "2022-11-08T12:00:00-05:00"
 tags:
 - madr
@@ -10,7 +10,7 @@ tags:
 - documentation
 - README.md
 - CONTRIBUTING.md 
-description: "I ask this question because, if I am being honest, I do not like making documentation. Still, documentation can provide the context I forget after putting a project on the shelf, or explains how to fix something in older code I use, but haven't touched in a long time. Clearly it is necessary, but I want to produce as little as possible on it. So how much is 'enough' documentation and what types of documentation do I need to give myself the context I will need in the future?"
+description: "Documentation is important, but it takes a lot of time and if you are a solo developer, what documentation to you really need? Still, good docs can provide the context I forget after putting a project on the shelf, or explains how to fix something in older code I use, but haven't touched in a long time. So how much is 'enough' documentation and what types of documentation do I need to invest in give my future self the the best value for the effort I put in?"
 thumbnail: "repo-with-docs.png"
 thumnbail-alt: "File tree of a source code repository with a 'docs' folder containing a sub-folder entitled 'decisions' with a series of markdown files documenting technical decisions for the project."
 
