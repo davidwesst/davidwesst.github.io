@@ -12,7 +12,7 @@ tags:
 - CONTRIBUTING.md 
 description: "Documentation is important, but it takes a lot of time and if you are a solo developer, what documentation to you really need? Still, good docs can provide the context I forget after putting a project on the shelf, or explains how to fix something in older code I use, but haven't touched in a long time. So how much is 'enough' documentation and what types of documentation do I need to invest in give my future self the the best value for the effort I put in?"
 thumbnail: "repo-with-docs.png"
-thumnbail-alt: "File tree of a source code repository with a 'docs' folder containing a sub-folder entitled 'decisions' with a series of markdown files documenting technical decisions for the project."
+thumnbail_alt: "File tree of a source code repository with a 'docs' folder containing a sub-folder entitled 'decisions' with a series of markdown files documenting technical decisions for the project."
 
 ---
 
@@ -27,15 +27,13 @@ thumnbail-alt: "File tree of a source code repository with a 'docs' folder conta
 
 Documentation takes a lot of different forms. Decision requests, diagrams, and just plain ol' word filled documents. Historically speaking, I have been guilty of being that developer that loathed documentation, waited until the last minute, and usually produced something that won't provide much help when it is actually needed.
 
-Since [working on v10 of my website][1] I wanted to explore this problem I have around documentation. Ultimately, documentation is _necessary_. If I think back to my own experience with my own projects, they can end up sitting on the shelve for a long time. When go back to revisit it, other than analyzing my own code (on prototype stuff) can be a serious time sink to even get things in a running state without decent documentation.
-
-But how much too much? How detailed is too detailed, or not detailed enough? With the recent work I have putting into [v10 of my website][1], I wanted to explore this problem and figure out the "right amount" of documentation for my projects and kinds of documents are needed.
+Being a solution architect during the day, I wanted to apply some of my new found skills (and appreciation) for documentation while [working on v10 of my website][1]. Ultimately, documentation is _necessary_, even on personal projects. If I think back to my own experience with my own projects, they can end up sitting on the shelve for a long time. When go back to revisit it, other than analyzing my own code (on prototype stuff) can be a serious time sink to even get things in a running state without any decent documentation.
 
 ## What do you _need_?
 
 And I do mean _needed_ not _wanted_. Everyone _wants_ documentation of all kinds, but what does an audience of one (i.e., your future self) _need_ to get the project back off the shelve and into working order?
 
-This is how I approach documentation. **NEED MORE STUFF HERE**
+Like any good solution architect, I started to read, learn, and figure out what others consider "enough documentation" or "good documentation". I also spent time defining the problem I needed the documentation to solve, and landed on the following docs being "enough".
 
 ### README.md
 
@@ -53,7 +51,7 @@ The idea is to document decisions that will have a long term impact on your proj
 
 You can document as many or as few decisions as you want. In the case of my website project, [I documented a few core decisions early on][3] because I wanted to remember _why I built it this way_. Even though I am adding content regularly and tweaking features frequently enough, I could shelve the development at any point.
 
-In terms of format, there are plenty of ways to document decisions and why it is important, but I am not going to spend time explaining that. Instead I would recommend reading about [how GitHub documents decisions][4]. That is where I started, and they have a great breakdown of the different format and tools that can support you, if you're inclined to get into the tooling.
+In terms of format, there are plenty of ways to document decisions and why it is important, but I am not going to spend time explaining that. Instead I would recommend reading [how GitHub documents decisions][4]. That is where I started, and they have a great breakdown of the different format and tools that can support you, if you're inclined to get into the tooling.
 
 For the website, I [decided to use MADR as my decision document template][5] and documented "why" I chose it as the first decision for the project and [documented it][5].
 
@@ -69,13 +67,13 @@ The above diagram is one I created to explain how I setup all the pieces inside 
 
 There is no real format that I applied here, but I scoped it to focus on the Azure Infrastructure and service I needed to rebuild the solution in Azure from scratch. Almost like a high-level guide to explain all the different pieces that need to be setup and handled.
 
-In regards to diagram formatting. Although I did not use it in this example, the [C4 model][6] is something I have been messing around with to describe systems and projects in my day job. If you need a little direction, or are struggling to figure out "how to diagram" your project, it might be worth a look.
+In regards to diagram formatting, although I did not use it in this example, the [C4 model][6] is something I have been messing around with to describe systems and projects in my day job. If you need a little direction, or are struggling to figure out "how to diagram" your project, it might be worth a look.
 
-### Notable Mention: CHANGELOG
+### Notable Mention: `CHANGELOG.md`
 
 I wanted to highlight this, but also point out that it is definitely not required. A `CHANGELOG.md` allows you to document your progress.
 
-I based [my CHANGELOG file][7] off of the format described at [keepachangelog.com][8]. It forced me to take a bit of time (really, like 15 minutes or so) to reflect on my effort and appreciate the effort I have put into the project. Plus, tells the story of how the project has evolved over time; which, just like the decisions, provides context on how things got to where they are.
+I based [my CHANGELOG file][7] off of the format described at [keepachangelog.com][8]. It forced me to take a bit of time (really, like 15 minutes or so) to reflect on my effort and appreciate the effort I have put into the project. Plus, it tells the story of how the project has evolved over time; which, just like the decisions, provides context on how things got to where they are.
 
 ## Conclusion / TL;DR;
 
@@ -89,6 +87,4 @@ In short, the documentation I _need_ (not _want_) consists of the following, wit
 Thanks for playing.
 
 ~ DW
-
-
 
