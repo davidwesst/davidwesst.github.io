@@ -3,6 +3,17 @@ This a log of all the notable changes for [davidwesst.com](https://www.davidwess
 
 ## [Unreleased]
 
+## [10.0.2] - 2022-11-08
+### Added
+- Generator tag in `<head>` ([#149](https://github.com/davidwesst/website/issues/149))
+
+### Changes
+- Updated version of `markdown-it-eleventy-img` plugin ([#154](https://github.com/davidwesst/website/issues/154))
+
+### Fixes
+- Unintended links in blog post "How much is enough documentation"
+- URLs in in `sitemap.xml` ([#154](https://github.com/davidwesst/website/issues/154))
+
 ## [10.0.1] - 2022-10-25
 ### Added
 - Dates and tags on blog listing and blog page template ([#144](https://github.com/davidwesst/website/issues/144) [#138](https://github.com/davidwesst/website/issues/138))
@@ -29,3 +40,4 @@ This a log of all the notable changes for [davidwesst.com](https://www.davidwess
 - DevContainer support. This needs to be re-evaluated to determine what features a development environment actually needs.
 - TODO.md as issues will be used to manage features
 - GatsbyJS dependency
+
