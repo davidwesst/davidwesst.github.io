@@ -35,13 +35,13 @@ And I do mean _needed_ not _wanted_. Everyone _wants_ documentation of all kinds
 
 Like any good solution architect, I started to read, learn, and figure out what others consider "enough documentation" or "good documentation". I also spent time defining the problem I needed the documentation to solve, and landed on the following docs being "enough".
 
-### README.md
+### The README
 
-It might seem obvious but, I have read enough of my own empty or default README.md files to know that this is easily the most important piece of documentation you write. Without it, the project will require code analysis to figure out what it _actually_ is, and that is never good.
+It might seem obvious but, I have read enough of my own empty or default `README.md` files to know that this is easily the most important piece of documentation you write. Without it, the project will require code analysis to figure out what it _actually_ is, and that is never good.
 
 There are a lot of great examples `README.md` files on GitHub to look at, but I would suggest you start simple if you're just getting off the ground. My take was to include system requirements and the steps to setup, build, and start the project for the developer.
 
-When searching for info on this, I really like [this article from Hillary Nyakundi][2] provided a great "how-to" on making a good README.md.
+When searching for info on this, I really like [this article from Hillary Nyakundi][2] provided a great "how-to" on making a good `README.md`.
 
 ### Decisions (also known as ADs or Architecture Decisions)
 
@@ -79,10 +79,10 @@ I based [my CHANGELOG file][7] off of the format described at [keepachangelog.co
 
 In short, the documentation I _need_ (not _want_) consists of the following, with the following priority:
 
-1. README.md (that at least says how to setup, build, and run the project)
+1. `README.md` (that at least says how to setup, build, and run the project)
 2. Decisions (using [MADR][4] or some other format of your choosing)
 3. Solution Diagrams (that answer _one specific question_)
-4. CHANGELOG.md (not required, but provides more context and forces you to appreciate the effort you have put into your project)
+4. `CHANGELOG.md` (not required, but provides more context and forces you to appreciate the effort you have put into your project)
 
 Thanks for playing.
 
