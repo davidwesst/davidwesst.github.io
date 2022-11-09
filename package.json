@@ -2,7 +2,7 @@
   "name": "dw-website",
   "private": true,
   "description": "The personal and somewhat professional website for David Wesst, a.k.a. DW, a.k.a. Wessty.",
-  "version": "10.0.1",
+  "version": "10.0.2",
   "author": "David Wesst <david@cocobokostudios.com>",
   "homepage": "https://github.com/davidwesst/website#readme",
   "license": "MIT",
