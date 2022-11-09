@@ -38,7 +38,7 @@
     "css-loader": "^6.7.1",
     "dotenv-webpack": "^8.0.1",
     "markdown-it": "^13.0.1",
-    "markdown-it-eleventy-img": "git+https://github.com/solution-loisir/markdown-it-eleventy-img.git#master",
+    "markdown-it-eleventy-img": "^0.9.0",
     "markdown-it-emoji": "^2.0.2",
     "mini-css-extract-plugin": "^2.6.1",
     "parcel": "^2.7.0",
