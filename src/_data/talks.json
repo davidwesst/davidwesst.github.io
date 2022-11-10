@@ -33,7 +33,15 @@
                 "url": "https://www.prairiedevcon.com",
                 "dateStart": "November 7, 2022",
                 "dateEnd": "November 8, 2022",
-                "location": "Winnipeg, Manitoba"
+                "location": "Winnipeg, Manitoba",
+                "links": [
+                    { 
+                        "shortDescription": "Slides (PPTX)",
+                        "url": "https://davidwesstweb.blob.core.windows.net/talks/concensus-in-the-chaos/Consensus in the Chaos (PrDC 2022) - Winnipeg.pptx"
+                    },
+                    { 
+                        "shortDescription": "Slides (PDF)",
+                        "url": "https://davidwesstweb.blob.core.windows.net/talks/concensus-in-the-chaos/Consensus in the Chaos (PrDC 2022) - Winnipeg.pdf" 
             },
             {
                 "id": "prdc2022-calgary",
@@ -78,7 +86,15 @@
                 "url": "https://www.prairiedevcon.com",
                 "dateStart": "November 7, 2022",
                 "dateEnd": "November 8, 2022",
-                "location": "Winnipeg, Manitoba"
+                "location": "Winnipeg, Manitoba",
+                "links": [
+                    { 
+                        "shortDescription": "Slides (PPTX)",
+                        "url": "https://davidwesstweb.blob.core.windows.net/talks/cots-to-cloud/From COTS to Cloud (PrDC 2022) - Winnipeg.pptx"
+                    },
+                    { 
+                        "shortDescription": "Slides (PDF)",
+                        "url": "https://davidwesstweb.blob.core.windows.net/talks/cots-to-cloud/From COTS to Cloud (PrDC 2022) - Winnipeg.pdf" 
             },
             {
                 "id": "prdc2022-calgary",
