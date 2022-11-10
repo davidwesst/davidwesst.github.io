@@ -11,6 +11,9 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setUseGitIgnore(false);
 
+  // passthrough assets referenced through HTML (i.e. non-webpack assets)
+  eleventyConfig.addPassthroughCopy({ "src/assets/static/" : "/static/" });
+
   // configure markdown templates
   const mdOptions = {
     html: true,
