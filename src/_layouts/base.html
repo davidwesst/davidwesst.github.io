@@ -8,6 +8,7 @@
         {% assign page_url = "https://www.davidwesst.com" | append: page.url %}
         {% assign page_description = description %}
         {% assign page_type = open_graph.type | default: "website" %}
+        {% assign page_image = open_graph.image | default: "/static/default-og.webp" | prepend: "https://www.davidwesst.com" %}
 
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,7 +22,15 @@
         <meta property="og:url" content="{{ page_url | url }}" />
         <meta property="og:description" content="{{ description }}" />
         <meta property="og:type" content="{{ page_type }}" />
-		
+        {% unless open_graph.image %}
+        <meta property="og:image" content="{{ page_image }}" />
+        <meta property="og:secure_url" content="{{ page_image }}" />
+        <meta property="og:image:type" content="image/webp" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:alt" content="A pixel art version of David Wesst with glasses in a circle, looking to the top right towards text that is his name and the subtitle 'Code. Creativity. Cool Stuff'." />
+		{% endunless %}
+
 		<script defer src="/assets/main.js"></script>
     </head>
     <body class="bg-logo">
