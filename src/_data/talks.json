@@ -41,7 +41,9 @@
                     },
                     { 
                         "shortDescription": "Slides (PDF)",
-                        "url": "https://davidwesstweb.blob.core.windows.net/talks/concensus-in-the-chaos/Consensus in the Chaos (PrDC 2022) - Winnipeg.pdf" 
+                        "url": "https://davidwesstweb.blob.core.windows.net/talks/concensus-in-the-chaos/Consensus in the Chaos (PrDC 2022) - Winnipeg.pdf"
+                    }
+                ]
             },
             {
                 "id": "prdc2022-calgary",
@@ -95,6 +97,8 @@
                     { 
                         "shortDescription": "Slides (PDF)",
                         "url": "https://davidwesstweb.blob.core.windows.net/talks/cots-to-cloud/From COTS to Cloud (PrDC 2022) - Winnipeg.pdf" 
+                    }
+                ]
             },
             {
                 "id": "prdc2022-calgary",
