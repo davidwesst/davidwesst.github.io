@@ -5,11 +5,22 @@
 
         <title>{{ title }}</title>
 
-        <meta name="Description" content="{{ description }}" />
-		<meta name="generator" content="{{ eleventy.generator }}">
+        {% assign page_url = "https://www.davidwesst.com" | append: page.url %}
+        {% assign page_description = description %}
+        {% assign page_type = open_graph.type | default: "website" %}
+
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <meta name="description" content="{{ page_description }}" />
+		<meta name="generator" content="{{ eleventy.generator }}">
+        <link rel="canonical" href="{{ page_url | url  }}" />
+
+        <meta property="og:title" content="{{ title }}" />
+        <meta property="og:url" content="{{ page_url | url }}" />
+        <meta property="og:description" content="{{ description }}" />
+        <meta property="og:type" content="{{ page_type }}" />
 		
 		<script defer src="/assets/main.js"></script>
     </head>
