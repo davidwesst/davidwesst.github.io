@@ -1,7 +1,14 @@
 # Changelog
 This a log of all the notable changes for [davidwesst.com](https://www.davidwesst.com/). You can find the source code on [GitHub](https://github.com/davidwesst/website).
 
-## [Unreleased]
+## [10.1.0] - 2022-11-11
+### Added
+- Open Graph and meta tag support for pages and (blog) articles ([#157](https://github.com/davidwesst/website/issues/157))
+- Confirmed site works in Google Search Console (not using Google Analytics) ([#45](https://github.com/davidwesst/website/issues/45))
+- Confirmed site works in Bing Webmaster Tools (not using Microsoft Clarity) ([#16](https://github.com/davidwesst/website/issues/16))
+
+### Fixes
+- How I use [Semantic Versioning](https://semver.org) as new, backwards compatible features should get a minor release, not a patch release.
 
 ## [10.0.2] - 2022-11-08
 ### Added
