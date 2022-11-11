@@ -1,4 +1,5 @@
 {
     "layout": "blog.html",
-    "tags": ["blog"]
+    "tags": ["blog"],
+	"type": "article"
 }

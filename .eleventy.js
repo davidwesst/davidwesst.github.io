@@ -1,4 +1,5 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const pluginImage = require("@11ty/eleventy-img");
 
 const markdownIt = require("markdown-it");
 const markdownItEmoji = require("markdown-it-emoji");
@@ -10,6 +11,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.setUseGitIgnore(false);
+
+  // passthrough assets referenced through HTML (i.e. non-webpack assets)
+  eleventyConfig.addPassthroughCopy({ "src/assets/static/" : "/static/" });
 
   // configure markdown templates
   const mdOptions = {
@@ -44,6 +48,19 @@ module.exports = function (eleventyConfig) {
                     resolvePath: pathResolver
                   });
   eleventyConfig.setLibrary("md", mdLibrary);
+
+	// shortcode: frontmatter image
+	async function frontMatterImageShortcode(src) {
+		const imageSrc = path.join("src", this.page.url, src);
+		let metadata = await pluginImage(imageSrc, {
+			widths: [1200],
+			formats: ["webp"],
+			outputDir: "dist/img/"
+		});
+
+		return metadata.webp[0].url.trim();
+	}
+	eleventyConfig.addLiquidShortcode("image_uri", frontMatterImageShortcode);
 
   return {
     dir: {
