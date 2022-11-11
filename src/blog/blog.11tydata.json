@@ -1,7 +1,5 @@
 {
     "layout": "blog.html",
     "tags": ["blog"],
-    "open_graph": {
-        "type": "article"
-    }
+	"type": "article"
 }
