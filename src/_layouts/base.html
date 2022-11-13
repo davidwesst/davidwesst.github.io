@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-		<link rel="stylesheet" href="/assets/main.css" />
-
-        <title>{{ title }}</title>
-
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="generator" content="{{ eleventy.generator }}">
+		
         {% assign page_url = "https://www.davidwesst.com" | append: page.url %}
         {% assign page_description = description %}
         {% assign page_type = type | default: "website" %}
@@ -12,27 +13,29 @@
 		{% assign page_image_width = image_width | default: 1200 %}
 		{% assign page_image_mimetype = image_type | default: "image/webp" %}
 
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-        <meta name="description" content="{{ page_description }}" />
-		<meta name="generator" content="{{ eleventy.generator }}">
         <link rel="canonical" href="{{ page_url | url  }}" />
+        <link rel="stylesheet" href="/assets/main.css" />
 
-        <meta property="og:title" content="{{ title }}" />
-        <meta property="og:type" content="{{ page_type }}" />
-        <meta property="og:url" content="{{ page_url | url }}" />
-        <meta property="og:description" content="{{ description }}" />
+        <title>{{ title }}</title>
+
+        <meta name="title" property="og:title" content="{{ title }}" />
+        <meta name="type" property="og:type" content="{{ page_type }}" />
+        <meta name="url" property="og:url" content="{{ page_url | url }}" />
+        <meta name="description" property="og:description" content="{{ description }}" />
+        {% if page_type == "article" %}
+        <meta name="author" property="article:author" content="{{ site.author }}" />
+        <meta name="published_time" property="article:published_time" content="{{ date }}" />
+        <meta name="publish_time" property="article:publish_date" content="{{ date }}" />
+        {% endif %}
         {% if image %}
 		{% capture page_image %}
 		{% image_uri image %}
 		{% endcapture %}
-		<meta property="og:image" content="{{ page_image | strip |  prepend: 'https://www.davidwesst.com' }}" />
+		<meta name="image" property="og:image" content="{{ page_image | strip |  prepend: 'https://www.davidwesst.com' }}" />
 		<meta property="og:image:secure_url" content="{{ page_image | strip | prepend: 'https://www.davidwesst.com' }}" />
 		<meta property="og:image:alt" content="{{ image_alt }}" />
 		{% else %}
-		<meta property="og:image" content="https://www.davidwesst.com/static/default_og.webp" />
+		<meta name="image" property="og:image" content="https://www.davidwesst.com/static/default_og.webp" />
         <meta property="og:image:alt" content="A pixel art version of David Wesst with glasses in a circle, looking to the top right towards text that is his name and the subtitle 'Code. Creativity. Cool Stuff'." />
 		{% endif %}
         <meta property="og:image:type" content="{{ page_image_mimetype }}" />
