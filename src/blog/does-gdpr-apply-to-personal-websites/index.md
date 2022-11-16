@@ -10,9 +10,11 @@ tags:
 - cookies
 - website 
 description: "While rebuilding my personal website in 2022, I wanted to know how or if GDPR applied to my little side project. My internet sleuthing did not bring up any clear and cut answers, but I put together some thoughts that might help others answer it for themselves."
-thumbnail: "./my-gdpr-dialogue.png"
-thumbnail_alt: "A screenshot of the davidwesst.com blog page with a dialogue docked to the bottom with the statement: 'This site uses cookies to track usage in order to help improve the user experience. By clicking 'Accept', you consent to our use of cookies.' along with gray 'Accept' and 'Decline' buttons, and a blue link with the text 'Privacy Statement'"
-
+image: "./gdpr-cookie_thumbnail.webp"
+image_alt: "A chocolate chip cookie on a white surface with a bite taken out of it and crumbs scattered about the surface. The letters 'GDPR' are printed on the top of the cookie with black lettering with a white border."
+image_type: "image/webp"
+image_credit:
+    derived_from: https://unsplash.com/photos/z8kriatLFdA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 ---
 
 [1]: https://gdpr.eu/cookies/
