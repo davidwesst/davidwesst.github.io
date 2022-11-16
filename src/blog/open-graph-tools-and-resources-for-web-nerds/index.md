@@ -10,7 +10,8 @@ tags:
 - facebook
 - twitter
 description: "A compilation of tools and resources I used to implemented the Open Graph Protocol (OGP) for my website to make posts and pages more engaging on LinkedIn and other social networks."
-image: ./open-graph-toolbox.webp
+image: ./open-graph-toolbox.png
+image_type: "image/png"
 image_alt: Old green toolbox with the Open Graph protocol logo on the front, and with a red metal toolbox behind it with Open Graph protocol logo on the top of the lid. 
 image_credit:
     derived_from: https://unsplash.com/photos/2nSdQEd-Exc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
@@ -36,11 +37,20 @@ There are code snippets, explanations of all the object types and their properti
 
 If you take one thing away from this post for your work with OGP, take this one.
 
+### Reference
+
+- [Open Graph protocol page][1]
+
 ## LinkedIn (and Facebook) Post Inspectors
 
 Both Facebook and LinkedIn provide a developer tool to analyze and verify your implemenation of OGP and has the added feature of busting whatever the social networks have cached for the pages you share. 
 
 These tools for triaging or assesing publically shared pages, but not so much when it comes to local development. That is where the next tool comes into play.
+
+### Reference
+
+- [LinkedIn Post Inspector][5]
+- [Facebook Sharing Debugger][6]
 
 ## Social Share Preview Web Extension
 
@@ -50,6 +60,11 @@ This tool saved me from having to continually publish the content to a public lo
 
 ![A window displaying a preview of what a LinkedIn post of the 'How much is enough documentation?' blog post on davidwesst.com](./social-share-preview-example.png)
 
+### Reference
+
+- [Chrome Extension][3]
+- [Firefox Add-On][4]
+
 ## Browser Dev Tools (Obviously)
 
 If you are reading the post, then this one is an obvious one-- but sometimes we (like me) get so caught up on exploring new ways to solve my problem, we forget about the obvious ones.
@@ -57,6 +72,10 @@ If you are reading the post, then this one is an obvious one-- but sometimes we 
 OGP tags live in the `<head>` of your HTML page. If you are unsure why things are not working, make sure you run your browser dev tools of choice and check the `<head>` of the document and make sure the OGP tags you are expecting appear where they should be.
 
 It seems simple, but depending on what tool, engine, or framework to output HTML, you may be surprised what shows up.
+
+### Reference
+
+Open this post on a desktop browser and press the key combination `Ctrl + Shift + i` and you should see your browser dev tools pop open for the site.
 
 ## Conclusion / TL;DR;
 
@@ -68,6 +87,7 @@ These are the tools I used to implement LinkedIn support, along with my browser 
 - [Facebook Sharing Debugger][6]
 - [Chrome Extension][3]
 - [Firefox Add-On][4]
+- `Ctrl + Shift + i` on your desktop browser
 
 Thanks for playing.
 
