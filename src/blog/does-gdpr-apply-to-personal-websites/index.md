@@ -10,9 +10,9 @@ tags:
 - cookies
 - website 
 description: "While rebuilding my personal website in 2022, I wanted to know how or if GDPR applied to my little side project. My internet sleuthing did not bring up any clear and cut answers, but I put together some thoughts that might help others answer it for themselves."
-image: "./gdpr-cookie_thumbnail.webp"
+image: "./gdpr-cookie_thumbnail.png"
 image_alt: "A chocolate chip cookie on a white surface with a bite taken out of it and crumbs scattered about the surface. The letters 'GDPR' are printed on the top of the cookie with black lettering with a white border."
-image_type: "image/webp"
+image_type: "image/png"
 image_credit:
     derived_from: https://unsplash.com/photos/z8kriatLFdA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 ---
