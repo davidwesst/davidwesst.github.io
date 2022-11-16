@@ -54,11 +54,11 @@ module.exports = function (eleventyConfig) {
 		const imageSrc = path.join("src", this.page.url, src);
 		let metadata = await pluginImage(imageSrc, {
 			widths: [1200],
-			formats: ["webp"],
+			formats: ["png", "webp"],
 			outputDir: "dist/img/"
 		});
 
-		return metadata.webp[0].url.trim();
+		return metadata.png[0].url.trim();
 	}
 	eleventyConfig.addLiquidShortcode("image_uri", frontMatterImageShortcode);
 

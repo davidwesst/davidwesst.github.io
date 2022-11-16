@@ -1,6 +1,10 @@
 # Changelog
 This a log of all the notable changes for [davidwesst.com](https://www.davidwesst.com/). You can find the source code on [GitHub](https://github.com/davidwesst/website).
 
+## [10.1.2] - 2022-11-16
+### Changes
+- Using PNG over WEBP for post open graph images for compatibility with LinkedIn
+
 ## [10.1.1] - 2022-11-12
 ### Fixes
 - Minor tweaks to meta tags for LinkedIn support ([#161](https://github.com/davidwesst/website/issues/161))
