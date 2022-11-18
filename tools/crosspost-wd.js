@@ -3,8 +3,10 @@
 const fs = require("fs");
 const { simpleGit, CleanOptions } = require("simple-git");
 const path = require("path");
+const matter = require("gray-matter");
 const os = require("os");
 const { format } = require("date-fns");
+const { stringify } = require("yaml");
 
 
 // pull arguments
@@ -38,7 +40,14 @@ if(fs.existsSync(path.resolve(source_path)) === true) {
             fs.mkdirSync(img_dir, { recursive: true });
             
             // create post file in memory
+            const original_file_name = path.join(source_path, "index.md");
+            const { data: frontMatter, content } = matter(fs.readFileSync(original_file_name));
+
             // TODO: edit front matter
+            frontMatter["originalUrl"] = `https://www.davidwesst.com/blog/${slug}`;
+            frontMatter["authorId"] = "david_wesst";
+            frontMatter["excerpt"] = frontMatter["description"];
+            delete frontMatter["description"];
             
             // copy images
             const acceptedImageExtensions = [".webp", ".png", ".jpeg", ".jpg"];
@@ -51,8 +60,11 @@ if(fs.existsSync(path.resolve(source_path)) === true) {
             });
 
             // write file
-            const wd_file_name = path.join(dest_repo, "source/_posts", wd_post_slug, ".md");
-            fs.copyFileSync(path.join(source_path, "index.md"), wd_file_name);
+            const wd_file_name = path.join(dest_repo, "source/_posts", `${wd_post_slug}.md`);
+            const wd_file_content = `---\n${stringify(frontMatter)}---\n${content}`;
+            fs.writeFileSync(wd_file_name, wd_file_content);
+
+            //fs.copyFileSync(path.join(source_path, "index.md"), wd_file_name);
             
             // add and commit change
 
