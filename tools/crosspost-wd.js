@@ -20,6 +20,8 @@ const source_path = path.resolve(args[1]);
 if(fs.existsSync(path.resolve(source_path)) === true) {
     console.log(`${source_path} exists!`);
 
+    const wd_post_slug = `${format(new Date(), "yyyy-MM-dd")}-${slug}`;
+
     // setup temp working directory
     const working_dir = fs.mkdtempSync(
         path.join(os.tmpdir(),"crosspost-wd_")
@@ -29,23 +31,39 @@ if(fs.existsSync(path.resolve(source_path)) === true) {
     const dest_repo = path.join(working_dir, "western-devs-website");
     simpleGit().clone("https://www.github.com/westerndevs/western-devs-website", dest_repo, ()=> {
         // copy images
+        const post_files = fs.readdirSync(source_path);
+        if(post_files && post_files.length > 0) {
+            // create image directory
+            const img_dir = path.join(dest_repo, "source/images" ,wd_post_slug);
+            fs.mkdirSync(img_dir, { recursive: true });
+            
+            // create post file in memory
+            // TODO: edit front matter
+            
+            // copy images
+            const acceptedImageExtensions = [".webp", ".png", ".jpeg", ".jpg"];
+            post_files.forEach((file)=> {
+                if(acceptedImageExtensions.indexOf(path.extname(file)) > 0) {
+                    console.log(`Copying image...${file}`);
+                    fs.copyFileSync(path.join(source_path, file), path.join(img_dir, file));
+                    // TODO: edit image links in post file
+                }
+            });
 
-        // create post
-        const file_name = `${format(new Date(), "yyyy-MM-dd")}-${slug}.md`;
-        fs.copyFileSync(path.join(source_path, "index.md"), path.join(dest_repo, "source/_posts", file_name));
-        // TODO: edit front matter
-        // TODO: edit image links
+            // write file
+            const wd_file_name = path.join(dest_repo, "source/_posts", wd_post_slug, ".md");
+            fs.copyFileSync(path.join(source_path, "index.md"), wd_file_name);
+            
+            // add and commit change
 
-        // commit change
-
-        // clean-up temp directory
-        // fs.rmdirSync(working_dir);
-
+            // push change
+            
+            // clean-up temp directory
+            // fs.rmdirSync(working_dir);
+        }
     });
 
 }
 else {
     console.error(`${source_dir} was not found.`);
 }
-
-console.log("\n---END---\n");
