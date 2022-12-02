@@ -1,0 +1,20 @@
+<li>
+    <a href="{{ post.url | url }}">
+        <div>{{ post.data.title }}</div>
+    </a>
+    <date class="publishDate"
+        datetime={{ page.date  }}
+        >
+        {{ post.date | date: "%B %d, %Y" }}
+    </date>
+    <p>
+        {{ post.data.description }}
+    </p>
+    <ul class="tags">
+    {% for t in post.data.tags %}
+        {% if t != 'blog' %}
+        <li>{{ t }}</li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</li>
