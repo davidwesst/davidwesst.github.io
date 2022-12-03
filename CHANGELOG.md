@@ -1,6 +1,13 @@
 # Changelog
 This a log of all the notable changes for [davidwesst.com](https://www.davidwesst.com/). You can find the source code on [GitHub](https://github.com/davidwesst/website).
 
+## [10.2.0] - 2022-12-03
+### Added
+- Crosspost CLI utility to speed up crossposting to westerndevs.com ([[#36](https://github.com/davidwesst/website/issues/36)])
+
+### Changes
+- Added latest blog post to home page ([[#166](https://github.com/davidwesst/website/issues/166)])
+
 ## [10.1.2] - 2022-11-16
 ### Changes
 - Using PNG over WEBP for post open graph images for compatibility with LinkedIn
