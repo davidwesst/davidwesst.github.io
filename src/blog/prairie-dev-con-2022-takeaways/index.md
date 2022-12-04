@@ -33,13 +33,13 @@ image_credit:
 
 Until I walked through the doors of the Prairie Dev Con in 2022, I did not realize how much I missed it. The talented speakers that come together always bring fresh ideas to my mind and give me pause to think about my own efforts and how I can learn from their experience. Although not a complete list, these ideas the ones that stood out the most from Prairie Dev Con 2022.  
 
-# API First Design ([Joël Hébert][5])  
+## API First Design ([Joël Hébert][5])  
 
 Joel did a great session about API first design, which was a very dense session, but he delivered the content in a way that was very approachable and allowed me to think of the benefits of doing API first design with tools like [Swagger.io][1] and [OpenAPI][2].  
 
 It was great seeing the value of these tools, and hearing about the patterns and practices experienced API developers like Joel use to implement consistent and secure APIs.  
 
-# Developer Velocity Index ([AJ Enns][6]) 
+## Developer Velocity Index ([AJ Enns][6]) 
 
 I went into this session thinking I was going to be fascinated with the subject, but that the concept would apply only to development leads or possibly coders, rather than an architect like me.. 
 
@@ -49,7 +49,7 @@ The [Developer Velocity Index (DVI)][3], is a way for any team (even if it is a 
 
 I plan on applying the DVI to my side project adventures, self-development, and my enterprise day-job efforts as soon as possible.  
 
-# End to End Testing ([Dave Paquette][7] and [Lavanya Mohan][8])  
+## End to End Testing ([Dave Paquette][7] and [Lavanya Mohan][8])  
 
 Although Dave and Lavanya delivered two completely separate sessions related to testing, the content they delivered worked together in a very interesting way.   
 
@@ -59,13 +59,13 @@ For me, together they demonstrated why the test recorded features of end-to-end 
 
 I feel that these ideas will be seeping into both my day-job and side projects in the very near future. 
 
-# Cloud Security ([Adam Krieger][9]) 
+## Cloud Security ([Adam Krieger][9]) 
 
 Adam closed the Prairie Dev Con season with his session, and managed to leave me with a lot of ideas and helped me identify gaps that I have been living with as a developer and as a solution architect. 
 
 Ensuring that developers are security-aware is something I didn't realize I have been missing in my own skills, but also should be looking for in the implementation of my solution designs. 
 
-# A Deal is a Deal ([Rod Paddock][10]) 
+## A Deal is a Deal ([Rod Paddock][10]) 
 
 Rod delivered a keynote in both Regina and Winnipeg, and each time I walked away with a positive outlook on my own professional and personal growth, but also with the reminder: A Deal Is A Deal.  
 
