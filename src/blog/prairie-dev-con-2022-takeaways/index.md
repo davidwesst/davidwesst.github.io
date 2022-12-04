@@ -11,7 +11,12 @@ tags:
 - e2e-testing
 - playwright
 - adiad
-description: "The talented speakers that come together for Prairie Dev Con always bring fresh ideas to my mind and give me pause to think about my own efforts and how I can learn from their experience. Although not a complete list, these ideas the ones that stood out the most from Prairie Dev Con 2022."  
+description: "The talented speakers that come together for Prairie Dev Con always bring fresh ideas to my mind and give me pause to think about my own efforts and how I can learn from their experience. Although not a complete list, these ideas the ones that stood out the most from Prairie Dev Con 2022."
+image: "prdc2022-takeaway.png"
+image_alt: "A woman holding a brown paper bag with the Prairie Dev Con logo on it , seemingly handing it to someone on the other side who is not visible in the photo."
+image_type: "image/png"
+image_credit:
+    derived_from: "https://unsplash.com/photos/-aL5R0kbRHc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
 
 ---
 
@@ -48,7 +53,7 @@ I plan on applying the DVI to my side project adventures, self-development, and 
 
 Although Dave and Lavanya delivered two completely separate sessions related to testing, the content they delivered worked together in a very interesting way.   
 
-Dave demonstrated and discussed [Playwright][4] and end-to-end testing framework that resolved or improved the problems we commonly see with end-to-end testing. Lavanya demonstrated how someone should _apply_ proper code management and development technique when creating test code using a framework, like Playwright.  
+Dave demonstrated and discussed [Playwright][4] and end-to-end testing framework that resolved or improved the problems we commonly see with end-to-end testing. Lavanya demonstrated how someone _should apply_ proper code management and development techniques when creating test code using a framework, like Playwright.  
 
 For me, together they demonstrated why the test recorded features of end-to-end frameworks is not the "best approach" to creating tests, but rather it is only the first step.   
 
