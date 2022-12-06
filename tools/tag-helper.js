@@ -1,14 +1,39 @@
 #!/usr/bin/env node
 
+const { access } = require("fs");
 const fs = require("fs/promises");
 const matter = require("gray-matter");
 const path = require("path");
+
+/**
+ * Normalize string to following standardized tag name formatting
+ * @param {string} tagName 
+ */
+function normalizeTagName(tagName) {
+    return tagName.toLowerCase().replaceAll(" ","-");
+}
+
+/**
+ * Convert the tag collection to a JSON string
+ * @param {Set} tagCollection
+ * @param {Object} options whitespace: true/false 
+ */
+function tagCollectionToString(tagCollection, options) {
+    let dataStr = JSON.stringify(Array.from(tagCollection).sort());
+    if(options?.whitespace == true) {
+        dataStr = dataStr
+                    .replaceAll("[","[\n\t")
+                    .replaceAll(",",",\n\t")
+                    .replaceAll("]","\n]");
+    }
+    return dataStr;
+}
 
 async function createTagDataFile() {
     // process arguments
     const [,,...args] = process.argv;
     const postDirPath = args[0] || "src/blog/";
-    console.log(postDirPath);
+    const tagFileOutputPath = args[1] || "src/_data";
 
     // read all index.md files in directory and subdirectories
     const posts = await fs.readdir(postDirPath);
@@ -23,15 +48,18 @@ async function createTagDataFile() {
             if(frontMatter["tags"]) {
                 // add tags for each post to a set 
                 for(const tag of frontMatter["tags"]) {
-                    // TODO: normalize the string before adding it
-                    tags.add(tag.toLowerCase().replaceAll(" ", "-"));
+                    tags.add(normalizeTagName(tag));
                 }
             }
         }
     }
 
     // output map contents to json file
-    await fs.writeFile("./tags.json", JSON.stringify(Array.from(tags).sort()));
+    try {
+        await fs.writeFile(tagFileOutputPath, tagCollectionToString(tags, { whitespace: true }), { flag: "wx"});
+    } catch {
+        console.error(`ERROR: Tag file ${tagFileOutputPath} already exists.`);
+    }
 };
 
 Promise.resolve(createTagDataFile());

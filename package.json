@@ -26,6 +26,7 @@
     "dev:eleventy": "eleventy --serve",
     "dev:webpack": "webpack --watch",
     "debug:eleventy": "DEBUG=Eleventy* eleventy",
+    "generate-tags": "./tools/tag-helper.js 'src/blog' 'src/_data/tags.json'",
     "prestart": "npm run build",
     "start": "swa start --output-location ./dist --swa-config-location ./",
     "test:workflow": "./bin/act -j build_and_deploy"
