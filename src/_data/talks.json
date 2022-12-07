@@ -51,7 +51,17 @@
                 "url": "https://www.prairiedevcon.com",
                 "dateStart": "November 28, 2022",
                 "dateEnd": "November 29, 2022",
-                "location": "Calgary, Alberta"
+                "location": "Calgary, Alberta",
+                "links": [
+                    {
+                        "shortDescription": "Slides (PPTX)",
+                        "url": "https://davidwesstweb.blob.core.windows.net/talks/concensus-in-the-chaos/Consensus%20in%20the%20Chaos%20(PrDC%202022)%20-%20Calgary.pptx"
+                    },
+                    {
+                        "shortDescription": "Slides (PDF)",
+                        "url": "https://davidwesstweb.blob.core.windows.net/talks/concensus-in-the-chaos/Consensus%20in%20the%20Chaos%20(PrDC%202022)%20-%20Calgary.pdf"
+                    }
+                ]
             }
         ]
     },
@@ -106,7 +116,17 @@
                 "url": "https://www.prairiedevcon.com",
                 "dateStart": "November 28, 2022",
                 "dateEnd": "November 29, 2022",
-                "location": "Calgary, Alberta"
+                "location": "Calgary, Alberta",
+                "links": [
+                    {
+                        "shortDescription": "Slides (PPTX)",
+                        "url": "https://davidwesstweb.blob.core.windows.net/talks/cots-to-cloud/From%20COTS%20to%20Cloud%20(PrDC%202022)%20-%20Calgary.pptx"
+                    },
+                    {
+                        "shortDescription": "Slides (PDF)",
+                        "url": "https://davidwesstweb.blob.core.windows.net/talks/cots-to-cloud/From%20COTS%20to%20Cloud%20(PrDC%202022)%20-%20Calgary.pdf"
+                    }
+                ]
             }
         ]
     }
