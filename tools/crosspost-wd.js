@@ -41,8 +41,10 @@ else {
         // clone westerndevs repo
         const dest_repo = path.join(working_dir, "western-devs-website");
         simpleGit().clone("https://www.github.com/westerndevs/western-devs-website", dest_repo, ()=> {
-            // copy images
-            const post_files = fs.readdirSync(source_path);
+            
+        const post_files = fs.readdirSync(source_path);
+        const files_to_add = [];
+
             if(post_files && post_files.length > 0) {
                 // create image directory
                 const img_dir = path.join(dest_repo, "source/images" ,wd_post_slug);
@@ -65,6 +67,7 @@ else {
                 delete frontMatter["description"];
                 
                 // copy images
+                const imagePaths = [];
                 const acceptedImageExtensions = [".webp", ".png", ".jpeg", ".jpg"];
                 post_files.forEach((file)=> {
                     if(acceptedImageExtensions.indexOf(path.extname(file)) > 0) {
@@ -73,11 +76,13 @@ else {
                             updatedContent = content.replace(`./${file}`, `/images/${wd_post_slug}/${file}`);
                             console.log(`Copying image...${file}`);
                             fs.copyFileSync(path.join(source_path, file), path.join(img_dir, file));
+                            files_to_add.push(path.join(img_dir, file));
                         }
                         else if(content.includes(`${file}`)) {
                             updatedContent = content.replace(file, `/images/${wd_post_slug}/${file}`);
                             console.log(`Copying image...${file}`);
                             fs.copyFileSync(path.join(source_path, file), path.join(img_dir, file));
+                            files_to_add.push(path.join(img_dir, file));
                         }
                     }
                 });
@@ -86,12 +91,10 @@ else {
                 const wd_file_name = path.join(dest_repo, "source/_posts", `${wd_post_slug}.md`);
                 const wd_file_content = `---\n${stringify(frontMatter)}---\n${updatedContent}`;
                 fs.writeFileSync(wd_file_name, wd_file_content);
+                files_to_add.push(wd_file_name);
 
                 // add and commit change
-                simpleGit(dest_repo).add([
-                    `${wd_file_name}`,
-                    `source/images/${wd_post_slug}/*`
-                ], (err)=> {
+                simpleGit(dest_repo).add(files_to_add, (err)=> {
                     if(err) console.error(err);
                     else {
                         console.log("commit chanage to repo");
