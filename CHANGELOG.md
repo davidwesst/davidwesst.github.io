@@ -1,6 +1,10 @@
 # Changelog
 This a log of all the notable changes for [davidwesst.com](https://www.davidwesst.com/). You can find the source code on [GitHub](https://github.com/davidwesst/website).
 
+## [10.2.1] - 2022-12-07
+### Changes
+- Updated method which `crosspost-wd.js` adds files to git to provide more consistency.
+
 ## [10.2.0] - 2022-12-03
 ### Added
 - Crosspost CLI utility to speed up crossposting to westerndevs.com ([[#36](https://github.com/davidwesst/website/issues/36)])
