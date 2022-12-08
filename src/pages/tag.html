@@ -1,0 +1,14 @@
+---
+layout: "base.html"
+pagination:
+    data: content-tags 
+    alias: tag 
+    size: 1
+permalink: "tags/{{ tag | slug }}/index.html"
+---
+<header>
+    <h1>Tag: {{ tag }}</h1>
+</header>
+<section>
+    Content for the tag will appear here.
+</section>
