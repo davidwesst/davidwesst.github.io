@@ -7,8 +7,10 @@ pagination:
 permalink: "tags/{{ tag | slug }}/index.html"
 ---
 <header>
-    <h1>Tag: {{ tag }}</h1>
+    <h1>Content tagged with "{{ tag }}"</h1>
 </header>
-<section>
-    Content for the tag will appear here.
-</section>
+<menu class="content-list">
+    {% for item in collections[tag] %}
+        {% render "components/blog-item.html", post:item %}
+    {% endfor %}
+</menu>
