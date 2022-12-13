@@ -1,7 +1,7 @@
 ---
 
 title: "Docker Desktop for Linux is not the same as Docker Engine"
-date: "2022-11-22T12:00:00-06:00"
+date: "2022-12-13T12:00:00-05:00"
 tags:
 - docker
 - docker engine
