@@ -1,13 +1,19 @@
 ---
-title: "Cannot Find Module Bootloader.js in VSCode DevContainer"
-date: "2022-01-17T20:42:00-06:00"
+
+title: Cannot Find Module Bootloader.js in VSCode DevContainer
+date: 2022-01-17T20:42:00-06:00
 tags:
-- devcontainer
-- nodejs
-- vscode
-description: "Problem: When running node commands from within a DevContainer, you receive the error 'Cannot find module bootloader.js'. This post contains the solution."
-social_image: "./error-message-tty.png"
-social_image_alt: "Windows terminal with a Linux penguin in the background of the terminal. The text on the terminal reads: 'Error: Cannot find module '/some/path/with/ahashvalue/vscode-js-debug-bootloader.js'"
+  - devcontainer
+  - nodejs
+  - vscode
+description: "Problem: When running node commands from within a DevContainer,
+  you receive the error 'Cannot find module bootloader.js'. This post contains
+  the solution."
+social_image: ./error-message-tty.png
+social_image_alt: "Windows terminal with a Linux penguin in the background of
+  the terminal. The text on the terminal reads: 'Error: Cannot find module
+  '/some/path/with/ahashvalue/vscode-js-debug-bootloader.js'"
+
 ---
 
 When working with NodeJS inside a DevContainer using VSCode, sometimes an error comes up whenever you try to run a node application or npm command (i.e. npm install). The error looks something like this:

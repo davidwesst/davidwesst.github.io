@@ -1,14 +1,19 @@
 ---
+
 title: Windows Not Required - The New Microsoft Development Story (Video)
-date: "2016-10-03T10:47:31"
+date: 2016-10-03T10:47:31
 tags:
-  - .NET Core
-  - Docker
-  - PowerShell
-  - TypeScript
-  - Visual Studio Code
-  - Visual Studio Team Services
-description: I delivered a presentation at the Winnipeg .NET User Group last week, where I recorded it and posted it on YouTube. I go over a number of Microsoft development tools and technologies that don't require Windows and deliver the demos on my Linux machine.
+  - .net-core
+  - docker
+  - powershell
+  - typescript
+  - visual-studio-code
+  - visual-studio-team-services
+description: I delivered a presentation at the Winnipeg .NET User Group last
+  week, where I recorded it and posted it on YouTube. I go over a number of
+  Microsoft development tools and technologies that don't require Windows and
+  deliver the demos on my Linux machine.
+
 ---
 
 This is a recording of my recent Winnipeg .NET User Group talk about using Microsoft tools without requiring Windows.

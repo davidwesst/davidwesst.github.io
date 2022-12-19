@@ -1,13 +1,16 @@
 ---
+
 title: "YouTube and Twitch: My Revengence"
-date: "2021-07-05T15:53"
+date: 2021-07-05T15:53
 tags:
-- youtube
-- twitch
-- video
-- livestream
-description: "I miss making video content, but what value does YouTube and Twitch content give you?"
-social_image: "./caspar-camille-rubin-DrL-cwqD6tM-unsplash_cropped.jpg"
+  - youtube
+  - twitch
+  - video
+  - livestream
+description: I miss making video content, but what value does YouTube and Twitch
+  content give you?
+social_image: ./caspar-camille-rubin-DrL-cwqD6tM-unsplash_cropped.jpg
+
 ---
 
 I like making video content. More specifically, my YouTube content on my adventures with gamedev, and my various attempts at livestreams. 

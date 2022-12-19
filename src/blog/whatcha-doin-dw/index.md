@@ -1,10 +1,12 @@
 ---
-title: "Whatcha doin' DW?"
+
+title: Whatcha doin' DW?
 tags:
   - twitch
   - html5
-date: "2014-07-29T05:38:56"
-description: "Lot's of stuff really, but here's the big ones at 50,000 feet."
+date: 2014-07-29T05:38:56
+description: Lot's of stuff really, but here's the big ones at 50,000 feet.
+
 ---
 
 [1]: glitchicon_purple-128x128.png

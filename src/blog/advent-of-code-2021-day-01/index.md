@@ -1,12 +1,15 @@
 ---
+
 title: "Advent of Code 2021: Day 1"
-date: "2021-12-01T23:59:00-06:00"
+date: 2021-12-01T23:59:00-06:00
 tags:
-- advent of code
-- javascript
-- nodejs
-social_image: "./first-star-tweet.jpeg"
-description: "My initial thoughts after completing the first day of my first journey into the Advent of Code"
+  - advent-of-code
+  - javascript
+  - nodejs
+social_image: ./first-star-tweet.jpeg
+description: My initial thoughts after completing the first day of my first
+  journey into the Advent of Code
+
 ---
 I decided to try and participate in the [Advent of Code](https://adventofcode.com/) this year. This is my experience for Day 1.
 

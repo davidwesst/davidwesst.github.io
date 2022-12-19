@@ -1,13 +1,15 @@
 ---
-title: "Where to Find Your Gamedev Community"
-date: "2020-01-18T00:09:00"
+
+title: Where to Find Your Gamedev Community
+date: 2020-01-18T00:09:00
 tags:
-    - Game Development
-    - Gamedev
-    - Game Design
-    - Community
-    - Professional Development
-    - Video
+  - game-development
+  - gamedev
+  - game-design
+  - community
+  - professional-development
+  - video
+
 ---
 Four places to find your new game development and/or design and/or technology community and figure out if it's even good!
 

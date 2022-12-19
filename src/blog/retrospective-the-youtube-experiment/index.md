@@ -1,11 +1,14 @@
 ---
-title: 'Retrospective: The YouTube Experiment'
+
+title: "Retrospective: The YouTube Experiment"
 tags:
-  - Script Unscripted
-  - YouTube
+  - script-unscripted
+  - youtube
   - retrospective
-date: "2015-02-05T18:06:47"
-description: "At the beginning of the month I announced I'd be doing a web series on YouTube called Script Unscripted. "
+date: 2015-02-05T18:06:47
+description: "At the beginning of the month I announced I'd be doing a web
+  series on YouTube called Script Unscripted. "
+
 ---
 
 [1]: youtube-logo-full_color.png

@@ -1,10 +1,12 @@
 ---
+
 title: Remote IE - No More Testing Excuses
 tags:
-- internet explorer
-- ie
-date: "2014-11-03T18:21:18"
-description: "Today the IE team released Remote IE. This is awesome. Let me explain."
+  - internet-explorer
+  - ie
+date: 2014-11-03T18:21:18
+description: Today the IE team released Remote IE. This is awesome. Let me explain.
+
 ---
 
 [1]: wp_20141103_002-1-.jpg

@@ -1,9 +1,11 @@
 ---
-title:  Custom Tasks for Java in Visual Studio Code
-date: "2015-10-14T08:25:50"
+
+title: Custom Tasks for Java in Visual Studio Code
+date: 2015-10-14T08:25:50
 tags:
-- java
-- vscode
+  - java
+  - vscode
+
 ---
 
 Now that I'm a Java Developer, I no longer worry about the bloating feeling I get when I need to open up the original Visual Studio. Now I worry about opening another instance of Eclipse. Don't get me wrong, Visual Studio and Eclipse are both great tools, but there are plenty of times where I don't need to bring a forklift just to move a single box.

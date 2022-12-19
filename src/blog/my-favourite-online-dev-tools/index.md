@@ -1,13 +1,15 @@
 ---
+
 title: My Favourite Online Dev Tools
-date: "2015-10-28T08:44:09"
+date: 2015-10-28T08:44:09
 tags:
-- cloud ide
-- cloud9
-- json
-- javascript
-- agile
-- kanban
+  - cloud-ide
+  - cloud9
+  - json
+  - javascript
+  - agile
+  - kanban
+
 ---
 
 I'm talking about online or web-based tools, not toolboxes. So entire development suites like Cloud9 or Visual Studio Online are off the table because they are full tool suites. These tools are simple, but continually help me out in a pinch.

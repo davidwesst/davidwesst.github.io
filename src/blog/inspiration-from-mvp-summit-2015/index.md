@@ -1,11 +1,13 @@
 ---
-title:  Inspiration From MVP Summit 2015
-date: "2015-11-20T09:09:44"
+
+title: Inspiration From MVP Summit 2015
+date: 2015-11-20T09:09:44
 tags:
-- microsoft mvp
-- mvp
-- mvp summit
-- internet explorer
+  - microsoft-mvp
+  - mvp
+  - mvp-summit
+  - internet-explorer
+
 ---
 
 ![me-mvp2015.jpg][1]

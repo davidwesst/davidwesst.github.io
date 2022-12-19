@@ -1,10 +1,15 @@
 ---
+
 title: "Instant Eyedropper: The Colour Picker Tool I've Been Missing"
 tags:
-- internet explorer
-- ie
-date: "2013-08-20T14:43:00"
-description: "I came across this today, and I wanted to share it as this is the first time I've found a simple, minimalistic eyedropper tool that allows me to get the HEX value (or another variety of colur value) of any colour that is on my screen."
+  - internet-explorer
+  - ie
+date: 2013-08-20T14:43:00
+description: I came across this today, and I wanted to share it as this is the
+  first time I've found a simple, minimalistic eyedropper tool that allows me to
+  get the HEX value (or another variety of colur value) of any colour that is on
+  my screen.
+
 ---
 
 [1]: blog_instanteyedropper_1.png

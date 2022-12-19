@@ -1,13 +1,16 @@
 ---
+
 title: Highlight Reel for 2014
 tags:
   - thoughts
-  - Get to the Point
-  - Prairie Dev Con
-  - ZVGQ
-social_image: "newzvgqtitle.png"
-date: "2015-01-01T19:34:29"
-description: "This past year has been a rough one for me personally, but professionally, not so bad."
+  - get-to-the-point
+  - prairie-dev-con
+  - zvgq
+social_image: newzvgqtitle.png
+date: 2015-01-01T19:34:29
+description: This past year has been a rough one for me personally, but
+  professionally, not so bad.
+
 ---
 
 [1]: newzvgqtitle.png

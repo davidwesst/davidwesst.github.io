@@ -1,10 +1,12 @@
 ---
-title: 'Pro Tip: Office 365 to Simplify Communication'
+
+title: "Pro Tip: Office 365 to Simplify Communication"
 tags:
-- office 365
-- microsoft 365
-date: "2013-11-05T18:59:00"
-description: "I believe the key to being professional is communication."
+  - office-365
+  - microsoft-365
+date: 2013-11-05T18:59:00
+description: I believe the key to being professional is communication.
+
 ---
 [1]: 110513_1851_protipoffic1.png
 [2]: 110513_1851_protipoffic3.png

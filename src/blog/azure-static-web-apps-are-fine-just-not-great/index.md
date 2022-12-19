@@ -1,15 +1,19 @@
 ---
 
 title: Azure Static Web Apps (SWA) are fine, just not great
-date: "2022-10-12T12:00:00"
+date: 2022-10-12T12:00:00
 tags:
-- azure
-- azure static web apps
-- azure dns
-- azure front door
-- azure cdn
-- azure functions
-description: "Azure Static Web Apps feel like a good idea, but in practice I struggled with understanding what the product is trying to be. This post documents my experience working with SWAs on a few projects, namely this website, along with the problems and workarounds/solutions I found to those problems."
+  - azure
+  - azure-static-web-apps
+  - azure-dns
+  - azure-front-door
+  - azure-cdn
+  - azure-functions
+description: Azure Static Web Apps feel like a good idea, but in practice I
+  struggled with understanding what the product is trying to be. This post
+  documents my experience working with SWAs on a few projects, namely this
+  website, along with the problems and workarounds/solutions I found to those
+  problems.
 
 ---
 

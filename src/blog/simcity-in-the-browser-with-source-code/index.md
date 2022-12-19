@@ -1,11 +1,14 @@
 ---
+
 title: SimCity in the Browser...with Source Code
 tags:
   - javascript
   - games
   - html
-date: "2014-10-31T17:50:42"
-description: "If you haven't played the classic SimCity, I mean Micropolis then you missed out."
+date: 2014-10-31T17:50:42
+description: If you haven't played the classic SimCity, I mean Micropolis then
+  you missed out.
+
 ---
 
 [1]: micropolisjs-city.png

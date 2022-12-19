@@ -1,17 +1,22 @@
 ---
 
-title: "Docker Desktop for Linux is not the same as Docker Engine"
-date: "2022-12-13T12:00:00-05:00"
+title: Docker Desktop for Linux is not the same as Docker Engine
+date: 2022-12-13T12:00:00-05:00
 tags:
-- docker
-- docker engine
-- docker desktop
-- linux
-- github workflow
-description: "With Docker for Desktop available for Linux (which I like), I managed to get myself confused regarding its role on my Linux-based development machine. This post clarifies a few things I discovered while triaging an issue I had trying to test my GitHub Workflows locally."
-image: "./docker-desktop-is-not-docker-engine.png"
-image_type: "image/png"
-image_alt: "A blue rectangular button with the words 'Download Docker Desktop' for Linux written on it. Above it, there is red text with an arrow pointing to the button that says 'This is NOT Docker Engine'."
+  - docker
+  - docker-engine
+  - docker-desktop
+  - linux
+  - github-workflow
+description: With Docker for Desktop available for Linux (which I like), I
+  managed to get myself confused regarding its role on my Linux-based
+  development machine. This post clarifies a few things I discovered while
+  triaging an issue I had trying to test my GitHub Workflows locally.
+image: ./docker-desktop-is-not-docker-engine.png
+image_type: image/png
+image_alt: A blue rectangular button with the words 'Download Docker Desktop'
+  for Linux written on it. Above it, there is red text with an arrow pointing to
+  the button that says 'This is NOT Docker Engine'.
 
 ---
 

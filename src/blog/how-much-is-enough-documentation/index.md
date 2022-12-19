@@ -1,20 +1,27 @@
 ---
 
-title: "How much is enough documentation?"
-date: "2022-11-08T12:00:00-05:00"
+title: How much is enough documentation?
+date: 2022-11-08T12:00:00-05:00
 tags:
-- madr
-- c4-model
-- decision
-- diagram
-- documentation
-- README.md
-- CONTRIBUTING.md 
-description: "Documentation is important, but it takes a lot of time and if you are a solo developer, what documentation to you really need? Still, good docs can provide the context I forget after putting a project on the shelf, or explains how to fix something in older code I use, but haven't touched in a long time. So how much is 'enough' documentation and what types of documentation do I need to invest in give my future self the the best value for the effort I put in?"
-
-image: "./repo-with-docs_og.png"
-image_alt: "File tree of a source code repository with a 'docs' folder containing a sub-folder entitled 'decisions' with a series of markdown files documenting technical decisions for the project."
-image_type: "image/png"
+  - madr
+  - c4-model
+  - decision
+  - diagram
+  - documentation
+  - readme.md
+  - contributing.md
+description: Documentation is important, but it takes a lot of time and if you
+  are a solo developer, what documentation to you really need? Still, good docs
+  can provide the context I forget after putting a project on the shelf, or
+  explains how to fix something in older code I use, but haven't touched in a
+  long time. So how much is 'enough' documentation and what types of
+  documentation do I need to invest in give my future self the the best value
+  for the effort I put in?
+image: ./repo-with-docs_og.png
+image_alt: File tree of a source code repository with a 'docs' folder containing
+  a sub-folder entitled 'decisions' with a series of markdown files documenting
+  technical decisions for the project.
+image_type: image/png
 image_height: 630
 image_width: 1200
 

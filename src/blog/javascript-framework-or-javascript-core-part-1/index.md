@@ -1,9 +1,13 @@
 ---
+
 title: JavaScript Framework or JavaScript Core (Part 1)
-date: "2016-02-16T15:34:46"
+date: 2016-02-16T15:34:46
 tags:
-  - JavaScript
-description: Is it always better to use JavaScript Frameworks? David analyzes the pros and cons of using JavaScript frameworks versus only using core JavaScript.
+  - javascript
+description: Is it always better to use JavaScript Frameworks? David analyzes
+  the pros and cons of using JavaScript frameworks versus only using core
+  JavaScript.
+
 ---
 ![js-framework-or-pure-js][1]
 

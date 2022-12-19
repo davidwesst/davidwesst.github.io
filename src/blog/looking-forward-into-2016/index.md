@@ -1,10 +1,13 @@
 ---
+
 title: Looking Forward into 2016
 tags:
   - blog
-  - game development
-date: "2016-01-01T13:39:12"
-description: DW documents and shares his planning session for 2016 based on what he's learned from 2015.
+  - game-development
+date: 2016-01-01T13:39:12
+description: DW documents and shares his planning session for 2016 based on what
+  he's learned from 2015.
+
 ---
 
 <!-- MISSING_IMG ![](http://blog.davidwesst.com/2016/01/Looking-Forward-into-2016/sunrise.png) -->

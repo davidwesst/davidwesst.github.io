@@ -1,14 +1,18 @@
 ---
-title: "I Can Teach Your Dog Quantum Physics"
-date: "2021-06-28T12:00:00"
+
+title: I Can Teach Your Dog Quantum Physics
+date: 2021-06-28T12:00:00
 tags:
-- quantum computing
-- quantum physics
-- finding inspiration
-- book
-- Mark Russinovich
-description: "It's true! I read a book about it and everything. Let me breakdown the highlights of this book that does a pretty good job of explaining the physics behind quantum computing."
-social_image: "./physics_dog_resized.jpg"
+  - quantum-computing
+  - quantum-physics
+  - finding-inspiration
+  - book
+  - mark-russinovich
+description: It's true! I read a book about it and everything. Let me breakdown
+  the highlights of this book that does a pretty good job of explaining the
+  physics behind quantum computing.
+social_image: ./physics_dog_resized.jpg
+
 ---
 
 Okay fine. Maybe I can't teach your dog quantum physics, but this book taught _me_ something about quantum so that's something, right?

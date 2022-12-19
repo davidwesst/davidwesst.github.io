@@ -1,12 +1,15 @@
 ---
+
 title: Mocha Test Reports in VSTS
 tags:
-    - javascript
-    - visual studio team services
-    - mocha
-    - testing
-description: "Here's another dev thing I do: Display my MochaJS test report in the Visual Studio Team Services (VSTS) build report."
-date: "2017-08-01T11:19:00"
+  - javascript
+  - visual-studio-team-services
+  - mocha
+  - testing
+description: "Here's another dev thing I do: Display my MochaJS test report in
+  the Visual Studio Team Services (VSTS) build report."
+date: 2017-08-01T11:19:00
+
 ---
 
 [1]: https://mochajs.org/

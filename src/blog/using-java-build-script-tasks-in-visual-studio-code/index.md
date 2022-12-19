@@ -1,10 +1,12 @@
 ---
+
 title: Using Java Build Script Tasks in Visual Studio Code
-date: "2015-10-21T08:18:19"
+date: 2015-10-21T08:18:19
 tags:
-- java
-- vscode
-- visual studio code
+  - java
+  - vscode
+  - visual-studio-code
+
 ---
 
 I [previously shared](http://www.westerndevs.com/custom-tasks-for-java-in-visual-studio-code/) how I setup a custom problem matching in Visual Studio Code for compiling Java  and displaying the errors inline with a custom problem matcher.

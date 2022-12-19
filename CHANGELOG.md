@@ -1,6 +1,14 @@
 # Changelog
 This a log of all the notable changes for [davidwesst.com](https://www.davidwesst.com/). You can find the source code on [GitHub](https://github.com/davidwesst/website).
 
+## [10.3.0] - 2022-12-19
+### Added
+- Content tag pages to show all blog posts with the same tag ([#148](https://github.com/davidwesst/website/148))
+- Tags to HTML head using `og:article:tag` namespace from Open Graph protocol ([#169](https://github.com/davidwesst/169))
+
+### Changes
+- Normalized tags in all existing blog posts ([#172](https://github.com/davidwesst/website/172))
+
 ## [10.2.1] - 2022-12-07
 ### Changes
 - Updated method which `crosspost-wd.js` adds files to git to provide more consistency.

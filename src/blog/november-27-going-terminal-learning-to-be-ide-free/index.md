@@ -1,11 +1,15 @@
 ---
+
 title: "November 27 - Going Terminal: Learning to be IDE Free"
 tags:
-- talks
-- ide
-- terminal
-date: "2014-11-13T19:27:16"
-description: "I'm making my public speaking comeback after nearly a full year off with a new original presentation called Going Terminal: Learning to be IDE Free."
+  - talks
+  - ide
+  - terminal
+date: 2014-11-13T19:27:16
+description: "I'm making my public speaking comeback after nearly a full year
+  off with a new original presentation called Going Terminal: Learning to be IDE
+  Free."
+
 ---
 [1]: wpgdotnet.png
 

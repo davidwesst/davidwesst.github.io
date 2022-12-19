@@ -1,9 +1,11 @@
 ---
-title: "Docker on Windows 10 Problems"
-date: "2015-08-10T09:20:40"
+
+title: Docker on Windows 10 Problems
+date: 2015-08-10T09:20:40
 tags:
-- docker
-- windows 10
+  - docker
+  - windows-10
+
 ---
 
 ## UPDATE -- Solution Found

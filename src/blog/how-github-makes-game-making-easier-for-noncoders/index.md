@@ -1,10 +1,12 @@
 ---
-title: "How Github Makes Game Making Easier for Noncoders"
-date: "2020-02-19T09:48:36"
+
+title: How Github Makes Game Making Easier for Noncoders
+date: 2020-02-19T09:48:36
 tags:
-    - Game Design
-    - Game Development
-    - GitHub
+  - game-design
+  - game-development
+  - github
+
 ---
 
 In this video, DW goes through five things he's been using in Github while designing his latest prototype that require zero coding skills. 

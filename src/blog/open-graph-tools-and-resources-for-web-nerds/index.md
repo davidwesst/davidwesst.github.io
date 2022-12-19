@@ -1,21 +1,25 @@
 ---
 
 title: Open Graph Tools and Resources for Web Nerds (Like Me)
-date: 2022-11-29T12:00:00-05:00
+date: 2022-11-29T17:00:00.000Z
 tags:
-- open graph
-- web development
-- seo
-- linkedin
-- facebook
-- twitter
-description: "A compilation of tools and resources I used to implemented the Open Graph Protocol (OGP) for my website to make posts and pages more engaging on LinkedIn and other social networks."
+  - open-graph
+  - web-development
+  - seo
+  - linkedin
+  - facebook
+  - twitter
+description: A compilation of tools and resources I used to implemented the Open
+  Graph Protocol (OGP) for my website to make posts and pages more engaging on
+  LinkedIn and other social networks.
 image: ./open-graph-toolbox.png
-image_type: "image/png"
-image_alt: Old green toolbox with the Open Graph protocol logo on the front, and with a red metal toolbox behind it with Open Graph protocol logo on the top of the lid. 
+image_type: image/png
+image_alt: Old green toolbox with the Open Graph protocol logo on the front, and
+  with a red metal toolbox behind it with Open Graph protocol logo on the top of
+  the lid.
 image_credit:
-    derived_from: https://unsplash.com/photos/2nSdQEd-Exc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-  
+  derived_from: https://unsplash.com/photos/2nSdQEd-Exc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
 ---
 
 [1]: https://ogp.me

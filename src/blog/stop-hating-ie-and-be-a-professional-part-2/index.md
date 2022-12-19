@@ -1,10 +1,13 @@
 ---
+
 title: Stop Hating IE and Be a Professional (Part 2)
 tags:
-- ie
-- internet explorer
-date: "2013-01-17T07:16:00"
-description: "This post is part two of three. Part 1 (Be a Realist) and Part 3 (Be a Leader) are also available."
+  - ie
+  - internet-explorer
+date: 2013-01-17T07:16:00
+description: This post is part two of three. Part 1 (Be a Realist) and Part 3
+  (Be a Leader) are also available.
+
 ---
 
 This post is part two of three. [Part 1 (Be a Realist)](http://www.davidwesst.com/stop-hating-ie-and-be-a-professional-part-1) and [Part 3 (Be a Leader)](http://www.davidwesst.com/stop-hating-ie-and-be-a-professional-part-3) are also available.

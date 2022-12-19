@@ -1,4 +1,5 @@
 ---
+
 title: Measuring in CSS is Cool
 tags:
   - css
@@ -6,8 +7,11 @@ tags:
   - html
   - stylesheets
 social_image: header.png
-date: "2016-03-07T09:04:00"
-description: "I've been on this CSS kick for the past while, and I had forgotten how much CSS can do now. More specifically how things have changed when it comes to measuring height and width."
+date: 2016-03-07T09:04:00
+description: I've been on this CSS kick for the past while, and I had forgotten
+  how much CSS can do now. More specifically how things have changed when it
+  comes to measuring height and width.
+
 ---
 
 [1]: header.png

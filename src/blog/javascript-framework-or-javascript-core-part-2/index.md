@@ -1,9 +1,13 @@
 ---
+
 title: JavaScript Framework or JavaScript Core (Part 2)
-date: "2016-02-22T15:34:46"
+date: 2016-02-22T15:34:46
 tags:
-  - JavaScript
-description: Is it always better to use JavaScript Frameworks? David continues his analysys and shares the pros and cons of writing your JavaScript from scratch.
+  - javascript
+description: Is it always better to use JavaScript Frameworks? David continues
+  his analysys and shares the pros and cons of writing your JavaScript from
+  scratch.
+
 ---
 
 ![][5]

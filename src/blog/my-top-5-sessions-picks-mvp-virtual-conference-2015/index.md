@@ -1,9 +1,11 @@
 ---
+
 title: My Top 5 Sessions Picks - MVP Virtual Conference 2015
 tags:
   - mvp
   - conference
-date: "2015-05-13T14:36:03"
+date: 2015-05-13T14:36:03
+
 ---
 [1]: vcon_hero.jpg
 
