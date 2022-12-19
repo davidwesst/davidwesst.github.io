@@ -14,14 +14,14 @@
     "node": "^16"
   },
   "scripts": {
-    "prebuild": "npm run clean",
+    "prebuild": "concurrently 'npm run clean' 'npm run generate-tags'",
     "build": "concurrently 'npm:build:*'",
     "build:eleventy": "eleventy",
     "build:assets": "webpack",
     "debug:build": "DEBUG=Eleventy* eleventy",
     "clean": "rimraf ./dist/*",
     "crosspost:wd": "./tools/crosspost-wd.js",
-    "predev": "npm run clean",
+    "predev": "concurrently 'npm run clean' 'npm run generate-tags'",
     "dev": "concurrently --kill-others 'npm:dev:*'",
     "dev:eleventy": "eleventy --serve",
     "dev:webpack": "webpack --watch",

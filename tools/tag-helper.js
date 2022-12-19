@@ -49,7 +49,7 @@ async function createTagDataFile() {
 
     // output map contents to json file
     try {
-        await fs.writeFile(tagFileOutputPath, tagCollectionToString(tags, { whitespace: true }), { flag: "wx"});
+        await fs.writeFile(tagFileOutputPath, tagCollectionToString(tags, { whitespace: true }), { flag: "w"});
     } catch {
         console.error(`ERROR: Tag file ${tagFileOutputPath} already exists.`);
     }
