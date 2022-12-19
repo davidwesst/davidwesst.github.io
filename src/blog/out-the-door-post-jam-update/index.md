@@ -1,14 +1,18 @@
 ---
-title: "New Artwork and a Complete Rewrite...ish | Out the Door Devlog"
-date: "2020-11-09T09:00:00"
+
+title: New Artwork and a Complete Rewrite...ish | Out the Door Devlog
+date: 2020-11-09T09:00:00
 tags:
-    - ludum dare
-    - ludum dare 47
-    - game development
-    - game design
-    - gamejam
-    - out the door
-description: "My effort continues on Out the Door with some new artwork, a rewrite (of sorts) to fix the build process, which has led to something of a self-driven code review."
+  - ludum-dare
+  - ludum-dare-47
+  - game-development
+  - game-design
+  - gamejam
+  - out-the-door
+description: My effort continues on Out the Door with some new artwork, a
+  rewrite (of sorts) to fix the build process, which has led to something of a
+  self-driven code review.
+
 ---
 
 My effort continues on Out the Door with some new artwork, a rewrite (of sorts) to fix the build process, which has led to something of a self-driven code review.

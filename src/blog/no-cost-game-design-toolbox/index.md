@@ -1,13 +1,15 @@
 ---
-title: "No Cost Game Design Toolbox"
-date: "2017-08-15T12:35:00"
+
+title: No Cost Game Design Toolbox
+date: 2017-08-15T12:35:00
 tags:
-    - Game Design
-    - Game Development
-    - Toolbox
-    - OneNote
-    - Excel
-    - Video
+  - game-design
+  - game-development
+  - toolbox
+  - onenote
+  - excel
+  - video
+
 ---
 
 In 2020, I have been focusing my energy into game design. In this video, I share my game design toolbox and process and how it literally costs nothing to use the tools themselves.

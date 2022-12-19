@@ -1,4 +1,5 @@
 ---
+
 title: Conquest April 2017 Devblog
 tags:
   - conquest
@@ -6,8 +7,9 @@ tags:
   - vsts
   - itch.io
   - javascript
-date: "2017-05-02T08:31:41"
-updated: "2017-05-02T08:31:41"
+date: 2017-05-02T08:31:41
+updated: 2017-05-02T08:31:41
+
 ---
 
 This is the April 2017 update for my video game project I call "Conquest".

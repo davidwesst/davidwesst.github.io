@@ -1,15 +1,17 @@
 ---
+
 title: Script Unscripted Starts January 8th
 tags:
   - javascript
   - cordova
-  - Prairie Dev Con
-  - Script Unscripted
-  - YouTube
+  - prairie-dev-con
+  - script-unscripted
+  - youtube
   - phonegap
-  - bonus level
-date: "2015-01-06T16:06:06"
-description: "Last week I launched my first YouTube video with Get to the Point."
+  - bonus-level
+date: 2015-01-06T16:06:06
+description: Last week I launched my first YouTube video with Get to the Point.
+
 ---
 
 [1]: cordova_256.png

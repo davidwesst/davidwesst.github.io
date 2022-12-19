@@ -1,9 +1,11 @@
 ---
-title: "Picking between TypeScript and JavaScript"
+
+title: Picking between TypeScript and JavaScript
 tags:
   - javascript
   - typescript
-date: "2018-03-15T11:40:00"
+date: 2018-03-15T11:40:00
+
 ---
 
 Which one should you pick: TypeScript or JavaScript? They are both great languages, people always ask me when you should use one or the other. This post puts that to rest.

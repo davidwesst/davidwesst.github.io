@@ -1,8 +1,10 @@
 ---
-title: "I Miss Blogging"
-date: "2020-06-24T17:40:00"
+
+title: I Miss Blogging
+date: 2020-06-24T17:40:00
 tags:
-    - blog
+  - blog
+
 ---
 
 [1]: https://youtube.com/davidwesst

@@ -1,12 +1,15 @@
 ---
-title: 'Think Before You Tweet: A Lesson in Humility'
+
+title: "Think Before You Tweet: A Lesson in Humility"
 tags:
   - thoughts
   - npm
   - chocolatey
   - nuget
-date: "2014-11-17T17:40:10"
-description: "Over the weekend I tripped over brain and sounded like a goof on Twitter while trying to engage a number of technology experts."
+date: 2014-11-17T17:40:10
+description: Over the weekend I tripped over brain and sounded like a goof on
+  Twitter while trying to engage a number of technology experts.
+
 ---
 
 [1]: chocolateytwitter.png

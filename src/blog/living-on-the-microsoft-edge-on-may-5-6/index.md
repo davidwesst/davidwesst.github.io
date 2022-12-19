@@ -1,13 +1,16 @@
 ---
-title: 'Living on the (Microsoft) Edge on May 5 & 6'
+
+title: Living on the (Microsoft) Edge on May 5 & 6
 tags:
-  - Internet Explorer
-  - Windows 10
-  - Edge
-  - Conference
+  - internet-explorer
+  - windows-10
+  - edge
+  - conference
 social_image: edgeconference2015-markup-1.png
-date: "2015-05-04T05:22:00"
-description: "2015 brought introduced a lot of new stuff in the Microsoft space, including how Windows 10 is changing up the web application game."
+date: 2015-05-04T05:22:00
+description: 2015 brought introduced a lot of new stuff in the Microsoft space,
+  including how Windows 10 is changing up the web application game.
+
 ---
 [1]: edgeconference2015-markup-1.png
 

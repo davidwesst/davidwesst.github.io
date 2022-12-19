@@ -1,11 +1,13 @@
 ---
-title: 'Capture HTTPS Traffic in Java with Eclipse, and Fiddler'
+
+title: Capture HTTPS Traffic in Java with Eclipse, and Fiddler
 tags:
   - eclipse
   - fiddler
   - https
   - java
-date: "2015-10-07T09:41:35"
+date: 2015-10-07T09:41:35
+
 ---
 I&#39;ve been struggling with a JSON parsing error where my application is using the Spring to send and receive messages from a RESTful Web Service. It&#39;s pretty straight forward: I&#39;ve annotated my object properties to match up with the appropriate JSON keys, Spring takes my POJO and turns it into a JSON string sends the request along with the JSON as the body to the HTTPS endpoint, et voilà!  
 <!-- more -->

@@ -1,12 +1,14 @@
 ---
-title: 'ThatOneVideoGamer Brought To You By: Me'
+
+title: "ThatOneVideoGamer Brought To You By: Me"
 tags:
   - cool-stuff
   - thoughts
   - games
   - fun
-date: "2014-10-22T00:48:00"
-description: "Yep, that's me. It's all me. It's awesome!!!!"
+date: 2014-10-22T00:48:00
+description: Yep, that's me. It's all me. It's awesome!!!!
+
 ---
 
 [1]: meonthatonevideogamer.png

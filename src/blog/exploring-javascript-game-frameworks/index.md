@@ -1,10 +1,13 @@
 ---
+
 title: Exploring JavaScript Game Frameworks
-date: "2016-02-08T16:11:44"
+date: 2016-02-08T16:11:44
 tags:
-    - javascript
-    - game development
-description: David reviews a handful of JavaScript-based game frameworks he went through before selecting one for his new game.
+  - javascript
+  - game-development
+description: David reviews a handful of JavaScript-based game frameworks he went
+  through before selecting one for his new game.
+
 ---
 Last month I explored a number of JavaScript-based game frameworks in an attempt to pick the perfect one for my first game.
 

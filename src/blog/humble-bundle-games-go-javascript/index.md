@@ -1,13 +1,15 @@
 ---
+
 title: Humble Bundle Games Go JavaScript
 tags:
   - cool-stuff
   - javascript
   - games
   - fun
-  - video games
-date: "2014-10-23T16:12:28"
-description: "Last week, I noticed a playable game on the Firefox start page."
+  - video-games
+date: 2014-10-23T16:12:28
+description: Last week, I noticed a playable game on the Firefox start page.
+
 ---
 
 Last week, I noticed a playable game on the Firefox start page. The link at the base of the page lead me to this:

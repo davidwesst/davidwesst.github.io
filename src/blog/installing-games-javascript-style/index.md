@@ -1,12 +1,16 @@
 ---
+
 title: Installing Games JavaScript Style
 tags:
   - cool-stuff
   - javascript
   - games
 social_image: play.png
-date: "2014-10-24T16:20:41"
-description: "I bought the Humble Mozilla Bundle earlier this week and I wanted to take a moment to show people what it looks like to install a JavaScript game in the browser."
+date: 2014-10-24T16:20:41
+description: I bought the Humble Mozilla Bundle earlier this week and I wanted
+  to take a moment to show people what it looks like to install a JavaScript
+  game in the browser.
+
 ---
 
 [1]: play.png

@@ -1,12 +1,17 @@
 ---
+
 title: Initial Thoughts on Using Phaser
-date: "2017-03-07T06:00:00"
-updated: "2017-03-07T06:00:00"
+date: 2017-03-07T06:00:00
+updated: 2017-03-07T06:00:00
 tags:
   - javascript
   - typescript
   - phaser
-description: As a side project, I started making another JavaScript-based video game and decided to go with Phaser as my framework of choice. Here are my initial thoughts about Phaser after using it on my project for the past two months.
+description: As a side project, I started making another JavaScript-based video
+  game and decided to go with Phaser as my framework of choice. Here are my
+  initial thoughts about Phaser after using it on my project for the past two
+  months.
+
 ---
 
 I'm not a game dev, but have always wanted to make a video game. I've started and stopped so many project over the years, that I have seriously lost count.

@@ -1,13 +1,16 @@
 ---
+
 title: NVS, the Node Version Manger for Everyone
-date: "2017-08-15T12:35:00"
+date: 2017-08-15T12:35:00
 tags:
-    - javascript
-    - node
-    - powershell
-    - nvs
-    - version manager
-description: "Here's another dev thing I use: NVS, or the Node Version Switcher. It works on Windows and it's great."
+  - javascript
+  - node
+  - powershell
+  - nvs
+  - version-manager
+description: "Here's another dev thing I use: NVS, or the Node Version Switcher.
+  It works on Windows and it's great."
+
 ---
 
 [1]: https://davidwesst.blob.core.windows.net/blog/nvs/nvs-menu.gif "NVS Consle Menu in Action"

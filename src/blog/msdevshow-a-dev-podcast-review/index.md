@@ -1,10 +1,14 @@
 ---
+
 title: MSDevShow...A Dev Podcast Review
 tags:
   - podcast
   - review
-date: "2015-04-30T14:47:01"
-description: "I like podcasts. Especially the technical kind, but I find it's challenging to find quality dev podcasts in the sea of options out there. MSDevShow is one that a discovered, and it did not disappoint."
+date: 2015-04-30T14:47:01
+description: I like podcasts. Especially the technical kind, but I find it's
+  challenging to find quality dev podcasts in the sea of options out there.
+  MSDevShow is one that a discovered, and it did not disappoint.
+
 ---
 
 [1]: msdevshow-logo-1.png

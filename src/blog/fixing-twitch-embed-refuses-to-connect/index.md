@@ -1,14 +1,18 @@
 ---
-title: "Working around 'Refuses to Connect' Issues with IFrame Embedded Twitch Players"
-date: 2022-01-26T12:28:00-06:00
+
+title: Working around 'Refuses to Connect' Issues with IFrame Embedded Twitch Players
+date: 2022-01-26T18:28:00.000Z
 tags:
-- livestream
-- markdown
-- html
-- twitch
-- bug
-description: "With me doing more livecoding sessions on Twitch, I wanted to embed some clips into my blog posts and hit some weird issues. I managed to get it working and wanted to document the workaround so I don't forget it."
-social_image: "./twitch-player-refuse-to-connect.png"
+  - livestream
+  - markdown
+  - html
+  - twitch
+  - bug
+description: With me doing more livecoding sessions on Twitch, I wanted to embed
+  some clips into my blog posts and hit some weird issues. I managed to get it
+  working and wanted to document the workaround so I don't forget it.
+social_image: ./twitch-player-refuse-to-connect.png
+
 ---
 
 ## The First Problem

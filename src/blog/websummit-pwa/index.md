@@ -1,14 +1,20 @@
 ---
+
 title: Service Workers and PWAs are Super Cool
-date: "2017-09-18T13:35:00"
-categories: 
-    - development
+date: 2017-09-18T13:35:00
+categories:
+  - development
 tags:
-    - microsoft-edge
-    - service-workers
-    - progressive-web-apps
-    - javascript
-description: "One of the core items highlighted by the Microsoft Edge team, along with many others who were just web professionals, was the importance of Progressive Web Apps (PWAs). I started out thinking they were something that could be interesting one day, but left the conference convinced that this will change the way we think of the web."
+  - microsoft-edge
+  - service-workers
+  - progressive-web-apps
+  - javascript
+description: One of the core items highlighted by the Microsoft Edge team, along
+  with many others who were just web professionals, was the importance of
+  Progressive Web Apps (PWAs). I started out thinking they were something that
+  could be interesting one day, but left the conference convinced that this will
+  change the way we think of the web.
+
 ---
 
 [1]: https://summit.microsoftedge.com/

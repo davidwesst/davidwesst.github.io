@@ -1,22 +1,27 @@
 ---
 
-title: "Prairie Dev Con 2022 Takeaways"
-date: "2022-12-06T12:00:00-05:00"
+title: Prairie Dev Con 2022 Takeaways
+date: 2022-12-06T12:00:00-05:00
 tags:
-- prairie-dev-con
-- prdc-2022
-- api-design
-- open-api
-- developer-velocity-index
-- e2e-testing
-- playwright
-- adiad
-description: "The talented speakers that come together for Prairie Dev Con always bring fresh ideas to my mind and give me pause to think about my own efforts and how I can learn from their experience. Although not a complete list, these ideas the ones that stood out the most from Prairie Dev Con 2022."
-image: "prdc2022-takeaway.png"
-image_alt: "A woman holding a brown paper bag with the Prairie Dev Con logo on it , seemingly handing it to someone on the other side who is not visible in the photo."
-image_type: "image/png"
+  - prairie-dev-con
+  - prdc-2022
+  - api-design
+  - open-api
+  - developer-velocity-index
+  - e2e-testing
+  - playwright
+  - adiad
+description: The talented speakers that come together for Prairie Dev Con always
+  bring fresh ideas to my mind and give me pause to think about my own efforts
+  and how I can learn from their experience. Although not a complete list, these
+  ideas the ones that stood out the most from Prairie Dev Con 2022.
+image: prdc2022-takeaway.png
+image_alt: A woman holding a brown paper bag with the Prairie Dev Con logo on it
+  , seemingly handing it to someone on the other side who is not visible in the
+  photo.
+image_type: image/png
 image_credit:
-    derived_from: "https://unsplash.com/photos/-aL5R0kbRHc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
+  derived_from: https://unsplash.com/photos/-aL5R0kbRHc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 
 ---
 

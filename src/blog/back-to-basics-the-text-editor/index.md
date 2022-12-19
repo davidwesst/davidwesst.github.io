@@ -1,10 +1,12 @@
 ---
-title: 'Back to Basics: The Text Editor'
+
+title: "Back to Basics: The Text Editor"
 tags:
   - vim
-  - sublime text
+  - sublime-text
   - notepad++
-date: "2014-04-24T03:38:50"
+date: 2014-04-24T03:38:50
+
 ---
 
 [1]: sublimetext.png

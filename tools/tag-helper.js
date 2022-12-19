@@ -1,17 +1,10 @@
 #!/usr/bin/env node
 
-const { access } = require("fs");
 const fs = require("fs/promises");
 const matter = require("gray-matter");
 const path = require("path");
 
-/**
- * Normalize string to following standardized tag name formatting
- * @param {string} tagName 
- */
-function normalizeTagName(tagName) {
-    return tagName.toLowerCase().replaceAll(" ","-");
-}
+const { normalizeTagName } = require("./lib/tags");
 
 /**
  * Convert the tag collection to a JSON string
@@ -33,7 +26,7 @@ async function createTagDataFile() {
     // process arguments
     const [,,...args] = process.argv;
     const postDirPath = args[0] || "src/blog/";
-    const tagFileOutputPath = args[1] || "src/_data";
+    const tagFileOutputPath = args[1] || "src/_data/content-tags.json";
 
     // read all index.md files in directory and subdirectories
     const posts = await fs.readdir(postDirPath);

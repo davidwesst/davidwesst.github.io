@@ -1,12 +1,18 @@
 ---
-title: "Lucky Number v7"
-date: "2021-05-24T12:00:00"
+
+title: Lucky Number v7
+date: 2021-05-24T12:00:00
 tags:
-- blog
-- website
-- graphql
-description: I fixed up my blog-website-thingy again. I'm calling this v7, although I'm pretty sure there are a few incarnations of the site that were lost early on in my years, but v7 seems about right for the content I'm sharing here. In any case-- I thought I'd share the "why" around the new website revamp and how I think a project like this is just what I need.
-social_image: "./lucky_number_v7.png"
+  - blog
+  - website
+  - graphql
+description: I fixed up my blog-website-thingy again. I'm calling this v7,
+  although I'm pretty sure there are a few incarnations of the site that were
+  lost early on in my years, but v7 seems about right for the content I'm
+  sharing here. In any case-- I thought I'd share the "why" around the new
+  website revamp and how I think a project like this is just what I need.
+social_image: ./lucky_number_v7.png
+
 ---
 
 I fixed up my blog-website-thingy again. I'm calling this v7, although I'm pretty sure there are a few incarnations of the site that were lost early on in my years, but v7 seems about right for the content I'm sharing here. In any case-- I thought I'd share the "why" around the new website revamp and how I think a project like this is just what I need.

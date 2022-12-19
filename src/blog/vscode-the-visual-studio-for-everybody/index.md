@@ -1,9 +1,11 @@
 ---
-title: "Code - The Visual Studio for Everybody"
+
+title: Code - The Visual Studio for Everybody
 tags:
-- vscode
-- visual studio code
-date: "2015-12-07T12:13:06"
+  - vscode
+  - visual-studio-code
+date: 2015-12-07T12:13:06
+
 ---
 
 Last week I delivered three presentations: one at the [Winnipeg .NET User Group](http://winnipegdotnet.org/) and the other two at [Winnipeg Code Camp](http://winnipegcodecamp.com/). Being as awesome as we are, the user group presentation was recorded and has been published on the YouTube page.

@@ -1,10 +1,12 @@
 ---
-title: "Western Devs (and MVP) Found My Spirit Animal"
-date: "2015-08-12T11:27:05"
+
+title: Western Devs (and MVP) Found My Spirit Animal
+date: 2015-08-12T11:27:05
 tags:
-- western devs
-- friends
-- lobster
+  - western-devs
+  - friends
+  - lobster
+
 ---
 
 What you're looking at is a lobster, in a ditch, drinking scotch, whose mouth is on fire. That is my spirit animal that was created on the [Twitter-verse](https://twitter.com/CyrenaFriesen/status/627209542816829440) through the power of the [Western Devs](http://www.westerndevs.com), which I would not be a part of had I not become an [Microsoft Edge MVP](https://mvp.microsoft.com/en-us/PublicProfile/4032619?fullName=David%20%20Wesst) with Microsoft.

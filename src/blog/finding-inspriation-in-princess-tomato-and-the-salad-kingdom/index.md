@@ -1,12 +1,15 @@
 ---
-title: "Finding Inspiration in Princess Tomato and the Salad Kingdom [NES]"
-date: "2021-07-20T12:00:00"
+
+title: Finding Inspiration in Princess Tomato and the Salad Kingdom [NES]
+date: 2021-07-20T12:00:00
 tags:
-- nintendo 
-- nes
-- text-based adventure
-description: "In search for inspiration in my own game collection I've decided to explore this text-based salad adventure."
-social_image: "./princess-tomato-nes.jpg"
+  - nintendo
+  - nes
+  - text-based-adventure
+description: In search for inspiration in my own game collection I've decided to
+  explore this text-based salad adventure.
+social_image: ./princess-tomato-nes.jpg
+
 ---
 
 Weird first pick, I realize. I was surprised too, but it's been a game I've wanted to really play for a long time and it just jumped out at my browsing through the boxes and carts.

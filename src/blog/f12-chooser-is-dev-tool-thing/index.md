@@ -1,11 +1,13 @@
 ---
-title: "F12 Chooser is a Dev Tool Thing"
+
+title: F12 Chooser is a Dev Tool Thing
 tags:
   - javascript
   - typescript
-  - web extensions
-  - office add-in
-date: "2018-03-28T13:10:00"
+  - web-extensions
+  - office-add-in
+date: 2018-03-28T13:10:00
+
 ---
 
 The F12 Chooser is a development tool thing that I like and you should know about if you want your web application or web extension to support Microsoft Edge.

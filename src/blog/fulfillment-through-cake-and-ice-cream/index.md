@@ -1,14 +1,22 @@
 ---
-title: "Personal and Professional Fulfillment through Cake and Ice Cream"
-date: "2022-01-12T14:41:00-06:00"
+
+title: Personal and Professional Fulfillment through Cake and Ice Cream
+date: 2022-01-12T14:41:00-06:00
 tags:
-- accomplishment
-- fulfillment
-- family
-- food
-description: "I made a cake and two kinds of ice cream, from scratch, for my daughter's birthday. The process of making a plan, adapting, executing, delivering, and being validated highlighted how important it is to feel fulfilled, both personally and professionally."
-social_image: "cake.jpg"
-social_image_alt: "A picture of a homemade vanilla layer cake with white buttercream frosting between layers and on top, but not around the sides exposing the layers. The cake is resting on a wooden cutting board sitting on a kitchen counter."
+  - accomplishment
+  - fulfillment
+  - family
+  - food
+description: I made a cake and two kinds of ice cream, from scratch, for my
+  daughter's birthday. The process of making a plan, adapting, executing,
+  delivering, and being validated highlighted how important it is to feel
+  fulfilled, both personally and professionally.
+social_image: cake.jpg
+social_image_alt: A picture of a homemade vanilla layer cake with white
+  buttercream frosting between layers and on top, but not around the sides
+  exposing the layers. The cake is resting on a wooden cutting board sitting on
+  a kitchen counter.
+
 ---
 
 I daughter turned four at the beginning of this year, and I made her a cake and two kinds of ice cream. From scratch. 

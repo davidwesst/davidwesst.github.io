@@ -1,11 +1,14 @@
 ---
+
 title: Make New Habits with New IE VMs in the New Year
 tags:
-  - Spartan
-  - Testing
-social_image: netmarketshare_dec.png 
-date: "2015-01-07T18:32:00"
-description: "Happy New Year! Time to start working on self improvement and developing new habits."
+  - spartan
+  - testing
+social_image: netmarketshare_dec.png
+date: 2015-01-07T18:32:00
+description: Happy New Year! Time to start working on self improvement and
+  developing new habits.
+
 ---
 
 [1]: netmarketshare_dec.png

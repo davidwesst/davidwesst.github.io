@@ -1,10 +1,12 @@
 ---
-title: 'Hover! A Next-Gen HTML Experience'
+
+title: Hover! A Next-Gen HTML Experience
 tags:
-    - internet explorer
-    - html5
-social_image: Hover_Title.png 
-date: "2013-10-02T15:05:00"
+  - internet-explorer
+  - html5
+social_image: Hover_Title.png
+date: 2013-10-02T15:05:00
+
 ---
 
 [1]: hover_oldschool.png

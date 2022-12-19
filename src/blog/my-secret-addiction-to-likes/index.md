@@ -1,14 +1,20 @@
 ---
-title: "My Secret Addiction to Likes"
-date: "2021-05-31T12:00:00"
+
+title: My Secret Addiction to Likes
+date: 2021-05-31T12:00:00
 tags:
-- social media
-- twitter
-- youtube
-- analytics
-- acceptance
-social_image: "./my_secret_addiction_to_likes.png"
-description: I decided to take a month off of contributing to social media. More specifically Twitter and YouTube, but Facebook and Instagram as well. That single month has turned into just over three months now, and I learned a few things about myself and how I think my return to some social media will be a good thing.
+  - social-media
+  - twitter
+  - youtube
+  - analytics
+  - acceptance
+social_image: ./my_secret_addiction_to_likes.png
+description: I decided to take a month off of contributing to social media. More
+  specifically Twitter and YouTube, but Facebook and Instagram as well. That
+  single month has turned into just over three months now, and I learned a few
+  things about myself and how I think my return to some social media will be a
+  good thing.
+
 ---
 
 I decided to take a month off of contributing to social media. More specifically Twitter and YouTube, but Facebook and Instagram as well. That single month has turned into just over three months now, and I learned a few things about myself and how I think my return to _some_ social media will be a good thing.

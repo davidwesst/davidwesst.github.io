@@ -1,13 +1,17 @@
 ---
-title:  "GitHub Game Off 2019 Game Jam featuring DW"
-date: "2019-11-26T09:57:00"
+
+title: GitHub Game Off 2019 Game Jam featuring DW
+date: 2019-11-26T09:57:00
 tags:
-    - gamedev
-    - myfirstgamejam
-    - gamejam
-    - gameoff-2019
-    - devlog
-description: "For the past month I have been participating in the GameOff 2019 Gamejam hosted by GitHub over on Itch.io and I've been devlogging about it over on my YouTube channel."
+  - gamedev
+  - myfirstgamejam
+  - gamejam
+  - gameoff-2019
+  - devlog
+description: For the past month I have been participating in the GameOff 2019
+  Gamejam hosted by GitHub over on Itch.io and I've been devlogging about it
+  over on my YouTube channel.
+
 ---
 
 For the past month I have been participating in the GameOff 2019 Gamejam hosted by GitHub over on Itch.io and I've been devlogging about it over on my YouTube channel.

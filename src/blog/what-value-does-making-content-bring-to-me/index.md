@@ -1,14 +1,17 @@
 ---
-title: "What Value Does Making Content Bring to Me? (not a typo)"
-date: "2021-06-14T12:00:00"
+
+title: What Value Does Making Content Bring to Me? (not a typo)
+date: 2021-06-14T12:00:00
 tags:
-- blog
-- defining value
-- content creation
-- self-retrospective
-- validation
-description: "I realize it's a selfish question, but if the post isn't valuable to me then why would it be valuable to you?"
-social_image: './rob-schreckhise-8zdEgWg5JAA-unsplash_altered.jpg'
+  - blog
+  - defining-value
+  - content-creation
+  - self-retrospective
+  - validation
+description: I realize it's a selfish question, but if the post isn't valuable
+  to me then why would it be valuable to you?
+social_image: ./rob-schreckhise-8zdEgWg5JAA-unsplash_altered.jpg
+
 ---
 
 That's not to say the content should provide value to the reader, also known as you, but it's still a very important question to answer. 

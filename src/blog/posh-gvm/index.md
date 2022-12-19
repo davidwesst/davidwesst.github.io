@@ -1,13 +1,16 @@
 ---
+
 title: Posh-GVM, the Groovy Version Manager for Powershell
-date: "2017-08-17T10:00:00"
+date: 2017-08-17T10:00:00
 tags:
-    - grails
-    - groovy
-    - gradle
-    - powershell
-    - version manager
-description: "Here's another dev thing I use: Posh-GVM, a Groovy version manager that works for Windows."
+  - grails
+  - groovy
+  - gradle
+  - powershell
+  - version-manager
+description: "Here's another dev thing I use: Posh-GVM, a Groovy version manager
+  that works for Windows."
+
 ---
 
 [1]: https://davidwesst.blob.core.windows.net/blog/posh-gvm/poshgvm-example.gif "Posh-GVM in action in a Powershell terminal"

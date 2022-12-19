@@ -1,14 +1,20 @@
 ---
+
 title: Sonar, the Linter I Never Knew I Wanted
-date: "2017-09-19T12:35:00"
-categories: 
-    - development
+date: 2017-09-19T12:35:00
+categories:
+  - development
 tags:
-    - microsoft-edge
-    - sonar
-    - accessibility
-    - devops
-description: "Meet Nellie the Narwhal, the official mascot for Sonar, the linting tool for the web. Nellie represents a tool that is long-overdue. It provides any web application the ability to verify they are meeting a high level of quality when it comes to their web applications, and not miss any common mistakes."
+  - microsoft-edge
+  - sonar
+  - accessibility
+  - devops
+description: Meet Nellie the Narwhal, the official mascot for Sonar, the linting
+  tool for the web. Nellie represents a tool that is long-overdue. It provides
+  any web application the ability to verify they are meeting a high level of
+  quality when it comes to their web applications, and not miss any common
+  mistakes.
+
 ---
 
 [1]: https://summit.microsoftedge.com/
