@@ -1,6 +1,11 @@
 # Changelog
 This a log of all the notable changes for [davidwesst.com](https://www.davidwesst.com/). You can find the source code on [GitHub](https://github.com/davidwesst/website).
 
+## [10.3.1] - 2022-12-20
+### Changes
+- Tags are now rendered using a single component to ensure continuity
+- Tags are now displayed alphabetically
+
 ## [10.3.0] - 2022-12-19
 ### Added
 - Content tag pages to show all blog posts with the same tag ([#148](https://github.com/davidwesst/website/148))
