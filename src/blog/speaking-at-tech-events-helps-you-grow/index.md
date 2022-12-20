@@ -20,13 +20,13 @@ image_credit: "Dave Paquette <https://www.davepaquette.com>"
 [1]: https://www.prairiedevcon.com
 [2]: https://www.westerndevs.com
 
-I was lucky enough to be selected to speak at all three [Prairie Dev Con 2022][1] events this year, after a hietus from speaking at live tech events. The experirence of submitting and delivering a couple of session reminded me how important speaking at these sorts of events has been over the years and now they account for a large part of my career growth. On top of that, I have had many people who are entering tech ask me about my experience and wanted to share it for others who might be wondering what benefits actually are. 
+I was lucky enough to be selected to speak at all three [Prairie Dev Con 2022][1] events this year, after a hiatus from speaking at live tech events. The experience of submitting and delivering a couple of session reminded me how important speaking at these sorts of events has been over the years and now they account for a large part of my career growth. On top of that, I have had many people who are entering tech ask me about my experience and wanted to share it for others who might be wondering what benefits actually are. 
 
 # You need to sell yourself and your session 
 
 When the call for speakers opens up, you are required to submit a summary of your talk and yourself. I call this the pitch process, as your submission is your moment to convince the event organizers you are worth betting on. 
 
-It mighy sound stressful, but its not. It's a pretty low key process considering you are just filling out a form, and it's low stakes. If you don't make the cut then, you cam try again next time. 
+It might sound stressful, but its not. It's a pretty low key process considering you are just filling out a form, and it's low stakes. If you don't make the cut then, you cam try again next time. 
 
 The point is that you need take the time to think about wht you're worth the effort, because you are definitely worth it! You know it, so now is your chance to practice. 
 
