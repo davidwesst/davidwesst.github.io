@@ -10,17 +10,17 @@ tags:
 - presentations
 - conference
 description: "A large part of my career growth is tied directly to speaking at tech events like conferences and user groups. I have had many people ask me about my experience and wanted to share it for others who might be wondering what benefits actually are. "
-image: ""
-image_alt: ""
-image_type: "image/png"
-image_credit: ""
+image: "./prdc2022-speaking_thumbnail.png"
+image_alt: "David Wesst with a bit of a goofy face, mid speech at a podium at Prairie Dev Con 2022 in Calgary, with his hand extended talking about the role IT architecture played in preparing the Student Information / Finance System to be cloud-ready."
+image_type: image/png
+image_credit: "Dave Paquette <https://www.davepaquette.com>"
 
 ---
 
 [1]: https://www.prairiedevcon.com
 [2]: https://www.westerndevs.com
 
-I was lucky enough to be selected to speak at all three [Prairie Dev Con 2022][1] events this year, after a hietus from speakingat live tech events. The experirence of submitting and delivering a couple of session reminded me how important speaking at these sorts of events has been over the years and now they account for a large part of my career growth. On top of that, I have had many people who are entering tech ask me about my experience and wanted to share it for others who might be wondering what benefits actually are. 
+I was lucky enough to be selected to speak at all three [Prairie Dev Con 2022][1] events this year, after a hietus from speaking at live tech events. The experirence of submitting and delivering a couple of session reminded me how important speaking at these sorts of events has been over the years and now they account for a large part of my career growth. On top of that, I have had many people who are entering tech ask me about my experience and wanted to share it for others who might be wondering what benefits actually are. 
 
 # You need to sell yourself and your session 
 
@@ -43,6 +43,8 @@ As much as I appreciate livestreaming and virtualized meetings, speaking in the 
 Just to be clear, something will go wrong...and that's okay.  
 
 No matter how much you prep, something will go wrong. A demo will fail, a slide will be out of order, a question will be asked that you don't have the answer to. The key  is in how you react and respond to the situation. These "mistakes" are what has made me a better presenter in my day job. It has also helped me learn to stay calm and collected when pressure is being applied. 
+
+!["Five rows of tables with white table clothes with people attentively looking forward at the speaker, who is not in frame, with a PowerPoint slide on the back wall describing solution architecture at the University of Manitoba](./prdc2022-audience.png)
 
 # Side Note: Considerations Before Committing 
 
