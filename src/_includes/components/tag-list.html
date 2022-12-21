@@ -1,0 +1,9 @@
+
+<menu class="tags">
+{% assign sorted_tags = tags | sort %}
+{% for t in sorted_tags %}
+    {% if t != 'blog' %}
+    <li><a href="/tags/{{ t | slug }}/">{{ t }}</a></li>
+    {% endif %}
+{% endfor %}
+</menu>

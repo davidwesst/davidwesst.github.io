@@ -11,11 +11,7 @@ layout: "base.html"
             {{ page.date | date: "%B %d, %Y" }}
         </time>
     </div>
-    <menu class="tags">
-    {% for t in tags %}
-        <li>{{ t }}</li>
-    {% endfor %}
-    </menu>
+    {% render "components/tag-list.html", tags: tags %}
 </header>
 <section>
     {{ content }}

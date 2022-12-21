@@ -10,11 +10,5 @@
     <p>
         {{ post.data.description }}
     </p>
-    <menu class="tags">
-    {% for t in post.data.tags %}
-        {% if t != 'blog' %}
-        <li><a href="/tags/{{ t | slug }}/">{{ t }}</a></li>
-        {% endif %}
-    {% endfor %}
-    </menu>
+    {% render "components/tag-list.html", tags: post.data.tags %}
 </li>
