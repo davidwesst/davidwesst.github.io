@@ -9,6 +9,11 @@ tags:
 - defining-value
 - code
 description: "Before you create a solution, you need to understand the problem. It sounds obvious enough, yet I see developers (including myself) getting into the code and design phase before they really understand the problem they are trying to fix. These are the steps I take a properly understand a problem I am trying to solve, prior to coding or solution-ing anything."
+image: ./defining-problems_thumbnail.png
+image_alt: "A sketch of a man with a fuchsia tie and women dressed in fuchsia blouse looking at a black question mark made up of small cubes"
+image_type: image/png
+image_credit:
+    derived_from: https://labs.openai.com/s/EXFRI7OZVa6ci4ISra0i4D0Y
 
 ---
 
@@ -42,6 +47,8 @@ I am not suggesting you second guess the client, but rather try and empathize wi
 Let's assume, for the sake of this post, that you see where software can help play a role in solving the problem.
 
 ## 2) What happens if we do nothing?
+
+![An faded wooden sign that says the word "Nothing" in large blocky letters, set against a clear blue sky. Photo by Evan Buchholz on Unsplash.com](./nothing-sign.jpg)
 
 Sounds silly, I know, but doing nothing is always an option and people do it all the time. But why would someone choose to do nothing? Because _the risk doesn't outweigh the reward_. 
 
@@ -121,8 +128,8 @@ Thanks for playing.
 
 ~ DW
 
+---
 
-
-
-
+# Image Credit
+- "Nothing Sign" Photo by <a href="https://unsplash.com/@vnbuchholz92?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Evan Buchholz</a> on <a href="https://unsplash.com/photos/z-Hu8pnt23s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
