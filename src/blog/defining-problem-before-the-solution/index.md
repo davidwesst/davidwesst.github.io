@@ -1,6 +1,6 @@
 ---
 
-title: Define the Problem before the Solution
+title: Defining the Problem before the Solution
 date: 2023-01-03T12:00:00-05:00
 tags:
 - solution-architecture
