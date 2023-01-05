@@ -2,7 +2,7 @@
 
 title: "Highlight Reel for 2022"
 date: "2023-01-05T12:00:00-06:00"
-description: "When a new year arrives, it is a great opportunity to take a moment to reflect on where you started at the beginning of the year, and where you ended. When I look back on 2022, I took notice of events reflected in my GitHub contribution graph that highlight some common cycles in my own personal and professional growth. I want to take a moment to document this, and hopefully you can use this an example to examine your own progress and behaviour patterns that might be aiding (or impeding) your own personal growth."
+description: "When a new year arrives, it is a great opportunity to take a moment to reflect on where you started at the beginning of the year, and where you ended. When I look back on 2022, I noticed events reflected in my GitHub contribution graph that highlight some common cycles in my own behaviour. I want to take a moment to document this, and hopefully you can use this an example to examine your own progress and behaviour patterns that might be aiding (or impeding) your own personal and professional growth."
 tags:
 - github
 - mvp
@@ -10,6 +10,7 @@ tags:
 - typescript
 - javascript
 - prdc-2022
+- burnout
 categories:
 - musings
 image: "./highlight-reel-2022_thumbnail.png"
