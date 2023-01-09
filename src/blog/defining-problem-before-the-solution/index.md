@@ -1,13 +1,15 @@
 ---
 
 title: Defining the Problem before the Solution
-date: 2023-01-11T12:00:00-06:00
+date: 2023-01-18T12:00:00-06:00
 tags:
 - solution-architecture
 - problem-definition
 - requirements-gathering
 - defining-value
 - code
+categories:
+- musings
 description: "Before you create a solution, you need to understand the problem. It sounds obvious enough, yet I see developers (including myself) getting into the code and design phase before they really understand the problem they are trying to fix. These are the steps I take a properly understand a problem I am trying to solve, prior to coding or solution-ing anything."
 image: ./defining-problems_thumbnail.png
 image_alt: "A sketch of a man with a fuchsia tie and women dressed in fuchsia blouse looking at a black question mark made up of small cubes"
