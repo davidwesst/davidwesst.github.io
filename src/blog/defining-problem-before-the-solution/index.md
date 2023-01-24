@@ -1,7 +1,7 @@
 ---
 
 title: Defining the Problem before the Solution
-date: 2023-01-18T12:00:00-06:00
+date: 2023-01-25T12:00:00-06:00
 tags:
 - solution-architecture
 - problem-definition
