@@ -1,0 +1,26 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
+{
+	"name": "dw-website",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+	"features": {
+		"ghcr.io/devcontainers/features/git-lfs:1": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers-contrib/features/act-asdf:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.vscode-pull-request-github",
+				"DavidAnson.vscode-markdownlint",
+				"streetsidesoftware.code-spell-checker"
+			]
+		}
+	},
+	"forwardPorts": [],
+	"postCreateCommand": "npm install -g npm && npm install"
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
