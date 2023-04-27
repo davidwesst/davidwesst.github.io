@@ -1,6 +1,7 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const DotEnvPlugin = require("dotenv-webpack");
+const CopyPlugin = require("copy-webpack-plugin");
 
 const isDev = process.env.NODE_ENV !== 'production'
 
@@ -17,7 +18,15 @@ module.exports = {
 	},
 	plugins: [
 		new MiniCssExtractPlugin(),
-		new DotEnvPlugin()
+		new DotEnvPlugin(),
+		new CopyPlugin({
+			patterns: [
+				{ 
+					from: path.resolve(__dirname, "staticwebapp.config.json"), 
+					to: path.resolve(__dirname, "dist/staticwebapp.config.json") 
+				}
+			]
+		})
 	],
 	resolve: { 
 		extensions: [".tsx", ".ts", ".js"]
