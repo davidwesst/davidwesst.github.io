@@ -7,7 +7,7 @@
     ],
     "responseOverrides": {
         "404": {
-            "rewrite": "/not-found.html"
+            "rewrite": "/not-found"
         }
     }
 }
