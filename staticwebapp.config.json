@@ -1,11 +1,13 @@
 {
-    "navigationFallback": {
-        "rewrite": "/index.html"
-    },
     "routes": [
         {
             "route": "/blog/rss",
             "redirect": "/blog/feed.xml"
         }
-    ]
+    ],
+    "responseOverrides": {
+        "404": {
+            "rewrite": "/not-found"
+        }
+    }
 }
