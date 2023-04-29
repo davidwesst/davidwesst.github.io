@@ -4,17 +4,19 @@ permalink: /
 title: HOME // David Wesst
 description: The online homebase for all things DW.
 ---
-<h1>
-    Hey friendo. My name is David Wesst.
-</h1>
-<section>
-    <p>Welcome to my website, where it continues to evolve, just like me.</p>
-    <p>I build cool stuff out of code when I am working to create strategies to solve large scale technology problems.</p>
-    <p>Use the nav at top to checkout my <a href="/blog">blog</a> or details on the <a href="/talks">talks</a> I have given at various development events.
+<section class="splash">
+    <p>Code. Creativity. Curiousity.</p>
 </section>
 <section>
-    <h2>Latest Blog Post</h2>
-    <menu class="content-list">
-    {% render "components/blog-item.html", post: collections.blog.last %}
-    </menu>
+    <section>
+        <p>Welcome to my website, where it continues to evolve, just like me.</p>
+        <p>I build cool stuff out of code when I am working to create strategies to solve large scale technology problems.</p>
+        <p>Use the nav at top to checkout my <a href="/blog">blog</a> or details on the <a href="/talks">talks</a> I have given at various development events.</p>
+    </section>
+    <section>
+        <h2>Latest Blog Post</h2>
+        <menu class="content-list">
+        {% render "components/blog-item.html", post: collections.blog.last %}
+        </menu>
+    </section>
 </section>
