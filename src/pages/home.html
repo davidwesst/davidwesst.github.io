@@ -4,19 +4,32 @@ permalink: /
 title: HOME // David Wesst
 description: The online homebase for all things DW.
 ---
-<section class="splash">
-    <p>Code. Creativity. Curiousity.</p>
+<section class="hero">
+    <article>
+        <p class="giant-text">Hullo.</p>
+        <p>My name is David Wesst and I am a Solution Architect who unleashes <span class="emphasis">Creativity</span> through <span class="emphasis">Code</span> and <span class="emphasis">Curiousity</span>.</p>
+        <article class="hero-highlights">
+            <p>I build things and <a href="/blog">blog</a> about them.</p>
+            <p>I learn things and <a href="/talks">talk</a> about them at tech conferences.</p>
+        </article>
+    </article>
 </section>
-<section>
-    <section>
-        <p>Welcome to my website, where it continues to evolve, just like me.</p>
-        <p>I build cool stuff out of code when I am working to create strategies to solve large scale technology problems.</p>
-        <p>Use the nav at top to checkout my <a href="/blog">blog</a> or details on the <a href="/talks">talks</a> I have given at various development events.</p>
-    </section>
-    <section>
-        <h2>Latest Blog Post</h2>
-        <menu class="content-list">
+<section class="latest-content">
+    <article>
+        <h2>Hullo and welcome!</h2>
+    </article>
+    <article id="blog">
         {% render "components/blog-item.html", post: collections.blog.last %}
-        </menu>
-    </section>
+    </article>
+    <article id="talks">
+        <h2>Upcoming Talks</h2>
+        <ul>
+            <li>Coming Soon...</li>
+            <li>Coming Soon...</li>
+        </ul>
+    </article>
+    <article id="faq">
+        Why do you say "hullo" instead of "hello"?
+        DW? You mean like Arthur's sister/Darkwing Duck?
+    </article>
 </section>
