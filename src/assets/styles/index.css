@@ -42,7 +42,7 @@ main {
   box-sizing: border-box;  
 }
 
-main section { 
+main > *:not(dialog) { 
   padding: 0 1em;
 }
 
