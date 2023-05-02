@@ -107,12 +107,7 @@ main > *:not(dialog) {
   justify-content: center;
   align-items: center;
   text-align: left;
-  font-size: 3rem;
   color: #333;
-}
-
-.hero p {
-  max-width: 40%;
 }
 
 .hero-highlights {
@@ -121,7 +116,7 @@ main > *:not(dialog) {
 }
 
 .hero-highlights * {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: left;
   width: 75%;
   margin: 1rem 0;
@@ -145,7 +140,11 @@ main > *:not(dialog) {
 }
 
 .giant-text {
-  font-size: 6rem;
+  font-size: 4rem;
+}
+
+.giant-subtext { 
+  font-size: 2rem;
 }
 
 .reverse-colour {
@@ -291,7 +290,6 @@ main > *:not(dialog) {
     }
 
     .hero {
-      font-size: 1.5rem;
       color: #333;
     }
 
@@ -312,7 +310,11 @@ main > *:not(dialog) {
     }
     
     .giant-text {
-      font-size: 4rem;
+      font-size: 3rem;
+    }
+
+    .giant-subtext {
+      font-size: 1.5rem;
     }
 
     .home-content {
