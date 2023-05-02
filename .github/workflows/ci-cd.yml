@@ -3,12 +3,14 @@ on:
   push:
     branches:
       - main
+      - '!post/**'
     paths-ignore:
       - 'docs/**/*'
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
       - main
+      - '!post/**'
     paths-ignore:
       - 'docs/**/*.*'
 
