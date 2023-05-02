@@ -1,6 +1,15 @@
 # Changelog
 This a log of all the notable changes for [davidwesst.com](https://www.davidwesst.com/). You can find the source code on [GitHub](https://github.com/davidwesst/website).
 
+## [10.4.3] - 2023-05-02
+### Fixes
+- Added `dependabot.yml` file to increase version in dependabot versioning strategy
+- Updated webpack and simple-git packages to manually resolve two dependabot PRs
+
+## [10.4.2] - 2023-05-01
+### Fixes
+- Fonts too large on laptop displays ([#210](https://github.com/davidwesst/website/issues/210))
+
 ## [10.4.1] - 2023-05-01
 ### Changes
 - Collapsable site navigation on mobile ([#206](https://github.com/davidwesst/website/issues/206))
