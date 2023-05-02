@@ -2,6 +2,9 @@
 This a log of all the notable changes for [davidwesst.com](https://www.davidwesst.com/). You can find the source code on [GitHub](https://github.com/davidwesst/website).
 
 ## [10.4.3] - 2023-05-02
+### Changes
+- Disable CI/CD on `post/**` branches
+
 ### Fixes
 - Added `dependabot.yml` file to increase version in dependabot versioning strategy
 - Updated webpack and simple-git packages to manually resolve two dependabot PRs
