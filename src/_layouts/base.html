@@ -47,9 +47,9 @@
 
 		<script defer src="/assets/main.js"></script>
     </head>
-    <body class="bg-logo">
+    <body>
         {% render "components/site-header.html" %}
-        <main>
+        <main class="bg-logo">
             {{ content }}
         </main>
 		{% render "components/cookie-dialogue.html" %}

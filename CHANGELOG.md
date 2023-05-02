@@ -1,6 +1,20 @@
 # Changelog
 This a log of all the notable changes for [davidwesst.com](https://www.davidwesst.com/). You can find the source code on [GitHub](https://github.com/davidwesst/website).
 
+## [10.4.1] - 2023-05-01
+### Changes
+- Collapsable site navigation on mobile ([#206](https://github.com/davidwesst/website/issues/206))
+- Added hero element on home page ([#207](https://github.com/davidwesst/website/issues/207))
+- Set max content width to 1280px ([#200](https://github.com/davidwesst/website/issues/200))
+
+## [10.4.0] - 2023-04-27
+### Changes
+- Upgraded to Eleventy 2.0.1, Node 18
+
+### Added
+- DevContainer/Codespaces support for development
+- Custom 404 page
+
 ## [10.3.1] - 2022-12-20
 ### Changes
 - Tags are now rendered using a single component to ensure continuity
