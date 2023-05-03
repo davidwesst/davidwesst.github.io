@@ -1,0 +1,14 @@
+---
+layout: "base.html"
+permalink: "/events/index.html"
+title: "EVENTS // David Wesst"
+description: "Events that I am doing, or have done, where you can see me!"
+changefreq: weekly
+---
+<h2>
+    Events
+</h2>
+
+<menu webc:for="(key, value) in collections.event">
+    <event-item :@title="value.data.title"></event-item>    
+</menu>

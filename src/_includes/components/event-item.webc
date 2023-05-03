@@ -1,0 +1,2 @@
+Event Item Component!
+<h3 @text="title"></h3>
