@@ -1,0 +1,11 @@
+---
+layout: "base.html"
+---
+<header>
+    <h1 @text="title">
+        Event Title
+    </h1>
+</header>
+<section @html="content">
+    Event page content goes here.
+</section> 
