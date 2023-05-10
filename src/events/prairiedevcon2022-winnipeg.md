@@ -4,11 +4,11 @@ url: "https://www.prairiedevcon.com"
 eventType: "conference"
 location:
     city: "Winnipeg"
-    province-state: "Manitoba"
+    provinceState: "Manitoba"
     country: "Canada"
-dates:
-    start: "November 7, 2022"
-    end: "November 8, 2022"
+duration:
+    start: "2022-11-07"
+    end: "2022-11-08"
 sessions:
     - concensus-in-the-chaos
     - cots-to-cloud

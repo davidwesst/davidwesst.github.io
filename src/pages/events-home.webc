@@ -8,7 +8,4 @@ changefreq: weekly
 <h2>
     Events
 </h2>
-
-<menu webc:for="(key, value) in collections.event">
-    <event-item :@title="value.data.title"></event-item>    
-</menu>
+<event-list :@event-items="collections.event"></event-list>
