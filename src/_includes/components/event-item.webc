@@ -3,6 +3,6 @@
         <h3 @text="title"></h3>
         <div @text="location"></div>
         <time :datetime="startDate"
-            @text="startDate"></time>
+            @text="formatDate(startDate)"></time>
     </a>
 </li>
