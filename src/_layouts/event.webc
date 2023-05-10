@@ -2,10 +2,23 @@
 layout: "base.html"
 ---
 <header>
-    <h1 @text="title">
-        Event Title
-    </h1>
+    <h1 @text="title"></h1>
+    <div class="publishDate">
+        <time :datetime="duration.start" @text="formatDate(duration.start)"></time> - <time :datetime="duration.end" @text="formatDate(duration.end)"></time>
+    </div>
+    <div @text="`${location.city}, ${location.provinceState} (${location.country})`"></div>
 </header>
 <section @html="content">
     Event page content goes here.
 </section> 
+<section>
+    <h2>Talks</h2>
+    <menu class="content-list">
+        <talk-item 
+            webc:for="(talk, index) of talks" 
+            webc:if="sessions.indexOf(talk.id) >= 0"
+            :@talk="talk">
+        </talk-item>
+    </menu>
+</section>
+
