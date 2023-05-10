@@ -18,6 +18,15 @@ module.exports = function (eleventyConfig) {
     ]
   });
 
+  // custom filters
+  eleventyConfig.addFilter("formatDate", (value) => {  
+    const date = new Date(value);
+    const dateOptions = { month: "long", day: "numeric", year: "numeric" };
+    const dateString = date.toLocaleDateString("en-CA", dateOptions);
+
+    return dateString;
+  });
+
   eleventyConfig.setUseGitIgnore(false);
 
   // passthrough assets referenced through HTML (i.e. non-webpack assets)

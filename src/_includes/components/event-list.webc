@@ -1,12 +1,28 @@
 <script webc:setup>
-    const items = collections.event;
-    console.dir(collections.event[0].data.duration);
+    const sortFunc = (a, b) => new Date(b.data.duration.start) - new Date(a.data.duration.start);
+    const eventItems = Array.prototype.sort.call(collections.event, sortFunc);
 </script>
-<menu class="content-list">
-    <event-item  webc:for="(key, value) in eventItems"
+
+<section>
+    <h3>Upcoming Events</h3>
+    <menu class="content-list">
+        <event-item webc:for="(value, index) of eventItems" webc:if="Date.now() < new Date(value.data.duration.start)"
         :href="value.url"
         :@title="value.data.title"
         :@start-date="value.data.duration.start"
         :@location="`${value.data.location.city}, ${value.data.location.provinceState} (${value.data.location.country})`">
     </event-item>
- </menu>
+    </menu>
+</section>
+<section webc:if="includeCompleted == true">
+    <h3>Completed Events</h3>
+    <menu class="content-list">
+        <event-item webc:for="(value, index) of eventItems" webc:if="Date.now() > new Date(value.data.duration.start)"
+            :href="value.url"
+            :@title="value.data.title"
+            :@start-date="value.data.duration.start"
+            :@location="`${value.data.location.city}, ${value.data.location.provinceState} (${value.data.location.country})`">
+        </event-item>
+     </menu>
+</section>
+
