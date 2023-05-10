@@ -2,7 +2,6 @@
 
 title: "November 27 - Going Terminal: Learning to be IDE Free"
 tags:
-  - talks
   - ide
   - terminal
 date: 2014-11-13T19:27:16
