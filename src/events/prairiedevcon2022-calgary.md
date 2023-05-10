@@ -4,11 +4,11 @@ url: "https://www.prairiedevcon.com"
 eventType: "conference"
 location:
     city: "Calgary"
-    province-state: "Alberta"
+    provinceState: "Alberta"
     country: "Canada"
-dates:
-    start: "November 28, 2022"
-    end: "November 29, 2022"
+duration:
+    start: "2022-11-28"
+    end: "2022-11-29"
 sessions:
     - concensus-in-the-chaos
     - cots-to-cloud

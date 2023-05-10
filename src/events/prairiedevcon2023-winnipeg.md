@@ -4,11 +4,11 @@ url: "https://www.prairiedevcon.com"
 eventType: "conference"
 location:
     city: "Winnipeg"
-    province-state: "Manitoba"
+    provinceState: "Manitoba"
     country: "Canada"
-dates:
-    start: "June 12, 2023"
-    end: "June 13, 2023"
+duration:
+    start: "2023-06-12"
+    end: "2023-06-13"
 sessions:
     - is-ai-ready-to-take-over-the-world
     - hack-the-it-governance-matrix

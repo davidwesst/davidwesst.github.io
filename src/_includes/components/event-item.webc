@@ -1,2 +1,8 @@
-Event Item Component!
-<h3 @text="title"></h3>
+<li>
+    <a :href="href">
+        <h3 @text="title"></h3>
+        <div @text="location"></div>
+        <time :datetime="startDate"
+            @text="startDate"></time>
+    </a>
+</li>

@@ -1,0 +1,12 @@
+<script webc:setup>
+    const items = collections.event;
+    console.dir(collections.event[0].data.duration);
+</script>
+<menu class="content-list">
+    <event-item  webc:for="(key, value) in eventItems"
+        :href="value.url"
+        :@title="value.data.title"
+        :@start-date="value.data.duration.start"
+        :@location="`${value.data.location.city}, ${value.data.location.provinceState} (${value.data.location.country})`">
+    </event-item>
+ </menu>

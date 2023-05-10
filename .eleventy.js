@@ -13,7 +13,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(pluginWebc, {
-    components: "src/_includes/components/event-item.webc"
+    components: [
+      "src/_includes/components/*.webc"
+    ]
   });
 
   eleventyConfig.setUseGitIgnore(false);

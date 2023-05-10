@@ -4,11 +4,11 @@ url: "https://www.prairiedevcon.com"
 eventType: "conference"
 location:
     city: "Regina"
-    province-state: "Saskatchewan"
+    provinceState: "Saskatchewan"
     country: "Canada"
-dates:
-    start: "October 3, 2022"
-    end: "October 4, 2022"
+duration:
+    start: "2022-10-03"
+    end: "2022-10-04"
 sessions:
     - concensus-in-the-chaos
     - cots-to-cloud
