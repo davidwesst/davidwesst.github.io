@@ -1,6 +1,15 @@
 <li>
     <a :href="`/talks/${talk.id}`">
         <h3 @text="talk.title"></h3>
-        <p @text="talk.shortDescription"></p>
     </a>
+    <p @text="talk.shortDescription"></p>
+    <section>
+        <h4>Files / Links</h4>
+        <article webc:if="talk.eventLinks?.length > 0">
+            <p>Links and files will go here</p>
+        </article>
+        <article webc:else>
+            <p>No links or files shared.</p>
+        </article>
+    </section>
 </li>
