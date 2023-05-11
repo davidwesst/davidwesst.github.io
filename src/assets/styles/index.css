@@ -184,7 +184,7 @@ main > *:not(dialog) {
     margin-right: 0;
 }
 
-.publishDate {
+.publishDate, .subTitle {
     font-size: 0.8em;
     font-style: italic;
     font-weight: bold;  
@@ -236,6 +236,10 @@ main > *:not(dialog) {
 
 .menu-toggle, .menu-toggle + label {
     display: none;
+}
+
+.event-item-title {
+  margin: 1em 0 0.25em 0;
 }
 
 /* Hide the site-nav on mobile devices */

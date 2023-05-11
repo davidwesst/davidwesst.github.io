@@ -13,5 +13,3 @@ sessions:
     - is-ai-ready-to-take-over-the-world
     - hack-the-it-governance-matrix
 ---
-
-This is the PrDC 2023 Winnipeg page.

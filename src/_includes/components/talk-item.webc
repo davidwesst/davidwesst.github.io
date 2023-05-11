@@ -5,9 +5,13 @@
     <p @text="talk.shortDescription"></p>
     <section>
         <h4>Files / Links</h4>
-        <article webc:if="talk.eventLinks?.length > 0">
-            <p>Links and files will go here</p>
-        </article>
+        <menu webc:if="talk.eventLinks?.length > 0" class="content-list">
+            <li webc:for="elItem of talk.eventLinks" webc:if="elItem.id == eventFilterId">
+                <a webc:for="link of elItem.links"
+                    :href="link.url"
+                    @text="link.shortDescription"></a>
+            </li>
+        </menu>
         <article webc:else>
             <p>No links or files shared.</p>
         </article>

@@ -1,8 +1,10 @@
 <li>
     <a :href="href">
-        <h3 @text="title"></h3>
+        <h3 class="event-item-title" @text="title"></h3>
+    </a>
+    <article>
         <div @text="location"></div>
         <time :datetime="startDate"
             @text="formatDate(startDate)"></time>
-    </a>
+    </article>
 </li>
