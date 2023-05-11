@@ -3,13 +3,13 @@ layout: "base.html"
 ---
 <header>
     <h1 @text="title"></h1>
-    <div class="publishDate">
+    <div class="subTitle">
         <time :datetime="duration.start" @text="formatDate(duration.start)"></time> - <time :datetime="duration.end" @text="formatDate(duration.end)"></time>
     </div>
-    <div @text="`${location.city}, ${location.provinceState} (${location.country})`"></div>
+    <div class="subTitle" @text="`${location.city}, ${location.provinceState} (${location.country})`"></div>
 </header>
-<section @html="content">
-    Event page content goes here.
+<section webc:if="content" @html="content">
+    This element should not appear if there is no context in the event markdown file.
 </section> 
 <section>
     <h2>Talks</h2>
@@ -17,7 +17,8 @@ layout: "base.html"
         <talk-item 
             webc:for="(talk, index) of talks" 
             webc:if="sessions.indexOf(talk.id) >= 0"
-            :@talk="talk">
+            :@talk="talk"
+            :@event-filter-id="page.fileSlug">
         </talk-item>
     </menu>
 </section>

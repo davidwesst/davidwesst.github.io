@@ -14,4 +14,3 @@ sessions:
     - cots-to-cloud
 ---
 
-This is the PrDC 2022 Regina page.
