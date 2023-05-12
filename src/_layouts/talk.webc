@@ -3,8 +3,12 @@ layout: "base.html"
 ---
 <header class="page-header">
     <h1 @text="talk.title"></h1>
-    <article class="subTitle" webc:if="talk.coAuthors !== undefined"
-        @text="`Co-authored by ${talk.coAuthors[0]}`">
+    <article class="subTitle" 
+        webc:if="talk.coAuthors !== undefined">
+        Co-authored by:
+        <ul>
+            <li webc:for="author of talk.coAuthors" @text="author"></li>
+        </ul>
     </article>
 </header>
 <article @text="talk.description"></article>
