@@ -54,10 +54,10 @@ module.exports = function (eleventyConfig) {
                   .use(markdownItEmoji)
                   .use(markdownItImages, {
                     imgOptions: {
-                      widths: [300, 500, 800],
+                      widths: [300, 800],
                       urlPath: "/img/",
                       outputDir: path.join("dist/img/"),
-                      formats: ["avif", "webp", "jpeg"]
+                      formats: ["webp", "jpeg"]
                     },
                     globalAttributes: {
                       sizes: "100vw"

@@ -1,28 +1,65 @@
 <script webc:setup>
     const sortFunc = (a, b) => new Date(b.data.duration.start) - new Date(a.data.duration.start);
     const eventItems = Array.prototype.sort.call(collections.event, sortFunc);
+
+    const upcomingEvents = Array.prototype.filter.call(eventItems, (item) => { 
+        return Date.now() < new Date(item.data.duration.start);
+    });
+    const upcomingEventSessionIds = [].concat(...upcomingEvents.map(item => item.data.sessions));
+
+    const completedEvents = Array.prototype.filter.call(eventItems, (item) => { 
+        return Date.now() > new Date(item.data.duration.start); 
+    });
+    const completedEventSessionIds = [].concat(...completedEvents.map(item => item.data.sessions));
 </script>
 
-<section>
-    <h3>Upcoming Events</h3>
-    <menu class="content-list">
-        <event-item webc:for="(value, index) of eventItems" webc:if="Date.now() < new Date(value.data.duration.start)"
-        :href="value.url"
-        :@title="value.data.title"
-        :@start-date="value.data.duration.start"
-        :@location="`${value.data.location.city}, ${value.data.location.provinceState} (${value.data.location.country})`">
-    </event-item>
-    </menu>
-</section>
-<section webc:if="includeCompleted == true">
-    <h3>Completed Events</h3>
-    <menu class="content-list">
-        <event-item webc:for="(value, index) of eventItems" webc:if="Date.now() > new Date(value.data.duration.start)"
+<section webc:if="talkFilter !== undefined">
+    <article webc:if="upcomingEventSessionIds.includes(talkFilter)">
+        <h3>Upcoming Events</h3>
+        <menu class="content-list" >
+            <event-item webc:for="(value, index) of upcomingEvents" 
+            webc:if="talkFilter && value.data.sessions.includes(talkFilter)"
             :href="value.url"
             :@title="value.data.title"
             :@start-date="value.data.duration.start"
             :@location="`${value.data.location.city}, ${value.data.location.provinceState} (${value.data.location.country})`">
         </event-item>
-     </menu>
+        </menu>
+    </article>
+    <article webc:if="includeCompleted == true && completedEventSessionIds.includes(talkFilter)">
+        <h3>Completed Events</h3>
+        <menu class="content-list">
+            <event-item webc:for="(value, index) of completedEvents"
+                webc:if="talkFilter && value.data.sessions.includes(talkFilter)"
+                :href="value.url"
+                :@title="value.data.title"
+                :@start-date="value.data.duration.start"
+                :@location="`${value.data.location.city}, ${value.data.location.provinceState} (${value.data.location.country})`">
+            </event-item>
+        </menu>
+    </article>
 </section>
-
+<section webc:else>
+    <article>
+        <h3>Upcoming Events</h3>
+        <menu class="content-list" >
+            <event-item webc:for="(value, index) of upcomingEvents" 
+            :href="value.url"
+            :@title="value.data.title"
+            :@start-date="value.data.duration.start"
+            :@location="`${value.data.location.city}, ${value.data.location.provinceState} (${value.data.location.country})`">
+        </event-item>
+        </menu>
+    </article>
+    <article>
+        <h3>Completed Events</h3>
+        <menu class="content-list">
+            <event-item webc:for="(value, index) of completedEvents"
+                :href="value.url"
+                :@title="value.data.title"
+                :@start-date="value.data.duration.start"
+                :@location="`${value.data.location.city}, ${value.data.location.provinceState} (${value.data.location.country})`">
+            </event-item>
+        </menu>
+    </article>
+</section>
