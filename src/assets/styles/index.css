@@ -188,7 +188,7 @@ main > *:not(dialog) {
     font-size: 0.8em;
     font-style: italic;
     font-weight: bold;  
-	line-height: 1.5em;
+	  line-height: 1.5em;
 }
 
 .content-list {
@@ -240,6 +240,10 @@ main > *:not(dialog) {
 
 .event-item-title {
   margin: 1em 0 0.25em 0;
+}
+
+.page-header {
+  padding-bottom: 1em;
 }
 
 /* Hide the site-nav on mobile devices */
