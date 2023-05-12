@@ -1,12 +1,13 @@
 ---
 layout: "base.html"
 ---
-<header>
+<header class="page-header">
     <h1 @text="talk.title"></h1>
+    <article class="subTitle" webc:if="talk.coAuthors !== undefined"
+        @text="`Co-authored by ${talk.coAuthors[0]}`">
+    </article>
 </header>
-<section>
-    <article @text="talk.description"></article>
-</section>
+<article @text="talk.description"></article>
 <h2>Events</h2>
 <article>
     I have delivered (or will be delivering) this talk at the events listed below. Click the link below to find downloads or resources I shared for this talk at a specific event.
