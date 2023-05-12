@@ -1,0 +1,19 @@
+---
+layout: "base.html"
+---
+<header>
+    <h1 @text="talk.title"></h1>
+</header>
+<section>
+    <article @text="talk.description"></article>
+</section>
+<h2>Events</h2>
+<article>
+    I have delivered (or will be delivering) this talk at the events listed below. Click the link below to find downloads or resources I shared for this talk at a specific event.
+</article>
+<event-list
+    :@talk-filter="talk.id"
+    :@include-completed="true"
+    >
+</event-list>
+
