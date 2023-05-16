@@ -13,7 +13,7 @@ changefreq: weekly
 <section>
     <p>I have been doing public speaking since about 2010, and currently in the process of bringing all of my presentation materials and event data to the website. So please keep in mind, this list only contains the most recent presentations. More to come in the future (hopefully).</p>
     <p>Click the links below to see what sessions I am delivering, along with more information about the event itself.</p>
-    <p>Not sure which event you are looking for? Check out the <a href="/talks.html">talks</a> section, and see what I have shared.</p>
+    <p>Not sure which event you are looking for? Check out the <a href="/talks/">talks</a> section, and see what I have shared.</p>
 </section>
 <event-list 
     :@include-completed="true">
