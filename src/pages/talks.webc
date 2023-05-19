@@ -1,6 +1,6 @@
 ---
 layout: base.html
-permalink: "/talks/"
+permalink: "/talks/index.html"
 title: "TALKS // David Wesst"
 description: "The place where I put my conference materials"
 ---
@@ -12,10 +12,4 @@ description: "The place where I put my conference materials"
 <section>
     <p>Not sure which talk you are looking for? Check out the <a href="/events/">events</a> section, and see where you might have seen me before.</p>
 </section>
-<menu class="content-list">
-    {%- for t in talks -%}
-    <article>
-        <a href="/talks/{{t.id}}/">{{ t.title }}</a>
-    </article>
-    {%- endfor -%}
-</menu>
+<talk-list></talk-list>

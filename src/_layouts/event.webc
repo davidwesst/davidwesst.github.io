@@ -14,12 +14,18 @@ layout: "base.html"
 <section>
     <h2>Talks</h2>
     <menu class="content-list">
-        <talk-item 
-            webc:for="(talk, index) of talks" 
-            webc:if="sessions.indexOf(talk.id) >= 0"
-            :@talk="talk"
-            :@event-filter-id="page.fileSlug">
-        </talk-item>
+        <li webc:for="(t, index) of talks">
+            <a :href="`/talks/${t.id}`">
+                <h3 @text="`${t.title}`"></h3>
+            </a>
+            <h4>Files / Links</h4>
+            <menu webc:if="t.links">
+                <li webc:for="l of t.links">
+                    <a :href="l.url" @text="l.shortDescription"></a>
+                </li>
+            </menu>
+            <article webc:else>No files or links shared.</article>
+        </li>
     </menu>
 </section>
 
