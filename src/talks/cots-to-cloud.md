@@ -8,8 +8,6 @@ eventLinks:
   title: "Prairie Dev Con 2022 - Regina"
 - id: "prairiedevcon2022-winnipeg"
   title: "Prairie Dev Con 2022 - Winnipeg"
-
 - id: "prairiedevcon2022-calgary"
   title: "Prairie Dev Con 2022 - Calgary"
-
 ---

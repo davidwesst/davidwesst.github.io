@@ -1,24 +1,24 @@
 ---
 layout: "base.html"
 ---
-<!-- <header class="page-header">
-    <h1 @text="talk.title"></h1>
+<header class="page-header">
+    <h1 @text="title"></h1>
     <article class="subTitle" 
-        webc:if="talk.coAuthors !== undefined">
+        webc:if="coAuthors !== undefined">
         Co-authored by:
         <ul>
-            <li webc:for="author of talk.coAuthors" @text="author"></li>
+            <li webc:for="author of coAuthors" @text="author"></li>
         </ul>
     </article>
 </header>
-<article @text="talk.description"></article>
+<article @text="description"></article>
 <h2>Events</h2>
 <article>
     I have delivered (or will be delivering) this talk at the events listed below. Click the link below to find downloads or resources I shared for this talk at a specific event.
 </article>
 <event-list
-    :@talk-filter="talk.id"
+    :@talk-filter="page.fileSlug"
     :@include-completed="true"
     >
-</event-list> -->
+</event-list>
 
