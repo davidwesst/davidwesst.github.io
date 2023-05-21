@@ -5,14 +5,21 @@
     const upcomingEvents = Array.prototype.filter.call(eventItems, (item) => { 
         return Date.now() < new Date(item.data.duration.start);
     });
-    const upcomingEventSessionIds = [].concat(...upcomingEvents.map(item => item.data.sessions));
+    //console.dir(upcomingEvents);
+    const upcomingEventSessionIds = [].concat(...upcomingEvents.map((item) => {
+        return [].concat(...item.data.talks.map(i => i.id));
+    }));
+    console.dir(upcomingEventSessionIds);
 
     const completedEvents = Array.prototype.filter.call(eventItems, (item) => { 
         return Date.now() > new Date(item.data.duration.start); 
     });
-    const completedEventSessionIds = [].concat(...completedEvents.map(item => item.data.sessions));
+    const completedEventSessionIds = [].concat(...completedEvents.map((item) => {
+        return [].concat(...item.data.talks.map(i => i.id));
+    }));
+    // console.dir(completedEventSessionIds);
 </script>
-
+<h1 @text="`${talkFilter}`"></h1>
 <section webc:if="talkFilter !== undefined">
     <article webc:if="upcomingEventSessionIds.includes(talkFilter)">
         <h3>Upcoming Events</h3>
