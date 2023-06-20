@@ -9,53 +9,44 @@
     const upcomingEventSessionIds = [].concat(...upcomingEvents.map((item) => {
         return [].concat(...item.data.talks.map(i => i.id));
     }));
-    console.dir(upcomingEventSessionIds);
+    //console.dir(upcomingEventSessionIds);
 
     const completedEvents = Array.prototype.filter.call(eventItems, (item) => { 
         return Date.now() > new Date(item.data.duration.start); 
     });
+    //console.dir(completedEvents.length);
     const completedEventSessionIds = [].concat(...completedEvents.map((item) => {
         return [].concat(...item.data.talks.map(i => i.id));
     }));
-    // console.dir(completedEventSessionIds);
+    //console.dir(completedEvents);
 </script>
-<h1 @text="`${talkFilter}`"></h1>
+
 <section webc:if="talkFilter !== undefined">
-    <article webc:if="upcomingEventSessionIds.includes(talkFilter)">
-        <h3>Upcoming Events</h3>
-        <menu class="content-list" >
-            <event-item webc:for="(value, index) of upcomingEvents" 
-            webc:if="talkFilter && value.data.sessions.includes(talkFilter)"
-            :href="value.url"
-            :@title="value.data.title"
-            :@start-date="value.data.duration.start"
-            :@location="`${value.data.location.city}, ${value.data.location.provinceState} (${value.data.location.country})`">
-        </event-item>
-        </menu>
-    </article>
-    <article webc:if="includeCompleted == true && completedEventSessionIds.includes(talkFilter)">
-        <h3>Completed Events</h3>
-        <menu class="content-list">
-            <event-item webc:for="(value, index) of completedEvents"
-                webc:if="talkFilter && value.data.sessions.includes(talkFilter)"
-                :href="value.url"
-                :@title="value.data.title"
-                :@start-date="value.data.duration.start"
-                :@location="`${value.data.location.city}, ${value.data.location.provinceState} (${value.data.location.country})`">
-            </event-item>
-        </menu>
-    </article>
+
+    <script webc:type="js" webc:root>
+        const filteredCompletedEvents = completedEvents.filter(obj => 
+            obj.data.talks.some(talk => talk.id === talkFilter)
+        );
+        const output = [];
+        filteredCompletedEvents.map(item => {
+            output.push(`<li><a href="${item.url}">${item.data.title}</a></li>`);
+        });
+        `<menu class="content-list">${output.join("")}</menu>`;
+    </script>
 </section>
 <section webc:else>
     <article>
         <h3>Upcoming Events</h3>
-        <menu class="content-list" >
+        <menu class="content-list" webc:if="upcomingEvents.length > 0" >
             <event-item webc:for="(value, index) of upcomingEvents" 
             :href="value.url"
             :@title="value.data.title"
             :@start-date="value.data.duration.start"
             :@location="`${value.data.location.city}, ${value.data.location.provinceState} (${value.data.location.country})`">
         </event-item>
+        </menu>
+        <menu class="content-list" webc:else>
+            There are no upcoming events scheduled at this time.
         </menu>
     </article>
     <article>
