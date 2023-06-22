@@ -12,13 +12,13 @@ layout: "base.html"
     </article>
 </header>
 <article @text="description"></article>
-<h2>Events</h2>
 <article>
-    I have delivered (or will be delivering) this talk at the events listed below. Click the link below to find downloads or resources I shared for this talk at a specific event.
+    <h2>Delivered at</h2>
+    <event-list
+        :@talk-filter="page.fileSlug"
+        :@include-completed="true"
+        >
+    </event-list>
 </article>
-<event-list
-    :@talk-filter="page.fileSlug"
-    :@include-completed="true"
-    >
-</event-list>
+
 
