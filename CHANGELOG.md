@@ -1,6 +1,15 @@
 # Changelog
 This a log of all the notable changes for [davidwesst.com](https://www.davidwesst.com/). You can find the source code on [GitHub](https://github.com/davidwesst/website).
 
+## [10.5.0] - 2022-06-21
+### Changes
+- Refreshed "talks" section of website
+- Included events where talk was delivered on talk page
+- Converted talk data from JSON to MD pages
+
+### Added
+- Events section of website
+
 ## [10.4.3] - 2023-05-02
 ### Changes
 - Disable CI/CD on `post/**` branches
