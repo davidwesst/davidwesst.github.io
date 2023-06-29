@@ -50,9 +50,9 @@ Let's assume, for the sake of this post, that you see where software can help pl
 
 ## 2) What happens if we do nothing?
 
-![An faded wooden sign that says the word "Nothing" in large blocky letters, set against a clear blue sky. Photo by Evan Buchholz on Unsplash.com](./nothing-sign.jpg)
+![An faded wooden sign that says the word 'Nothing' in large blocky letters, set against a clear blue sky. Photo by Evan Buchholz on Unsplash.com](./nothing-sign.jpg)
 
-Sounds silly, I know, but doing nothing is always an option and people do it all the time. But why would someone choose to do nothing? Because _the risk doesn't outweigh the reward_. 
+Sounds silly, I know, but doing nothing is always an option and people do it all the time. But why would someone choose to do nothing? Because _the risk doesn't outweigh the reward_.
 
 By answering this question with your client, you get to understand the risks associated with the problem. This will inform your solution design, as if the risks are high you may want to invest more time and effort into parts of the design than others. It will also give you context on the priority of your solution in the mind of your client.
 
