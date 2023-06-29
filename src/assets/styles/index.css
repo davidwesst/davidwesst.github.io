@@ -267,6 +267,7 @@ main > *:not(dialog) {
     }
 
     .menu-toggle + label {
+      background-color: var(--main-bg-colour);
       display: block;
       padding: 0.5em;
       text-align: center;
