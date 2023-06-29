@@ -44,7 +44,7 @@
     "dotenv-webpack": "^8.0.1",
     "gray-matter": "^4.0.3",
     "markdown-it": "^13.0.1",
-    "markdown-it-eleventy-img": "^0.9.0",
+    "markdown-it-eleventy-img": "^0.10.1",
     "markdown-it-emoji": "^2.0.2",
     "mini-css-extract-plugin": "^2.6.1",
     "parcel": "^2.7.0",
