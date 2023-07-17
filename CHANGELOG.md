@@ -1,7 +1,16 @@
 # Changelog
 This a log of all the notable changes for [davidwesst.com](https://www.davidwesst.com/). You can find the source code on [GitHub](https://github.com/davidwesst/website).
 
-## [10.5.0] - 2022-06-21
+## [10.5.1] - 2023-07-17
+### Added
+- Page for 'Remember the Human' podcast [#228](https://github.com/davidwesst/website/issues/228)
+
+### Fixes
+- Nav menu button transparency fix [#219](https://github.com/davidwesst/website/issues/219)
+- Non-responsive blog images [#225](https://github.com/davidwesst/website/issues/225)
+- Site header is incorrect size on mobile [#224](https://github.com/davidwesst/website/issues/224)
+
+## [10.5.0] - 2023-06-21
 ### Changes
 - Refreshed "talks" section of website
 - Included events where talk was delivered on talk page
