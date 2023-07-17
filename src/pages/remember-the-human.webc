@@ -1,0 +1,28 @@
+---
+layout: base.html
+permalink: /rememberthehuman/index.html
+title: REMEMBER THE HUMAN // David Wesst
+description: Homepage for Remember the Human, a podcast hosted by David Wesst, about artificial intelligence and the change it brings to the lives of people.
+---
+<header class="hero">
+    <img webc:is="eleventy-image" src="./src/assets/images/rth_logo.png" width="360" sizes="100vw" alt="Remember The Human podcast logo">
+    <h2><span class="reverse-colour">Remember the Human</span></h2>
+    <p><span class="reverse-colour">A podcast, hosted by David Wesst, about artificial intelligence and the change it brings to our day-to-day lives.</span></p>
+    <section>
+        <h3>Subscribe</h3>
+        <menu>
+            <li><a href="https://open.spotify.com/show/0ylqvEi3euRtIYR0n5T4V6" target="_blank">Spotify</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLbTA1UhK0wKike9s5uPoxqTJ8HkdY9tzn" target="_blank">YouTube</a></li>
+            <li><a href="https://podcasts.apple.com/us/podcast/remember-the-human/id1697522062" target="_blank">Apple</a></li>
+            <li><a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9lNWE4Nzk3MC9wb2RjYXN0L3Jzcw" target="_blank">Google Podcasts</a>
+        </menu>
+        <h3>Follow</h3>
+        <menu>
+            <li><a href="https://www.linkedin.com/company/rememberthehuman/" target="_blank">LinkedIn</a></li>
+        </menu>
+    </section>
+</header>
+
+
+
+
