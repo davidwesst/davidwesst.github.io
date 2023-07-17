@@ -14,9 +14,18 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(pluginWebc, {
     components: [
-      "src/_includes/components/*.webc"
+      "src/_includes/components/*.webc",
+      "npm:@11ty/eleventy-img/*.webc"
     ]
   });
+  eleventyConfig.addPlugin(pluginImage.eleventyImagePlugin, {
+    formats: ["webp", "jpeg"],
+    urlPath: "/img/",
+    defaultAttributes: {
+      loading: "lazy",
+      decoding: "async"
+    }
+  })
 
   // custom filters
   eleventyConfig.addFilter("formatDate", (value) => {  
