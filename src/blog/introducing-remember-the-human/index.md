@@ -5,6 +5,9 @@ description: My unique podcast, 'Remember the Human', shifts the focus from AI t
 tags: [ai, artificial-intelligence, podcast, remember-the-human, change]
 category:
 - remember-the-human
+image: ./rth-notitle-thumbnail.jpeg
+image_alt: Zoomed in portion of the Remember the Human logo, consisting of a human face looking at a similar, but robotic or artificial intelligence face. with a small DW logo in the middle near the bottom.
+image_type: image/jpeg
 ---
 
 Hey friendos, it's DW.
@@ -29,7 +32,7 @@ I'd love for you to be a part of this journey. And the good news is, you can joi
 
 Or, you can always find these links and anything new on the Remember the Human website at [www.rememberthehuman.ai][7].
 
-## Conclusion \ TL;DR;
+## Conclusion / TL;DR;
 
 "Remember the Human" is a podcast that shifts the focus from AI technology to its impact on our lives. It's a space to hear stories about the transformative effect of AI and engage in meaningful, yet casual, conversations about its practical relevance.
 
