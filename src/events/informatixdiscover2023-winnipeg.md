@@ -12,4 +12,7 @@ duration:
 talks:
     - id: is-ai-ready-to-take-over-the-world
       title: "Is AI Ready to Take Over the World?"
+      links:
+        - shortDescription: "Slides (PDF)"
+          url: "https://davidwesstweb.blob.core.windows.net/talks/is-ai-ready-to-take-over/is-ai-ready-to-take-over-the-world_informanixdiscover-2023.pdf"
 ---
