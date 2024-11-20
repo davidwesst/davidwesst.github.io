@@ -21,14 +21,14 @@ jobs:
     name: Build and Deploy
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           lfs: true
           submodules: true
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 22 
       - name: Generate DotEnv File
         uses: iamsauravsharma/create-dotenv@v1.2.1
         with:
@@ -40,30 +40,3 @@ jobs:
         run: |
           npm install
           npm run build
-      - name: Deploy
-        id: deploy
-        uses: Azure/static-web-apps-deploy@v1
-        with:
-          production_branch: "main"
-          azure_static_web_apps_api_token: ${{ secrets.SWA_DEPLOY_TOKEN }} 
-          repo_token: ${{ secrets.GH_WORKFLOW_TOKEN }}
-          action: "upload"
-          app_location: "dist"
-          skip_app_build: true
-
-  close_pull_request:
-    if: github.event_name == 'pull_request' && github.event.action == 'closed'
-    runs-on: ubuntu-latest
-    name: Close PR
-    steps:
-      - name: Close Pull Request
-        id: closepullrequest
-        uses: Azure/static-web-apps-deploy@v1
-        with:
-          azure_static_web_apps_api_token: ${{ secrets.SWA_DEPLOY_TOKEN }}
-          repo_token: ${{ secrets.GH_WORKFLOW_TOKEN }}
-          action: "close"
-
-
- 
-      
