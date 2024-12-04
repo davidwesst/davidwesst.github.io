@@ -13,7 +13,7 @@ What you're looking at is a lobster, in a ditch, drinking scotch, whose mouth is
 
 <!--more-->
 
-![](/blog/Western-Devs-Found-My-Spirit-Animal/lobster-fire-mouth.png)
+![](/blog/western-devs-found-my-spirit-animal/lobster-fire-mouth.png)
 
 This amazing drawing represents a large number of "hilarious" stories that come from many conferences and adventures that have come through the MVP Program. Although I'm a bit late with the post, after being renewed this past April, I have had the chance to reflect on my five years and appreciate being a part of these communities for so long now.
 
@@ -34,4 +34,4 @@ And _that_ is the whole point.
 ### Special Thanks To...
 A special shout out to [D'Arcy Lussier](https://twitter.com/Darcy_Lussier) for pulling the discussion out of the Western Devs fog and turning it into reality, as he did the lobster. [Cyrena Friesen](https://twitter.com/CyrenaFriesen) for making it a reality on Twitter. And [Donald Belcham](https://twitter.com/dbelcham) for lighting the lobster on fire with scotch and reminding it that it'll forever be in a ditch.
 
-![](/blog/Western-Devs-Found-My-Spirit-Animal/twitter-source.png)
+![](/blog/western-devs-found-my-spirit-animal/twitter-source.png)
