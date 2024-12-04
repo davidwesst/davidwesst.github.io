@@ -1,7 +1,7 @@
-const fs = require("fs");
-const matter = require("gray-matter");
-const path = require("path");
-const { stringify } = require("yaml");
+import fs from "fs";
+import matter from "fs";
+import path from "path";
+import { stringify } from "yaml";
 
 /**
  * Normalize string to following standardized tag name formatting
@@ -39,7 +39,7 @@ function cleanFrontMatterTags(targetFilePath, normalizer = normalizeTagName) {
     }
 }
 
-module.exports = {
+export {
     cleanFrontMatterTags,
     normalizeTagName
 }

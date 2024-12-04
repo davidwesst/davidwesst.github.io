@@ -77,7 +77,7 @@ So, npm has a solution for that:
 
 `npm install bower --save-dev`
 
-For example, I always use [Bower](http://) (I'll talk about that next time). The `--save-dev` flag adds to the devDependencies section of _package.json_. I can just commit the file to source control, and now everyone that gets the source code can use the tools I want them to.
+For example, I always use Bower (I'll talk about that next time). The `--save-dev` flag adds to the devDependencies section of _package.json_. I can just commit the file to source control, and now everyone that gets the source code can use the tools I want them to.
 
 Not that they are installed, those tools are available to me. The tools work on Node, and Node works on all platforms. 
 

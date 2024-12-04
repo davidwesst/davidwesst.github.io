@@ -12,6 +12,8 @@ layout: "base.html"
     </article>
 </header>
 <article @text="description"></article>
+
+<!--
 <article>
     <h2>Delivered at</h2>
     <event-list
@@ -20,5 +22,6 @@ layout: "base.html"
         >
     </event-list>
 </article>
+-->
 
 

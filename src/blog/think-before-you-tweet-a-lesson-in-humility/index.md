@@ -30,7 +30,7 @@ I wanted to share this simple reminder too those people out there who rush to re
 
 In my conversation with the creator of [Chocolatey](https://chocolatey.org/), [Rob Reynolds](https://twitter.com/ferventcoder), I managed confuse its machine package manager functionality with that of langugage-specific package managers like [Nuget](https://www.nuget.org/) and [NPM](https://www.npmjs.org/). Silly to most, but kind of embarassing considering [I'm the one that brought Chocolatey into it](https://twitter.com/davidwesst/status/533798992270745601).
 
-At the end of the day, I tried to correct the situation by acknowledging my confusion and [replying via Twitter](https://twitter.com/davidwesst/status/533848025375195136), but it was too late and [Simon Timms caught it](http://) and mocked me (rightfully so, might I add).
+At the end of the day, I tried to correct the situation by acknowledging my confusion and [replying via Twitter](https://twitter.com/davidwesst/status/533848025375195136), but it was too late and Simon Timms caught it and mocked me (rightfully so, might I add).
 
 ## Lesson Learned
 

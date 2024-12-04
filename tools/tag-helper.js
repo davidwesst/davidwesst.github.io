@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-const fs = require("fs/promises");
-const matter = require("gray-matter");
-const path = require("path");
+import fs from "fs/promises";
+import matter from "gray-matter";
+import path from "path";
 
-const { normalizeTagName } = require("./lib/tags");
+import { normalizeTagName } from "./lib/tags.js";
 
 /**
  * Convert the tag collection to a JSON string

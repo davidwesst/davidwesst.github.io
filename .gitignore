@@ -1,3 +1,7 @@
+# TEMP
+exports/
+old_src/
+
 # Application Specific
 dist/
 tmp/
