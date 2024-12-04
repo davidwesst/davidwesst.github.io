@@ -21,7 +21,7 @@ MSDevShow is one that a discovered, and it did not disappoint.
 
 ## MSDevShow: Real Conversations with Devs
 
-[MSDevShow](http://) is hosted by two developers: [Carl Schweitzer](https://twitter.com/carlschweitzer) and [Jason Young](https://twitter.com/ytechie). They host conversations with other developers who are working on project, or are able to comment on recent trends, or whatever.
+MSDevShow is hosted by two developers: [Carl Schweitzer](https://twitter.com/carlschweitzer) and [Jason Young](https://twitter.com/ytechie). They host conversations with other developers who are working on project, or are able to comment on recent trends, or whatever.
 
 It sounds like a pretty standard podcast, but it's not. It's because the conversations sound _real_.
 

@@ -18,15 +18,7 @@ module.exports = {
 	},
 	plugins: [
 		new MiniCssExtractPlugin(),
-		new DotEnvPlugin(),
-		new CopyPlugin({
-			patterns: [
-				{ 
-					from: path.resolve(__dirname, "staticwebapp.config.json"), 
-					to: path.resolve(__dirname, "dist/staticwebapp.config.json") 
-				}
-			]
-		})
+		new DotEnvPlugin()
 	],
 	resolve: { 
 		extensions: [".tsx", ".ts", ".js"]
