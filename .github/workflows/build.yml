@@ -18,7 +18,6 @@ on:
 
 jobs:
   build:
-    if: github.event_name == 'push' || github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     name: Build Website
     steps:
