@@ -60,7 +60,7 @@ jobs:
 
   deploy:
     name: Deploy
-    if: github.ref_name == 'ft/deploy-website'
+    if: github.ref_name == 'main'
     needs: build
     runs-on: ubuntu-latest
 
