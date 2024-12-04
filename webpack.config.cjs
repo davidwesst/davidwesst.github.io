@@ -3,7 +3,8 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const DotEnvPlugin = require("dotenv-webpack");
 const CopyPlugin = require("copy-webpack-plugin");
 
-const isDev = process.env.NODE_ENV !== 'production'
+const isDev = process.env.NODE_ENV !== 'production';
+const PATH_PREFIX = process.env.SITE_PATH_PREFIX ? `/${process.env.SITE_PATH_PREFIX}` : '';
 
 module.exports = {
 	mode: isDev ? 'development' : 'production',
@@ -14,7 +15,7 @@ module.exports = {
 	output: {
 		clean: true,
 		path: path.resolve(__dirname, "dist/assets/"),
-		publicPath: "/assets/"
+		publicPath: `${PATH_PREFIX}/assets/`
 	},
 	plugins: [
 		new MiniCssExtractPlugin(),
