@@ -60,7 +60,7 @@ jobs:
 
   deploy:
     name: Deploy
-    if: github.ref_name == 'main'
+    if: github.ref_name == 'main' || github.ref_name == 'hf/asset-pathprefix'
     needs: build
     runs-on: ubuntu-latest
 
