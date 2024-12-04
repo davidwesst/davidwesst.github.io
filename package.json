@@ -16,7 +16,7 @@
   "scripts": {
     "prebuild": "concurrently 'npm run clean' 'npm run generate-tags'",
     "build": "concurrently 'npm:build:*'",
-    "build:eleventy": "eleventy --quiet",
+    "build:eleventy": "eleventy --quiet ${SITE_PATH_PREFIX:+--pathPrefix=$SITE_PATH_PREFIX}",
     "build:assets": "webpack",
     "debug:build": "DEBUG=Eleventy* eleventy",
     "clean": "rimraf ./dist/*",

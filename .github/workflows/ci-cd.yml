@@ -43,6 +43,9 @@ jobs:
         env:
           DOTENV_AI_CONNECTION_STRING: ${{ secrets.AI_CONNECTION_STRING }}
 
+      - name: Set Path Prefix
+        run: echo "SITE_PATH_PREFIX=/website/" >> $GITHUB_ENV
+
       - name: Build
         id: build
         run: |

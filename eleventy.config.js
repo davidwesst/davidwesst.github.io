@@ -1,4 +1,4 @@
-import { EleventyRenderPlugin } from "@11ty/eleventy";
+import { EleventyRenderPlugin, EleventyHtmlBasePlugin } from "@11ty/eleventy";
 
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginWebc from "@11ty/eleventy-plugin-webc";
@@ -41,6 +41,11 @@ export default async function (eleventyConfig) {
                 email: ""
             }
         }
+    });
+
+    // html base
+    eleventyConfig.addPlugin(EleventyHtmlBasePlugin, {
+        extensions: "html,css,js"
     });
 
     // render
