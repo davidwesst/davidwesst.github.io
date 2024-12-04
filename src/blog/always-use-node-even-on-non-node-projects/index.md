@@ -35,7 +35,7 @@ Back in the day, we would have a "developer setup document" that the new person 
 
 Not only was the document a pain for the person to understand most of the time, but the content became out of date pretty quickly as the technology that we used changed throughout the project.
 
-![](http://mrg.bz/VlafmO)
+![](file5435f4d8df084.jpg)
 Photo credit: [jppi](http://www.morguefile.com/creative/jppi) from [morguefile.com](http://www.morguefile.com/)
 
 ### Enter Node and npm.

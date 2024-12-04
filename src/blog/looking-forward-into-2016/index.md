@@ -10,7 +10,7 @@ description: DW documents and shares his planning session for 2016 based on what
 
 ---
 
-<!-- MISSING_IMG ![](http://blog.davidwesst.com/2016/01/Looking-Forward-into-2016/sunrise.png) -->
+<!-- MISSING_IMG ![](/blog/Looking-Forward-into-2016/sunrise.png) -->
 
 This is the spiritual sequel to my previous post. You don't need to read it, but it might provide some context on some of these ideas. 
 

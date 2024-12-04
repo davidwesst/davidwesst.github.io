@@ -16,7 +16,10 @@ I thought I'd take a moment to share four of them that really stood out to me, a
 **Note** that I've left a bunch off the list, as that is the nature of a "top X" list. If I missed your favourite one, then feel free to let me know in the comments!
 
 ### Phaser
-![](http://blog.davidwesst.com/2016/02/Exploring-JavaScript-Game-Frameworks/phaser.png)
+<!--
+MISSING
+![](/blog/Exploring-JavaScript-Game-Frameworks/phaser.png)
+-->
 
 I'll start with the one I picked for my game. [Phaser](http://phaser.io/), developed by Richard Davey (a.k.a. [@PhotonStorm](https://twitter.com/photonstorm)) is an open source JavaScript game framework for desktop and mobile games.
 
@@ -31,7 +34,10 @@ What really drew me towards Phaser was it's well documented API, and the numerou
 You can check it out on [GitHub](https://github.com/photonstorm/phaser).
 
 ### Superpowers
-![](http://blog.davidwesst.com/2016/02/Exploring-JavaScript-Game-Frameworks/superpowers.png)
+<!--
+MISSING
+![](/blog/Exploring-JavaScript-Game-Frameworks/superpowers.png)
+-->
 
 I think [Superpowers](http://superpowers-html5.com/index.en.html) one has a lot of potential. Seeing the [game demo](http://sparklinlabs.itch.io/discover-superpowers) they made really gave me all the proof I needed believe in what they're doing over there at Sparklin Labs.
 
@@ -45,7 +51,9 @@ The only drawback I found was that it was really new when I was shopping for a g
 If you're interested in learning how to leverage Superpowers, I suggest checking out their [documentation site](http://docs.superpowers-html5.com/en/getting-started/about-superpowers) or this [GameFromScratch.com tutorial series](http://www.gamefromscratch.com/post/2016/02/01/Superpowers-Tutorial-Series-Part-One-Getting-Started.aspx).
 
 ### PlayCanvas
-![](http://blog.davidwesst.com/2016/02/Exploring-JavaScript-Game-Frameworks/playcanvas.png)
+<!-- MISSING
+![](/blog/Exploring-JavaScript-Game-Frameworks/playcanvas.png)
+-->
 
 I discovered [PlayCanvas](https://playcanvas.com/) when I bought a Humble Bundle focused around game development tools. PlayCanvas seems to be cut from the same cloth as SuperPowers, but is a bit more mature considering it's been around longer. It focuses more on 3D content, although I'm sure you could do 2D content just fine.
 
@@ -59,7 +67,9 @@ PlayCanvas really reminded me the [Unity3D](https://unity3d.com/) toolset, which
 Here's another [GameFromScratch tutorial](http://www.gamefromscratch.com/post/2015/04/19/A-Closer-Look-at-the-PlayCanvas-Game-Engine.aspx) that helped me get things moving.
 
 ### Haxe
-![](http://blog.davidwesst.com/2016/02/Exploring-JavaScript-Game-Frameworks/haxe.png)
+<!-- MISSING
+![](/blog/Exploring-JavaScript-Game-Frameworks/haxe.png)
+-->
 
 Okay, so [Haxe](http://haxe.org/) really isn't JavaScript, but it's very similar to it and supports web development, so I'm including it. Plus, it really did stand out as a viable option to me when picking my game for a few reasons:
 

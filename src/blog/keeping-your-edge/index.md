@@ -14,7 +14,9 @@ I recently came off of four months of parental leave where I had a fantastic tim
 
 They might seem obvious, but it took me a while to find a balance to make sure spending time with my daughter _didn't_ play second fiddle to my profession passion and/or obsession. I also didn't want to give up the little bit of sleep I've managed to get, which bring me to the three things that really helped keep up up-to-date.
 
-![](https://blog.davidwesst.com/2016/07/Keeping-Your-Edge-on-an-Extended-Break/office-daycare.jpg)
+<!--
+![](/blog/Keeping-Your-Edge-on-an-Extended-Break/office-daycare.jpg)
+-->
 
 ### Late Night Podcasts
 There were plenty of nights where I was awake trying to calm down an unhappy baby, or just sitting there awake unable to sleep for whatever reason. Instead of just sitting there being alone with my frustration, I would pop in on earbud and listing to one of the many development podcasts (like the [WesternDevs podcast](http://www.westerndevs.com/podcasts/) *hint hint*) or the [Bithell Games podcast](https://www.youtube.com/channel/UCkDkgK59ygwHHMDSiW0M3-g) where they talk the business of video game development.

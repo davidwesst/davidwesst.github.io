@@ -16,8 +16,9 @@ You can find the solution from Dave White [here](http://www.westerndevs.com/gett
 <!--more-->
 
 ---
-![](http://blog.davidwesst.com/2015/08/Docker-on-Windows-10-Problems/docker-logo.png)
-
+<!-- MISSING
+![](/blog/Docker-on-Windows-10-Problems/docker-logo.png)
+-->
 I've hit some issues getting docker running on Windows 10. Turns out it's an issue with VirtualBox and it's being worked on, but I figured I'd share the details here just in case you're having the same issue.
 
 You get the full scoop [here on GitHub](https://github.com/boot2docker/boot2docker/issues/1015) and [here on the Virtualbox ticket site](https://www.virtualbox.org/ticket/14040).

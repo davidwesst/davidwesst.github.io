@@ -23,9 +23,9 @@ To start you need a task runner for your project, which is where you will...you 
 
 1. Hit ``Ctrl + Shift + P`` to bring up the command palette. Search for "task" and you'll get the _Configure Task Runner_ command. 
 2. Select it and press ``Enter`` to generate a tasks.json file.
-
-![http://blog.davidwesst.com/2015/10/Custom-Tasks-for-Java-in-Visual-Studio-Code/configure-task-runner.png](http://blog.davidwesst.com/2015/10/Custom-Tasks-for-Java-in-Visual-Studio-Code/configure-task-runner.png)
-
+<!-- MISSING
+![/blog/Custom-Tasks-for-Java-in-Visual-Studio-Code/configure-task-runner.png](/blog/Custom-Tasks-for-Java-in-Visual-Studio-Code/configure-task-runner.png)
+-->
 The default _tasks.json_ file has some samples along with some reference variables at the top of the file.
 
 Next up, we create our task.
@@ -47,13 +47,13 @@ To see if we have any errors, we want to run our Java compiler on our code to ge
 ```
 
 3. Now, we can run our command by hitting ```Ctrl + Shift + P``` and typing _Run Task_ should show us our new Java task.
-
-![http://blog.davidwesst.com/2015/10/Custom-Tasks-for-Java-in-Visual-Studio-Code/new-javac-task.png](http://blog.davidwesst.com/2015/10/Custom-Tasks-for-Java-in-Visual-Studio-Code/new-javac-task.png)
-
+<!-- MISSING
+![/blog/Custom-Tasks-for-Java-in-Visual-Studio-Code/new-javac-task.png](/blog/Custom-Tasks-for-Java-in-Visual-Studio-Code/new-javac-task.png)
+-->
 4. Select it to run it, and assuming you have an error, it should display something in the output window.
-
-![http://blog.davidwesst.com/2015/10/Custom-Tasks-for-Java-in-Visual-Studio-Code/javac-output.png](http://blog.davidwesst.com/2015/10/Custom-Tasks-for-Java-in-Visual-Studio-Code/javac-output.png)
-
+<!-- MISSING
+![/blog/Custom-Tasks-for-Java-in-Visual-Studio-Code/javac-output.png](/blog/Custom-Tasks-for-Java-in-Visual-Studio-Code/javac-output.png)
+-->
 We're making progress, but it would be nice to see those errors inline in our code files, wouldn't it? That's where Problem Matchers come in.
 
 ### Add a Problem Matcher to your Task
@@ -87,13 +87,13 @@ Here's what my task looks like now:
 If you'd like the full scoop on how this works, you can check out the explanation on the Code documentation on [writing problem matchers](https://code.visualstudio.com/Docs/editor/tasks#_defining-a-problem-matcher) but basically each of the variables listed beneath the ```regexp``` represent a part of the VS code message that should display.
 
 Now that I've updated my task. If we run it again by hitting ```Ctrl + P``` and typing _task javac_ we should get the following:
-
-![http://blog.davidwesst.com/2015/10/Custom-Tasks-for-Java-in-Visual-Studio-Code/error-inline.png](http://blog.davidwesst.com/2015/10/Custom-Tasks-for-Java-in-Visual-Studio-Code/error-inline.png)
-
+<!-- MISSING
+![/blog/Custom-Tasks-for-Java-in-Visual-Studio-Code/error-inline.png](/blog/Custom-Tasks-for-Java-in-Visual-Studio-Code/error-inline.png)
+-->
 ...and if we bring up our warnings by hitting ```Ctrl + Shift + M``` we should see:
-
-![http://blog.davidwesst.com/2015/10/Custom-Tasks-for-Java-in-Visual-Studio-Code/error-warning.png](http://blog.davidwesst.com/2015/10/Custom-Tasks-for-Java-in-Visual-Studio-Code/error-warning.png)
-
+<!-- MISSING
+![/blog/Custom-Tasks-for-Java-in-Visual-Studio-Code/error-warning.png](/blog/Custom-Tasks-for-Java-in-Visual-Studio-Code/error-warning.png)
+-->
 Click on the warning, should bring you to the file with the error in it.
 
 ## Hey, Why Can't I Add More Tasks to tasks.json?

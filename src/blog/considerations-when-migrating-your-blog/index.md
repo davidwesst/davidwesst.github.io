@@ -28,8 +28,9 @@ The questions I asked were:
 4. <a href="#existingreaders">How will your existing readers find your migrated content?</a>
 5. <a href="#whatisallthecontent">What is "All the Content"?</a>
 
-![](http://blog.davidwesst.com/2015/07/Considerations-When-Migrating-Your-Blog/ghost-to-hexo.png)
-
+<!-- MISSING
+![](/blog/Considerations-When-Migrating-Your-Blog/ghost-to-hexo.png)
+-->
 ## 1. What is the Point of your Blog/Site? <a id="whatisthepoint">#</a>
 This question is something you probably asked yourself when you first setup your blog, site, or whatever. Now that you're considering migrating it to a new technology, you should revisit why it even exists. 
 
@@ -71,8 +72,9 @@ Answering this helped guide me on selecting my blogging technology along with my
 
 ## 3. What do you need from a Host? <a id="whatdoyouneedfromahost">#</a>
 
-![](http://blog.davidwesst.com/2015/07/Considerations-When-Migrating-Your-Blog/host-thoughts.png)
-
+<!-- MISSING
+![](/blog/Considerations-When-Migrating-Your-Blog/host-thoughts.png)
+-->
 It ties into the first question, but it's more specific to the features you need from a hosting provider. The features of your host will have an impact on what you can accomplish with your site migration and depending on the technologies you want to use, the host may have some specific ways you need to implement them. For example, if you're considering using something like WordPress, the hosting provider may provide you with a "standard install image" rather than having to setup the application from scratch.
 
 In my case, I only needed the ability to host static files and to use a custom domain. I wanted an easy way to deploy, ideally so I can automate the whole thing at some point, but that was a secondary consideration.
