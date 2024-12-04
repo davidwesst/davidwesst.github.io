@@ -9,11 +9,12 @@ on:
       - '!post/**'
     paths-ignore:
       - 'docs/**/*'
+  workflow_call: 
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build Website
+    name: Build
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,7 +25,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22 
+          node-version: lts/* 
 
       - name: Generate DotEnv File
         uses: iamsauravsharma/create-dotenv@v1.2.1
@@ -47,5 +48,4 @@ jobs:
           retention-days: 1
           if-no-files-found: error
           overwrite: true
-
 
