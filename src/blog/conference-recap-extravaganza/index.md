@@ -49,10 +49,14 @@ Thanks for playing. ~ DW
 [1]: http://www.davidwesst.com/talks
 [2]: https://mix.office.com/watch/1awyqexjvlhq4
 [3]: https://twitter.com/davidwesst
+<!-- MISSING
 [4]: http://www.davidwesst.com/content/images/2015/06/PrDCLogo_Small.png
+-->
 [5]: https://twitter.com/loriblalonde
 [6]: https://mariocardinal.wordpress.com/
+<!-- MISSING
 [7]: http://www.davidwesst.com/content/images/2015/06/entcanada-program.png
+-->
 [8]: http://www.case.edu/hololens/
 [9]: https://www.microsoft.com/microsoft-band/en-us/developer
 [10]: http://davidwesst.com/talks/

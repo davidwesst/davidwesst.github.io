@@ -4,9 +4,9 @@ description: David Wesst takes a moment to look back at his personal and profess
 date: "2016-01-01T13:31:57"
 ---
 
-<!-- MISSING_IMG http://blog.davidwesst.com/2016/01/Highlight-Reel-for-2015/thinker.png -->
+<!-- MISSING_IMG /blog/Highlight-Reel-for-2015/thinker.png -->
 
-I just finished reading my [post about 2014](http://blog.davidwesst.com/2015/01/Highlight-Reel-for-2014/). If I were to compare my plans for 2015 to the result of the year-long sprint, I'd have to say that it appears that we are either way off track, or that the requirements have changed quite a bit.
+I just finished reading my [post about 2014](/blog/Highlight-Reel-for-2014/). If I were to compare my plans for 2015 to the result of the year-long sprint, I'd have to say that it appears that we are either way off track, or that the requirements have changed quite a bit.
 
 2015 has been great, with all sorts of chaos thrown throughout. In this post I'll share with you the highlights and the lessons learned from those events.
 

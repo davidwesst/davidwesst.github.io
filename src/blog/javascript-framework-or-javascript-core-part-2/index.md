@@ -104,5 +104,9 @@ Either way, if you ask yourself "why" you made the decision to go one way or the
 [2]: https://github.com/chrinkus/walk
 [3]: http://www.westerndevs.com/JavaScript/JavaScript-Framework-or-JavaScript-Core-Part-1/
 [4]: http://love2dev.com/#!article/Large-JavaScript-Frameworks-Are-Like-Fast-Food-Restaurants
-[5]: https://blog.davidwesst.com/2016/02/JavaScript-Framework-or-Pure-JavaScript-P2/js-framework-or-pure-js-p2.png
-[6]: https://blog.davidwesst.com/2016/02/JavaScript-Framework-or-Pure-JavaScript-P2/performance-graph.png
+
+<!--
+MISSING
+[5]: /blog/JavaScript-Framework-or-Pure-JavaScript-P2/js-framework-or-pure-js-p2.png
+[6]: /blog/JavaScript-Framework-or-Pure-JavaScript-P2/performance-graph.png
+-->

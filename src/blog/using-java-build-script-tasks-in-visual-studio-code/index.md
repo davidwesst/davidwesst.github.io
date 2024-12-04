@@ -21,25 +21,31 @@ How do you do that? Good question. Let me show you.
 
 ### Define a Build Script
 I've setup a standard Gradle project by using the ```gradle init``` and created a class with a main method named ```HelloLink```.
-
-![http://blog.davidwesst.com/2015/10/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/hellolink-file.png](http://blog.davidwesst.com/2015/10/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/hellolink-file.png)
+<!-- MISSING
+![/blog/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/hellolink-file.png](/blog/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/hellolink-file.png)
+-->
 
 Next up, I want to create a custom build task. We'll call our task ```getSword```.
 
-![http://blog.davidwesst.com/2015/10/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/gradle-project.png](http://blog.davidwesst.com/2015/10/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/gradle-project.png)
+<!-- MISSING
+![/blog/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/gradle-project.png](/blog/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/gradle-project.png)
+-->
 
 Now, we need to do the fun part: hook it into Code. 
 
 ### Add a Task to VS Code
-If we take a page out of [my previous post](http://blog.davidwesst.com/2015/10/Custom-Tasks-for-Java-in-Visual-Studio-Code/), we need so to setup our ```tasks.json``` file. Do that by pressing ```Ctrl + Shift + P``` and searching for "task" and select for _Configure Task Runner_.
+If we take a page out of [my previous post](/blog/Custom-Tasks-for-Java-in-Visual-Studio-Code/), we need so to setup our ```tasks.json``` file. Do that by pressing ```Ctrl + Shift + P``` and searching for "task" and select for _Configure Task Runner_.
 
 Let's add gradle as our task, which should leave our tasks file looking like:
 
-![http://blog.davidwesst.com/2015/10/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/gradle-task.png](http://blog.davidwesst.com/2015/10/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/gradle-task.png)
-
+<!-- MISSING
+![/blog/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/gradle-task.png](/blog/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/gradle-task.png)
+-->
 When we run it, by pressing ```Ctrl + P``` and entering ```task gradle``` we should get the output window displaying our gradle command.
 
-![http://blog.davidwesst.com/2015/10/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/gradle-task-output.png](http://blog.davidwesst.com/2015/10/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/gradle-task-output.png)
+<!-- MISSING
+![/blog/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/gradle-task-output.png](/blog/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/gradle-task-output.png)
+-->
 
 And now we're back to where we started, but gradle (like any build system) has way more tasks than just my custom one. How do I gain access to those?
 
@@ -48,7 +54,9 @@ Simple: you add tasks to your gradle task.
 ### Adding a Task to your Task
 If you haven't already seen it, you have intellisense while you're editing your ```tasks.json```. If you browse through the multitude of JSON properties, you'll find one called _tasks_ which is where we can define our gradle specific tasks.
 
-![http://blog.davidwesst.com/2015/10/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/tasks-intellisense.png](http://blog.davidwesst.com/2015/10/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/tasks-intellisense.png)
+<!-- MISSING
+![/blog/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/tasks-intellisense.png](/blog/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/tasks-intellisense.png)
+-->
 
 We define, what I call a subtask, just like we do a regular task, except the JSON schema is a little different. After adding a task for ```getSword``` and , my tasks file now looks like:
 
@@ -68,7 +76,7 @@ We define, what I call a subtask, just like we do a regular task, except the JSO
 }
 ```
 
-Great, but so far we haven't done anything actually useful. Let's apply what we've learned here and from [my previous post](http://blog.davidwesst.com/2015/10/Custom-Tasks-for-Java-in-Visual-Studio-Code/) and get a useful command setup in Code.
+Great, but so far we haven't done anything actually useful. Let's apply what we've learned here and from [my previous post](/blog/Custom-Tasks-for-Java-in-Visual-Studio-Code/) and get a useful command setup in Code.
 
 ### Doing Something Real
 So, not only do we want a task to call custom tasks, but we'll probably want one to compile and run our Java too. The [gradle application](https://docs.gradle.org/current/userguide/application_plugin.html) provides us with a ```run``` command that we'll call as our default build command, which will give us the _F5_ experience we know from our big, bloated, buddy, Visual Studio proper.
@@ -114,13 +122,16 @@ Our tasks file now looks like:
 
 And if you run it, you should get an error in our source code. Press ```Ctrl + Shift + M``` to see the warning about our static method, and click it to go to the error.
 
-![http://blog.davidwesst.com/2015/10/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/gradle-error.png](http://blog.davidwesst.com/2015/10/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/gradle-error.png)
-
+<!-- MISSING
+![/blog/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/gradle-error.png](/blog/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/gradle-error.png)
+-->
 As you probably noticed, we set our ```run``` task, we've set it to be the _Build Command_ so that when we hit ```Ctrl + Shift + B``` it will execute our command. So, once we go and fix our application we can run it with a keyboard shortcut.
 
 You can open up your output window by hitting ```Ctrl + Shift + U``` and see our application in action.
 
-![http://blog.davidwesst.com/2015/10/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/complete.png](http://blog.davidwesst.com/2015/10/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/complete.png)
+<!-- MISSING
+![/blog/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/complete.png](/blog/Using-Java-Build-Script-Tasks-in-Visual-Studio-Code/complete.png)
+-->
 
 ## The Point
 This is just one simple example using Gradle, but you could use Maven or Ant, or whatever custom build script tool you want, assuming it has a command line response. 

@@ -8,7 +8,7 @@ tags:
 
 ---
 
-<!-- MISSING_IMG http://blog.davidwesst.com/2015/09/Downgrading-Windows-Phone-10-Technical-Preview-The-Lowlights/windows-10-device-screen.jpg -->
+<!-- MISSING_IMG /blog/Downgrading-Windows-Phone-10-Technical-Preview-The-Lowlights/windows-10-device-screen.jpg -->
 
 I have to say that I really did like the Windows Phone 10 technical preview. I think that the new phone OS is heading the right direction, and that if you have a secondary device or want to be _"hardcore"_ , you should install it and check it out.
 
@@ -44,7 +44,7 @@ For a free service it's great, but man does it burn when something goes wrong.
 
 ## The Point
 
-<!-- MISSING_IMG http://blog.davidwesst.com/2015/09/Downgrading-Windows-Phone-10-Technical-Preview-The-Lowlights/onedrive-scortched.png" -->
+<!-- MISSING_IMG /blog/Downgrading-Windows-Phone-10-Technical-Preview-The-Lowlights/onedrive-scortched.png" -->
 
 Outside of the lowlights listed above, I liked the downgrading experience. It was simple, intuitive, and will encourage me to take part in future technical preview programs from Microsoft.
 

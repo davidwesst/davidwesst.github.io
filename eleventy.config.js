@@ -43,11 +43,6 @@ export default async function (eleventyConfig) {
         }
     });
 
-    // html base
-    eleventyConfig.addPlugin(EleventyHtmlBasePlugin, {
-        extensions: "html,css,js"
-    });
-
     // render
     //eleventyConfig.addPlugin(EleventyRenderPlugin);
 
@@ -62,7 +57,7 @@ export default async function (eleventyConfig) {
     });
 
     // image
-    eleventyConfig.addPlugin(pluginImage.eleventyImagePlugin, {
+    eleventyConfig.addPlugin(pluginImage.eleventyImageTransformPlugin, {
         formats: ["webp", "jpeg"],
         urlPath: "/img/",
         defaultAttributes: {

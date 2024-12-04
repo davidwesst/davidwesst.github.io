@@ -89,11 +89,17 @@ For my needs, a framework allows me to focus on learning the higher level concep
 
 All that being said, there are still great reasons not to use a JavaScript framework. We'll cover that in part 2 of this series.
 
-[1]: https://blog.davidwesst.com/2016/02/JavaScript-Framework-or-Pure-JavaScript-P1/js-framework-or-pure-js.png
+<!--
+MISSING
+[1]: /blog/JavaScript-Framework-or-Pure-JavaScript-P1/js-framework-or-pure-js.png
+-->
 [2]: https://github.com/davidwesst/finder-game
 [3]: https://github.com/chrinkus/walk
-[4]: https://blog.davidwesst.com/2016/02/JavaScript-Framework-or-Pure-JavaScript-P1/network.png
-[5]: https://blog.davidwesst.com/2016/02/JavaScript-Framework-or-Pure-JavaScript-P1/dead-framework.png
+<!--
+MISSING
+[4]: /blog/JavaScript-Framework-or-Pure-JavaScript-P1/network.png
+[5]: /blog/JavaScript-Framework-or-Pure-JavaScript-P1/dead-framework.png
+-->
 [6]: http://love2dev.com/#!article/Large-JavaScript-Frameworks-Are-Like-Fast-Food-Restaurants
-[7]: https://blog.davidwesst.com/2016/02/JavaScript-Framework-or-Pure-JavaScript-P2
+[7]: /blog/JavaScript-Framework-or-Pure-JavaScript-P2
   

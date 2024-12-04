@@ -68,13 +68,13 @@ And there are my scripts to start and stop my application. The main reason for c
 
 ### Integrating with Eclipse
 Because we have these scripts, we can setup a couple of "External Tools" to start and stop at the push of a button.
-
-![](http://blog.davidwesst.com/2015/08/Running-Tomcat-Apps-on-Docker-through-Eclipse/1-externaltoolsbutton.png)
-
+<!-- MISSING
+![](/blog/Running-Tomcat-Apps-on-Docker-through-Eclipse/1-externaltoolsbutton.png)
+-->
 To set it up, click the button or the drop down and select "External Tools Configuration", then setup a couple of programs where you call sh.exe (provided with Git Bash) and our new scripts as the arguments.
-
-![](http://blog.davidwesst.com/2015/08/Running-Tomcat-Apps-on-Docker-through-Eclipse/2-configwindow.png)
-
+<!-- MISSING>
+![](/blog/Running-Tomcat-Apps-on-Docker-through-Eclipse/2-configwindow.png)
+-->
 Now everybody can start and stop at their leisure. Plus, if we need to add more complexity to starting and stopping, we can just extend the scripts.
 
 ### Alternatively...Make a Dockerfile

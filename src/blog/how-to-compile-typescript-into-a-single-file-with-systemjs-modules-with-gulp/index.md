@@ -14,13 +14,13 @@ description: I decided to move a TypeScript project from AMD modules (i.e.
 
 ---
 
-I've been messing around with TypeScript again for my [game project](https://blog.davidwesst.com/2017/03/Intital-Thoughts-on-Using-Phaser/) and wanted a module loader to consume the single file produced by the TypeScript compiler. This time around I decided to use SystemJS and figured I'd share the lessons I learned along the way.
+I've been messing around with TypeScript again for my [game project](/blog/Intital-Thoughts-on-Using-Phaser/) and wanted a module loader to consume the single file produced by the TypeScript compiler. This time around I decided to use SystemJS and figured I'd share the lessons I learned along the way.
 
 ##### Sample Project
 If you're interested in playing with the code, you can checkout [this GitHub project](https://github.com/davidwesst/ts-systemjs) I setup just for that reason.
 
 ##### Previous Post
-I also posted about doing the same sort of thing [with AMD and RequireJS](https://blog.davidwesst.com/2016/09/How-to-Compile-Typescript-into-a-Single-File-with-AMD-Modules/) complete with [a GitHub sample project](https://github.com/davidwesst/ts-project-template)
+I also posted about doing the same sort of thing [with AMD and RequireJS](/blog/How-to-Compile-Typescript-into-a-Single-File-with-AMD-Modules/) complete with [a GitHub sample project](https://github.com/davidwesst/ts-project-template)
 
 ## Project Breakdown
 Here's the gist of it. My project has the following requirements:
