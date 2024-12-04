@@ -1,0 +1,42 @@
+name: Build 
+on:
+  push:
+    branches:
+      - main
+      - '!post/**'
+    paths-ignore:
+      - 'docs/**/*'
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - main
+      - '!post/**'
+    paths-ignore:
+      - 'docs/**/*.*'
+
+jobs:
+  build:
+    if: github.event_name == 'push' || github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    name: Build Website
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+          submodules: true
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22 
+      - name: Generate DotEnv File
+        uses: iamsauravsharma/create-dotenv@v1.2.1
+        with:
+          env-prefix: "DOTENV_"
+        env:
+          DOTENV_AI_CONNECTION_STRING: ${{ secrets.AI_CONNECTION_STRING }}
+      - name: Build
+        id: build
+        run: |
+          npm install
+          npm run build
