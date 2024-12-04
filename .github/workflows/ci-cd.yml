@@ -9,7 +9,16 @@ on:
       - '!post/**'
     paths-ignore:
       - 'docs/**/*'
-  workflow_call: 
+  workflow_dispatch: 
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -34,20 +43,20 @@ jobs:
         env:
           DOTENV_AI_CONNECTION_STRING: ${{ secrets.AI_CONNECTION_STRING }}
 
+      - name: Set Path Prefix
+        run: echo "SITE_PATH_PREFIX=website" >> $GITHUB_ENV
+
       - name: Build
         id: build
         run: |
           npm install
           npm run build
 
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+      - name: Upload Site Files as Artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: website-artifact
           path: ./dist
           retention-days: 1
-          if-no-files-found: error
-          overwrite: true
 
   deploy:
     name: Deploy
@@ -63,5 +72,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          artifact_name: website-artifact
