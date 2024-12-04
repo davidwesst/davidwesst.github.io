@@ -38,3 +38,14 @@ jobs:
         run: |
           npm install
           npm run build
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: website-artifact
+          path: ./dist
+          retention-days: 1
+          if-no-files-found: error
+          overwrite: true
+
+
