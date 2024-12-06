@@ -1,4 +1,4 @@
 {
-    "layout": "talk.webc",
+    "layout": "layouts/talk.webc",
     "tags": [ "talk" ]  
 }
