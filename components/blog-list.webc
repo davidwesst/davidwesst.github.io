@@ -3,5 +3,11 @@
 </script>
 
 <menu>
-    <li webc:for="post of blogPosts" @text="post.data.title"></li>
+    <li webc:for="post of blogPosts">
+        <a :href="post.url">
+            <h3 @text="post.data.title"></h3>
+            <div @text="post.date"></div>
+            <p @text="post.data.description"></p>
+        </a>
+    </li>
 </menu>
