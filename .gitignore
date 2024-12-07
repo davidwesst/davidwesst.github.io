@@ -3,6 +3,7 @@ exports/
 
 # Application Specific
 dist/
+_site/
 tmp/
 src/_data/content-tags.json
 !src/blog/**
