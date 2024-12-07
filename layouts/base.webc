@@ -7,7 +7,6 @@
 </head>
 <body>
     <site-header></site-header>
-    <h1>Base header</h1>
     <main @raw="content"></main>
 </body>
 </html>

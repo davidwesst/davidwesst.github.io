@@ -1,3 +1,6 @@
 export default {
-    layout: "blog.webc"
+    layout: "blog.webc",
+    tags: [
+        "blog"
+    ]
 }

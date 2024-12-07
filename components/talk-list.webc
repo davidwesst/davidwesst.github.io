@@ -1,0 +1,7 @@
+<script webc:setup>
+    const talkCollection = collections.talk;
+</script>
+
+<menu>
+    <li webc:for="talk of talkCollection" @text="talk.data.title"></li>
+</menu>

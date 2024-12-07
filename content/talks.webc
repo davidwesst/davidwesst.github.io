@@ -2,3 +2,5 @@
 title: Talks
 ---
 This is the talks page.
+
+<talk-list></talk-list>

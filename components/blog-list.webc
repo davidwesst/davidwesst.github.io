@@ -1,0 +1,7 @@
+<script webc:setup>
+    const blogPosts = collections.blog;
+</script>
+
+<menu>
+    <li webc:for="post of blogPosts" @text="post.data.title"></li>
+</menu>

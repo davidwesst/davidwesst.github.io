@@ -1,3 +1,6 @@
 export default {
-    layout: "talk.webc"
+    layout: "talk.webc",
+    tags: [
+        "talk"
+    ]
 }

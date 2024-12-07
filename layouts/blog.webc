@@ -1,5 +1,5 @@
 ---
 layout: "base.webc"
 ---
-This is a blog post page using the blog layout.
+<h2 @text="title"></h2>
 <article @raw="content"></article>
