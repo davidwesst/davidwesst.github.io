@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title @text="`${metadata.title} | ${title}`"></title>
 </head>
 <body>
+    <site-header></site-header>
     <h1>Base header</h1>
     <main @raw="content"></main>
 </body>
