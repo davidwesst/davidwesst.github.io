@@ -11,3 +11,13 @@
         </a>
     </li>
 </menu>
+
+<style webc:scoped>
+    menu {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+</style>
