@@ -6,8 +6,17 @@ description: "They said it was impossible. They said it couldn’t be done. They
 eventLinks:
 - id: "prairiedevcon2022-regina"
   title: "Prairie Dev Con 2022 - Regina"
+  files:
+  - description: Slides (PDF)
+    url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EeFqE9LE8cdLp_6dbNgGeuMB_IfmCprX7WfFjdVRnxPdRg?e=Ef2fQ0
 - id: "prairiedevcon2022-winnipeg"
   title: "Prairie Dev Con 2022 - Winnipeg"
+  files:
+  - description: Slides (PDF)
+    url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EXtcLow_DvFIkdnZybxihNwBwmwDMH12sOB1dPh_cCW8kQ?e=uNKtGE
 - id: "prairiedevcon2022-calgary"
   title: "Prairie Dev Con 2022 - Calgary"
+  files:
+  - description: Slides (PDF)
+    url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/ESgKKdCTbYtPnf8O01KxPeYBLR9mAXOGBmxL_wVjKeDCiw?e=fGHWai
 ---

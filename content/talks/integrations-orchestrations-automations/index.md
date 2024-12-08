@@ -10,8 +10,8 @@ events:
   location: Winnipeg, MB, Canada
   url: https://www.prairiedevcon.com/
   files:
-    - https://google.com/
-tags:
+  - description: Slides (PDF)
+    url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EQ_kRoBDQBhBoOwnLqGtwaABHFd5ECkVI-VU5h-GtXBCxg?e=siSVu6
 - automation
 - enterprise-architecture
 - integration

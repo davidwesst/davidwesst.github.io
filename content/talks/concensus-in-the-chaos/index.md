@@ -8,9 +8,18 @@ coAuthors:
 eventLinks:
 - id: "prairiedevcon2022-regina"
   title: "Prairie Dev Con 2022 - Regina"
-  links:
+  files:
+  - description: Slides (PDF)
+    url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EaDt6nIZrkNDqlUmBioPcwgBfUBbWA9hne9sULZEGF_ihQ?e=sbxrQB
 - id: "prairiedevcon2022-winnipeg"
   title: "Prairie Dev Con 2022 - Winnipeg"
+  files:
+  - description: Slides (PDF)
+    url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EWWrjc_gCwJJsm-k2mBC1v8BRT_0SH4NSucLQeBqmbEz1Q?e=xRPLBu
 - id: "prairiedevcon2022-calgary"
   title: "Prairie Dev Con 2022 - Calgary"
+  files:
+  - description: Slides (PDF)
+    url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/ERBZNLYA3OxJjr3jG5FYEPIB9oWCvRsWbcRep6nH-h_C-g?e=HCeZUy)
+
 ---
