@@ -2,8 +2,14 @@
 layout: "base.webc"
 ---
 <h1 @text="title"></h1>
+<article webc:if="coAuthors">
+    Co-authored by 
+    <span webc:for="(author, index) of coAuthors">
+        <span @text="author"></span><span webc:if="coAuthors.length > 1 && index !== coAuthors.length - 1">,</span>
+    </span>  
+</article>
+
 <article @text="description"></article>
-<p @text="coAuthors"></p>
 
 <img :src="featuredImage" :alt="featuredImageAlt" />
 
