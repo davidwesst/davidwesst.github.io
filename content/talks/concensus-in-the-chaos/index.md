@@ -8,11 +8,15 @@ coAuthors: "Terry Bunio"
 deliveredAt:
 - id: "prairiedevcon2022-regina"
   title: "Prairie Dev Con 2022 - Regina"
+  coPresenters:
+  - Terry Bunio
   files:
   - description: Slides (PDF)
     url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EaDt6nIZrkNDqlUmBioPcwgBfUBbWA9hne9sULZEGF_ihQ?e=sbxrQB
 - id: "prairiedevcon2022-winnipeg"
   title: "Prairie Dev Con 2022 - Winnipeg"
+  coPresenters:
+  - Terry Bunio
   files:
   - description: Slides (PDF)
     url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EWWrjc_gCwJJsm-k2mBC1v8BRT_0SH4NSucLQeBqmbEz1Q?e=xRPLBu
