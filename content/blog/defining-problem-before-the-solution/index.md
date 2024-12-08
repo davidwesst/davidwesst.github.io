@@ -11,8 +11,8 @@ tags:
 categories:
 - musings
 description: "Before you create a solution, you need to understand the problem. It sounds obvious enough, yet I see developers (including myself) getting into the code and design phase before they really understand the problem they are trying to fix. These are the steps I take a properly understand a problem I am trying to solve, prior to coding or solution-ing anything."
-image: ./defining-problems_thumbnail.png
-image_alt: "A sketch of a man with a fuchsia tie and women dressed in fuchsia blouse looking at a black question mark made up of small cubes"
+featured_image: defining-problems_thumbnail.png
+featured_image_alt: "A sketch of a man with a fuchsia tie and women dressed in fuchsia blouse looking at a black question mark made up of small cubes"
 image_type: image/png
 image_credit:
     derived_from: https://labs.openai.com/s/EXFRI7OZVa6ci4ISra0i4D0Y
