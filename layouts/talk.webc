@@ -5,4 +5,6 @@ layout: "base.webc"
 <article @text="description"></article>
 <p @text="coAuthors"></p>
 
+<img :src="featuredImage" :alt="featuredImageAlt" />
+
 <event-list webc:if="deliveredAt" :@items="deliveredAt"></event-list>

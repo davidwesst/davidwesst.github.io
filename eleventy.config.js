@@ -2,6 +2,7 @@ import { InputPathToUrlTransformPlugin } from "@11ty/eleventy";
 
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginWebc from "@11ty/eleventy-plugin-webc";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 export default function (eleventyConfig) {
     
@@ -39,6 +40,15 @@ export default function (eleventyConfig) {
         components: [
             "./components/**/*.webc"
         ]
+    });
+
+    eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+        extensions: "html",
+        formats: ["webp", "jpeg"],
+        defaultAttributes: {
+            loading: "lazy",
+            decoding: "async"
+        }
     });
     
 }
