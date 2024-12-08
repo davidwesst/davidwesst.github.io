@@ -3,3 +3,6 @@ layout: "base.webc"
 ---
 <h1 @text="title"></h1>
 <article @text="description"></article>
+<p @text="coAuthors"></p>
+
+<event-list webc:if="deliveredAt" :@items="deliveredAt"></event-list>
