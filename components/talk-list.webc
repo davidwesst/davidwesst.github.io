@@ -2,7 +2,7 @@
     const talkCollection = collections.talk;
 </script>
 
-<menu>
+<menu class="content-list">
     <li webc:for="talk of talkCollection">
         <a :href="talk.url">
             <img webc:if="talk.data.featured_image" 

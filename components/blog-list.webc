@@ -2,7 +2,7 @@
     const blogPosts = collections.blog.reverse();
 </script>
 
-<menu>
+<menu class="content-list">
     <li webc:for="post of blogPosts">
         <a :href="post.url">
             <img webc:if="post.data.featured_image" 
@@ -16,13 +16,3 @@
         </a>
     </li>
 </menu>
-
-<style webc:scoped>
-    menu {
-        list-style-type: none;
-    }
-
-    a {
-        text-decoration: none;
-    }
-</style>
