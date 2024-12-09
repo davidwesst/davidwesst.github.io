@@ -14,5 +14,13 @@
         </section>
     </li>
 </menu>
-<p></p>
 
+<style webc:scoped>
+    menu {
+        list-style-type: none;
+    }
+
+    menu li {
+        margin: 1em 0;
+    }
+</style>
