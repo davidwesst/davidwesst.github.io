@@ -61,5 +61,13 @@ main {
 }
 
 .content-list li {
-    margin: 1em 0;
+    margin: 2em 0;
+}
+
+.content-list li a {
+    text-decoration: none;
+}
+
+.content-list li a:hover {
+    text-decoration: underline;
 }

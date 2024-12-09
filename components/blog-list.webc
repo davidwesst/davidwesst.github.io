@@ -14,5 +14,6 @@
             <div @text="post.date"></div>
             <p @text="post.data.description"></p>
         </a>
+        <tag-list webc:if="post.data.tags !== undefined" :@items="post.data.tags"></tag-list>
     </li>
 </menu>

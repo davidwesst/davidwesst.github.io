@@ -13,6 +13,7 @@
             <h3 @text="talk.data.title"></h3>
             <div @text="talk.data.description"></div>
         </a>
+        <tag-list webc:if="talk.data.tags !== undefined" :@items="talk.data.tags"></tag-list>
     </li>
 </menu>
 
