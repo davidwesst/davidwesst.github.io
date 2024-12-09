@@ -13,9 +13,9 @@ tags:
 - burnout
 categories:
 - musings
-image: "./highlight-reel-2022_thumbnail.png"
+featured_image: "./highlight-reel-2022_thumbnail.png"
 image_type: "image/png"
-image_alt: "A oil painting of a movie film strip unwinding with the number 2022 in the bottom left-corner in white font with the DW logo on the center of the right side looking onto the film strip"
+featured_image_alt: "A oil painting of a movie film strip unwinding with the number 2022 in the bottom left-corner in white font with the DW logo on the center of the right side looking onto the film strip"
 image_credit:
     derived_from: "https://unsplash.com/photos/9lTUAlNB87M?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
 

@@ -12,9 +12,9 @@ tags:
 description: A compilation of tools and resources I used to implemented the Open
   Graph Protocol (OGP) for my website to make posts and pages more engaging on
   LinkedIn and other social networks.
-image: ./open-graph-toolbox.png
+featured_image: ./open-graph-toolbox.png
 image_type: image/png
-image_alt: Old green toolbox with the Open Graph protocol logo on the front, and
+featured_image_alt: Old green toolbox with the Open Graph protocol logo on the front, and
   with a red metal toolbox behind it with Open Graph protocol logo on the top of
   the lid.
 image_credit:

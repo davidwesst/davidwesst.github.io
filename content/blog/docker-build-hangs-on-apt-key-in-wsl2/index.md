@@ -13,8 +13,8 @@ tags:
 - debian
 - linux
 - devcontainer
-image: "docker-build-hangs-on-apt-key-in-wsl2_thumbnail.png"
-image-alt: "A light blue cartoon style whale, meant to resemble the Docker logo, with a yellow-orange beak, like the Linux penguin, holding a key in it's mouth. Drawn with very small squares."
+featured_image: "docker-build-hangs-on-apt-key-in-wsl2_thumbnail.png"
+featured_image_alt: "A light blue cartoon style whale, meant to resemble the Docker logo, with a yellow-orange beak, like the Linux penguin, holding a key in it's mouth. Drawn with very small squares."
 image-type: "image/png"
 image-credit:
     derived-from: "https://labs.openai.com/s/z8Gdu46DdNOGjAKCTXiY1mmW"

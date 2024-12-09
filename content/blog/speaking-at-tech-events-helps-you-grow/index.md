@@ -10,8 +10,8 @@ tags:
 - presentations
 - conference
 description: "A large part of my career growth is tied directly to speaking at tech events like conferences and user groups. I have had many people ask me about my experience and wanted to share it for others who might be wondering what benefits actually are. "
-image: "./prdc2022-speaking_thumbnail.png"
-image_alt: "David Wesst with a bit of a goofy face, mid speech at a podium at Prairie Dev Con 2022 in Calgary, with his hand extended talking about the role IT architecture played in preparing the Student Information / Finance System to be cloud-ready."
+featured_image: "./prdc2022-speaking_thumbnail.png"
+featured_image_alt: "David Wesst with a bit of a goofy face, mid speech at a podium at Prairie Dev Con 2022 in Calgary, with his hand extended talking about the role IT architecture played in preparing the Student Information / Finance System to be cloud-ready."
 image_type: image/png
 image_credit: "Dave Paquette <https://www.davepaquette.com>"
 

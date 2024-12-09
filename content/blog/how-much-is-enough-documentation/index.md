@@ -17,8 +17,8 @@ description: Documentation is important, but it takes a lot of time and if you
   long time. So how much is 'enough' documentation and what types of
   documentation do I need to invest in give my future self the the best value
   for the effort I put in?
-image: ./repo-with-docs_og.png
-image_alt: File tree of a source code repository with a 'docs' folder containing
+featured_image: ./repo-with-docs_og.png
+featured_image_alt: File tree of a source code repository with a 'docs' folder containing
   a sub-folder entitled 'decisions' with a series of markdown files documenting
   technical decisions for the project.
 image_type: image/png

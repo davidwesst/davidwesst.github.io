@@ -15,8 +15,8 @@ description: The talented speakers that come together for Prairie Dev Con always
   bring fresh ideas to my mind and give me pause to think about my own efforts
   and how I can learn from their experience. Although not a complete list, these
   ideas the ones that stood out the most from Prairie Dev Con 2022.
-image: prdc2022-takeaway.png
-image_alt: A woman holding a brown paper bag with the Prairie Dev Con logo on it
+featured_image: prdc2022-takeaway.png
+featured_image_alt: A woman holding a brown paper bag with the Prairie Dev Con logo on it
   , seemingly handing it to someone on the other side who is not visible in the
   photo.
 image_type: image/png
