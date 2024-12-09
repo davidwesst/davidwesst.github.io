@@ -11,6 +11,6 @@ layout: "base.webc"
 
 <article @text="description"></article>
 
-<img :src="featuredImage" :alt="featuredImageAlt" />
+<img :src="featured_image" :alt="featured_image_alt" />
 
 <event-list webc:if="deliveredAt" :@items="deliveredAt"></event-list>

@@ -4,8 +4,8 @@ shortDescription:
 description: "How do you upgrade a customized Banner SSB8 in record time and get ready for the cloud? With a lot of guts, grit, and humor. Jackson and David are here to tell you how. They have faced skeptics, challenges, and deadlines, but the key is to never give up. They rallied the campus community around the project’s vision and are making it happen. This is their story of turning the impossible into the incredible."
 coAuthors:
 - Jackson Bruno
-featuredImage: ./Slide2.jpg
-featuredImageAlt: Alt text goes here.
+featured_image: ./Slide2.jpg
+featured_image_alt: Alt text goes here.
 deliveredAt:
 - title: Ellucian LIVE 2024
   date: April 7, 2024
