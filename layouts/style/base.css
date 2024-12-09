@@ -11,3 +11,18 @@ body
     background-color: var(--background-colour);
     color: var(--foreground-colour);
 }
+
+/*
+    Images
+*/
+.featured-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.featured-image-small {
+    width: 160px;
+    height: 90px;
+    aspect-ratio: 16 / 9;
+    object-fit: scale-down;
+}

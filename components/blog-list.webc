@@ -4,7 +4,11 @@
 
 <menu>
     <li webc:for="post of blogPosts">
-        <img webc:if="post.data.featured_image" :src="`${post.url}${post.data.featured_image}`" :alt="post.data.featured_image_alt" style="width: 300px; height: 100px;" />
+        <img webc:if="post.data.featured_image" 
+            class="featured-image-small"
+            :src="`${post.url}${post.data.featured_image}`" 
+            :alt="post.data.featured_image_alt" 
+            />
         <a :href="post.url">
             <h3 @text="post.data.title"></h3>
             <div @text="post.date"></div>
