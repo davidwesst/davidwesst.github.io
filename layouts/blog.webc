@@ -2,4 +2,9 @@
 layout: "base.webc"
 ---
 <h2 @text="title"></h2>
+<img webc:if="featured_image !== undefined"
+    :src="featured_image" 
+    :alt="featured_image_alt"
+    class="featured-image-header"
+    />
 <article @raw="content"></article>

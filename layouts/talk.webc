@@ -2,6 +2,11 @@
 layout: "base.webc"
 ---
 <h1 @text="title"></h1>
+<img webc:if="featured_image !== undefined"
+    :src="featured_image" 
+    :alt="featured_image_alt"
+    class="featured-image-header"
+    />
 <article webc:if="coAuthors">
     Co-authored by 
     <span webc:for="(author, index) of coAuthors">
@@ -10,7 +15,5 @@ layout: "base.webc"
 </article>
 
 <article @text="description"></article>
-
-<img :src="featured_image" :alt="featured_image_alt" />
 
 <event-list webc:if="deliveredAt" :@items="deliveredAt"></event-list>
