@@ -12,11 +12,19 @@ body
     font-size: 14px;
     background-color: var(--background-colour);
     color: var(--foreground-colour);
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 main {
     max-width: 800px;
     margin: 0 auto;
+    flex-grow: 2;
 }
 
 /*
@@ -29,6 +37,13 @@ main {
 .page-header {
     background-color: var(--background-colour-emphasis);
     padding: 1em;
+}
+
+/*
+    Footers
+*/
+.site-footer {
+    text-align: center;
 }
 
 /*
