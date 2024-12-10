@@ -11,6 +11,6 @@
 <body>
     <site-header></site-header>
     <main @raw="content"></main>
-    <site-footer :@version="metadata.version"></site-footer>>
+    <site-footer :@version="metadata.version"></site-footer>
 </body>
 </html>

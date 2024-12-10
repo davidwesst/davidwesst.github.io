@@ -1,5 +1,20 @@
 
 <footer class="site-footer">
     <site-nav></site-nav>
-    <copyright></copyright> | <span @text="version"></span>
+    <article>
+        <copyright></copyright> | <span @text="version"></span>
+    </article>
 </footer>
+
+<style webc:scoped>
+    footer {
+        border-top: 0.1rem double var(--foreground-colour);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    footer article {
+        margin-top: 0.5rem;
+    }
+</style>

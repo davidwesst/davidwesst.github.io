@@ -45,11 +45,12 @@ export default function (eleventyConfig) {
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
         extensions: "html",
         formats: ["webp", "jpeg"],
-        widths: [160, 1200],
+        widths: [150, 600, 1200],
         defaultAttributes: {
-            sizes: "160w, 1200w",
+            sizes: "150w, 600w, 1200w",
             loading: "lazy",
-            decoding: "async"
+            decoding: "async",
+            class: "image"
         }
     });
     

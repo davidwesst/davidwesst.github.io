@@ -3,7 +3,27 @@
     --background-colour: rgb(240, 240, 240);
     --background-colour-emphasis: rgb(200, 200, 200);
     --foreground-colour: rgb(10, 10, 10);
+    --content-width: 1200px;
 }
+
+@media (max-width: 1024px) {
+    :root {
+        --content-width: 800px;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --content-width: 600px;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --content-width: 100%; /* Full width on very small screens */
+    }
+}
+
 
 html,
 body
@@ -25,8 +45,13 @@ main {
     display: flex;
     flex-direction: column;
     flex-grow: 2;
-    max-width: 800px;
+    max-width: var(--content-width);
     margin: 0 auto;
+}
+
+.image {
+    object-fit: contain;
+    max-width: var(--content-width);
 }
 
 /*

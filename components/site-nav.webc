@@ -16,6 +16,10 @@
 </nav>
 
 <style webc:scoped>
+    nav {
+        margin-bottom: 0rem;
+    }
+
     nav a {
         margin: 0 0.5em;
     }
