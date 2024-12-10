@@ -14,3 +14,13 @@
     |
     <a webc:for="item of socialMediaLinks" target="_blank" @text="item.name" :href="item.url"></a>
 </nav>
+
+<style webc:scoped>
+    nav a {
+        margin: 0 0.5em;
+    }
+
+    nav a:first-child {
+        margin-left: 0;
+    }
+</style>
