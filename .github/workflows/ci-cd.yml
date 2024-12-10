@@ -6,6 +6,7 @@ on:
       - main
       - ft/*
       - hf/*
+      - v11
       - '!post/**'
     paths-ignore:
       - 'docs/**/*'
