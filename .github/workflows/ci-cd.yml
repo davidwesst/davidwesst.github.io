@@ -61,7 +61,7 @@ jobs:
 
   deploy:
     name: Deploy
-    if: github.ref_name == 'v11'
+    if: github.ref_name == 'main'
     needs: build
     runs-on: ubuntu-latest
 
