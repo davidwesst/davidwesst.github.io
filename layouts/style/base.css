@@ -22,6 +22,7 @@ body {
 }
 
 main {
+    display: flex;
     max-width: 800px;
     margin: 0 auto;
     flex-grow: 2;
@@ -85,4 +86,22 @@ main {
 
 .content-list li a:hover {
     text-decoration: underline;
+}
+
+/*
+    Display Elements
+*/
+.highlight {
+    color: var(--background-colour);
+    background-color: var(--foreground-colour);
+}
+
+.splash {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.splash p {
+    font-size: 2em;
 }

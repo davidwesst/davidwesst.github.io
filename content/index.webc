@@ -1,5 +1,8 @@
 ---
 title: Home
 ---
-<h2>Page Header</h2>
-Hello.
+<article class="splash">
+    <p><span class="highlight">Hey Friendo, it's DW.</span></p>
+    <p><span class="highlight">I solve technology problems with Creativity, Code, and Curiousity.</span></p>
+</article>
+
