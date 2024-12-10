@@ -62,7 +62,7 @@
   },
   "dependencies": {
     "@microsoft/applicationinsights-web": "^2.8.8",
-    "sharp": "^0.31.1"
+    "sharp": "^0.32.6"
   },
   "type": "module"
 }
