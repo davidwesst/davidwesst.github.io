@@ -56,12 +56,12 @@ jobs:
       - name: Upload Site Files as Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./_site
           retention-days: 1
 
   deploy:
     name: Deploy
-    if: github.ref_name == 'main'
+    if: github.ref_name == 'v11'
     needs: build
     runs-on: ubuntu-latest
 
