@@ -1,5 +1,6 @@
-# TEMP
+# Temporary storage in project
 exports/
+old_src/
 
 # Application Specific
 dist/
