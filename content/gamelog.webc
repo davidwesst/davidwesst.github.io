@@ -3,8 +3,9 @@ layout: "base.webc"
 ---
 
 <header class="page-header">
-<article>
-    <p>This is my gamelog.</p>
-    <p>It's a work in progress.</p>
-</article>
+    <h2>Gamelog</h2>
+    <article>
+        <p>This is my gamelog.</p>
+        <p>It's a work in progress.</p>
+    </article>
 </header>
