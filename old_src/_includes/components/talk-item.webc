@@ -1,6 +1,0 @@
-<li>
-    <a :href="`/talks/${talk.id}`">
-        <h3 @text="talk.title"></h3>
-    </a>
-    <p @text="talk.shortDescription"></p>
-</li>
