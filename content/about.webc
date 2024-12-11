@@ -28,7 +28,9 @@ date: git Last Modified
             <li>Indiana Jones and the Great Circle (XB)</li>
         </ul>
     </article>
-    <article @text="`Last Updated on ${page.date}`"></article>
+    <article>
+        <p @text="`Last Updated on ${page.date}`"></p>
+    </article>
 </header>
 
 <section>

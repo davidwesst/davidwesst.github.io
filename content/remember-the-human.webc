@@ -1,4 +1,14 @@
-The Remember the Human page.
+<header class="page-header">
+    <h2>Remember the Human</h2>
+    <article>
+        <p>Remember the Human is an AI podcast about people.</p>
+        <p>Currently it is on hiatus. I'm not done with it yet, but I want to refocus for myself and find where it fits in my journey as a developer.</p>
+    </article>
+    <article>
+        <p>You can find the podcast on <a href="https://open.spotify.com/show/0ylqvEi3euRtIYR0n5T4V6" target="_blank">Spotify</a>, <a href="https://youtube.com/playlist?list=PLbTA1UhK0wKike9s5uPoxqTJ8HkdY9tzn&si=5UJNWa6ryG2xbKN7" target="_blank">YouTube</a> or on <a href="https://podcasts.apple.com/us/podcast/remember-the-human/id1697522062" target="_blank">Apple Podcasts</a>.</p>
+    </article>
+</header>
+
 
 
 

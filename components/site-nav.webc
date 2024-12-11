@@ -9,8 +9,8 @@
     <!--- <a href="/events">Events</a> --->
     <a href="talks.webc">Talks</a>
     <a href="gamelog.webc">Gamelog</a>
-    <!--- <a href="/remember-the-human">Remember The Human</a> --->
     <a href="cocoboko-studios.webc">Cocoboko Studios</a>
+    <a href="remember-the-human.webc">Remember The Human</a>
     |
     <a webc:for="item of socialMediaLinks" target="_blank" @text="item.name" :href="item.url"></a>
 </nav>
