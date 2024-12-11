@@ -37,14 +37,8 @@ jobs:
         with:
           node-version: lts/* 
 
-      - name: Generate DotEnv File
-        uses: iamsauravsharma/create-dotenv@v1.2.1
-        with:
-          env-prefix: "DOTENV_"
-        env:
-          DOTENV_AI_CONNECTION_STRING: ${{ secrets.AI_CONNECTION_STRING }}
-
       - name: Set Path Prefix
+        if: false()
         run: echo "SITE_PATH_PREFIX=website" >> $GITHUB_ENV
 
       - name: Build
