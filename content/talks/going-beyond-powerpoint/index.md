@@ -9,7 +9,7 @@ deliveredAt:
   date: September 25, 2024
   location: Winnipeg, MB, Canada
   url: http://meetup.com
-  files:
+  links:
   - description: Slides (PDF)
     url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/Edf47-GobZ5BseFz8-kpWKIB1-vuYT9pf7nVGy6kgZNO9g?e=jiOb0o
 tags:

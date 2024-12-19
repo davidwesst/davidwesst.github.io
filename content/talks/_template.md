@@ -5,6 +5,6 @@ description:
 events:
 - title: 
   date:
-  files:
+  links:
     - https://google.com/
 ---

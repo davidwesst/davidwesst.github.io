@@ -9,13 +9,13 @@ deliveredAt:
 - title: Prairie Dev Con 2023 (Regina)
   date:
   location: Regina, SK, Canada
-  files:
+  links:
   - description: Slides (PDF)
     url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/ETI6nut03XpIswy-GNDNj8cBgi3mm0P7_qEr0DmCg-GulA?e=GnheXP
 - title: Prairie Dev Con 2023 (Winnipeg)
   date:
   location: Winnipeg, MB, Canada
-  files:
+  links:
   - description: Slides (PDF)
     url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EXdFvXkQ4D1Ej8UwlTzfNksBwu2dHVJfq-6M5uUjrnr5MQ?e=qm7n8R
 ---

@@ -13,7 +13,7 @@ deliveredAt:
   location: San Antonio, TX, USA
   coPresenters:
   - Jackson Bruno
-  files:
+  links:
   - description: Slides (PDF)
     url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EUZTiEs1aQZChqdTs2MF6rQBW-3-CQn7IqeGf17N7R qyew?e=j8E1i2
 tags:

@@ -9,8 +9,8 @@
 <menu webc:elseif="items.length > 0">
     <li webc:for="i of items">
         <article @text="i.title"></article>
-        <section webc:if="i.files && i.files.length > 0">
-            <a webc:for="f of i.files" :href="f.url" @text="f.description"></a>
+        <section webc:if="i.links && i.links.length > 0">
+            <a webc:for="f of i.links" :href="f.url" @text="f.description"></a>
         </section>
     </li>
 </menu>

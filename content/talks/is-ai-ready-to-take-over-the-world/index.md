@@ -7,15 +7,15 @@ featured_image: ./is-ai-ready-to-take-over-the-world_thumbnail.jpg
 featured_image_alt: Alt text goes here.
 deliveredAt:
 - title: Prairie Dev Con 2023 (Regina)
-  files:
+  links:
   - description: Slides (PDF)
     url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EetsApOw78RKp7Dcw6iooHEBkKDAgJKeVH8Mx49RjfmdnA?e=LYVUd0
 - title: Prairie Dev Con 2023 (Winnipeg)
-  files:
+  links:
   - description: Slides (PDF)
     url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/Edr4NOY17KdCmwv_t28R82sBaRTe4AcD4_eFF16vCsCcew?e=0cBJcu
 - title: Informanix Discover 2023
-  files:
+  links:
   - description: Slides (PDF)
     url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EY0GOt7mEttPt7ACDuLfus0BG9s-q5WbMvOOF6VmYrjUOg?e=UMfFPr
 ---

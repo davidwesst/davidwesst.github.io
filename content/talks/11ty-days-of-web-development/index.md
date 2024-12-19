@@ -6,16 +6,17 @@ featured_image: ./11ty-days-of-web-dev.jpg
 featured_image_alt: A silver laptop with the Eleventy logo on the screen sitting on a desk covered in holiday gifts, a holiday calendar and surrounded with floating technology text and holiday-theme decor.
 tags:
 - eleventy
+- static-site-generator
 - 11ty
 - javascript
 - web development
-- html
-- css
 - website
 deliveredAt:
 - title: "Full Stack Manitoba (Dec 2024)"
   date: December 18, 2024
-  files:
-    - description: Slides (Coming Soon)
-      url: #
+  links:
+    - description: Slides (PDF)
+      url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/ET7vD35_GCFIjYnF5ftZRlYBJJZLbRJyxjfQvn3pHdIyjg?e=i9FJIi
+    - description: Slides & Demo (GitHub)
+      url: https://github.com/davidwesst/talk-11ty-days-of-webdev
 ---
