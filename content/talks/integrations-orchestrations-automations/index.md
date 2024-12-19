@@ -11,7 +11,7 @@ deliveredAt:
   endDate: September 24, 2024
   location: Winnipeg, MB, Canada
   url: https://www.prairiedevcon.com/
-  files:
+  links:
   - description: Slides (PDF)
     url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EQ_kRoBDQBhBoOwnLqGtwaABHFd5ECkVI-VU5h-GtXBCxg?e=siSVu6
 tags:
