@@ -15,7 +15,7 @@ deliveredAt:
   - Jackson Bruno
   links:
   - description: Slides (PDF)
-    url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EUZTiEs1aQZChqdTs2MF6rQBW-3-CQn7IqeGf17N7R qyew?e=j8E1i2
+    url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EUZTiEs1aQZChqdTs2MF6rQBW-3-CQn7IqeGf17N7Rqyew
 tags:
 - ellucian-live-2024
 - technology-modernization
