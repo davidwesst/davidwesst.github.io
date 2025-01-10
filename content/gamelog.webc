@@ -5,7 +5,8 @@ title: Gamelog
 <header class="page-header">
     <h2>Gamelog</h2>
     <article>
-        <p>This is my gamelog.</p>
-        <p>It's a work in progress.</p>
+        <p>The gamelog is a place where I share my thoughts on video games that I play or watch on the couch. They are completely subjective.</p>
     </article>
 </header>
+
+<gamelog-list></gamelog-list>

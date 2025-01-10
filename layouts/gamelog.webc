@@ -1,0 +1,26 @@
+---
+layout: base.webc
+---
+<h2 @text="title"></h2>
+<article @text="date"></article>
+<article>
+    Started playing on: <span @text="play_data.started_on"></span>
+</article>
+<article webc:if="play_data.completed_on !== undefined">
+    Completed on: <span @text="play_data.completed_on"></span>
+</article>
+<ul>
+    <li>Gameplay: <span @text="rating.gameplay"></span></li>
+    <li>narrative: <span @text="rating.narrative"></span></li>
+    <li>Style: <span @text="rating.style"></span></li>
+    <li>Sound: <span @text="rating.sound"></span></li>
+    <li>Overall: <span @text="rating.overall"></span></li>
+</ul>
+
+<img webc:if="featured_image !== undefined"
+    :src="featured_image" 
+    :alt="featured_image_alt"
+    class="featured-image-header"
+    />
+
+<article @raw="content"></article>
