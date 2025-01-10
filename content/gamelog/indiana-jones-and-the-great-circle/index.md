@@ -1,8 +1,8 @@
 ---
 title: Indiana Jones and the Great Circle
 date: 2025-01-02T11:08-06:00
-igdb_id: 142415
-igdb_url: https://www.igdb.com/games/indiana-jones-and-the-great-circle
+game_ids:
+    igdb_id: 142415
 play_data:
     started_on: December 25, 2025
     completed_on: January 2, 2025
