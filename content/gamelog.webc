@@ -3,9 +3,17 @@ title: Gamelog
 ---
 
 <header class="page-header">
-    <h2>Gamelog</h2>
+    <h2 @text="title"></h2>
     <article>
-        <p>This is my gamelog.</p>
-        <p>It's a work in progress.</p>
+        <img webc:if="social_image !== undefined"
+            :src="social_image" 
+            :alt="social_image_alt"
+            class="featured-image-header"
+        />
+        <p @text="description"></p>
     </article>
 </header>
+
+<section>
+    <article @raw="content"></article>
+</section>
