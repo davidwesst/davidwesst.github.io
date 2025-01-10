@@ -1,0 +1,18 @@
+<script webc:setup>
+    const gamelogPosts = collections.gamelog.reverse();
+</script>
+
+<menu class="content-list">
+    <li webc:for="post of gamelogPosts">
+        <a :href="post.url">
+            <img webc:if="post.data.featured_image" 
+                class="featured-image-small"
+                :src="`${post.url}${post.data.featured_image}`" 
+                :alt="post.data.featured_image_alt" 
+            />
+            <h3 @text="post.data.title"></h3>
+            <div>Started on: <span @text="post.data.play_data.started_on"></span></div>
+            <div @text="post.data.play_data.platform"></div>
+        </a>
+    </li>
+</menu>

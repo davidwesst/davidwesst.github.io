@@ -1,5 +1,5 @@
 export default {
-    layout: "base.webc",
+    layout: "gamelog.webc",
     tags: [
         "gamelog"
     ]
