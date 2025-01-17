@@ -1,12 +1,13 @@
 ---
 title: Sagres
 date: 2025-01-04T11:08-06:00
-igdb_id: 213121
+game_ids:
+    igdb: 213121
 igdb_url: https://www.igdb.com/games/sagres
 play_data:
     started_on: November 2024
     completed_on: November 28, 2024
-    platform: PC/SteamDeck
+    platform: SteamDeck/PC
 rating:
     gameplay: 2
     narrative: 2
