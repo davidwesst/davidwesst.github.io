@@ -1,21 +1,26 @@
 ---
 title: From 11ty to Wordpress and Back Again
-date: 2025-01-29T21:51:00-06:00
+date: 2025-01-30T09:26:00-06:00
 tags:
-- blog
 - wordpress
 - 11ty
+- website
+categories:
+- lessons-learned
+featured_image: from-11ty-to-wordpress-and-back-again_title-image.webp
+featured_image_alt: A diagram illustrating the transition between 11ty (a static site generator) and WordPress, and vice versa. On the left, there is a circular 11ty logo above an icon representing a static site, labeled "STATIC SITE." On the right, there are two WordPress logos, both labeled "WORDPRESS." A large horizontal arrow points from the static site on the left to WordPress on the right, symbolizing the transition. At the top, a banner with the text "From 11ty to WordPress and Back Again" suggests a reversible process. The background is beige with a hand-crafted aesthetic.
+description: I stepped away from blogging thinking that the problem was that my Eleventy (11ty) setup and continually tinkering with it was keeping me away from blogging. So, to make it "easier" I spent a couple of months worth of my B-time moving my website over to Wordpress site. Once it was done, I had a fancy editor, a bunch of plugins, and all the tooling I could ever want. I didn't write a single post. This is post is my experience (not) blogging with Wordpress and returning to 11ty.
 ---
 
 I haven't blogged since 2023. 
 
-I stepped away thinking that the problem was that my Eleventy (11ty) setup and continually tinkering with it was keeping me away from blogging. So, to make it "easier" I spent a couple of months moving my website over to Wordpress site. Once it was done, I had a fancy editor, a bunch of plugins, and all the tooling I could ever want.
+I stepped away from blogging thinking that the problem was that my Eleventy (11ty) setup and continually tinkering with it was keeping me away from blogging. So, to make it "easier" I spent a couple of months worth of my B-time moving my website over to Wordpress site. Once it was done, I had a fancy editor, a bunch of plugins, and all the tooling I could ever want.
 
 I didn't write a single post.
 
 It is 2025 and I'm back onto 11ty, freshly upgraded to version 3.0, and writing a post in VIM on my laptop. 
 
-This is post is my experience (not) blogging with Wordpress.
+This is post is my experience (not) blogging with Wordpress and returning to 11ty.
 
 ## Why I Left 11ty
 
@@ -82,6 +87,8 @@ Sure Wordpress had a fancy editor, but I needed to fight with it to get things l
 Even before the 11ty site, I had been using markdown text to write pages, posts, or whatever. It didn't need to load in my browser, I didn't need a mouse, I didn't have to learn what properties on the widget let me edit things. It was plain, good old fashioned utf-8 text, and it just worked.
 
 ## Back Where I Started
+
+![A screenshot of a text editor (Vim) displaying a Markdown file named index.md. The file is a blog post titled "From 11ty to WordPress and Back Again," dated January 29, 2025. The content includes headings, bullet points, and reflections on upgrading software and maintaining a website. The Vim status bar at the bottom shows the file type as Markdown, the encoding as UTF-8, and a word count of 1,462. The terminal interface has a dark background with syntax highlighting in various colors.](blogging-with-vim-screenshot.webp)
 
 After a few months of being live, the site was at the point where I had a plugin partially working that I realized I was really back where I started: tinkering.
 
