@@ -7,7 +7,7 @@ igdb_url: https://www.igdb.com/games/sagres
 play_data:
     started_on: November 2024
     completed_on: November 28, 2024
-    platform: SteamDeck/PC
+    platform: Steam Deck/PC
 rating:
     gameplay: 2
     narrative: 2
@@ -16,7 +16,7 @@ rating:
     overall: 2
 ---
 
-Sagres is a game that pulls on my nostalgia for Unchartered Waters: New Horizons for the SNES. And although I went though it, I can understand why people without the nostalgic feeling would get through the entire game.
+Sagres is a game that pulls on my nostalgia for Uncharted Waters: New Horizons for the SNES. And although I went though it, I can understand why people without the nostalgic feeling would get through the entire game.
 
 ## What I Didn't Like
 
@@ -34,9 +34,9 @@ The entire game happens in a single view, the world map. Consider most of the ga
 
 For example, in Uncharted Waters when you went into a town, you got to explore it a bit. Different stores, in New Horizons there were NPCs to talk to. It wasn't much, but it was a change of pace. In Sagres, you arrive at a port and you get a menu with options of where to go. Buildings are replaced with icons.
 
-To be fair, it's pretty much the same thing as Unchartered Waters, as the town view in Unchartered Waters is really a fancy menu for the player. But it _feels_ different arriving at a new port and wondering around it to see what you can find. The player is engaged, rather than just clicking icons.
+To be fair, it's pretty much the same thing as Uncharted Waters, as the town view in Uncharted Waters is really a fancy menu for the player. But it _feels_ different arriving at a new port and wondering around it to see what you can find. The player is engaged, rather than just clicking icons.
 
-It leads to mindless clicking of menus for the different types of quests, and feels very repetative. 
+It leads to mindless clicking of menus for the different types of quests, and feels very repetitive. 
 
 ## What I Liked
 
@@ -52,7 +52,7 @@ Does it add to the realism of the game? No-- but it's not supposed to be realist
 
 ### "Idleness" Gameplay
 
-There is a strange idleness in the gamemplay, where you just rince and repeat to build up your money and explore the world. There is a chill vibe to the whole thing as you explore, and although it is repetative, it's relaxing.
+There is a strange idleness in the gameplay, where you just rinse and repeat to build up your money and explore the world. There is a chill vibe to the whole thing as you explore, and although it is repetitive, it's relaxing.
 
 Although this can be considered a problem with the game, the mind-numbing idleness of the game kept me coming back like a comfort food.
 
@@ -68,5 +68,5 @@ I started this game by literally demoing to my partner to show her how it wasn't
 
 It did. 
 
-Sure, it's missing a bunch of the little things to make the game more immersive and draw on that nostalgic feeling from one of my favourite games from back in the day-- but it's good. I hope they develep a sequel and build on the strong foundation they have started today.
+Sure, it's missing a bunch of the little things to make the game more immersive and draw on that nostalgic feeling from one of my favourite games from back in the day-- but it's good. I hope they develop a sequel and build on the strong foundation they have started today.
 
