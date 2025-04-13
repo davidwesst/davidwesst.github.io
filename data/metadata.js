@@ -23,7 +23,7 @@ function GetVersion() {
 
 export default {
     title: "David Wesst",
-    description: "My website",
+    description: "Tech, games, and creative experiments from the mind of David Wesst. Come for the code, stay for the side quests.",
     version: GetVersion(),
     language: "en"
 }
