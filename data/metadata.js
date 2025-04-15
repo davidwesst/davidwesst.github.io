@@ -22,6 +22,7 @@ function GetVersion() {
 }
 
 export default {
+    url: "https://davidwesst.com",
     title: "David Wesst",
     description: "Tech, games, and creative experiments from the mind of David Wesst. Come for the code, stay for the side quests.",
     version: GetVersion(),
