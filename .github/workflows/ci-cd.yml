@@ -50,7 +50,7 @@ jobs:
       - name: Run Playwright Tests
         id: test
         run: |
-          npx playwright install
+          npx playwright install --with-deps
           npx playwright test --reporter=html
         env:
           CI: true
