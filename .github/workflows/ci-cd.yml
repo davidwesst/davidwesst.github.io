@@ -47,6 +47,20 @@ jobs:
           npm install
           npm run build
 
+      - name: Run Playwright Tests
+        id: test
+        run: |
+          npx playwright install
+          npx playwright test --reporter=html
+        env:
+          CI: true
+
+      - name: Upload Playwright Test Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: playwright-test-report
+          path: playwright-report
+
       - name: Upload Site Files as Artifact
         uses: actions/upload-pages-artifact@v3
         with:

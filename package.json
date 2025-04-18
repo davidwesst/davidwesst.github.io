@@ -11,7 +11,7 @@
     "url": "git+https://github.com/davidwesst/website.git"
   },
   "engines": {
-    "node": "^22"
+    "node": "^23"
   },
   "scripts": {
     "prebuild": "concurrently 'npm run clean' 'npm run generate-tags'",
@@ -24,7 +24,8 @@
     "debug:eleventy": "DEBUG=Eleventy* eleventy",
     "generate-tags": "./tools/tag-helper.js 'content/blog' 'data/content-tags.json'",
     "prestart": "npm run build",
-    "start": "http-server ./dist --port 8081"
+    "start": "http-server ./dist --port 8081",
+    "test": "playwright test --config=playwright.config.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
@@ -33,12 +34,15 @@
     "@11ty/eleventy-plugin-rss": "^2.0.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@11ty/eleventy-plugin-webc": "^0.11.2",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.1",
     "concurrently": "^9.1.0",
     "date-fns": "^4.1.0",
     "gray-matter": "^4.0.3",
     "http-server": "^14.1.1",
     "rimraf": "^6.0.1",
     "simple-git": "^3.27.0",
+    "xml2js": "^0.6.2",
     "yaml": "^2.6.1"
   },
   "type": "module"
