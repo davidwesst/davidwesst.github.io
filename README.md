@@ -22,3 +22,14 @@ Once the requirements are setup:
 4. Run `npm run dev` to build the site AND host it at [http://localhost:8080/](http://localhost:8080/).
 
 ...and you should be up and running!
+
+## Content Guidelines
+
+### Blog Posts
+
+The featured image should always be _1600x630px_. Alt text should also be specified in the header.
+
+```yaml
+featured_image: defining-problems_thumbnail.png
+featured_image_alt: "A sketch of a man with a fuchsia tie and women dressed in fuchsia blouse looking at a black question mark made up of small cubes"
+```
