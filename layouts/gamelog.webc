@@ -11,7 +11,7 @@ layout: base.webc
 </article>
 <ul>
     <li>Gameplay: <span @text="rating.gameplay"></span></li>
-    <li>narrative: <span @text="rating.narrative"></span></li>
+    <li>Narrative: <span @text="rating.narrative"></span></li>
     <li>Style: <span @text="rating.style"></span></li>
     <li>Sound: <span @text="rating.sound"></span></li>
     <li>Overall: <span @text="rating.overall"></span></li>
