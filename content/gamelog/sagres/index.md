@@ -7,7 +7,7 @@ igdb_url: https://www.igdb.com/games/sagres
 play_data:
     started_on: November 2024
     completed_on: November 28, 2024
-    platform: Steam Deck/PC
+    platform: Steam Deck / PC
 rating:
     gameplay: 2
     narrative: 2
