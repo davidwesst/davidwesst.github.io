@@ -29,7 +29,8 @@ test.describe('Page Metadata Checks', () => {
 
   test.beforeAll(async () => {
     // Replace with your sitemap URL
-    const sitemapUrl = 'http://localhost:8080/sitemap.xml';
+    const sitemapUrl = 'http://localhost:8081/sitemap.xml';
+    
     routes = await getRoutesFromSitemap(sitemapUrl);
   });
 

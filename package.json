@@ -22,10 +22,11 @@
     "predev": "concurrently 'npm run clean' 'npm run generate-tags'",
     "dev": "eleventy --serve --quiet",
     "debug:eleventy": "DEBUG=Eleventy* eleventy",
-    "generate-tags": "./tools/tag-helper.js 'content/blog' 'data/content-tags.json'",
+    "generate-tags": "node ./tools/tag-helper.js 'content/blog' 'data/content-tags.json'",
     "prestart": "npm run build",
-    "start": "http-server ./dist --port 8081",
-    "test": "playwright test --config=playwright.config.js"
+    "start": "http-server ./_site --port 8081",
+    "test": "playwright test --config=playwright.config.js",
+    "postinstall": "playwright install-deps"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
