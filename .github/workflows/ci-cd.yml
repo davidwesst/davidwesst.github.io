@@ -70,7 +70,7 @@ jobs:
 
   deploy:
     name: Deploy
-    if: github.ref_name == 'main'
+    if: github.ref_name == 'hf/broken-images'
     needs: build
     runs-on: ubuntu-latest
 
