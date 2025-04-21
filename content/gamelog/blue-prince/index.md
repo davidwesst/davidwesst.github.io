@@ -7,7 +7,7 @@ game_ids:
 play_data:
     started_on: April 10, 2025
     completed_on: April 18, 2025
-    platform: XBox
+    platform: XBox Series X
 rating:
     gameplay: 3
     narrative: 2
