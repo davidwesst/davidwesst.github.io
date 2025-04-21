@@ -7,7 +7,7 @@ game_ids:
 play_data:
     started_on: February 16, 2025
     completed_on: February 17, 2025
-    platform: PC / Steam Deck
+    platform: Steam Deck / PC
 rating:
     gameplay: 2 
     narrative: 3
