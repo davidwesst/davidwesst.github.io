@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Exit immediately if a command exits with a non-zero status
 set -e
@@ -9,7 +9,7 @@ npm install -g npm@latest
 
 # Install project dependencies
 echo "Installing npm dependencies..."
-npm install
+npm install -y
 
 # Install Playwright Dependencies
 echo "Installing Playwright dependencies..."
