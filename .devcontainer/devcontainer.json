@@ -13,15 +13,13 @@
 	},
 	"features": {
 		"ghcr.io/devcontainers/features/git-lfs:1": {},
-		"ghcr.io/devcontainers/features/github-cli:1": {},
-		"ghcr.io/devcontainers-contrib/features/act-asdf:2": {}
+		"ghcr.io/devcontainers/features/github-cli:1": {}
 	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"GitHub.vscode-pull-request-github",
-				"DavidAnson.vscode-markdownlint",
-				"streetsidesoftware.code-spell-checker"
+				"DavidAnson.vscode-markdownlint"
 			]
 		}
 	},
