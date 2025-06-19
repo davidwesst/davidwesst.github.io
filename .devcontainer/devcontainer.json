@@ -4,12 +4,12 @@
 	"name": "dw-website",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	"updateRemoteUserUID": false,
 	"runArgs": [
-		"--userns=keep-id"
+		"--userns","host"
 	],
 	"containerEnv": {
-		"HOME": "/home/node",
-		"DOCKER_HOST": "unix:///var/run/podman/podman.sock'"
+		"HOME": "/home/node"
 	},
 	"features": {
 		"ghcr.io/devcontainers/features/git-lfs:1": {},
@@ -24,7 +24,7 @@
 		}
 	},
 	"forwardPorts": [],
-	"postCreateCommand": "npm install -g npm && npm install && git lfs pull"
+	"postCreateCommand": "bash ./.devcontainer/scripts/postCreate.sh"
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
