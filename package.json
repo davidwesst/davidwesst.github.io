@@ -29,22 +29,23 @@
     "postinstall": "playwright install-deps"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-fetch": "^5.0.1",
-    "@11ty/eleventy-img": "^5.0.0",
-    "@11ty/eleventy-plugin-rss": "^2.0.2",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@11ty/eleventy": "^3.1.1",
+    "@11ty/eleventy-fetch": "^5.1.0",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1",
     "@11ty/eleventy-plugin-webc": "^0.11.2",
-    "@playwright/test": "^1.51.1",
+    "@playwright/test": "^1.53.1",
     "@types/node": "^22.14.1",
-    "concurrently": "^9.1.0",
+    "concurrently": "^9.1.2",
     "date-fns": "^4.1.0",
     "gray-matter": "^4.0.3",
     "http-server": "^14.1.1",
+    "node-fetch": "^3.3.2",
     "rimraf": "^6.0.1",
-    "simple-git": "^3.27.0",
+    "simple-git": "^3.28.0",
     "xml2js": "^0.6.2",
-    "yaml": "^2.6.1"
+    "yaml": "^2.8.0"
   },
   "type": "module"
 }
