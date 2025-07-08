@@ -1,7 +1,7 @@
 ---
 
 title: "Clair Obscur: Expedition 33"
-date: 2025-07-07T11:27-06:00
+date: 2025-07-07T23:51-06:00
 game_ids:
     igdb_id: 305152
 play_data:
