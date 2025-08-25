@@ -51,6 +51,19 @@ main {
     margin: 0 auto;
 }
 
+/*
+    Links
+*/
+
+.hidden-link {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hidden-link:hover {
+    opacity: 1;
+}
+
 
 
 /*

@@ -13,6 +13,8 @@
     <a href="remember-the-human.webc">Remember The Human</a>
     |
     <a webc:for="item of socialMediaLinks" target="_blank" @text="item.name" :href="item.url"></a>
+
+    <a href="https://david.wes.st" target="_blank" class="hidden-link" rel="nofollow noopener noreferrer">電子随筆</a>
 </nav>
 
 <style webc:scoped>
