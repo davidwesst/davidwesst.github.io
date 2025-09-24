@@ -10,6 +10,7 @@ featured_image_alt: "Illustration depicting the intersection of technology and h
 tags:
 - ellucian-live-2025
 - canheit-2025
+- prdc-2025
 - technology-modernization
 - change-management
 deliveredAt:
@@ -29,4 +30,11 @@ deliveredAt:
   links:
     - description: Slides (PDF)
       url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EftE-UX7VKRKmZ_noB_g-BgB8padLZNnOk076IRtHgOVYQ?e=AAMz6i
+- title: Prairie Dev Con 2025
+  date: September 22, 2025
+  endDate: September 23, 2025
+  location: Winnipeg, MB, Canada
+  links:
+    - description: Slides (PDF)
+      url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EYjrGkO2zNJEvviRJIZJOdYBGXKebeMh9hrx7lDxlUi8iQ?e=0agp7f
 ---
