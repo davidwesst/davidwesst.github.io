@@ -11,6 +11,7 @@ tags:
 - ellucian-live-2025
 - canheit-2025
 - prdc-2025
+- ceug-2025
 - technology-modernization
 - change-management
 deliveredAt:
@@ -37,4 +38,11 @@ deliveredAt:
   links:
     - description: Slides (PDF)
       url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/EYjrGkO2zNJEvviRJIZJOdYBGXKebeMh9hrx7lDxlUi8iQ?e=0agp7f
+- title: CEUG 2025
+  date: October 14, 2025
+  endDate: October 16, 2025
+  location: Ottawa, ON, Canada
+  links:
+    - description: Slides (PDF)
+      url: https://cocobokostudios-my.sharepoint.com/:b:/p/david/Ed7YB2Ees8BNrow1BXWvN_8BAIAUs6SluEQc6nea5OfhwA?e=r0ZQO7
 ---
